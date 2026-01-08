@@ -1,0 +1,55 @@
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+     z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.close:hover {
+    background: #00d9ff;
+}
+
+.modalDialog > div {
+    background: transparent;
+    border-radius: 6px;
+    height: 315px;
+    margin: 22% auto;
+    padding: 0 20px 10px;
+    position: relative;
+    width: 330px;
+}
+
+.modalDialog .close {
+	background-color: #00c0ef;
+	border-radius: 0;
+	color: #fff;
+	float: right;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 1;
+	margin-right: 10px;
+	margin-top: 8px;
+	opacity: 1;
+	padding: 6px;
+	width: 31px;
+	margin-bottom: 5px;
+}
+.modalDialog h2 { float: left; font-size: 24px;margin: 10px 0 10px 5px;}
+
+.modalDialog .img-responsive {
+  height: 256px;
+  margin: 0 auto;
+  width: 270px;
+}

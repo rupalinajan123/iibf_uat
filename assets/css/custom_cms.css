@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+body.layout-top-nav .main-header h1 {
+	text-align:center;
+	text-transform:uppercase;
+	margin: 20px 0;
+	color:#fff;	
+}
+body.layout-top-nav .content-header h1 {
+	text-align: center;
+}
+body.layout-top-nav .content-header h1.register {
+	text-align: center;
+	background-color:#1287c0;
+	padding:10px 0;
+	border-radius:0;
+	color:#fff;
+	font-size:18px;
+	line-height:24px;
+}
+body.layout-top-nav .content-header h1.register a {
+	color:#fff;
+	text-decoration:underline;
+}
+
+.whitebg {
+	background-color:#fff !important;
+}
+
