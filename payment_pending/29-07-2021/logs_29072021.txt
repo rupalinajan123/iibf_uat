@@ -1,0 +1,7 @@
+UPDATE `payment_transaction` SET `status` = 0, `transaction_details` = 'No Records Found', `callback` = 'PSS2S'
+WHERE `receipt_no` = '902858945'\nUPDATE `payment_transaction` SET `status` = 0, `transaction_details` = 'No Records Found', `callback` = 'PSS2S'
+WHERE `receipt_no` = '902858962'\nUPDATE `payment_transaction` SET `status` = 0, `transaction_details` = 'No Records Found', `callback` = 'PSS2S'
+WHERE `receipt_no` = '902858981'\nUPDATE `payment_transaction` SET `status` = 0, `transaction_details` = 'No Records Found', `callback` = 'PSS2S'
+WHERE `receipt_no` = '902858989'\nUPDATE `payment_transaction` SET `status` = 0, `transaction_details` = 'No Records Found', `callback` = 'PSS2S'
+WHERE `receipt_no` = '902859015'\nUPDATE `payment_transaction` SET `status` = 0, `transaction_details` = 'BOOKED', `callback` = 'PSS2S'
+WHERE `receipt_no` = '902859109'\n2021-07-29 00:00:05 File execution start2021-07-29 06:00:03 File execution start2021-07-29 12:00:03 File execution start2021-07-29 18:00:02 File execution start

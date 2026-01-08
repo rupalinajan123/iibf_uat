@@ -1,0 +1,5 @@
+UPDATE `payment_transaction` SET `status` = 0, `transaction_details` = 'FAIL', `callback` = 'PSS2S'
+WHERE `receipt_no` = '812204417'\nUPDATE `payment_transaction` SET `status` = 0, `transaction_details` = 'FAIL', `callback` = 'PSS2S'
+WHERE `receipt_no` = '812205213'\n2021-08-11 16:24:28 File execution startUPDATE `payment_transaction` SET `status` = 4, `transaction_details` = 'REFUND', `callback` = 'PSS2S'
+WHERE `receipt_no` = '812204417'\nUPDATE `payment_transaction` SET `status` = 4, `transaction_details` = 'REFUND', `callback` = 'PSS2S'
+WHERE `receipt_no` = '812205213'\n2021-08-11 16:27:27 File execution start2021-08-11 16:29:34 File execution start2021-08-11 16:33:53 File execution start2021-08-11 16:34:01 File execution start2021-08-11 16:36:30 File execution start2021-08-11 16:36:55 File execution start

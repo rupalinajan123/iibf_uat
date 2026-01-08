@@ -1,0 +1,2 @@
+UPDATE `payment_transaction` SET `status` = 0, `transaction_details` = 'FAIL', `callback` = 'PSS2S'
+WHERE `receipt_no` = '812254205'\n2021-07-17 00:00:06 File execution start2021-07-17 06:00:03 File execution start2021-07-17 12:00:03 File execution start2021-07-17 18:00:03 File execution start
