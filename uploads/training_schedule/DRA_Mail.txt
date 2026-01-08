@@ -1,0 +1,39 @@
+As per discussion between Rucha and Datta sir, kindly find my understanding on below points and provide confirmation on same so as to start the changes.
+
+The process of adding/modifying of “DRA Training Applicants Form” After the batch is approved by the admin e.g given below for clarity:
+
+Sr.No.   Batch Code         Hours    Center Name     Batch From & To Date                   Total Applications           Batch Creation Date    Batch Status       Action
+1              BTCH110987       50           Kolkata                 09-Jul-2023 To 18-Jul-2023                          36                           06-07-2023                                Go Ahead
+
+
+1)	The above batch is created on 6-Jul-2023 and the batch is also approved on 6-Jul-2023.
+2)	For the above batch addition/modification of “Part 1”   and “Part 2” will start from 6-Jul-2023 (approval date) 
+- My understanding : 
+a) 'Add new Application' Link will appear in Training batch list.
+b) Addition of Part 1(Basic Details) and Part 2(Other Details) will start from Batch Approved date and not batch creation date. (From 6-Jul-2023 to 9-Jul-2023).
+c) 'Candidate list' link will visible in Training batch list.
+d) In candidate list link, the list of applicant will be visible 
+e) modification of Part 1(Basic Details) and Part 2(Other Details) will start from Batch Approved date and not from batch creation date. (From 6-Jul-2023 to 9-Jul-2023)
+f) Candidate supposed to fill both the form at same time. One can not fill only basic details form.
+
+3)	The addition/modification for “Part 1” will stop EOD of 9-Jul-2023: 23.59 hrs (batch start date). No addition/modification be allowed in “Part 1” after 9-Jul-2023.
+- My understanding : 
+a) Addition and Modification of Part 1 (Basic details) will stop EOD of batch_from_date.(9-Jul-2023)
+b) No addition and modification be allowed in Part 1 (Basic details) after batch_from_date. (9-Jul-2023)
+
+
+4)	The addition/modification for “Part 2” will stop EOD of 11-Jul-2023: 23.59 hrs (3 working days from batch start date). Assumption no holidays/Sunday between 9-Jul and 11-Jul.
+- My understanding : 
+a) Addition and Modification of Part 2 (Other details) will stop EOD of batch_from_date + 3 days. (From 6-Jul-2023 to 11-Jul-2023).
+b) No addition and modification be allowed in Part 2 (Other details) after batch_from_date. 
+(9-Jul-2023).
+c) If Holidays present between batch_from_date and  batch_from_date + 3days, The count of holidays will be added in batch_from_date.
+d) You supposed to select Sunday as holiday while batch creation as I can only minus the holidays not sunday.
+
+5)	In case there are 1 holiday and 1 Sunday between 9-Jul and 11-Jul, then the addition/modification for “Part 2” will stop EOD of 13-Jul-2023: 23.59 hrs
+- My Understanding
+1) If Holidays present between batch_from_date and  batch_from_date + 3days, The count of holidays will be added in batch_from_date.
+
+6)	No addition/modification be allowed in “Part 2” after 11-Jul-2023 or 13-Jul-2023 as the case may be.
+
+
