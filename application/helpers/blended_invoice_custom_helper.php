@@ -1,0 +1,767 @@
+<?php defined('BASEPATH')||exit('No Direct Allowed Here');
+
+
+
+function amtinword_blended($amt){
+   $number = $amt;
+   $no = round($number);
+   $point = round($number - $no, 2) * 100;
+   $hundred = null;
+   $digits_1 = strlen($no);
+   $i = 0;
+   $str = array();
+   $words = array('0' => '', '1' => 'One', '2' => 'Two',
+    '3' => 'Three', '4' => 'Four', '5' => 'Five', '6' => 'Six',
+    '7' => 'Seven', '8' => 'Eight', '9' => 'Nine',
+    '10' => 'Ten', '11' => 'Eleven', '12' => 'Twelve',
+    '13' => 'Thirteen', '14' => 'Fourteen',
+    '15' => 'Fifteen', '16' => 'Sixteen', '17' => 'Seventeen',
+    '18' => 'Eighteen', '19' =>'Nineteen', '20' => 'Twenty',
+    '30' => 'Thirty', '40' => 'Forty', '50' => 'Fifty',
+    '60' => 'Sixty', '70' => 'Seventy',
+    '80' => 'Eighty', '90' => 'Ninety');
+   $digits = array('', 'Hundred', 'Thousand', 'Lakh', 'Crore');
+   while ($i < $digits_1) {
+     $divider = ($i == 2) ? 10 : 100;
+     $number = floor($no % $divider);
+     $no = floor($no / $divider);
+     $i += ($divider == 10) ? 1 : 2;
+     if ($number) {
+        $plural = (($counter = count($str)) && $number > 9) ? 's' : null;
+        $hundred = ($counter == 1 && $str[0]) ? 'and ' : null;
+        $str [] = ($number < 21) ? $words[$number] .
+            " " . $digits[$counter] . $plural . " " . $hundred
+            :
+            $words[floor($number / 10) * 10]
+            . " " . $words[$number % 10] . " "
+            . $digits[$counter] . $plural . " " . $hundred;
+     } else $str[] = null;
+  }
+  $str = array_reverse($str);
+  $result = implode('', $str);
+  $points = ($point) ?
+    "." . $words[$point / 10] . " " . 
+          $words[$point = $point % 10] : '';
+  //echo $result . "Rupees  " . $points . " Paise";
+  return $result;
+}
+
+function genarate_blended_invoice_custom($invoice_no,$zone_code,$program_name)
+{ 
+	$CI = & get_instance();
+	$invoice_info = $CI->master_model->getRecords('exam_invoice',array('invoice_id'=>$invoice_no));
+	/* Get Member Details */
+	$mem_info = $CI->master_model->getRecords('member_registration',array('regnumber'=>$invoice_info[0]['member_no']),'firstname,middlename,lastname,address1,address2,address3,address4,city,state,pincode');
+	$member_name = $mem_info[0]['firstname']." ".$mem_info[0]['middlename']." ".$mem_info[0]['lastname'];
+	/* Get Zone Details */
+	$zone_info=$CI->master_model->getRecords('zone_master',array('zone_code'=>$zone_code,'isdeleted'=>0));
+	$zone_address1 = $zone_info[0]['zone_address1'];
+	$zone_address2 = $zone_info[0]['zone_address2'];
+	$zone_address3 = $zone_info[0]['zone_address3'];
+	$zone_address4 = $zone_info[0]['zone_address4'];
+	//$gstin_no      = $zone_info[0]['gstin_no'];
+	$state_code    = $zone_info[0]['state_code'];
+	$state_name    = $zone_info[0]['state_name'];
+	$stateArr = $CI->master_model->getRecords('zone_state_master',array('state_code'=>$mem_info[0]['state'],'state_delete'=>0),'state_no,state_name','','1');
+	if($invoice_info[0]['cs_total'] != 0.00){
+		$wordamt = amtinword_blended($invoice_info[0]['cs_total']);
+	}elseif($invoice_info[0]['igst_total'] != 0.00){
+		$wordamt = amtinword_blended($invoice_info[0]['igst_total']);
+	}
+	$date_of_invoice = date("d-m-Y", strtotime($invoice_info[0]['date_of_invoice']));
+	// image for user
+	$im = @imagecreate(1000, 1000) or die("Cannot Initialize new GD image stream");
+	$background_color = imagecolorallocate($im, 255, 255, 255);   // white
+	$black = imagecolorallocate($im, 0, 0, 0);                  // black
+	//imageline ($im,   x1,  y1, x2, y2, $black);
+	// x1 and y1 => point one co-ordinate
+	// x2 and y2 => point two co-ordinate
+	imageline ($im,   20,  20, 980, 20, $black); // line-1
+	imageline ($im,   20,  980, 980, 980, $black); // line-2
+	imageline ($im,   20,  20, 20, 980, $black); // line-3
+	imageline ($im,   980, 20, 980, 980, $black); // line-4
+	imageline ($im,   20,  60, 980, 60, $black); // line-5
+	imageline ($im,   20,  100, 980, 100, $black); // line-6
+	//imageline ($im,   20,  250, 980, 250, $black); // line-7
+	imageline ($im,   20,  273, 980, 273, $black); // line-7
+	imageline ($im,   20,  400, 980, 400, $black); // line-8
+	imageline ($im,   20,  450, 980, 450, $black); // line-9
+	imageline ($im,   20,  550, 980, 550, $black); // line-10
+	imageline ($im,   20,  800, 980, 800, $black); // line-11
+	imageline ($im,   490,  100, 490, 400, $black); // line-12
+	imageline ($im,   80,  450, 80, 800, $black); // line-13
+	imageline ($im,   560,  450, 560, 800, $black); // line-14
+	imageline ($im,   660,  450, 660, 800, $black); // line-15
+	imageline ($im,   760,  450, 760, 800, $black); // line-16
+	imageline ($im,   860,  450, 860, 800, $black); // line-17
+	imageline ($im,   20,  835, 490, 835, $black); // line-18
+	imageline ($im,   860,  770, 980, 770, $black); // line-19
+	//imagestring ($im, size, X,  Y, text, $red);
+	$year = date('Y');
+	imagestring($im, 5, 455,  30, "Tax Invoice cum receipt", $black);
+	imagestring($im, 5, 155,  70, "", $black);
+	imagestring($im, 3, 22,  100, "Name of the Assessee: INDIAN INSTITUTE OF BANKING & FINANCE", $black);
+	imagestring($im, 3, 22,  112, "GSTIN : ".$gstin_no, $black);
+	imagestring($im, 3, 22,  124, "Address : ", $black);
+	imagestring($im, 3, 22,  136, $zone_address1 , $black);
+	imagestring($im, 3, 22,  148, $zone_address2." ".$zone_address3, $black);
+	imagestring($im, 3, 22,  160, $zone_address4, $black);
+	imagestring($im, 3, 22,  172, "State : ".$state_name ,$black);
+	imagestring($im, 3, 22,  184, "State Code : ".$state_code, $black);
+	imagestring($im, 3, 22,  212, "Invoice No : ".$invoice_info[0]['invoice_no'], $black);
+	imagestring($im, 3, 22,  224, "Date Of Invoice : ".$date_of_invoice, $black);
+	imagestring($im, 3, 22,  236, "Transaction no : ".$invoice_info[0]['transaction_no'], $black);
+	imagestring($im, 3, 22,  248, "Course name : ".$program_name, $black);
+	imagestring($im, 3, 800,  100, "ORIGINAL FOR RECIPIENT ", $black);
+	//imagestring($im, 3, 22,  250, "Details of service recipient", $black);	
+	
+	/*imagestring($im, 3, 22,  274, "Details of service recipient", $black);
+	imagestring($im, 3, 22,  298, "Name of service Recipient : ".$member_name, $black);
+	imagestring($im, 3, 22,  310, "Address : ".$mem_info[0]['address1'], $black);
+	imagestring($im, 3, 22,  322, $mem_info[0]['address2'], $black);
+	imagestring($im, 3, 22,  334, $mem_info[0]['city']."-".$mem_info[0]['pincode'], $black);
+	imagestring($im, 3, 22,  346, "State : ".$stateArr[0]['state_name'], $black);
+	imagestring($im, 3, 22,  358, "State code: ".$stateArr[0]['state_no'], $black);*/
+	imagestring($im, 3, 22,  274, "Details of service recipient", $black);
+	imagestring($im, 3, 22,  298, "Member no. : ".$invoice_info[0]['member_no'], $black);
+	imagestring($im, 3, 22,  310, "Member name : ".$member_name, $black);
+	imagestring($im, 3, 22,  322, "Center code : ".$invoice_info[0]['center_code'], $black);
+	imagestring($im, 3, 22,  334, "Center name : ".$invoice_info[0]['center_name'], $black);
+	imagestring($im, 3, 22,  346, "State of center : ".$invoice_info[0]['state_name'], $black);
+	imagestring($im, 3, 22,  358, "State code : ".$invoice_info[0]['state_code'], $black);
+	imagestring($im, 3, 22,  370, "GSTIN / Unique Id : ".$mem_gstin_no, $black);
+	imagestring($im, 3, 22,  530, "Sr.No", $black);
+	imagestring($im, 3, 100,  530, "Description of Service", $black);
+	imagestring($im, 3, 570,  508, "Accounting ", $black);
+	imagestring($im, 3, 570,  520, "code", $black);
+	imagestring($im, 3, 570,  532, "of Service", $black);
+	imagestring($im, 3, 665,  530, "Rate per unit", $black);
+	imagestring($im, 3, 780,  530, "Unit", $black);
+	imagestring($im, 3, 900,  530, "Total", $black);
+	imagestring($im, 3, 45,  560, "1", $black);
+	imagestring($im, 3, 100,  560, "Charges Towards Training Program", $black);
+	imagestring($im, 3, 590,  560, $invoice_info[0]['service_code'], $black);//Accounting
+	imagestring($im, 3, 690,  560, $invoice_info[0]['fee_amt'], $black); // Rate
+	imagestring($im, 3, 780,  560, "1", $black); // Quantity 
+	imagestring($im, 3, 900,  560, $invoice_info[0]['fee_amt'], $black); // Total
+	if($invoice_info[0]['cgst_rate'] <=  0.00){
+		$cgst_rate = "-";
+	}else{
+		$cgst_rate = $invoice_info[0]['cgst_rate']."%";
+	}
+	if($invoice_info[0]['cgst_amt'] <=  0.00){
+		$cgst_amt = "-";
+	}else{
+		$cgst_amt = $invoice_info[0]['cgst_amt'];
+	}
+	if($invoice_info[0]['sgst_rate'] <=  0.00){
+		$sgst_rate = "-";
+	}else{
+		$sgst_rate = $invoice_info[0]['sgst_rate']."%";
+	}
+	if($invoice_info[0]['sgst_amt'] <=  0.00){
+		$sgst_amt = "-";
+	}else{
+		$sgst_amt = $invoice_info[0]['sgst_amt'];
+	}
+	if($invoice_info[0]['igst_rate'] <=  0.00){
+		$igst_rate = "-";
+	}else{
+		$igst_rate = $invoice_info[0]['igst_rate']."%";
+	}
+	if($invoice_info[0]['igst_amt'] <=  0.00){
+		$igst_amt = "-";
+	}else{
+		$igst_amt = $invoice_info[0]['igst_amt'];
+	}
+	imagestring($im, 3, 100,  660, "For intra-state supply -", $black);
+	imagestring($im, 3, 300,  660, "Central Tax:", $black);
+	imagestring($im, 3, 690,  660, $cgst_rate, $black);
+	imagestring($im, 3, 900,  660, $cgst_amt, $black);
+	imagestring($im, 3, 300,  672, "State Tax:", $black);
+	imagestring($im, 3, 690,  672, $sgst_rate, $black);
+	imagestring($im, 3, 900,  672, $sgst_amt, $black);
+	imagestring($im, 3, 100,  700, "For inter-state supply -", $black);
+	imagestring($im, 3, 300,  710, "Integrated Tax:", $black);
+	imagestring($im, 3, 690,  710, $igst_rate, $black);
+	imagestring($im, 3, 900,  710, $igst_amt, $black);
+	imagestring($im, 3, 500,  780, "Total", $black);
+	if($invoice_info[0]['cs_total'] != 0.00){
+		imagestring($im, 3, 900,  780, $invoice_info[0]['cs_total'], $black);
+	}elseif($invoice_info[0]['igst_total'] != 0.00){
+		imagestring($im, 3, 900,  780, $invoice_info[0]['igst_total'], $black);	
+	}
+	imagestring($im, 3, 22,  820, "Amount in words : ".$wordamt. " only", $black);
+	imagestring($im, 3, 720,  910, "Authorised Signatory", $black);
+	imagestring($im, 3, 22,  900, "Reverse charge applicable :", $black);
+	imagestring($im, 3, 300,  900, "Y/N", $black);
+	imagestring($im, 3, 350,  900, "NO", $black);
+	imagestring($im, 3, 22,  920, "% of Tax payable under Reverse", $black);
+	imagestring($im, 3, 22,  932, "Charge by recepient :", $black);
+	imagestring($im, 3, 300,  932, "% ---", $black);
+	imagestring($im, 3, 350,  932, "Rs. ---", $black);
+	$savepath = base_url()."uploads/blended_invoice_custom/user/".$zone_code."/";
+	$ino = str_replace("/","_",$invoice_info[0]['invoice_no']);
+	$imagename = $invoice_info[0]['member_no']."_".$ino.".jpg";
+	
+	//$update_data = array('invoice_image' => $imagename);
+	
+	//$CI->master_model->updateRecord('exam_invoice',$update_data,array('invoice_id'=>$invoice_no));
+	
+	imagepng($im,"uploads/blended_invoice_custom/user/".$zone_code."/".$imagename);
+	$png = @imagecreatefromjpeg('assets/images/sign.jpg');
+	$jpeg = @imagecreatefromjpeg("uploads/blended_invoice_custom/user/".$zone_code."/".$imagename);
+	@imagecopyresampled($im, $png, 760, 850, 0, 0, 50, 50, 170, 124);
+	imagepng($im, 'uploads/blended_invoice_custom/user/'.$zone_code.'/'.$imagename);
+	imagedestroy($im);
+	/****************************** image for supplier ***********************************/
+	$im = @imagecreate(1000, 1000) or die("Cannot Initialize new GD image stream");
+	$background_color = imagecolorallocate($im, 255, 255, 255);   // white
+	$black = imagecolorallocate($im, 0, 0, 0);                  // black
+	//imageline ($im,   x1,  y1, x2, y2, $black);
+	// x1 and y1 => point one co-ordinate
+	// x2 and y2 => point two co-ordinate 
+	imageline ($im,   20,  20, 980, 20, $black); // line-1
+	imageline ($im,   20,  980, 980, 980, $black); // line-2
+	imageline ($im,   20,  20, 20, 980, $black); // line-3
+	imageline ($im,   980, 20, 980, 980, $black); // line-4
+	imageline ($im,   20,  60, 980, 60, $black); // line-5
+	imageline ($im,   20,  100, 980, 100, $black); // line-6
+	//imageline ($im,   20,  250, 980, 250, $black); // line-7
+	imageline ($im,   20,  273, 980, 273, $black); // line-7
+	imageline ($im,   20,  400, 980, 400, $black); // line-8
+	imageline ($im,   20,  450, 980, 450, $black); // line-9
+	imageline ($im,   20,  550, 980, 550, $black); // line-10
+	imageline ($im,   20,  800, 980, 800, $black); // line-11
+	imageline ($im,   490,  100, 490, 400, $black); // line-12
+	imageline ($im,   80,  450, 80, 800, $black); // line-13
+	imageline ($im,   560,  450, 560, 800, $black); // line-14
+	imageline ($im,   660,  450, 660, 800, $black); // line-15
+	imageline ($im,   760,  450, 760, 800, $black); // line-16
+	imageline ($im,   860,  450, 860, 800, $black); // line-17
+	imageline ($im,   20,  835, 490, 835, $black); // line-18
+	imageline ($im,   860,  770, 980, 770, $black); // line-19
+	//imagestring ($im, size, X,  Y, text, $red);
+	$year = date('Y');
+	imagestring($im, 5, 455,  30, "Tax Invoice cum receipt", $black);
+	imagestring($im, 5, 155,  70, "", $black);
+	imagestring($im, 3, 22,  100, "Name of the Assessee: INDIAN INSTITUTE OF BANKING & FINANCE", $black);
+	imagestring($im, 3, 22,  112, "GSTIN : ".$gstin_no, $black);
+	imagestring($im, 3, 22,  124, "Address : ", $black);
+	imagestring($im, 3, 22,  136, $zone_address1 , $black);
+	imagestring($im, 3, 22,  148, $zone_address2." ".$zone_address3, $black);
+	imagestring($im, 3, 22,  160, $zone_address4, $black);
+	imagestring($im, 3, 22,  172, "State : ".$state_name ,$black);
+	imagestring($im, 3, 22,  184, "State Code : ".$state_code, $black);
+	imagestring($im, 3, 22,  212, "Invoice No : ".$invoice_info[0]['invoice_no'], $black);
+	imagestring($im, 3, 22,  224, "Date Of Invoice : ".$date_of_invoice, $black);
+	imagestring($im, 3, 22,  236, "Transaction no : ".$invoice_info[0]['transaction_no'], $black);
+	imagestring($im, 3, 22,  248, "Course name : ".$program_name, $black);
+	imagestring($im, 3, 800,  100, "DUPLICATE FOR SUPPLIER ", $black);
+	/*imagestring($im, 3, 22,  274, "Details of service recipient", $black);
+	imagestring($im, 3, 22,  298, "Name of service Recipient : ".$member_name, $black);
+	imagestring($im, 3, 22,  310, "Address: ".$mem_info[0]['address1'], $black);
+	imagestring($im, 3, 22,  322, $mem_info[0]['address2'], $black);
+	imagestring($im, 3, 22,  334, $mem_info[0]['city']."-".$mem_info[0]['pincode'], $black);
+	imagestring($im, 3, 22,  346, "State : ".$stateArr[0]['state_name'], $black);
+	imagestring($im, 3, 22,  358, "State code : ".$stateArr[0]['state_no'], $black);*/
+	imagestring($im, 3, 22,  274, "Details of service recipient", $black);
+	imagestring($im, 3, 22,  298, "Member no. : ".$invoice_info[0]['member_no'], $black);
+	imagestring($im, 3, 22,  310, "Member name : ".$member_name, $black);
+	
+	imagestring($im, 3, 22,  322, "Center code : ".$invoice_info[0]['center_code'], $black);
+	imagestring($im, 3, 22,  334, "Center name : ".$invoice_info[0]['center_name'], $black);
+	imagestring($im, 3, 22,  346, "State of center : ".$invoice_info[0]['state_name'], $black);
+	imagestring($im, 3, 22,  358, "State code : ".$invoice_info[0]['state_code'], $black);
+	imagestring($im, 3, 22,  370, "GSTIN / Unique Id : ".$mem_gstin_no, $black);
+	
+	
+	imagestring($im, 3, 22,  530, "Sr.No", $black);
+	imagestring($im, 3, 100,  530, "Description of Service", $black);
+	imagestring($im, 3, 570,  508, "Accounting ", $black);
+	imagestring($im, 3, 570,  520, "code", $black);
+	imagestring($im, 3, 570,  532, "of Service", $black);
+	imagestring($im, 3, 665,  530, "Rate per unit", $black);
+	imagestring($im, 3, 780,  530, "Unit", $black);
+	imagestring($im, 3, 900,  530, "Total", $black);
+	imagestring($im, 3, 45,  560, "1", $black);
+	imagestring($im, 3, 100,  560, "Charges Towards Training Program", $black);
+	imagestring($im, 3, 590,  560, $invoice_info[0]['service_code'], $black);//Accounting
+	imagestring($im, 3, 690,  560, $invoice_info[0]['fee_amt'], $black); // Rate
+	imagestring($im, 3, 780,  560, "1", $black); // Quantity 
+	imagestring($im, 3, 900,  560, $invoice_info[0]['fee_amt'], $black); // Total
+	imagestring($im, 3, 100,  660, "For intra-state supply -", $black);
+	imagestring($im, 3, 300,  660, "Central Tax:", $black);
+	imagestring($im, 3, 690,  660, $cgst_rate, $black);
+	imagestring($im, 3, 900,  660, $cgst_amt, $black);
+	imagestring($im, 3, 300,  672, "State Tax:", $black);
+	imagestring($im, 3, 690,  672, $sgst_rate, $black);
+	imagestring($im, 3, 900,  672, $sgst_amt, $black);
+	imagestring($im, 3, 100,  700, "For inter-state supply -", $black);
+	imagestring($im, 3, 300,  710, "Integrated Tax:", $black);
+	imagestring($im, 3, 690,  710, $igst_rate, $black);
+	imagestring($im, 3, 900,  710, $igst_amt, $black);
+	imagestring($im, 3, 500,  780, "Total", $black);
+	if($invoice_info[0]['cs_total'] != 0.00){
+		imagestring($im, 3, 900,  780, $invoice_info[0]['cs_total'], $black);
+	}elseif($invoice_info[0]['igst_total'] != 0.00){
+		imagestring($im, 3, 900,  780, $invoice_info[0]['igst_total'], $black);	
+	}
+	imagestring($im, 3, 22,  820, "Amount in words : ".$wordamt. " only", $black);
+	imagestring($im, 3, 720,  910, "Authorised Signatory", $black);
+	imagestring($im, 3, 22,  900, "Reverse charge applicable :", $black);
+	imagestring($im, 3, 300,  900, "Y/N", $black);
+	imagestring($im, 3, 350,  900, "NO", $black);
+	imagestring($im, 3, 22,  920, "% of Tax payable under Reverse", $black);
+	imagestring($im, 3, 22,  932, "Charge by recepient :", $black);
+	imagestring($im, 3, 300,  932, "% ---", $black);
+	imagestring($im, 3, 350,  932, "Rs. ---", $black);
+
+	$savepath = base_url()."uploads/blended_invoice_custom/supplier/".$zone_code."/";
+	$imagename = $invoice_info[0]['member_no']."_".$ino.".jpg";
+	imagepng($im,"uploads/blended_invoice_custom/supplier/".$zone_code."/".$imagename);
+	$png = @imagecreatefromjpeg('assets/images/sign.jpg');
+	$jpeg = @imagecreatefromjpeg("uploads/blended_invoice_custom/supplier/".$zone_code."/".$imagename);
+	@imagecopyresampled($im, $png, 760, 850, 0, 0, 50, 50, 170, 124);
+	imagepng($im, 'uploads/blended_invoice_custom/supplier/'.$zone_code.'/'.$imagename);
+	imagedestroy($im);
+	return $attachpath = "uploads/blended_invoice_custom/user/".$zone_code."/".$imagename;
+}
+
+function genarate_blended_invoice_custom_new($invoice_no,$zone_code,$program_name,$mem_gstin_no)
+{	$CI = & get_instance();
+	
+	$invoice_info = $CI->master_model->getRecords('exam_invoice',array('invoice_id'=>$invoice_no));
+	/* Get Member Details */
+	$mem_info = $CI->master_model->getRecords('member_registration',array('regnumber'=>$invoice_info[0]['member_no']),'firstname,middlename,lastname,address1,address2,address3,address4,city,state,pincode');
+	$member_name = $mem_info[0]['firstname']." ".$mem_info[0]['middlename']." ".$mem_info[0]['lastname'];
+	
+
+	//address
+	$address_1=$address_2='';
+	if(isset($mem_info[0]['address1']) )
+	{
+		$address_1=$mem_info[0]['address1'].$mem_info[0]['address2'];
+	}if(isset($mem_info[0]['address2']) )
+	{
+		$address_2=$mem_info[0]['address3'].$mem_info[0]['address4'];
+	}
+	
+	
+	/* Get Zone Details */
+	$zone_info=$CI->master_model->getRecords('zone_master',array('zone_code'=>$zone_code,'isdeleted'=>0));
+	$zone_address1 = $zone_info[0]['zone_address1'];
+	$zone_address2 = $zone_info[0]['zone_address2'];
+	$zone_address3 = $zone_info[0]['zone_address3'];
+	$zone_address4 = $zone_info[0]['zone_address4'];
+	$gstin_no      = $zone_info[0]['gstin_no'];
+	$state_code    = $zone_info[0]['state_code'];
+	$state_name    = $zone_info[0]['state_name'];
+	$stateArr = $CI->master_model->getRecords('zone_state_master',array('state_code'=>$mem_info[0]['state'],'state_delete'=>0),'state_no,state_name','','1');
+	if($invoice_info[0]['cs_total'] != 0.00){
+		$wordamt = amtinword_blended($invoice_info[0]['cs_total']);
+	}elseif($invoice_info[0]['igst_total'] != 0.00){
+		$wordamt = amtinword_blended($invoice_info[0]['igst_total']);
+	}
+	$date_of_invoice = date("d-m-Y", strtotime($invoice_info[0]['date_of_invoice']));
+	
+	/****************************** image for user ***********************************/
+	// create image for recipeint
+	//imagecreate(width, height);
+	$im = @imagecreate(1000, 1000) or die("Cannot Initialize new GD image stream");
+	$background_color = imagecolorallocate($im, 255, 255, 255); // white
+	$black = imagecolorallocate($im, 0, 0, 0); // black
+	
+	
+	//imageline ($im,   x1,  y1, x2, y2, color); 
+	imageline ($im,   20,  20, 980, 20, $black); // line-1
+	imageline ($im,   20,  980, 980, 980, $black); // line-2
+	imageline ($im,   20,  20, 20, 980, $black); // line-3
+	imageline ($im,   980, 20, 980, 980, $black); // line-4
+	imageline ($im,   20,  160, 980, 160, $black); // line-5
+	imageline ($im,   20,  200, 980, 200, $black); // line-6
+	imageline ($im,   20,  480, 980, 480, $black); // line-7
+	imageline ($im,   20,  520, 980, 520, $black); // line-8
+	imageline ($im,   20,  580, 980, 580, $black); // line-9
+	imageline ($im,   20,  850, 980, 850, $black); // line-10
+	imageline ($im,   650,  200, 650, 480, $black); // line-11
+	imageline ($im,   85,  520, 85, 850, $black); // line-12
+	imageline ($im,   500,  520, 500, 850, $black); // line-13
+	imageline ($im,   650,  520, 650, 850, $black); // line-14
+	imageline ($im,   785,  520, 785, 850, $black); // line-15
+	imageline ($im,   860,  520, 860, 850, $black); // line-16
+	imageline ($im,   40,  880, 625, 880, $black); // line-17
+	
+	
+	
+	//imagestring(image,font,x,y,string,color); 
+	imagestring($im, 5, 100,  40, "INDIAN INSTITUTE OF BANKING & FINANCE", $black);
+	imagestring($im, 3, 100,  60, "ISO 21001:2018 Certified", $black);
+	imagestring($im, 3, 100,  80, "(CINU9111OMH1928GAP1391)", $black);
+	imagestring($im, 3, 100,  100, "Registered office Kohinoor City, Commercial - II,  Tower 1, 2nd Floor, Kirole Road,", $black);
+	imagestring($im, 3, 100,  120, "Off LBS Marg, Kurla(West), Mumbai - 400 070 , Maharashtra", $black);
+	imagestring($im, 3, 100,  140, "www.iibf.org.in", $black);
+	imagestring($im, 5, 400,  170, "TAX INVOICE CUM RECEIPT", $black);
+	
+	imagestring($im, 5, 40,  220, "Details of service recipient", $black);
+	imagestring($im, 5, 670,  220, "ORIGINAL FOR RECIPIENT", $black);
+	imagestring($im, 3, 40,  260, "Name of service Recipient:".$member_name, $black);
+	imagestring($im, 3, 40,  280, "Address: ".$address_1, $black);
+	imagestring($im, 3, 40,  300, $address_2, $black);
+	imagestring($im, 3, 40,  320, "State: ".$invoice_info[0]['state_name'], $black);
+	imagestring($im, 3, 40,  340, "State Code: ".$invoice_info[0]['state_code'], $black);
+	//imagestring($im, 3, 40,  360, "GST No: ".$invoice_info[0]['gstin_no'], $black);
+	imagestring($im, 3, 40,  360, "GST No: ".$mem_gstin_no, $black);
+	imagestring($im, 3, 40,  380, "Transaction Number : ".$invoice_info[0]['transaction_no'], $black);
+	
+	imagestring($im, 3, 40,  400, "Course name : ".$program_name, $black);
+	imagestring($im, 3, 40,  420, "Center code : ".$invoice_info[0]['center_code'], $black);
+	imagestring($im, 3, 40,  440, "Center name : ".$invoice_info[0]['center_name'], $black);
+	
+	imagestring($im, 3, 670,  260, "Invoice Number: ".$invoice_info[0]['invoice_no'], $black);
+	imagestring($im, 3, 670,  280, "Date: ".date("d-m-Y", strtotime($invoice_info[0]['date_of_invoice'])), $black);
+	if($invoice_info[0]['gstin_no'] != '' && $invoice_info[0]['gstin_no'] != 0){
+		$gstn = $invoice_info[0]['gstin_no'];
+	}else{
+		$gstn = "-";
+	}
+	imagestring($im, 3, 670,  300, "GSTIN - 27AAATT3309D1ZS ", $black);
+	
+	
+	imagestring($im, 3, 40,  530, "Sr.No", $black);
+	imagestring($im, 3, 118,  530, "Description of Service", $black);
+	imagestring($im, 3, 535,  530, "Accounting ", $black);
+	imagestring($im, 3, 535,  542, "code", $black);
+	imagestring($im, 3, 535,  554, "of Service", $black);
+	imagestring($im, 3, 660,  530, "Rate per unit(Rs)", $black);
+	imagestring($im, 3, 808,  530, "Unit", $black);
+	imagestring($im, 3, 900,  530, "Total(Rs.)", $black);
+	
+	imagestring($im, 3, 118,  596, "Charges Towards Training Program", $black);
+	imagestring($im, 3, 535,  596, $invoice_info[0]['service_code'], $black);
+	imagestring($im, 3, 700,  596, $invoice_info[0]['fee_amt'], $black);
+	imagestring($im, 3, 815,  596, $invoice_info[0]['qty'], $black);
+	imagestring($im, 3, 900,  596, $invoice_info[0]['fee_amt'], $black); 
+	imagestring($im, 3, 535,  820, "Total(Rs.)", $black); 
+	
+	
+	imagestring($im, 3, 45,  595, "1", $black);
+	imagestring($im, 3, 118,  626,"" , $black);
+	imagestring($im, 3, 260,  626, "CGST ", $black);
+	imagestring($im, 3, 260,  646, "SGST ", $black);
+	imagestring($im, 3, 260,  666, "IGST ", $black);
+	
+	
+	
+	if($invoice_info[0]['cgst_rate'] <=  0.00){
+		$cgst_rate = "-";
+	}else{
+		$cgst_rate = $invoice_info[0]['cgst_rate']."%";
+	}
+	if($invoice_info[0]['cgst_amt'] <=  0.00){
+		$cgst_amt = "-";
+	}else{
+		$cgst_amt = $invoice_info[0]['cgst_amt'];
+	}
+	if($invoice_info[0]['sgst_rate'] <=  0.00){
+		$sgst_rate = "-";
+	}else{
+		$sgst_rate = $invoice_info[0]['sgst_rate']."%";
+	}
+	if($invoice_info[0]['sgst_amt'] <=  0.00){
+		$sgst_amt = "-";
+	}else{
+		$sgst_amt = $invoice_info[0]['sgst_amt'];
+	}
+	if($invoice_info[0]['igst_rate'] <=  0.00){
+		$igst_rate = "-";
+	}else{
+		$igst_rate = $invoice_info[0]['igst_rate']."%";
+	}
+	if($invoice_info[0]['igst_amt'] <=  0.00){
+		$igst_amt = "-";
+	}else{
+		$igst_amt = $invoice_info[0]['igst_amt'];
+	}
+	
+	
+	
+		imagestring($im, 3, 700,  626, $cgst_rate, $black);
+		imagestring($im, 3, 700,  646, $sgst_rate, $black);
+		imagestring($im, 3, 700,  666, $igst_rate , $black);
+		
+		imagestring($im, 3, 900,  626, $cgst_amt, $black);
+		imagestring($im, 3, 900,  646, $sgst_amt, $black);
+		imagestring($im, 3, 900,  666, $igst_amt, $black);
+	
+	if($invoice_info[0]['cs_total'] != 0.00){
+		imagestring($im, 3, 900,  820, $invoice_info[0]['cs_total'], $black);
+	}elseif($invoice_info[0]['igst_total'] != 0.00){
+		imagestring($im, 3, 900,  820, $invoice_info[0]['igst_total'], $black);
+	}
+	
+ 
+	
+	imagestring($im, 3, 40,  860, "Amount in words :".$wordamt." Only", $black);
+	imagestring($im, 3, 40,  900, "Reverse charge applicable :", $black);
+	imagestring($im, 3, 260,  900, "Y/N", $black);
+	imagestring($im, 3, 300,  900, "NO", $black);
+	imagestring($im, 3, 40,  930, "% of Tax payable under", $black);
+	imagestring($im, 3, 280,  930, "% ---", $black);
+	imagestring($im, 3, 350,  930, "Rs.---", $black);
+	
+	imagestring($im, 3, 650,  880, "For Indian Institute of Banking & Finance", $black);
+	imagestring($im, 3, 720,  950, "Authorised Signatory", $black);
+	
+	$savepath = base_url()."uploads/blended_invoice/user/";
+	//$imagename = 'new_dra.jpg';
+	$ino = str_replace("/","_",$invoice_info[0]['invoice_no']);
+	$imagename = $invoice_info[0]['member_no']."_".$ino.".jpg";
+	$update_data = array('invoice_image' => $imagename);
+	//$CI->master_model->updateRecord('exam_invoice',$update_data,array('invoice_id'=>$invoice_no));
+	
+	
+	
+	if($invoice_info[0]['cgst_rate'] <=  0.00){
+		$cgst_rate = "-";
+	}else{
+		$cgst_rate = $invoice_info[0]['cgst_rate']."%";
+	}
+	if($invoice_info[0]['cgst_amt'] <=  0.00){
+		$cgst_amt = "-";
+	}else{
+		$cgst_amt = $invoice_info[0]['cgst_amt'];
+	}
+	if($invoice_info[0]['sgst_rate'] <=  0.00){
+		$sgst_rate = "-";
+	}else{
+		$sgst_rate = $invoice_info[0]['sgst_rate']."%";
+	}
+	if($invoice_info[0]['sgst_amt'] <=  0.00){
+		$sgst_amt = "-";
+	}else{
+		$sgst_amt = $invoice_info[0]['sgst_amt'];
+	}
+	if($invoice_info[0]['igst_rate'] <=  0.00){
+		$igst_rate = "-";
+	}else{
+		$igst_rate = $invoice_info[0]['igst_rate']."%";
+	}
+	if($invoice_info[0]['igst_amt'] <=  0.00){
+		$igst_amt = "-";
+	}else{
+		$igst_amt = $invoice_info[0]['igst_amt'];
+	} 
+	
+	imagepng($im,"uploads/blended_invoice/user/".$zone_code."/".$imagename);
+	$png = @imagecreatefromjpeg('assets/images/sign.jpg');
+	$png2 = @imagecreatefromjpeg('assets/images/iibf_logo_short.jpg');
+	$jpeg = @imagecreatefromjpeg("uploads/blended_invoice/user/".$zone_code."/".$imagename);
+	@imagecopyresampled($im, $png, 760, 900, 0, 0, 50, 50, 170, 124);
+	@imagecopyresampled($im, $png2, 40, 40, 0, 0, 38, 65, 38, 65);
+	imagepng($im, 'uploads/blended_invoice/user/'.$zone_code.'/'.$imagename);
+	imagedestroy($im);
+	//imagecopyresampled(dst_image,src_image,dst_x,dst_y ,src_x,src_y,dst_w,dst_h,src_w,src_h);
+	
+	
+	
+	/****************************** image for supplier ***********************************/
+	// create image for recipeint
+	//imagecreate(width, height);
+	$im = @imagecreate(1000, 1000) or die("Cannot Initialize new GD image stream");
+	$background_color = imagecolorallocate($im, 255, 255, 255); // white
+	$black = imagecolorallocate($im, 0, 0, 0); // black
+	
+	
+	//imageline ($im,   x1,  y1, x2, y2, color); 
+	imageline ($im,   20,  20, 980, 20, $black); // line-1
+	imageline ($im,   20,  980, 980, 980, $black); // line-2
+	imageline ($im,   20,  20, 20, 980, $black); // line-3
+	imageline ($im,   980, 20, 980, 980, $black); // line-4
+	imageline ($im,   20,  160, 980, 160, $black); // line-5
+	imageline ($im,   20,  200, 980, 200, $black); // line-6
+	imageline ($im,   20,  480, 980, 480, $black); // line-7
+	imageline ($im,   20,  520, 980, 520, $black); // line-8
+	imageline ($im,   20,  580, 980, 580, $black); // line-9
+	imageline ($im,   20,  850, 980, 850, $black); // line-10
+	imageline ($im,   650,  200, 650, 480, $black); // line-11
+	imageline ($im,   85,  520, 85, 850, $black); // line-12
+	imageline ($im,   500,  520, 500, 850, $black); // line-13
+	imageline ($im,   650,  520, 650, 850, $black); // line-14
+	imageline ($im,   785,  520, 785, 850, $black); // line-15
+	imageline ($im,   860,  520, 860, 850, $black); // line-16
+	imageline ($im,   40,  880, 625, 880, $black); // line-17
+	
+	
+	
+	//imagestring(image,font,x,y,string,color); 
+	imagestring($im, 5, 100,  40, "INDIAN INSTITUTE OF BANKING & FINANCE", $black);
+	imagestring($im, 3, 100,  60, "ISO 21001:2018 Certified", $black);
+	imagestring($im, 3, 100,  80, "(CINU9111OMH1928GAP1391)", $black);
+	imagestring($im, 3, 100,  100, "Registered office Kohinoor City, Commercial - II,  Tower 1, 2nd Floor, Kirole Road,", $black);
+	imagestring($im, 3, 100,  120, "Off LBS Marg, Kurla(West), Mumbai - 400 070 , Maharashtra", $black);
+	imagestring($im, 3, 100,  140, "www.iibf.org.in", $black);
+	imagestring($im, 5, 400,  170, "TAX INVOICE CUM RECEIPT", $black);
+	
+	imagestring($im, 5, 40,  220, "Details of service recipient", $black);
+	imagestring($im, 5, 670,  220, "DUPLICATE FOR SUPPLIER ", $black);
+	imagestring($im, 3, 40,  260, "Name of service Recipient:".$member_name, $black);
+	imagestring($im, 3, 40,  280, "Address: ".$address_1, $black);
+	imagestring($im, 3, 40,  300, $address_2, $black);
+	imagestring($im, 3, 40,  320, "State: ".$invoice_info[0]['state_name'], $black);
+	imagestring($im, 3, 40,  340, "State Code: ".$invoice_info[0]['state_code'], $black);
+	imagestring($im, 3, 40,  360, "GST No: ".$mem_gstin_no, $black);
+	imagestring($im, 3, 40,  380, "Transaction Number : ".$invoice_info[0]['transaction_no'], $black);
+	
+	imagestring($im, 3, 40,  400, "Course name : ".$program_name, $black);
+	imagestring($im, 3, 40,  420, "Center code : ".$invoice_info[0]['center_code'], $black);
+	imagestring($im, 3, 40,  440, "Center name : ".$invoice_info[0]['center_name'], $black);
+	imagestring($im, 3, 670,  260, "Invoice Number: ".$invoice_info[0]['invoice_no'], $black);
+	imagestring($im, 3, 670,  280, "Date: ".date("d-m-Y", strtotime($invoice_info[0]['date_of_invoice'])), $black);
+	if($invoice_info[0]['gstin_no'] != '' && $invoice_info[0]['gstin_no'] != 0){
+		$gstn = $invoice_info[0]['gstin_no'];
+	}else{
+		$gstn = "-";
+	}
+	imagestring($im, 3, 670,  300, "GSTIN - 27AAATT3309D1ZS ", $black);
+	
+	
+	imagestring($im, 3, 40,  530, "Sr.No", $black);
+	imagestring($im, 3, 118,  530, "Description of Service", $black);
+	imagestring($im, 3, 535,  530, "Accounting ", $black);
+	imagestring($im, 3, 535,  542, "code", $black);
+	imagestring($im, 3, 535,  554, "of Service", $black);
+	imagestring($im, 3, 660,  530, "Rate per unit(Rs)", $black);
+	imagestring($im, 3, 808,  530, "Unit", $black);
+	imagestring($im, 3, 900,  530, "Total(Rs.)", $black);
+	
+	imagestring($im, 3, 118,  596, "Charges Towards Training Program", $black);
+	imagestring($im, 3, 535,  596, $invoice_info[0]['service_code'], $black);
+	imagestring($im, 3, 700,  596, $invoice_info[0]['fee_amt'], $black);
+	imagestring($im, 3, 815,  596, $invoice_info[0]['qty'], $black);
+	imagestring($im, 3, 900,  596, $invoice_info[0]['fee_amt'], $black); 
+	imagestring($im, 3, 535,  820, "Total(Rs.)", $black); 
+	
+	
+	imagestring($im, 3, 45,  595, "1", $black);
+	imagestring($im, 3, 118,  626,"" , $black);
+	imagestring($im, 3, 260,  626, "CGST ", $black);
+	imagestring($im, 3, 260,  646, "SGST ", $black);
+	imagestring($im, 3, 260,  666, "IGST ", $black);
+	
+	
+	
+	if($invoice_info[0]['cgst_rate'] <=  0.00){
+		$cgst_rate = "-";
+	}else{
+		$cgst_rate = $invoice_info[0]['cgst_rate']."%";
+	}
+	if($invoice_info[0]['cgst_amt'] <=  0.00){
+		$cgst_amt = "-";
+	}else{
+		$cgst_amt = $invoice_info[0]['cgst_amt'];
+	}
+	if($invoice_info[0]['sgst_rate'] <=  0.00){
+		$sgst_rate = "-";
+	}else{
+		$sgst_rate = $invoice_info[0]['sgst_rate']."%";
+	}
+	if($invoice_info[0]['sgst_amt'] <=  0.00){
+		$sgst_amt = "-";
+	}else{
+		$sgst_amt = $invoice_info[0]['sgst_amt'];
+	}
+	if($invoice_info[0]['igst_rate'] <=  0.00){
+		$igst_rate = "-";
+	}else{
+		$igst_rate = $invoice_info[0]['igst_rate']."%";
+	}
+	if($invoice_info[0]['igst_amt'] <=  0.00){
+		$igst_amt = "-";
+	}else{
+		$igst_amt = $invoice_info[0]['igst_amt'];
+	}
+	
+	
+	
+		imagestring($im, 3, 700,  626, $cgst_rate, $black);
+		imagestring($im, 3, 700,  646, $sgst_rate, $black);
+		imagestring($im, 3, 700,  666, $igst_rate , $black);
+		
+		imagestring($im, 3, 900,  626, $cgst_amt, $black);
+		imagestring($im, 3, 900,  646, $sgst_amt, $black);
+		imagestring($im, 3, 900,  666, $igst_amt, $black);
+	
+	if($invoice_info[0]['cs_total'] != 0.00){
+		imagestring($im, 3, 900,  820, $invoice_info[0]['cs_total'], $black);
+	}elseif($invoice_info[0]['igst_total'] != 0.00){
+		imagestring($im, 3, 900,  820, $invoice_info[0]['igst_total'], $black);
+	}
+	
+ 
+ 
+	
+	imagestring($im, 3, 40,  860, "Amount in words :".$wordamt." Only", $black);
+	imagestring($im, 3, 40,  900, "Reverse charge applicable :", $black);
+	imagestring($im, 3, 260,  900, "Y/N", $black);
+	imagestring($im, 3, 300,  900, "NO", $black);
+	imagestring($im, 3, 40,  930, "% of Tax payable under", $black);
+	imagestring($im, 3, 280,  930, "% ---", $black);
+	imagestring($im, 3, 350,  930, "Rs.---", $black);
+	
+	imagestring($im, 3, 650,  880, "For Indian Institute of Banking & Finance", $black);
+	imagestring($im, 3, 720,  950, "Authorised Signatory", $black);
+	
+	$savepath = base_url()."uploads/blended_invoice/supplier/";
+	//$imagename = 'new_dra.jpg';
+	$ino = str_replace("/","_",$invoice_info[0]['invoice_no']);
+	$imagename = $invoice_info[0]['member_no']."_".$ino.".jpg";
+	//$update_data = array('invoice_image' => $imagename);
+	//$CI->master_model->updateRecord('exam_invoice',$update_data,array('invoice_id'=>$invoice_no));
+	
+	
+	
+	if($invoice_info[0]['cgst_rate'] <=  0.00){
+		$cgst_rate = "-";
+	}else{
+		$cgst_rate = $invoice_info[0]['cgst_rate']."%";
+	}
+	if($invoice_info[0]['cgst_amt'] <=  0.00){
+		$cgst_amt = "-";
+	}else{
+		$cgst_amt = $invoice_info[0]['cgst_amt'];
+	}
+	if($invoice_info[0]['sgst_rate'] <=  0.00){
+		$sgst_rate = "-";
+	}else{
+		$sgst_rate = $invoice_info[0]['sgst_rate']."%";
+	}
+	if($invoice_info[0]['sgst_amt'] <=  0.00){
+		$sgst_amt = "-";
+	}else{
+		$sgst_amt = $invoice_info[0]['sgst_amt'];
+	}
+	if($invoice_info[0]['igst_rate'] <=  0.00){
+		$igst_rate = "-";
+	}else{
+		$igst_rate = $invoice_info[0]['igst_rate']."%";
+	}
+	if($invoice_info[0]['igst_amt'] <=  0.00){
+		$igst_amt = "-";
+	}else{
+		$igst_amt = $invoice_info[0]['igst_amt'];
+	} 
+	
+	imagepng($im,"uploads/blended_invoice/supplier/".$zone_code."/".$imagename);
+	$png = @imagecreatefromjpeg('assets/images/sign.jpg');
+	$png2 = @imagecreatefromjpeg('assets/images/iibf_logo_short.jpg');
+	$jpeg = @imagecreatefromjpeg("uploads/blended_invoice/supplier/".$zone_code."/".$imagename);
+	@imagecopyresampled($im, $png, 760, 900, 0, 0, 50, 50, 170, 124);
+	@imagecopyresampled($im, $png2, 40, 40, 0, 0, 38, 65, 38, 65);
+	imagepng($im, 'uploads/blended_invoice/supplier/'.$zone_code.'/'.$imagename);
+	imagedestroy($im);
+	return $attachpath = 'uploads/blended_invoice/supplier/'.$zone_code.'/'.$imagename;
+	
+	
+	
+}

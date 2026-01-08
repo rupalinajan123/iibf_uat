@@ -1,0 +1,212 @@
+<?php $this->load->view('admin/includes/header'); ?>
+<?php $this->load->view('admin/includes/sidebar'); ?>
+
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            <!-- <?php //echo  $new_registration_count_M; die;
+                    ?> -->
+            As on date report
+        </h1>
+    </section>
+    <section class="content">
+        <div class="box">
+            <div class="box-header">
+                <h3 class="box-title">Select Date:</h3>
+                <form class="form-horizontal" action="<?php echo base_url(); ?>admin/Kycmember/asondate_new" method="post">
+                    <div class="pull-left">
+                        <div class="form-group">
+
+                            <label for="from_date" class="col-sm-2">From:</label>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="from_date" name="from_date" placeholder="From Date" required value="<?php echo set_value('from_date'); ?>">
+                                <span class="error"><?php echo form_error('from_date'); ?></span>
+                            </div>
+
+                            <label for="to_date" class="col-sm-2">To:</label>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="to_date" name="to_date" placeholder="To Date" value="<?php echo set_value('to_date'); ?>" required>
+                                <span class="error"><?php echo form_error('to_date'); ?></span>
+                            </div>
+                            <input type="submit" class="btn btn-info" name="submit" value="Search">
+                        </div>
+                    </div>
+
+
+
+                </form>
+            </div>
+            <div class="form-group">
+                <div class="box-body">
+                    <center>
+                        <?php //if (set_value('from_date') != '') { ?>
+                            <!-- <b> Counts From <?php echo set_value('from_date'); ?> To <?php echo set_value('to_date'); ?></b> -->
+                        <?php //} else { ?>
+                            <!-- <b> Counts From <?php echo $this->config->item('kyc_start_date'); ?> To <?php echo date('Y-m-d'); ?></b> -->
+                        <?php //} ?>
+                        
+                        
+                        <b> Counts From <?php echo $from_date; ?> To <?php echo $end_date; ?></b>
+                        
+                        <div class="col-sm-12">
+                            <div class="col-sm-6">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <b> Total Members Applied For Duplicate Icard</b>
+                                    </div>
+                                    <div class="panel-footer"><?php echo $dup_card_count; ?></div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <b> Total Membership Icard Download Count</b>
+                                    </div>
+                                    <div class="panel-footer"><?php echo $dwn_mem_icard_count; ?></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </center>
+                </div>
+            </div>
+            <div class="box-body" style="display: block;">
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <tr style="background-color:#7FD1EA;">
+                            <td width="55%"><strong>Title</strong></td>
+                            <td width="15%" class="text-center" nowrap="nowrap"><strong>Odinary Member (O)</strong></td>
+                            <td width="15%" class="text-center" nowrap="nowrap"><strong>Non member (NM & DB) </strong></td>
+                        </tr>
+                        <tr>
+                            <td> Total New Registration</td>
+                            <td class="text-center"><?php echo $new_registration_count_M; ?></td>
+                            <td class="text-center"><?php echo $new_registration_count_NM; ?></td>
+                        </tr>
+                        <tr>
+                            <td>Total Edited Profile</td>
+                            <td class="text-center"><?php echo $edit_registration_count_M; ?></td>
+                            <td class="text-center"><?php echo $edit_registration_count_NM; ?></td>
+                        </tr>
+                    </table>
+                    <table class="table table-bordered">
+                        <tr style="background-color:#7FD1EA;">
+                            <td width="55%"><strong>Title</strong></td>
+                            <td width="15%" class="text-center" nowrap="nowrap"><strong>Odinary Member (O)</strong></td>
+                            <td width="15%" class="text-center" nowrap="nowrap"><strong>Non member (NM & DB) </strong></td>
+                        </tr>
+                        <tr>
+                            <td> KYC approved for New member </td>
+                            <td class="text-center"><?php echo $approve_new_member ?></td>
+                            <td class="text-center"><?php echo $approve_new_nonmember ?></td>
+                        </tr>
+                        <tr>
+                            <td>KYC approved for Edit member</td>
+                            <td class="text-center"><?php echo $approve_edit_member; ?></td>
+                            <td class="text-center"><?php echo $approve_edit_nonmember; ?></td>
+                        </tr>
+                    </table>
+                    <table class="table table-bordered">
+                        <tr style="background-color:#7FD1EA;">
+
+                            <td width="55%"><strong>Pending for recommender</strong></td>
+                            <td width="15%" class="text-center" nowrap="nowrap"><strong>Odinary Member (O)</strong></td>
+                            <td width="15%" class="text-center" nowrap="nowrap"><strong>Non member (NM & DB) </strong></td>
+                            <td width="15%" class="text-center" nowrap="nowrap"><strong>Download</strong></td>
+                        </tr>
+                        <tr>
+                            <td> New member </td>
+                            <td class="text-center"><?php echo $pending_new_list_member; ?></td>
+                            <td class="text-center"><?php echo $pending_new_list_nonmembers ?></td>
+                            <td class="text-center"><a data-toggle="tooltip" class="btn btn-warning" href="<?php echo base_url('admin/Kycmember/recommender_new_download_CSV/' . set_value('from_date') . '/' . set_value('to_date')); ?>"> Download CSV </a></td>
+
+                        </tr>
+                        <tr>
+                            <td>Edit member </td>
+                            <td class="text-center"><?php echo $pending_edit_member; ?></td>
+                            <td class="text-center"><?php echo $pending_edit_nonmember; ?></td>
+                            <td class="text-center"><a data-toggle="tooltip" class="btn btn-warning" href="<?php echo base_url('admin/Kycmember/recommender_edit_download_CSV/' . set_value('from_date') . '/' . set_value('to_date')); ?>"> Download CSV </a></td>
+                        </tr>
+
+                    </table>
+
+                    <table class="table table-bordered">
+                        <tr style="background-color:#7FD1EA;">
+
+                            <td width="55%"><strong>Pending for approver</strong></td>
+                            <td width="15%" class="text-center" nowrap="nowrap"><strong>Odinary Member (O)</strong></td>
+                            <td width="15%" class="text-center" nowrap="nowrap"><strong>Non member (NM & DB) </strong></td>
+                            <td width="15%" class="text-center" nowrap="nowrap"><strong>Download</strong></td>
+                        </tr>
+                        <tr>
+                            <td> New member </td>
+                            <td class="text-center"><?php echo $approver_new_pending; ?></td>
+                            <td class="text-center"><?php echo $approver_new_pending_non ?></td>
+                            <td class="text-center"><a data-toggle="tooltip" class="btn btn-warning" href="<?php echo base_url('admin/Kycmember/approver_new_download_CSV/' . set_value('from_date') . '/' . set_value('to_date')); ?>"> Download CSV </a></td>
+
+                        </tr>
+                        <tr>
+                            <td>Edit member </td>
+                            <td class="text-center"><?php echo $approver_edit_pending; ?></td>
+                            <td class="text-center"><?php echo $approver_edit_pending_non; ?></td>
+                            <td class="text-center"><a data-toggle="tooltip" class="btn btn-warning" href="<?php echo base_url('admin/Kycmember/approver_edit_download_CSV/' . set_value('from_date') . '/' . set_value('to_date')); ?>"> Download CSV </a></td>
+                        </tr>
+
+                    </table>
+                    <table class="table table-bordered">
+                        <tr style="background-color:#7FD1EA;">
+
+                            <td width="55%"><strong>Approver Rejected Members</strong></td>
+                            <td width="15%" class="text-center" nowrap="nowrap"><strong>Odinary Member (O)</strong></td>
+                            <td width="15%" class="text-center" nowrap="nowrap"><strong>Non member (NM & DB) </strong></td>
+                            <td width="15%" class="text-center" nowrap="nowrap"><strong>Download</strong></td>
+                        </tr>
+                        <tr>
+                            <td> Rejected New member </td>
+                            <td class="text-center"><?php echo $ap_rejected_count_o_mem; ?></td>
+                            <td class="text-center"><?php echo $ap_rejected_count_non_mem ?></td>
+                            <td class="text-center"><a data-toggle="tooltip" class="btn btn-warning" href="<?php echo base_url('admin/Kycmember/approver_rejected_download_CSV'); ?>"> Download CSV </a></td>
+
+                        </tr>
+
+
+                    </table>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+</div>
+
+<script src="<?php echo base_url() ?>assets/admin/plugins/datepicker/bootstrap-datepicker.js"></script>
+<link rel="stylesheet" href="<?php echo base_url() ?>assets/admin/plugins/datepicker/datepicker3.css">
+<script>
+    $(document).ready(function() {
+        $("#listitems_filter").hide();
+
+        $('#from_date').datepicker({
+            format: 'yyyy-mm-dd',
+            endDate: '+0d',
+            autoclose: true,
+            changeMonth: true,
+            changeYear: true
+        }).on('changeDate', function() {
+            $('#to_date').datepicker('setStartDate', new Date($(this).val()));
+        });
+
+        $('#to_date').datepicker({
+            format: 'yyyy-mm-dd',
+            endDate: '+0d',
+            autoclose: true
+        }).on('changeDate', function() {
+            $('#from_date').datepicker('setEndDate', new Date($(this).val()));
+        });
+    });
+</script>
+<?php $this->load->view('admin/includes/footer'); ?>

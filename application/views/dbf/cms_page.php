@@ -1,0 +1,160 @@
+<script>
+$(document).ready(function(){
+$('#confirm').modal('show');
+});
+function Show(){ 
+$('#confirm').modal('hide');
+$('#confirmTwo').modal('show');
+} 
+</script>
+<div class="modal fade" id="confirm"  role="dialog" >
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header"> 
+        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
+        <h4 class="modal-title"></h4>
+      </div>
+      <div class="modal-body">
+        <div class="message" style="color:#F00; text-align:center; font-size:20px;"><strong>VERY IMPORTANT</strong></div>
+        <br />
+        <br />
+        <div class="message" style="color:#F00; text-align:justify;font-size:16px;"> Candidates are requested to take utmost care and precaution in selecting the center as there is not provision to change the same after successful submission of the exam application.<br />
+          <br />
+          Hence, center change requests will not be entertained for any reason. <br />
+          <br />
+          Note: FEES ONCE PAID WILL NOT BE REFUNDED OR ADJUSTED ON ANY ACCOUNT.</div>
+      </div>
+      <div class="modal-footer"><!--data-dismiss="modal"-->
+        <input type="button" name="btnSubmit"  class="btn btn-primary" id="btnSubmit" value="Okay" onclick="Show();" >
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="confirmTwo"  role="dialog" >
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header"> 
+        <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
+        <h4 class="modal-title"></h4>
+      </div>
+      <div class="modal-body">
+        <div class="message" style="color:#F00; text-align:center; font-size:20px;"><strong>VERY IMPORTANT</strong></div>
+        <br />
+        <br />
+        <?php if(!in_array(base64_decode($this->input->get('excode2')),$this->config->item('skippedAdmitCardForExams'))) {
+
+        ?>
+        <div class="message" style="color:#F00; text-align:justify;font-size:16px;"> For candidates who are unable to view the Venue details, in the drop down list they are required to do the following to solve this issue.<br />
+        <?php } else {
+          ?>
+          <div class="message" style="color:#F00; text-align:justify;font-size:16px;"> Please note that candidates are required to select only their exam center during registration. Venue and time slots will be allotted by the Institute. Admit letters will be made available for download on the Institute’s website 10-15 days before the exam. All the candidates are required to make note of the same.<br />
+          <?php
+        } ?>
+          <br />
+          Clear the browsers history by going to the settings menu of the browser and click the <strong>"Clear browsing history"</strong>.After clearing the browsing history candidates are required to close the browser and start again for registration. </div>
+      </div>
+      <div class="modal-footer">
+        <input type="button" name="btnSubmit_two"  data-dismiss="modal" class="btn btn-primary" id="btnSubmit_two" value="Okay" >
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+      Exam Instructions
+      </h1>
+      <!--<ol class="breadcrumb">
+        <li><a href="<?php //echo base_url();?>admin/dashboard"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="javascript:void(0);"><?php //echo ucwords($this->router->fetch_class());?></a></li>
+        <li class="active">Manage Users</li>
+      </ol>-->
+    </section>
+    
+	<form class="form-horizontal" name="agree_diagree_Form" id="agree_diagree_Form"  method="post"  enctype="multipart/form-data" action="<?php echo base_url();?>Dbf/comApplication/"> 
+    <section class="content">
+      <div class="row">
+       
+        <div class="col-md-12">
+          <!-- Horizontal Form -->
+           <!-- Basic Details box closed-->
+ 		<div class="box box-info">
+       	 <div class="box-header with-border">
+            <div style="float:right;">
+         <!--   <a href="<?php //echo base_url();?>NonMember/profile/">Back</a>-->
+            </div>
+            </div>
+          <div class="box-body">
+            
+            <?php //echo validation_errors(); ?>
+              <?php if($this->session->flashdata('error')!=''){?>
+                <div class="alert alert-danger alert-dismissible">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <!--<h4><i class="icon fa fa-ban"></i> Alert!</h4>-->
+                    <?php echo $this->session->flashdata('error'); ?>
+                </div>
+              <?php } if($this->session->flashdata('success')!=''){ ?>
+                <div class="alert alert-success alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <!--<h4><i class="icon fa fa-check"></i> Alert!</h4>-->
+                <?php echo $this->session->flashdata('success'); ?>
+              </div>
+             <?php } 
+			 if(validation_errors()!=''){?>
+                <div class="alert alert-danger alert-dismissible">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <!--<h4><i class="icon fa fa-ban"></i> Alert!</h4>-->
+                    <?php echo validation_errors(); ?>
+                </div>
+              <?php } 
+			 ?> 
+       
+                  
+                   <div class="form-group">
+                	<div class="col-sm-12">
+                    <?php 
+					if(count($exam_info) >0 && $exam_info[0]['member_instruction']!='')
+					{
+						echo htmlspecialchars_decode($exam_info[0]['member_instruction']);
+					}
+					?>
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                	<div class="col-sm-12">
+                    <input name="declaration1" value="1" id="agree" type="checkbox" required>&nbsp;I
+ have read the Rules and Regulations and other instructions governing 
+the above examination and I agree to abide by the said Rules, 
+Regulations and Instructions
+                  </div>
+                </div>
+            </div>
+            
+            
+
+             <div class="box-footer">
+                  <div class="col-sm-4 col-xs-offset-3">
+                    <input type="hidden" name="excode" id="excode" value="<?php echo base64_decode($this->input->get('excode2'));?>">
+                      <?php $this->session->set_userdata('examcode',base64_decode($this->input->get('excode2')));?>
+                    <input type="submit" class="btn btn-info" name="btnSubmit" id="btnSubmit" value="I Agree" >
+                     <a href="<?php echo base_url();?>Dbf/dashboard/" class="btn btn-info">I Disagree</a>
+                    </div>
+              </div>
+             </div>
+        </div>
+      </div>
+   </section>
+    </form>
+  </div>
+  
+    
+  <script type="text/javascript">
+
+  $('#agree_diagree_Form').parsley('validate');
+
+</script>

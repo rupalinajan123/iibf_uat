@@ -1,0 +1,1 @@
+<?php echo  $this->load->view('admitcardpdf_attach', '', TRUE); ?>

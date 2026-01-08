@@ -1,0 +1,542 @@
+<?php 
+header('Cache-Control: must-revalidate');
+header('Cache-Control: post-check=0, pre-check=0', FALSE);
+?>
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+      </h1>
+      <!--<ol class="breadcrumb">
+        <li><a href="<?php //echo base_url();?>admin/dashboard"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="javascript:void(0);"><?php //echo ucwords($this->router->fetch_class());?></a></li>
+        <li class="active">Manage Users</li>
+      </ol>-->
+    </section>
+    
+	<!-- <form class="form-horizontal" name="member_conApplication" id="member_conApplication"  method="post"  enctype="multipart/form-data" action="<?php echo base_url();?>NonMember/preview/"> -->
+    
+    	<form class="form-horizontal" name="member_conApplication" id="member_conApplication"  method="post"  enctype="multipart/form-data" action="<?php echo base_url();?>NonMember/comApplication/">
+    
+   <input type="hidden" name="regid" id="regid" value="<?php echo $this->session->userdata('nmregid');?>"> 
+    <section class="content">
+      <div class="row">
+       
+        <div class="col-md-12">
+          <!-- Horizontal Form -->
+          <div class="box box-info">
+            <div class="box-header with-border">
+              <h3 class="box-title">Basic Details</h3>
+            </div>
+            <!-- /.box-header -->
+            <!-- form start -->
+            <div class="box-body">
+            <?php //echo validation_errors(); ?>
+              <?php if($this->session->flashdata('error')!=''){?>
+                <div class="alert alert-danger alert-dismissible">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <!--<h4><i class="icon fa fa-ban"></i> Alert!</h4>-->
+                    <?php echo $this->session->flashdata('error'); ?>
+                </div>
+              <?php } if($this->session->flashdata('success')!=''){ ?>
+                <div class="alert alert-success alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <!--<h4><i class="icon fa fa-check"></i> Alert!</h4>-->
+                <?php echo $this->session->flashdata('success'); ?>
+              </div>
+             <?php } 
+			 if(validation_errors()!=''){?>
+                <div class="alert alert-danger alert-dismissible">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <!--<h4><i class="icon fa fa-ban"></i> Alert!</h4>-->
+                    <?php echo validation_errors(); ?>
+                </div>
+              <?php } 
+			 ?> 
+             
+             <div class="form-group">
+                <label for="roleid" class="col-sm-3 control-label">Membership No</label>
+                	<div class="col-sm-1">
+                		<?php echo $user_info[0]['regnumber'];
+						  $fee_amount=$grp_code='';?>
+                          
+                     <input type="hidden" name="reg_no" id="reg_no" value="<?php echo $user_info[0]['regnumber'];?>">
+                      <input type="hidden" name="extype" id="extype" value="<?php echo $examinfo[0]['exam_type'];?>">
+                      <input type="hidden" id="exname" name="exname"  value=" <?php echo $examinfo[0]['description'];?>">
+                       <input type="hidden" id="excd" name="excd"  value="<?php echo base64_encode($this->session->userdata('examcode'));?>">
+                          <input id="examcode" name="examcode" type="hidden" value="<?php echo $this->session->userdata('examcode');?>">
+                         <input id="eprid" name="eprid" type="hidden" value="<?php echo $examinfo[0]['exam_period'];?>">
+                         <input id="fee" name="fee" type="hidden" value="">         
+                          <input type='hidden' name='mtype' id='mtype' value="<?php echo $this->session->userdata('memtype')?>">     
+                         <?php 
+							if(isset($examinfo[0]['app_category']))
+							{
+								$grp_code=$examinfo[0]['app_category'];
+							}
+							else
+							{
+								$grp_code='B1';
+							};
+                        ?>
+                        	 <input id="grp_code" name="grp_code" type="hidden" value="<?php echo trim($grp_code);?>">                 
+                    </div>
+                </div>
+                
+                
+               <div class="form-group">
+                <label for="roleid" class="col-sm-3 control-label">First Name </label>
+                     <div class="col-sm-3">
+					<?php echo $user_info[0]['firstname'];?>
+                         <span class="error"><?php //echo form_error('firstname');?></span>
+                    </div>
+                    
+                </div>
+                
+                <div class="form-group">
+                <label for="roleid" class="col-sm-3 control-label">Middle Name</label>
+                	<div class="col-sm-5">
+                    <?php echo $user_info[0]['middlename'];?>
+                  <!--    <input type="text" class="form-control" id="middlename" name="middlename" placeholder="Middle Name"  value="<?php echo $user_info[0]['middlename'];?>" data-parsley-pattern="/^[a-zA-Z][a-zA-Z ]+$/" data-parsley-maxlength="30" >-->
+                      <span class="error"><?php //echo form_error('middlename');?></span>
+                    </div><!--(Max 30 Characters) -->
+                </div>
+                
+                
+                <div class="form-group">
+                <label for="roleid" class="col-sm-3 control-label">Last Name</label>
+                	<div class="col-sm-5">
+                    <?php echo $user_info[0]['lastname'];?>
+                      <!--<input type="text" class="form-control" id="middlename" name="lastname" placeholder="Last Name"  value="<?php echo $user_info[0]['lastname'];?>" data-parsley-pattern="/^[a-zA-Z][a-zA-Z ]+$/" data-parsley-maxlength="30" >-->
+                      <span class="error"><?php //echo form_error('lastname');?></span>
+                    </div><!--(Max 30 Characters) -->
+                </div>
+                
+                
+                <div class="form-group">
+                <label for="roleid" class="col-sm-3 control-label">Phone : STD Code </label>
+                	<div class="col-sm-2">
+                     <?php echo $user_info[0]['stdcode'];?>
+                     <?php echo $user_info[0]['office_phone'];?>
+                      <span class="error"><?php //echo form_error('stdcode');?></span>
+                    </div>
+                    
+                </div>
+                
+                <div class="form-group">
+                <label for="roleid" class="col-sm-3 control-label">Mobile <span style="color:#F00">*</span></label>
+                	<div class="col-sm-5">
+                      <input type="tel" class="form-control" id="mobile" name="mobile" placeholder="Mobile" data-parsley-type="number"  data-parsley-minlength="10" data-parsley-maxlength="12"  value="<?php echo $user_info[0]['mobile'];?>"  data-parsley-nmeditmobilecheck required data-parsley-trigger-after-failure="focusout" >
+                      <input type="hidden" name="" id="mobile_hidd" value="<?php echo $user_info[0]['mobile'];?>">
+                      <span class="error"><?php //echo form_error('mobile');?></span>
+                    </div>
+                </div>
+                
+                
+                <div class="form-group">
+                <label for="roleid" class="col-sm-3 control-label">Email <span style="color:#F00">*</span></label>
+                	<div class="col-sm-5">
+                    <input class="form-control" id="email" name="email" placeholder="Email" data-parsley-type="email" value="<?php echo $user_info[0]['email'];?>" data-parsley-maxlength="45" required="" data-parsley-nmeditemailcheck  type="text" data-parsley-trigger-after-failure="focusout" >
+                    
+                      
+                       <input type="hidden" name="" id="email_hidd" value="<?php echo $user_info[0]['email'];?>">
+                        <span style="color:#F00;font-size:small;">(Please check correctness of your Email id and Mobile number. Please change the same here if required. Correct/Active E-mail address is mandatory for receipt of Admit Letter and other communication/s through e-mail.)</span>
+                      <span class="error"><?php //echo form_error('email');?></span>
+                    </div>
+                </div>
+                </div>
+                
+               </div> <!-- Basic Details box closed-->
+                 <div class="box box-info">
+                 <div class="box-header with-border">
+              <h3 class="box-title">Exam Details:</h3>
+            </div>
+            
+         
+
+            <div class="box-body">
+                <div class="form-group">
+                <label for="roleid" class="col-sm-3 control-label">Exam Name</label>
+                	<div class="col-sm-5 ">
+                        <?php echo $examinfo['0']['description'];?>
+                     <div id="error_dob"></div>
+                     <br>
+                     <div id="error_dob_size"></div>
+                       <span class="dob_proof_text" style="display:none;"></span>
+                      <span class="error"><?php //echo form_error('idproofphoto');?></span>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                <label for="roleid" class="col-sm-3 control-label">Fee Amount</label>
+                	<div class="col-sm-5 " id="html_fee_id">
+                    <div style="color:#F00">select center first</div>
+                        <?php 
+						//echo $fee_amount;
+						//if($examinfo['0']['fees']==''){echo '-';}else{echo $examinfo['0']['fees'];}?>
+                        
+                     <div id="error_dob"></div>
+                     <br>
+                     <div id="error_dob_size"></div>
+                       <span class="dob_proof_text" style="display:none;"></span>
+                      <span class="error"><?php //echo form_error('idproofphoto');?></span>
+                    </div>
+                </div>
+                
+                 <div class="form-group">
+                <label for="roleid" class="col-sm-3 control-label">Exam Period</label>
+                	<div class="col-sm-5 ">
+                        <?php 
+									$month = date('Y')."-".substr($examinfo['0']['exam_month'],4)."-".date('d');
+									echo date('F',strtotime($month))."-".substr($examinfo['0']['exam_month'],0,-2);
+           			  ?>
+                        <?php //echo $this->db->userdata['enduserinfo']['eprid'];?>
+                   <div id="error_dob"></div>
+                     <br>
+                     <div id="error_dob_size"></div>
+                       <span class="dob_proof_text" style="display:none;"></span>
+                      <span class="error"><?php //echo form_error('idproofphoto');?></span>
+                    </div>
+                </div>
+                
+                
+                  <?php 
+				if(isset($examinfo[0]['app_category']) && ($examinfo[0]['app_category']=='B1' || $examinfo[0]['app_category']=='B2') && (count($subjects) >0))
+				{
+					$subject_name=$this->master_model->getRecords('subject_master',array('exam_code'=>$this->session->userdata('examcode'),'subject_delete'=>'0','group_code'=>'E','subject_code'=>$examinfo[0]['subject']),'subject_description');?>
+				<div class="form-group">
+						<label for="roleid" class="col-sm-3 control-label">Elective Subject Name <span style="color:#F00">*</span></label>
+							<div class="col-sm-4">
+                 	    <?php
+					 		if(count($subject_name) > 0)
+                            {
+                                echo $subject_name[0]['subject_description'];?>
+                                 <input type="hidden" name="selSubcode" id="selSubcode" value="<?php echo $examinfo[0]['subject'];?>">
+                                 <input type="hidden" name="selSubName1" id="selSubName1" value="<?php echo $subject_name[0]['subject_description'];?>">
+						    <?php 
+							}
+						?>
+							</div>
+						</div>
+				<?php }
+				else
+				{
+						if(count($subjects) > 0)
+						{?>
+                            <div class="form-group">
+                            <label for="roleid" class="col-sm-3 control-label">Elective Subject Name <span style="color:#F00">*</span></label>
+                                <div class="col-sm-4">
+                                <select name="selSubName" id="selSubName" class="form-control" required>
+                                <option value="">Select</option>
+                                <?php 
+                                    foreach($subjects as $srow)
+                                    {?>
+                                            <option value="<?php echo $srow['subject_code']?>"><?php echo $srow['subject_description']?></option>
+                                    <?php 
+                                    }?>
+                                </select>
+                                <input value="Change Subject" name="enab_elect_subj" class="button" id="enab-elect-subj" type="button">
+                                </div>
+                            </div>
+					   <?php }?>
+				
+				 <input type="hidden" name="selSubcode" id="selSubcode" value="">
+                 <input type="hidden" name="selSubName1" id="selSubName1" value="">
+			<?php 
+				}?>
+                
+   
+			     <div class="form-group">
+                <label for="roleid" class="col-sm-3 control-label">Medium <span style="color:#F00">*</span></label>
+                	<div class="col-sm-2">
+                    <select name="medium" id="medium" class="form-control" required style="width:250px">
+                  	<option value="">Select</option>
+                    <?php if(count($medium) > 0)
+					{
+						foreach($medium as $mrow)
+						{?>
+								<option value="<?php echo $mrow['medium_code']?>"><?php echo $mrow['medium_description']?></option>
+						<?php }
+					}?>
+                    </select>
+                    </div>
+                </div>
+   
+  				 <div class="form-group">
+                
+                <label for="roleid" class="col-sm-3 control-label">Centre Name <span style="color:#F00">*</span></label>
+                	<div class="col-sm-2">
+                    <select name="selCenterName" id="selCenterName" class="form-control" required onchange="valCentretest(this.value);" style="width:250px">
+                  	<option value="">Select</option>
+                    <?php if(count($center) > 0)
+					{
+						
+						foreach($center as $crow)
+						{?>
+								<option value="<?php echo $crow['center_code']?>" class=<?php echo $crow['exammode'];?>><?php echo $crow['center_name']?></option>
+						<?php }
+					}?>
+                    </select>
+                    </div>
+                   </div>
+                
+                <div class="form-group">
+                <label for="roleid" class="col-sm-3 control-label">Centre Code <span style="color:#F00">*</span></label>
+                	<div class="col-sm-2">
+                      <input type="text" name="txtCenterCode" id="txtCenterCode"  class="form-control pull-right" readonly="readonly"
+                       value="">
+                    </div>
+                  </div>
+                
+                <div class="form-group">
+                <label for="roleid" class="col-sm-3 control-label">Exam Mode <span style="color:#F00">*</span></label>
+                	<!--<div class="col-sm-2">
+                      <input type="radio" class="minimal" id="optsex1"   name="optmode" value="ON" required>
+                     Online
+                   <input type="radio" class="minimal" id="optsex2"   name="optmode"   value="OF">
+                     Offline
+                      <span class="error"><?php //echo form_error('gender');?></span>
+                    </div>-->
+                  <div name="optmode1" id="optmode1" style="display: none;">Exam will be in ONLINE mode only, Read Important Instructions on the website.</div>
+                  <div name="optmode2" id="optmode2" style="display: none;">Exam will be in OFFLINE mode only, Read Important Instructions on the website.</div>
+                  <input id="optmode" name="optmode" value="" type="hidden">
+                </div>
+          
+                <div class="form-group">
+                <label for="roleid" class="col-sm-3 control-label">Photo</label>
+                	<div class="col-sm-2">
+                     <label for="roleid" class="col-sm-3 control-label">
+                    <?php 
+					if(is_file(get_img_name($this->session->userdata('nmregnumber'),'p')))
+					{?>
+                     <img src="<?php echo base_url();?><?php echo get_img_name($this->session->userdata('nmregnumber'),'p');?><?php echo '?'.time(); ?>" height="100" width="100" >
+					<?php 
+                    }
+                    else
+                    {?>
+                    <img src="<?php echo base_url();?>assets/images/default1.png<?php echo '?'.time(); ?>" height="100" width="100" >
+                    <?php 
+                    }?>
+                     </label>
+                 
+                      <span class="error"><?php //echo form_error('gender');?></span>
+                    </div>
+                    
+                </div>
+                
+                <div class="form-group">
+                <label for="roleid" class="col-sm-3 control-label">Signature</label>
+                	<div class="col-sm-2">
+                     <label for="roleid" class="col-sm-3 control-label">
+					 <?php 
+                    if(is_file(get_img_name($this->session->userdata('nmregnumber'),'s')))
+                    {?>
+                         <img src="<?php echo base_url();?><?php echo get_img_name($this->session->userdata('nmregnumber'),'s');?><?php echo '?'.time(); ?>" height="100" width="100">
+					<?php 
+                    }
+                    else
+                    {?>
+                    <img src="<?php echo base_url();?>assets/images/default1.png<?php echo '?'.time(); ?>" height="100" width="100" >
+                    <?php 
+                    }?>
+                     </label>
+                 
+                      <span class="error"><?php //echo form_error('gender');?></span>
+                    </div>
+                    
+                </div>
+                
+                
+                  <?php if(count($subjects) > 0)
+				{?>
+                     <div class="form-group">
+                    <label for="roleid" class="col-sm-3 control-label">Place of Work <span style="color:#F00">*</span></label>
+                        <div class="col-sm-2">
+                          <input type="text" name="placeofwork" id="placeofwork" required class="form-control pull-right">
+                        </div>
+                      </div>
+                      
+                      
+                      <div class="form-group">
+                    <label for="roleid" class="col-sm-3 control-label">State (Place of Work)<span style="color:#F00">*</span></label>
+                        <div class="col-sm-2">
+                        <select class="form-control" id="state" name="state_place_of_work" required >
+                            <option value="">Select</option>
+                            <?php if(count($states) > 0){
+                                    foreach($states as $row1){ 	?>
+                            <option value="<?php echo $row1['state_code'];?>" ><?php echo $row1['state_name'];?></option>
+                            <?php } } ?>
+                          </select>
+                        </div>
+                    </div>
+                    
+                    
+                      <div class="form-group">
+                     <label for="roleid" class="col-sm-3 control-label">Pin Code (Place of Work)<span style="color:#F00">*</span></label>
+                        <div class="col-sm-2">
+                         <input class="form-control" id="pincode_place_of_work" name="pincode_place_of_work" placeholder="Pincode/Zipcode" required  data-parsley-maxlength="6" maxlength="6" size="6" data-parsley-editcheckpin data-parsley-type="number"  type="text" data-parsley-trigger-after-failure="focusout">
+                             <span class="error"><?php //echo form_error('pincode');?></span>
+                        </div>
+                      </div>
+           
+          			 <input type="hidden" name="elected_exam_mode" id="elected_exam_mode" value="E">
+           			
+            <?php 
+			}
+				else
+				{?>
+					 <input type="hidden" name="elected_exam_mode" id="elected_exam_mode" value="C">
+                        <input type="hidden" name="placeofwork" id="placeofwork" value="">
+                       	   <input type="hidden" name="state_place_of_work" id="state" value="">
+                        	 <input type="hidden" name="pincode_place_of_work" id="pincode_place_of_work" value="">
+				<?php }?>    
+                
+                
+                <div class="form-group">
+                <label for="roleid" class="col-sm-3 control-label"></label>
+                      <span class="error"><?php //echo form_error('gender');?></span>
+                </div>
+                
+                <?php 
+				/*if(!file_exists('./uploads/photograph/'.$user_info[0]['scannedphoto']) || !file_exists('./uploads/scansignature/'.$user_info[0]['scannedsignaturephoto']) ||$user_info[0]['scannedphoto']=='' || $user_info[0]['scannedsignaturephoto']=='')
+			{*/
+			if(!is_file(get_img_name($this->session->userdata('nmregnumber'),'s')) || !is_file(get_img_name($this->session->userdata('nmregnumber'),'p')))
+			{?>
+                  <div class="form-group">
+                <label for="roleid" class="col-sm-3 control-label">Photo</label>
+                	<div class="col-sm-5">
+                        <input  type="file" class="" name="scannedphoto" id="scannedphoto" required="required">
+                    	 <input type="hidden" id="hiddenphoto" name="hiddenphoto">
+                    	<div id="error_photo"></div>
+                     <br>
+                     <div id="error_photo_size"></div>
+                     <span class="photo_text" style="display:none;"></span>
+                      <span class="error"><?php //echo form_error('scannedphoto');?></span>
+                    </div>
+                      <img id="image_upload_scanphoto_preview" height="100" width="100"/>
+                </div>
+                  <div class="form-group">
+                <label for="roleid" class="col-sm-3 control-label">Signature</label>
+                	<div class="col-sm-5">
+                        <input  type="file" class="" name="scannedsignaturephoto" id="scannedsignaturephoto" required="required">
+                         <input type="hidden" id="hiddenscansignature" name="hiddenscansignature">
+                    <div id="error_signature"></div>
+                     <br>
+                     <div id="error_signature_size"></div>
+                     
+                     <span class="signature_text" style="display:none;"></span>
+                      <span class="error"><?php //echo form_error('scannedsignaturephoto');?></span>
+                    </div>
+                       <img id="image_upload_sign_preview" height="100" width="100"/>
+                </div>
+               <?php 
+			}?> 
+                
+                <div class="form-group">
+              <div class="col-sm-12">
+                <label for="roleid" class="col-sm-0 control-label"></label>
+                      A) It is mandatory for a candidate to opt the examination centre being his/her place of work. If there is no centre at his/her place of work, shall have to opt the centre nearest to his/her place of work. Result of candidate violating this rule or giving wrong information is liable for cancellation)<br>
+
+<!--B) Since the Institute will not be sending the Admit Letter(hard copy) through post, Correct E-mail address is mandatory for receipt of Admit Letter/Hall Ticket through e-mail.-->
+                      <span class="error"><?php //echo form_error('gender');?></span>
+                </div>
+                </div>
+               
+             <div class="box-footer">
+                  <div class="col-sm-4 col-xs-offset-3">
+                     
+                     <!--<a href="javascript:void(0);" class="btn btn-info" onclick="javascript:return login_nm_checkform();" id="preview">Preview</a>-->
+                     
+                     <input type="submit" class="btn btn-info" name="btnPreviewSubmit" id="btnPreviewSubmit" value="Preview" onclick="javascript:return login_nm_checkform();">
+                     
+                   <!-- <input type="submit" class="btn btn-info" name="btnSubmit" id="btnSubmit" value="Save">-->
+                   <a href="<?php echo base_url();?>NonMember/comApplication/" class="btn btn-info" id="Reset">Reset</a>
+                     <!--<button type="reset" class="btn btn-info" name="btnReset" id="btnReset">Reset</button>-->
+                     <a href="<?php echo base_url();?>NonMember/examdetails/?excode2=<?php echo base64_encode($this->session->userdata('examcode'));?>" class="btn btn-info" id="preview">Back</a>
+                    </div>
+              </div>
+             </div>
+     </div>
+  </div>
+     
+      
+      </div>
+    </section>
+ 
+  
+     </form>
+     </div>
+<!-- Data Tables -->
+
+<link href="<?php echo base_url();?>assets/admin/plugins/datatables/dataTables.bootstrap.css" rel="stylesheet">
+<link href="<?php echo base_url();?>assets/admin/plugins/datatables/extensions/Responsive/css/dataTables.responsive.css" rel="stylesheet">
+<link href="<?php echo base_url();?>assets/admin/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.min.css" rel="stylesheet">
+
+<!-- Data Tables -->
+<script src="<?php echo base_url();?>assets/admin/plugins/datatables/jquery.dataTables.js"></script>
+<script src="<?php echo base_url();?>assets/admin/plugins/datatables/dataTables.bootstrap.js"></script>
+<script src="<?php echo base_url();?>assets/admin/plugins/datatables/extensions/Responsive/js/dataTables.responsive.js"></script>
+<script src="<?php echo base_url();?>assets/admin/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js"></script>
+
+<script type="text/javascript">
+  function loginusercheckform()
+  {$('#member_conApplication').parsley().validate();}<span style="color:#F00">
+</script>
+
+<script src="https://iibf.esdsconnect.com/js/validation_test.js"></script>
+
+<script>
+$(document).ready(function(){
+		var cCode=$('#selCenterName').val();
+		if(cCode!='')
+		{
+			document.getElementById('txtCenterCode').value = cCode ;
+			var examType = document.getElementById('extype').value;
+			var examCode = document.getElementById('examcode').value;
+			var temp = document.getElementById("selCenterName").selectedIndex;
+			selected_month = document.getElementById("selCenterName").options[temp].className;
+			if(selected_month == 'ON')
+			{
+				if(document.getElementById("optmode1")){
+					document.getElementById("optmode1").style.display = "block";
+					document.getElementById('optmode').value= 'ON';
+				}
+					
+				if(document.getElementById("optmode2"))
+				{
+					document.getElementById("optmode2").style.display = "none";	
+				}
+				
+			}	
+			else if(selected_month == 'OF')
+			{
+				if(document.getElementById("optmode2")){
+					document.getElementById("optmode2").style.display = "block";
+					document.getElementById('optmode').value= 'OF';
+				}
+				if(document.getElementById("optmode1")){
+					document.getElementById("optmode1").style.display = "none";
+				}	
+			}
+			else{
+					if(document.getElementById("optmode1")){
+						document.getElementById("optmode1").style.display = "none";
+					}
+					if(document.getElementById("optmode2")){
+						document.getElementById("optmode2").style.display = "none";
+					}
+			}
+		
+		}
+		
+	if($('#hiddenphoto').val()!='')
+	{
+		   $('#image_upload_scanphoto_preview').attr('src', $('#hiddenphoto').val());
+	}
+	if($('#hiddenscansignature').val()!='')
+	{
+		   $('#image_upload_sign_preview').attr('src', $('#hiddenscansignature').val());
+	}
+	
+});
+</script>

@@ -1,0 +1,170 @@
+<?php
+	defined('BASEPATH') OR exit('No direct script access allowed');
+	class Cron1_billdesk_manual extends CI_Controller 
+	{
+		public function __construct()
+		{
+			parent::__construct();			
+			
+			ini_set('display_errors', 1);
+			error_reporting(E_ALL);
+			$this->load->library('upload');	
+			$this->load->helper('upload_helper');
+			$this->load->helper('master_helper');
+			$this->load->model('master_model');		
+			$this->load->library('email');
+			$this->load->model('Emailsending');
+			$this->load->model('log_model');
+			$this->load->model('Ampmodel');
+			$this->load->helper('blended_invoice_helper');
+			$this->load->helper('date');
+			$this->load->helper('gstrecovery_invoice_helper');			
+			$this->load->model('billdesk_pg_module_cron_manual');
+			
+			$this->load->helper('renewal_invoice_helper'); // added by chaitali on 2021-08-13 
+		}
+		
+		public function member_regn_log($log_title, $log_message = "", $rId = NULL, $regNo = NULL)
+		{
+			$obj = new OS_BR();
+			$browser_details=implode('|',$obj->showInfo('all'));
+			$data['title'] = $log_title;
+			$data['description'] = $log_message;
+			$data['regid'] = $rId;
+			$data['regnumber'] = $regNo;
+			$data['ip'] = $this->input->ip_address();
+			$data['browser'] = $browser_details;
+			$data['user_agent'] = $_SERVER['HTTP_USER_AGENT'];
+			echo '<pre>';
+			print_r($data);exit;
+			//$this->db->insert('userlogs_member_cs2s', $data);
+		}
+		/* putty link
+		/usr/local/bin/php /home/supp0rttest/public_html/index.php Cron1_billdesk_manual billdesk_callback */ 
+		public function billdesk_callback() 
+		{
+		
+			$this->load->model('billdesk_pg_model');
+			//$this->load->model('billdesk_pg_module_cron');
+						
+			$log_title ="billdesk_callback Function call Cron1";
+			$log_message = 'billdesk_callback Function call Cron1';
+			$rId = $regNo = '';
+			//$this->member_regn_log($log_title, $log_message, $rId, $regNo);
+			
+				// code here to start the cron job
+				include_once APPPATH . 'third_party/SBI_ePay/CryptAES.php';
+				$this->load->library('excel');
+				$key = $this->config->item('sbi_m_key');
+				
+				$aes = new CryptAES();
+				$aes->set_key(base64_decode($key));
+				$aes->require_pkcs5();
+				  
+				$query='SELECT receipt_no FROM payment_transaction WHERE receipt_no IN("903659961","903658651","903660432","903660516","903661008") AND gateway = "billdesk" AND status = 2';     
+				     
+				$crnt_day_txn_qry = $this->db->query($query);
+				//echo "*********************************** New Cron Request Started***************************\n";
+				//echo  "Total Count =>". $crnt_day_txn_qry->num_rows();
+				//echo $this->db->last_query();exit;
+				if ($crnt_day_txn_qry->num_rows())
+				{
+					$start_time = date("Y-m-d H:i:s");
+					$succ_cnt = $fail_cnt = $no_resp_cnt = $pending_cnt = 0;
+					$succ_recp_arr = $fail_recp_arr = $no_resp_recp_arr = $pending_recp_arr = array();
+					$todays_date = date("d-m-Y");
+					$dir = 'cs2s_log/billdesk_cron1/'.$todays_date;
+					if(!is_dir($dir)){ mkdir($dir, 0755); }
+					$cell = 1;
+					
+					$objPHPExcel = new PHPExcel();
+					$objPHPExcel->setActiveSheetIndex(0);
+					$objPHPExcel->getActiveSheet()->setCellValue('A'.$cell, "Receipt No")
+					->setCellValue('B'.$cell, "Transaction Status")
+					->setCellValue('C'.$cell, "Transaction Data")
+					->setCellValue('D'.$cell, "Response Data")
+					->setCellValue('E'.$cell, "Response Date");
+				
+					foreach ($crnt_day_txn_qry->result_array() as $c_row)
+					{
+						$cell++;
+						//sleep(1);
+						$responsedata = $this->billdesk_pg_model->billdeskqueryapi($c_row['receipt_no']);
+						//echo '<pre>'; print_r($responsedata); echo '</pre>'; exit;
+						$receipt_no = $c_row['receipt_no'];
+						$encData = implode('|',$responsedata);
+						$resp_data = json_encode($responsedata);
+						
+						
+						## Check payment_c_s2s_log entry  
+						$data_count = $this->master_model->getRecordCount('payment_transaction',array('receipt_no'=>$receipt_no,'status'=>1));
+						
+						if($data_count == 0)
+						{
+							if($responsedata['auth_status'] == '0300')
+							{
+								$succ_cnt++;
+								array_push($succ_recp_arr,$receipt_no);
+							}
+							else if($responsedata['auth_status'] == '0399')
+							{
+								$fail_cnt++;
+								array_push($fail_recp_arr,$receipt_no);
+								$update_data = array('status' => 0,'callback'=>'c_S2S','transaction_details'=>$responsedata['transaction_error_type']);
+								$update_query=$this->master_model->updateRecord('payment_transaction',$update_data,array('receipt_no'=>$receipt_no,'status'=>2));
+							}
+							else if($responsedata['auth_status'] == 0002)
+							{
+								$pending_cnt++;
+								array_push($pending_recp_arr,$receipt_no);
+							}
+							else
+							{
+								$no_resp_cnt++;
+								array_push($no_resp_recp_arr,$receipt_no);
+							}							
+						}
+						
+						$resp_array = array('receipt_no'	=> $c_row['receipt_no'],
+						'txn_status' 	=> $responsedata['transaction_error_type'],
+						'txn_data' 		=> $encData.'&CALLBACK=C_S2S',
+						'response_data' => $resp_data,
+						'remark' 		=> '',
+						'resp_date' 	=> date('Y-m-d H:i:s'),
+						);
+						$this->master_model->insertRecord('payment_c_s2s_log', $resp_array);
+						
+						if (isset($responsedata) && count($responsedata) > 0)
+						{
+							$this->billdesk_pg_module_cron_manual->billdesk_cron_settlement_common($responsedata, $encData);
+						}
+						else
+						{
+							echo "Please try again...";
+						}
+					}//foreach
+					
+					$succ_recp = implode(",",$succ_recp_arr);
+					$fail_recp = implode(",",$fail_recp_arr);
+					$no_resp_recp = implode(",",$no_resp_recp_arr);
+					$pending_recp = implode(",",$pending_recp_arr);
+					$end_time = date("Y-m-d H:i:s");
+					## Counts files
+					$fp = @fopen($dir."/detail_logs_new_data_".date("dmY").".txt", "a") or die("Unable to open file!");
+					echo $str = "\n***********************************************************\n\n Cron execution started at :$start_time \n\n Total Count =>". $crnt_day_txn_qry->num_rows()."\n\nTotal records SUCCESS: $succ_cnt\n($succ_recp) \nTotal records FAIL: $fail_cnt\n($fail_recp) \n Total records PENDING: $pending_cnt\n($pending_recp)\n Total records No Response: $no_resp_cnt\n($no_resp_recp)\n Cron execution ended at: $end_time\n";
+					fwrite($fp, $str);
+					fclose($fp);
+					
+					## Total Counts files
+					$fp = @fopen($dir."/log_counts_".date("dmY").".txt", "a") or die("Unable to open file!");
+					echo $str = "\n***********************************************************\n\n Cron execution started at :$start_time \n\n Total Count =>". $crnt_day_txn_qry->num_rows()."\n\nTotal records SUCCESS: $succ_cnt \nTotal records FAIL: $fail_cnt \n Total records PENDING: $pending_cnt\n Total records No Response: $no_resp_cnt\n Cron execution ended at: $end_time\n";
+					fwrite($fp, $str);
+					fclose($fp);
+				} 
+				
+				flock($filehandle, LOCK_UN);  // don't forget to release the lock
+			 
+			
+			
+		}		
+	}	

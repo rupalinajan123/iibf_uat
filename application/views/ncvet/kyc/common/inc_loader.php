@@ -1,0 +1,1 @@
+<div id="page_loader"><div class="loading"></div></div>	

@@ -1,0 +1,166 @@
+<tr>
+  <td colspan="2" class="text-center heading_row"><b>Basic Details</b></td>
+</tr>
+
+<tr>
+  <td style="min-width:300px;">
+    <b>Agency Name</b> : 
+    <?php echo $batch_data[0]['agency_name']; 
+      $disp_agency_type = $batch_data[0]['allow_exam_types'];
+      if($batch_data[0]['allow_exam_types'] == "Bulk/Individual") { $disp_agency_type = "Regular"; }
+      
+      echo " (".$batch_data[0]['agency_code']." - ".$disp_agency_type.")"; 
+    ?>
+  </td>
+  <td><b>Centre Name</b> : <?php echo $batch_data[0]['centre_name']." (".$batch_data[0]['centre_username']." - ".$batch_data[0]['city_name'].")"; ?></td>
+</tr>
+
+<tr>
+  <td><b>Batch Code</b> : <?php echo $batch_data[0]['batch_code']; ?></td>
+  <td><b>Batch Id</b> : <?php echo $batch_data[0]['centre_batch_id']; ?></td>
+</tr>
+
+<tr>
+  <td><b>Batch Type</b> : <?php echo $batch_data[0]['DispBatchType']; ?></td>
+  <td><b>No. of Hours</b> : <?php echo $batch_data[0]['batch_hours']; ?></td>
+</tr>
+
+<tr>
+  <td><b>Batch Training Date</b> : <?php echo $batch_data[0]['batch_start_date'] . " to " . $batch_data[0]['batch_end_date']; ?></td>
+  <td><b>Gross Training Days</b> : <?php echo $batch_data[0]['batch_gross_days']; ?></td>
+</tr>
+
+<tr>
+  <td><b>Holidays</b> : <?php echo str_replace(",", ", ", $batch_data[0]['batch_holidays']); ?></td>
+  <td><b>Net Training Days</b> : <?php echo $batch_data[0]['batch_net_days']; ?></td>
+</tr>
+<tr>
+  <td><b>Daily Training Time</b> : <?php echo date("h:i A", strtotime($batch_data[0]['batch_daily_start_time'])) . " to " . date("h:i A", strtotime($batch_data[0]['batch_daily_end_time'])); ?></td>
+  <td><b>Gross Training Time Per Day</b> : <?php echo $batch_data[0]['batch_daily_gross_time']; ?></td>
+</tr>
+<tr>
+  <td><b>Break Time1</b> : <?php echo date("h:i A", strtotime($batch_data[0]['break_start_time1'])) . " to " . date("h:i A", strtotime($batch_data[0]['break_end_time1'])); ?></td>
+  <td><b>Break Time2</b> : <?php echo date("h:i A", strtotime($batch_data[0]['break_start_time2'])) . " to " . date("h:i A", strtotime($batch_data[0]['break_end_time2'])); ?></td>
+</tr>
+<tr>
+  <td><b>Break Time3</b> : <?php echo date("h:i A", strtotime($batch_data[0]['break_start_time3'])) . " to " . date("h:i A", strtotime($batch_data[0]['break_end_time3'])); ?></td>
+  <td><b>Total Break Time</b> : <?php echo $batch_data[0]['total_daily_break_time']; ?></td>
+</tr>
+<tr>
+  <td><b>Net Training Time Per Day</b> : <?php echo $batch_data[0]['batch_daily_net_time']; ?></td>
+  <td><b>Total Net Training Time of Duration</b> : <?php echo $batch_data[0]['batch_total_net_time']; ?></td>
+</tr>
+<tr>
+  <td><b>Training Language</b> : <?php echo $batch_data[0]['training_language']; ?></td>
+  <td><b>Under Graduate Candidates</b> : <?php echo $batch_data[0]['under_graduate_candidates']; ?></td>
+</tr>
+<tr>
+  <td><b>Graduate Candidates</b> : <?php echo $batch_data[0]['graduate_candidates']; ?></td>
+  <td><b>Post Graduate Candidates</b> : <?php echo $batch_data[0]['post_graduate_candidates']; ?></td>
+</tr>
+<tr>
+  <td><b>Total Candidates</b> : <?php echo $batch_data[0]['total_candidates']; ?></td>
+  <td><b>Faculty1</b> : <?php echo $batch_data[0]['FirstFaculty']; ?></td>
+</tr>
+<tr>
+  <td><b>Faculty2</b> : <?php echo $batch_data[0]['SecondFaculty']; ?></td>
+  <td><b>Faculty3</b> : <?php echo $batch_data[0]['ThirdFaculty']; ?></td>
+</tr>
+
+<tr>
+  <td><b>Faculty4</b> : <?php echo $batch_data[0]['FourthFaculty']; ?></td>
+  <td><b>Training Schedule</b> : <?php if($batch_data[0]['training_schedule_file'] != "") { ?><a href="<?php echo site_url('iibfbcbf/download_file_common/index/' . url_encode($batch_data[0]['batch_id']) . '/training_schedule_file'); ?>" class="example-image-link btn btn-success btn-sm">Download Uploaded Training Schedule File</a><?php } ?></td>
+</tr>
+<tr><td class="empty_row" colspan="2"></td></tr>
+
+<tr>
+  <td colspan="2" class="text-center heading_row"><b>Venue of Training Batch</b></td>
+</tr>
+<tr>
+  <td><b>State</b> : <?php echo $centre_data[0]['state_name']; ?></td>
+  <td><b>District</b> : <?php echo $centre_data[0]['centre_district']; ?></td>
+</tr>
+<tr>
+  <td><b>City</b> : <?php echo $centre_data[0]['city_name']; ?></td>
+  <td><b>Pincode</b> : <?php echo $centre_data[0]['centre_pincode']; ?></td>
+</tr>
+<tr>
+  <td colspan="2"><b>Batch Coordinator Name</b> : <?php echo $batch_data[0]['contact_person_name']; ?></td>  
+</tr>
+<tr>
+  <td><b>Batch Coordinator Mobile Number</b> : <?php echo $batch_data[0]['contact_person_mobile']; ?></td>
+  <td><b>Batch Coordinator Email</b> : <?php echo $batch_data[0]['contact_person_email']; ?></td>
+</tr>
+<tr>
+  <td colspan="2"><b>Alternative Contact Person Name</b> : <?php echo $batch_data[0]['alt_contact_person_name']; ?></td>
+</tr>
+<tr>
+  <td><b>Alternative Contact Person Mobile Number</b> : <?php echo $batch_data[0]['alt_contact_person_mobile']; ?></td>
+  <td><b>Alternative Contact Person Email</b> : <?php echo $batch_data[0]['alt_contact_person_email']; ?></td>
+</tr>
+
+<tr>
+    <td colspan="2">
+      <table class="table table-bordered mt-2" style="width:100%">
+        <thead>
+          <tr>
+            <th class="text-center">Name of Bank / Agency / Source of Candidates</th>
+            <th class="text-center">Number of Candidates</th>
+          </tr>
+        </thead>
+        <tbody>
+          <?php foreach ($bank_cand_data as $res)
+          { ?>
+            <tr>
+              <td><?php echo $res['bank_name']; ?></td>
+              <td><?php echo $res['cand_src']; ?></td>
+            </tr>
+          <?php } ?>
+        </tbody>
+      </table>
+    </td>
+  </tr>
+
+<tr><td colspan="2"><b>Remark</b> : <?php echo $batch_data[0]['remarks']; ?></td></tr>
+<tr><td class="empty_row" colspan="2"></td></tr>
+
+<tr>
+  <td colspan="2" class="text-center heading_row"><b>Offline / Online Batch</b></td>
+</tr>
+<tr>
+  <td colspan="2"><b>Batch Infrastructure</b> : <?php echo $batch_data[0]['DispBatchInfrastructure']; ?></td>
+</tr>
+
+<?php if ($batch_data[0]['batch_online_offline_flag'] == '2')
+{ ?>
+  <tr>
+    <td><b>Name of the online training platform used</b> : <?php echo $batch_data[0]['online_training_platform']; ?></td>
+    <td><b>Link</b> : <a href="<?php echo $batch_data[0]['platform_link']; ?>" title="<?php echo $batch_data[0]['platform_link']; ?>" alt="<?php echo $batch_data[0]['platform_link']; ?>" target="_blank">Click Here</a></td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <b>Login Details</b> :
+      <table class="table table-bordered mt-2" style="width:100%">
+        <thead>
+          <tr>
+            <th class="text-center">Login Id</th>
+            <th class="text-center">Password</th>
+          </tr>
+        </thead>
+        <tbody>
+          <?php foreach ($user_data as $res)
+          { ?>
+            <tr>
+              <td><?php echo $res['login_id']; ?></td>
+              <td><?php echo $res['password']; ?></td>
+            </tr>
+          <?php } ?>
+        </tbody>
+      </table>
+    </td>
+  </tr>
+<?php } ?>
+
+<tr>
+  <td colspan="2"><b style="vertical-align:top">Status</b> : <span class="disp_status_details badge <?php echo show_batch_status($batch_data[0]['batch_status']); ?>" style="min-width:90px;"><?php echo $batch_data[0]['DispBatchStatus']; ?></span></td>
+</tr>

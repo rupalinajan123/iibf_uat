@@ -1,0 +1,1 @@
+<div class="footer hide"><div>&copy; All Rights Reserved.</div></div>

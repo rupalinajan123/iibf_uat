@@ -1,0 +1,2 @@
+<link href="<?php echo auto_version(base_url('assets/iibfbcbf/lightbox/lightbox.min.css')); ?>" rel="stylesheet">
+<script src="<?php echo auto_version(base_url('assets/iibfbcbf/lightbox/lightbox.min.js')); ?>"></script><!-- LIGHTBOX -->	
