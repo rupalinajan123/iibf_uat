@@ -1,0 +1,21 @@
+[09-May-2019 14:50:01 Asia/Kolkata] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/iibfgrow/public_html/CSC_connect/index.php on line 8
+[09-May-2019 14:50:01 Asia/Kolkata] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/iibfgrow/public_html/CSC_connect/index.php on line 8
+[09-May-2019 14:50:01 Asia/Kolkata] PHP Fatal error:  require(): Failed opening required 'includes/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/iibfgrow/public_html/CSC_connect/index.php on line 8
+[09-May-2019 14:50:08 Asia/Kolkata] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/iibfgrow/public_html/CSC_connect/index.php on line 8
+[09-May-2019 14:50:08 Asia/Kolkata] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/iibfgrow/public_html/CSC_connect/index.php on line 8
+[09-May-2019 14:50:08 Asia/Kolkata] PHP Fatal error:  require(): Failed opening required 'includes/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/iibfgrow/public_html/CSC_connect/index.php on line 8
+[09-May-2019 14:51:34 Asia/Kolkata] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/iibfgrow/public_html/CSC_connect/index.php on line 8
+[09-May-2019 14:51:34 Asia/Kolkata] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/iibfgrow/public_html/CSC_connect/index.php on line 8
+[09-May-2019 14:51:34 Asia/Kolkata] PHP Fatal error:  require(): Failed opening required 'includes/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/iibfgrow/public_html/CSC_connect/index.php on line 8
+[09-May-2019 15:37:51 Asia/Kolkata] PHP Fatal error:  Call to undefined function redirect() in /home/iibfgrow/public_html/CSC_connect/connect_success.php on line 50
+[09-May-2019 15:39:48 Asia/Kolkata] PHP Fatal error:  Call to undefined function redirect() in /home/iibfgrow/public_html/CSC_connect/connect_success.php on line 50
+[09-May-2019 16:53:45 Asia/Kolkata] PHP Notice:  Undefined index: connect_state in /home/iibfgrow/public_html/CSC_connect/connect_success.php on line 12
+[09-May-2019 16:55:43 Asia/Kolkata] PHP Notice:  Undefined variable: post in /home/iibfgrow/public_html/CSC_connect/connect_success.php on line 39
+[09-May-2019 17:00:52 Asia/Kolkata] PHP Notice:  Undefined index: connect_state in /home/iibfgrow/public_html/CSC_connect/connect_success.php on line 12
+[09-May-2019 17:01:39 Asia/Kolkata] PHP Notice:  Undefined index: connect_state in /home/iibfgrow/public_html/CSC_connect/connect_success.php on line 12
+[09-May-2019 17:02:27 Asia/Kolkata] PHP Notice:  Undefined index: connect_state in /home/iibfgrow/public_html/CSC_connect/connect_success.php on line 12
+[09-May-2019 17:06:34 Asia/Kolkata] PHP Notice:  Undefined index: connect_state in /home/iibfgrow/public_html/CSC_connect/connect_success.php on line 12
+[09-May-2019 17:44:43 Asia/Kolkata] PHP Notice:  Undefined index: connect_state in /home/iibfgrow/public_html/CSC_connect/connect_success.php on line 12
+[09-May-2019 17:45:19 Asia/Kolkata] PHP Notice:  Undefined index: connect_state in /home/iibfgrow/public_html/CSC_connect/connect_success.php on line 12
+[09-May-2019 18:39:15 Asia/Kolkata] PHP Notice:  Undefined index: connect_state in /home/iibfgrow/public_html/CSC_connect/connect_success.php on line 12
+[10-May-2019 12:03:59 Asia/Kolkata] PHP Notice:  Undefined index: connect_state in /home/iibfgrow/public_html/CSC_connect/connect_success.php on line 12

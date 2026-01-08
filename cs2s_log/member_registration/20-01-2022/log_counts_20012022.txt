@@ -1,0 +1,36 @@
+
+***********************************************************
+
+ Cron execution started at :2022-01-20 15:35:01 
+
+ Total Count =>1
+
+Total records SUCCESS: 0 
+Total records FAIL: 1 
+ Total records PENDING: 0
+ Total records No Response: 0
+ Cron execution ended at: 2022-01-20 15:35:01
+
+***********************************************************
+
+ Cron execution started at :2022-01-20 15:40:01 
+
+ Total Count =>1
+
+Total records SUCCESS: 0 
+Total records FAIL: 0 
+ Total records PENDING: 0
+ Total records No Response: 1
+ Cron execution ended at: 2022-01-20 15:40:07
+
+***********************************************************
+
+ Cron execution started at :2022-01-20 21:40:01 
+
+ Total Count =>1
+
+Total records SUCCESS: 1 
+Total records FAIL: 0 
+ Total records PENDING: 0
+ Total records No Response: 0
+ Cron execution ended at: 2022-01-20 21:40:05

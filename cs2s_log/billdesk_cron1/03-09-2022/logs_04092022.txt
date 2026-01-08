@@ -1,0 +1,24 @@
+
+ 903551208=transaction|XSBI0738657179|903551208|INDINSBAF|2022-09-03T23:37:19+05:30|3186.00|14.16|0.00|3200.16|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|nb|SBI|DIRECT|IGAOFWQJP6|0300|TRS0000|Transaction Successful|success|netbanking
+
+ 903551209=transaction|XSBI0738658185|903551209|INDINSBAF|2022-09-03T23:37:50+05:30|3186.00|14.16|0.00|3200.16|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|nb|SBI|DIRECT|IGAOFWQDT7|0300|TRS0000|Transaction Successful|success|netbanking
+
+ 903551214=transaction|XUR30738662206|903551214|INDINSBAF|2022-09-03T23:39:58+05:30|3451.50|0.00|0.00|3451.50|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|3ds|UR3|RDDIRECT|224623332227|0300|TRS0000|Transaction Successful|success|222703|card
+
+ 903551216=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903551217=transaction|XAX60738660973|903551217|INDINSBAF|2022-09-03T23:39:18+05:30|1534.00|13.03|0.00|1547.03|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|3ds|AX6|DIRECT|044877|0300|TRS0000|Transaction Successful|success|044877|05|card
+
+ 903551215=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903551218=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903551219=transaction|XAX60738661391|903551219|INDINSBAF|2022-09-03T23:39:32+05:30|1534.00|4.75|0.00|1538.75|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|3ds|AX6|VDDIRECT|0399|TRPAU0008|3D Secure authentication failure|payment_authentication_error|card
+
+ 903551221=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903551220=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903551198=transaction|XAX60738659718|903551198|INDINSBAF|2022-09-03T23:38:38+05:30|3186.00|20.70|0.00|3206.70|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|3ds|AX6|MDDIRECT|0399|TRIFE0001|Insufficient funds|insufficient_funds_error|02|card
+
+ 812328682=404|not_found_error|TRNFE0001|Transaction not found

@@ -1,0 +1,32 @@
+
+***********************************************************
+
+ Cron execution started at :2022-06-19 18:50:02 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(812320444)
+ Cron execution ended at: 2022-06-19 18:50:02
+
+***********************************************************
+
+ Cron execution started at :2022-06-19 18:55:02 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(812320444) 
+ Total records PENDING: 0
+()
+ Total records No Response: 0
+()
+ Cron execution ended at: 2022-06-19 18:55:02

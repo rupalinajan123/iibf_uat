@@ -1,0 +1,96 @@
+
+***********************************************************
+
+ Cron execution started at :2022-06-30 07:10:02 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(812320873)
+ Cron execution ended at: 2022-06-30 07:10:02
+
+***********************************************************
+
+ Cron execution started at :2022-06-30 07:15:02 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(812320873) 
+ Total records PENDING: 0
+()
+ Total records No Response: 0
+()
+ Cron execution ended at: 2022-06-30 07:15:02
+
+***********************************************************
+
+ Cron execution started at :2022-06-30 09:00:02 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(812320879)
+ Cron execution ended at: 2022-06-30 09:00:03
+
+***********************************************************
+
+ Cron execution started at :2022-06-30 11:55:01 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(812320888)
+ Cron execution ended at: 2022-06-30 11:55:02
+
+***********************************************************
+
+ Cron execution started at :2022-06-30 12:00:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(812320888,812320889)
+ Cron execution ended at: 2022-06-30 12:00:03
+
+***********************************************************
+
+ Cron execution started at :2022-06-30 12:05:01 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(812320889) 
+ Total records PENDING: 0
+()
+ Total records No Response: 0
+()
+ Cron execution ended at: 2022-06-30 12:05:01

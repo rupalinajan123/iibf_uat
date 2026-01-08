@@ -1,0 +1,160 @@
+
+ 1019=404|not_found_error|TRNFE0001|Transaction not found
+
+ 1021=404|not_found_error|TRNFE0001|Transaction not found
+
+ 1022=404|not_found_error|TRNFE0001|Transaction not found
+
+ 1023=404|not_found_error|TRNFE0001|Transaction not found
+
+ 1024=404|not_found_error|TRNFE0001|Transaction not found
+
+ 1025=404|not_found_error|TRNFE0001|Transaction not found
+
+ 942=404|not_found_error|TRNFE0001|Transaction not found
+
+ 945=404|not_found_error|TRNFE0001|Transaction not found
+
+ 946=404|not_found_error|TRNFE0001|Transaction not found
+
+ 955=404|not_found_error|TRNFE0001|Transaction not found
+
+ 958=404|not_found_error|TRNFE0001|Transaction not found
+
+ 966=404|not_found_error|TRNFE0001|Transaction not found
+
+ 1019=404|not_found_error|TRNFE0001|Transaction not found
+
+ 1021=404|not_found_error|TRNFE0001|Transaction not found
+
+ 1022=404|not_found_error|TRNFE0001|Transaction not found
+
+ 1023=404|not_found_error|TRNFE0001|Transaction not found
+
+ 1024=404|not_found_error|TRNFE0001|Transaction not found
+
+ 1025=404|not_found_error|TRNFE0001|Transaction not found
+
+ 942=404|not_found_error|TRNFE0001|Transaction not found
+
+ 945=404|not_found_error|TRNFE0001|Transaction not found
+
+ 946=404|not_found_error|TRNFE0001|Transaction not found
+
+ 955=404|not_found_error|TRNFE0001|Transaction not found
+
+ 958=404|not_found_error|TRNFE0001|Transaction not found
+
+ 966=404|not_found_error|TRNFE0001|Transaction not found
+
+ 1019=transaction|ZHD51902705898|1019|INDINSBAF|2024-04-12T16:29:23+05:30|1.00|0.00|0.00|1.00|356|Array|https://iibf.esdsconnect.com/staging/applyexam/handle_billdesk_response|qr|HD5|DIRECT|446927164365|0300|TRS0000|Transaction Successful|success|upi|10
+
+ 1019=transaction|ZHD51902705898|1019|INDINSBAF|2024-04-12T16:29:23+05:30|1.00|0.00|0.00|1.00|356|Array|https://iibf.esdsconnect.com/staging/applyexam/handle_billdesk_response|qr|HD5|DIRECT|446927164365|0300|TRS0000|Transaction Successful|success|upi|10
+
+ 1019=transaction|ZHD51902705898|1019|INDINSBAF|2024-04-12T16:29:23+05:30|1.00|0.00|0.00|1.00|356|Array|https://iibf.esdsconnect.com/staging/applyexam/handle_billdesk_response|qr|HD5|DIRECT|446927164365|0300|TRS0000|Transaction Successful|success|upi|10
+
+ 1019=transaction|ZHD51902705898|1019|INDINSBAF|2024-04-12T16:29:23+05:30|1.00|0.00|0.00|1.00|356|Array|https://iibf.esdsconnect.com/staging/applyexam/handle_billdesk_response|qr|HD5|DIRECT|446927164365|0300|TRS0000|Transaction Successful|success|upi|10
+
+ 1019=transaction|ZHD51902705898|1019|INDINSBAF|2024-04-12T16:29:23+05:30|1.00|0.00|0.00|1.00|356|Array|https://iibf.esdsconnect.com/staging/applyexam/handle_billdesk_response|qr|HD5|DIRECT|446927164365|0300|TRS0000|Transaction Successful|success|upi|10
+
+ 1019=transaction|ZHD51902705898|1019|INDINSBAF|2024-04-12T16:29:23+05:30|1.00|0.00|0.00|1.00|356|Array|https://iibf.esdsconnect.com/staging/applyexam/handle_billdesk_response|qr|HD5|DIRECT|446927164365|0300|TRS0000|Transaction Successful|success|upi|10
+
+ 942=404|not_found_error|TRNFE0001|Transaction not found
+
+ 945=404|not_found_error|TRNFE0001|Transaction not found
+
+ 946=404|not_found_error|TRNFE0001|Transaction not found
+
+ refund found= 955={"objectid":"transaction","transactionid":"ZHD51815518220","orderid":"955","mercid":"INDINSBAF","transaction_date":"2024-03-11T12:15:46+05:30","amount":"1.00","surcharge":"0.00","discount":"0.00","charge_amount":"1.00","currency":"356","additional_info":{"additional_info1":"955","additional_info2":"iibfbcbfexam","additional_info3":"BCBF_NEW","additional_info4":"88"},"ru":"https:\/\/iibf.esdsconnect.com\/staging\/iibfbcbf\/apply_exam_individual\/handle_billdesk_response\/NzY=","txn_process_type":"qr","bankid":"HD5","itemcode":"DIRECT","bank_ref_no":"407148686127","auth_status":"0300","transaction_error_code":"TRS0000","transaction_error_desc":"Transaction Successful","transaction_error_type":"success","payment_method_type":"upi","refundInfo":[{"refundid":"ZHD518155182201","refund_amount":"1.00","currency":"356","refund_date":"2024-03-12T16:19:12+05:30","merc_refund_ref_no":"REF_955","refund_status":"0799","refund_arn":"407280046791"}],"payment_category":"10"}
+
+ refund found= 958={"objectid":"transaction","transactionid":"ZHD51816052319","orderid":"958","mercid":"INDINSBAF","transaction_date":"2024-03-11T15:41:37+05:30","amount":"1.00","surcharge":"0.00","discount":"0.00","charge_amount":"1.00","currency":"356","additional_info":{"additional_info1":"958","additional_info2":"iibfbcbfexam","additional_info3":"BCBF_NEW","additional_info4":"79"},"ru":"https:\/\/iibf.esdsconnect.com\/staging\/iibfbcbf\/apply_exam_individual\/handle_billdesk_response\/Nzg=","txn_process_type":"qr","bankid":"HD5","itemcode":"DIRECT","bank_ref_no":"407179113818","auth_status":"0300","transaction_error_code":"TRS0000","transaction_error_desc":"Transaction Successful","transaction_error_type":"success","payment_method_type":"upi","refundInfo":[{"refundid":"ZHD518160523191","refund_amount":"1.00","currency":"356","refund_date":"2024-03-12T16:18:39+05:30","merc_refund_ref_no":"REF_958","refund_status":"0799","refund_arn":"407280046745"}],"payment_category":"10"}
+
+ refund found= 966={"objectid":"transaction","transactionid":"ZHD51829026886","orderid":"966","mercid":"INDINSBAF","transaction_date":"2024-03-16T12:12:54+05:30","amount":"1.00","surcharge":"0.00","discount":"0.00","charge_amount":"1.00","currency":"356","additional_info":{"additional_info1":"966","additional_info2":"iibfbcbfexam","additional_info3":"BCBF_NEW","additional_info4":"114"},"ru":"https:\/\/iibf.esdsconnect.com\/staging\/iibfbcbf\/apply_exam_individual\/handle_billdesk_response\/MTE1","txn_process_type":"qr","bankid":"HD5","itemcode":"DIRECT","bank_ref_no":"407635271240","auth_status":"0300","transaction_error_code":"TRS0000","transaction_error_desc":"Transaction Successful","transaction_error_type":"success","payment_method_type":"upi","refundInfo":[{"refundid":"ZHD518290268861","refund_amount":"1.00","currency":"356","refund_date":"2024-03-27T19:20:05+05:30","merc_refund_ref_no":"REF_966","refund_status":"0799","refund_arn":"407635271240"}],"payment_category":"10"}
+
+ 1019=transaction|ZHD51902705898|1019|INDINSBAF|2024-04-12T16:29:23+05:30|1.00|0.00|0.00|1.00|356|Array|https://iibf.esdsconnect.com/staging/applyexam/handle_billdesk_response|qr|HD5|DIRECT|446927164365|0300|TRS0000|Transaction Successful|success|upi|10
+
+ 1019=transaction|ZHD51902705898|1019|INDINSBAF|2024-04-12T16:29:23+05:30|1.00|0.00|0.00|1.00|356|Array|https://iibf.esdsconnect.com/staging/applyexam/handle_billdesk_response|qr|HD5|DIRECT|446927164365|0300|TRS0000|Transaction Successful|success|upi|10
+
+ 1019=transaction|ZHD51902705898|1019|INDINSBAF|2024-04-12T16:29:23+05:30|1.00|0.00|0.00|1.00|356|Array|https://iibf.esdsconnect.com/staging/applyexam/handle_billdesk_response|qr|HD5|DIRECT|446927164365|0300|TRS0000|Transaction Successful|success|upi|10
+
+ 1019=transaction|ZHD51902705898|1019|INDINSBAF|2024-04-12T16:29:23+05:30|1.00|0.00|0.00|1.00|356|Array|https://iibf.esdsconnect.com/staging/applyexam/handle_billdesk_response|qr|HD5|DIRECT|446927164365|0300|TRS0000|Transaction Successful|success|upi|10
+
+ 1019=transaction|ZHD51902705898|1019|INDINSBAF|2024-04-12T16:29:23+05:30|1.00|0.00|0.00|1.00|356|Array|https://iibf.esdsconnect.com/staging/applyexam/handle_billdesk_response|qr|HD5|DIRECT|446927164365|0300|TRS0000|Transaction Successful|success|upi|10
+
+ 1021=transaction|ZHD51902802687|1021|INDINSBAF|2024-04-12T17:07:52+05:30|1.00|0.00|0.00|1.00|356|Array|https://iibf.esdsconnect.com/staging/applyexam/handle_billdesk_response|qr|HD5|DIRECT|446928567151|0300|TRS0000|Transaction Successful|success|upi|10
+
+ 1022=transaction|ZHD51902815574|1022|INDINSBAF|2024-04-12T17:12:50+05:30|1.00|0.00|0.00|1.00|356|Array|https://iibf.esdsconnect.com/staging/applyexam/handle_billdesk_response|qr|HD5|DIRECT|446928778146|0300|TRS0000|Transaction Successful|success|upi|10
+
+ 1023=transaction|ZHD51902826142|1023|INDINSBAF|2024-04-12T17:16:52+05:30|1.00|0.00|0.00|1.00|356|Array|https://iibf.esdsconnect.com/staging/NonMember/handle_billdesk_response|qr|HD5|DIRECT|446928950489|0300|TRS0000|Transaction Successful|success|upi|10
+
+ 1019=transaction|ZHD51902705898|1019|INDINSBAF|2024-04-12T16:29:23+05:30|1.00|0.00|0.00|1.00|356|Array|https://iibf.esdsconnect.com/staging/applyexam/handle_billdesk_response|qr|HD5|DIRECT|446927164365|0300|TRS0000|Transaction Successful|success|upi|10
+
+ 1021=transaction|ZHD51902802687|1021|INDINSBAF|2024-04-12T17:07:52+05:30|1.00|0.00|0.00|1.00|356|Array|https://iibf.esdsconnect.com/staging/applyexam/handle_billdesk_response|qr|HD5|DIRECT|446928567151|0300|TRS0000|Transaction Successful|success|upi|10
+
+ 1022=transaction|ZHD51902815574|1022|INDINSBAF|2024-04-12T17:12:50+05:30|1.00|0.00|0.00|1.00|356|Array|https://iibf.esdsconnect.com/staging/applyexam/handle_billdesk_response|qr|HD5|DIRECT|446928778146|0300|TRS0000|Transaction Successful|success|upi|10
+
+ 1023=transaction|ZHD51902826142|1023|INDINSBAF|2024-04-12T17:16:52+05:30|1.00|0.00|0.00|1.00|356|Array|https://iibf.esdsconnect.com/staging/NonMember/handle_billdesk_response|qr|HD5|DIRECT|446928950489|0300|TRS0000|Transaction Successful|success|upi|10
+
+ 1068=transaction|U1230002057618|1068|UATIIBFV2|2024-04-24T13:54:36+05:30|590.00|0.00|0.00|590.00|356|Array|https://iibf.esdsconnect.com/staging/ApplyElearning/handle_billdesk_response?login_type=global|nb|123|DIRECT|0300|TRS0000|Transaction Successful|success|netbanking|01
+
+ 1069=transaction|U1230002057619|1069|UATIIBFV2|2024-04-24T13:56:22+05:30|295.00|0.00|0.00|295.00|356|Array|https://iibf.esdsconnect.com/staging/ApplyElearning/handle_billdesk_response?login_type=global|nb|123|DIRECT|0300|TRS0000|Transaction Successful|success|netbanking|01
+
+ 1070=transaction|U1230002057621|1070|UATIIBFV2|2024-04-24T13:56:54+05:30|118.00|0.00|0.00|118.00|356|Array|https://iibf.esdsconnect.com/staging/ApplyElearning/handle_billdesk_response?login_type=global|nb|123|DIRECT|0399|TRPAE0001|Transaction not authorized|payment_authorization_error|netbanking|01
+
+ 1071=transaction|U1230002057624|1071|UATIIBFV2|2024-04-24T13:57:21+05:30|295.00|0.00|0.00|295.00|356|Array|https://iibf.esdsconnect.com/staging/ApplyElearning/handle_billdesk_response?login_type=global|nb|123|DIRECT|0399|TRPAE0001|Transaction not authorized|payment_authorization_error|netbanking|01
+
+ 1072=transaction|U1230002057625|1072|UATIIBFV2|2024-04-24T13:57:53+05:30|295.00|0.00|0.00|295.00|356|Array|https://iibf.esdsconnect.com/staging/ApplyElearning/handle_billdesk_response?login_type=global|nb|123|DIRECT|0002|TRP0000|Transaction Pending|pending|netbanking|redirect|Array|01
+
+ 1073=transaction|U1230002057626|1073|UATIIBFV2|2024-04-24T13:59:57+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc1|nb|123|DIRECT|0300|TRS0000|Transaction Successful|success|netbanking|01
+
+ 1074=transaction|U1230002057628|1074|UATIIBFV2|2024-04-24T14:00:32+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc2|nb|123|DIRECT|0300|TRS0000|Transaction Successful|success|netbanking|01
+
+ 1075=transaction|U1230002057630|1075|UATIIBFV2|2024-04-24T14:01:04+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc3|nb|123|DIRECT|0399|TRPAE0001|Transaction not authorized|payment_authorization_error|netbanking|01
+
+ 1076=transaction|U1230002057636|1076|UATIIBFV2|2024-04-24T14:02:10+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc4|nb|123|DIRECT|0399|TRPAE0001|Transaction not authorized|payment_authorization_error|netbanking|01
+
+ 1077=transaction|U1230002057639|1077|UATIIBFV2|2024-04-24T14:03:59+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc5|nb|123|DIRECT|0399|TRPAE0001|Transaction not authorized|payment_authorization_error|netbanking|01
+
+ 1070=transaction|U1230002057621|1070|UATIIBFV2|2024-04-24T13:56:54+05:30|118.00|0.00|0.00|118.00|356|Array|https://iibf.esdsconnect.com/staging/ApplyElearning/handle_billdesk_response?login_type=global|nb|123|DIRECT|0399|TRPAE0001|Transaction not authorized|payment_authorization_error|netbanking|01
+
+ 1071=transaction|U1230002057624|1071|UATIIBFV2|2024-04-24T13:57:21+05:30|295.00|0.00|0.00|295.00|356|Array|https://iibf.esdsconnect.com/staging/ApplyElearning/handle_billdesk_response?login_type=global|nb|123|DIRECT|0399|TRPAE0001|Transaction not authorized|payment_authorization_error|netbanking|01
+
+ 1072=transaction|U1230002057625|1072|UATIIBFV2|2024-04-24T13:57:53+05:30|295.00|0.00|0.00|295.00|356|Array|https://iibf.esdsconnect.com/staging/ApplyElearning/handle_billdesk_response?login_type=global|nb|123|DIRECT|0002|TRP0000|Transaction Pending|pending|netbanking|redirect|Array|01
+
+ 1073=transaction|U1230002057626|1073|UATIIBFV2|2024-04-24T13:59:57+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc1|nb|123|DIRECT|0300|TRS0000|Transaction Successful|success|netbanking|01
+
+ 1074=transaction|U1230002057628|1074|UATIIBFV2|2024-04-24T14:00:32+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc2|nb|123|DIRECT|0300|TRS0000|Transaction Successful|success|netbanking|01
+
+ 1075=transaction|U1230002057630|1075|UATIIBFV2|2024-04-24T14:01:04+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc3|nb|123|DIRECT|0399|TRPAE0001|Transaction not authorized|payment_authorization_error|netbanking|01
+
+ 1076=transaction|U1230002057636|1076|UATIIBFV2|2024-04-24T14:02:10+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc4|nb|123|DIRECT|0399|TRPAE0001|Transaction not authorized|payment_authorization_error|netbanking|01
+
+ 1077=transaction|U1230002057639|1077|UATIIBFV2|2024-04-24T14:03:59+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc5|nb|123|DIRECT|0399|TRPAE0001|Transaction not authorized|payment_authorization_error|netbanking|01
+
+ 1073=transaction|U1230002057626|1073|UATIIBFV2|2024-04-24T13:59:57+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc1|nb|123|DIRECT|0300|TRS0000|Transaction Successful|success|netbanking|01
+
+ 1074=transaction|U1230002057628|1074|UATIIBFV2|2024-04-24T14:00:32+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc2|nb|123|DIRECT|0300|TRS0000|Transaction Successful|success|netbanking|01
+
+ 1073=transaction|U1230002057626|1073|UATIIBFV2|2024-04-24T13:59:57+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc1|nb|123|DIRECT|0300|TRS0000|Transaction Successful|success|netbanking|01
+
+ 1074=transaction|U1230002057628|1074|UATIIBFV2|2024-04-24T14:00:32+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc2|nb|123|DIRECT|0300|TRS0000|Transaction Successful|success|netbanking|01
+
+ 1073=transaction|U1230002057626|1073|UATIIBFV2|2024-04-24T13:59:57+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc1|nb|123|DIRECT|0300|TRS0000|Transaction Successful|success|netbanking|01
+
+ 1074=transaction|U1230002057628|1074|UATIIBFV2|2024-04-24T14:00:32+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc2|nb|123|DIRECT|0300|TRS0000|Transaction Successful|success|netbanking|01
+
+ 1073=transaction|U1230002057626|1073|UATIIBFV2|2024-04-24T13:59:57+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc1|nb|123|DIRECT|0300|TRS0000|Transaction Successful|success|netbanking|01
+
+ 1074=transaction|U1230002057628|1074|UATIIBFV2|2024-04-24T14:00:32+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc2|nb|123|DIRECT|0300|TRS0000|Transaction Successful|success|netbanking|01
+
+ 1073=transaction|U1230002057626|1073|UATIIBFV2|2024-04-24T13:59:57+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc1|nb|123|DIRECT|0300|TRS0000|Transaction Successful|success|netbanking|01
+
+ 1074=transaction|U1230002057628|1074|UATIIBFV2|2024-04-24T14:00:32+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc2|nb|123|DIRECT|0300|TRS0000|Transaction Successful|success|netbanking|01
+
+ 1073=transaction|U1230002057626|1073|UATIIBFV2|2024-04-24T13:59:57+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc1|nb|123|DIRECT|0300|TRS0000|Transaction Successful|success|netbanking|01
+
+ 1074=transaction|U1230002057628|1074|UATIIBFV2|2024-04-24T14:00:32+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc2|nb|123|DIRECT|0300|TRS0000|Transaction Successful|success|netbanking|01
+
+ 1073=transaction|U1230002057626|1073|UATIIBFV2|2024-04-24T13:59:57+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc1|nb|123|DIRECT|0300|TRS0000|Transaction Successful|success|netbanking|01
+
+ 1074=transaction|U1230002057628|1074|UATIIBFV2|2024-04-24T14:00:32+05:30|944.00|0.00|0.00|944.00|356|Array|https://iibf.esdsconnect.com/staging/iibfbcbf/apply_exam_individual/handle_billdesk_response/MTc2|nb|123|DIRECT|0300|TRS0000|Transaction Successful|success|netbanking|01

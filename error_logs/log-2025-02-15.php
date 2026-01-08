@@ -1,0 +1,25 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2025-02-15 13:39:39 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('14', 'Faculty_Member_IT', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-02-15 13:39:44 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('17', 'In_charge', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-02-15 13:39:45 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('8', 'In_charge', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-02-15 13:39:47 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('15', 'In_charge', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-02-15 13:39:48 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('16', 'In_charge', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-02-15 13:39:50 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('7', 'Faculty_Member', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-02-15 13:39:52 --> 404 Page Not Found: Careers/Faculty_Member_IT
+ERROR - 2025-02-15 13:39:54 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('7', 'Faculty_Member', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-02-15 13:39:56 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('7', 'Faculty_Member', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-02-15 13:39:57 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('7', 'Faculty_Member', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-02-15 17:41:44 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('14', 'Faculty_Member_IT', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-02-15 17:41:52 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('17', 'In_charge', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-02-15 17:41:50 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('8', 'In_charge', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-02-15 17:41:52 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('15', 'In_charge', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-02-15 17:41:57 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('16', 'In_charge', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-02-15 17:41:59 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('7', 'Faculty_Member', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-02-15 17:41:57 --> 404 Page Not Found: Careers/Faculty_Member_IT
+ERROR - 2025-02-15 17:42:03 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('7', 'Faculty_Member', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-02-15 17:42:05 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('7', 'Faculty_Member', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-02-15 17:42:03 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('7', 'Faculty_Member', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-02-15 20:40:48 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-02-15 20:48:09 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-02-15 23:15:30 --> 404 Page Not Found: Uploads/exam_instruction

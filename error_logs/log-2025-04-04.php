@@ -1,0 +1,30 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2025-04-04 00:07:14 --> 404 Page Not Found: Uploads/SCRIBE_Guidelines_2022.pdf
+ERROR - 2025-04-04 00:49:02 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-04-04 04:46:17 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-04-04 05:27:48 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-04-04 05:48:30 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-04-04 08:13:31 --> 404 Page Not Found: Git/config
+ERROR - 2025-04-04 15:08:05 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-04 15:08:10 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-04 15:08:12 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-04 15:09:26 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-04 15:09:28 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-04 15:09:32 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-04 15:09:34 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-04 15:09:39 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-04 15:10:31 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-04 15:10:32 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-04 15:10:34 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-04 15:10:53 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-04 15:10:56 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-04 15:11:48 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-04 15:11:51 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-04 15:13:38 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-04 15:13:57 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-04 16:37:58 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-04-04 16:49:55 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-04-04 17:45:02 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-04-04 19:38:19 --> 404 Page Not Found: Git/config
+ERROR - 2025-04-04 20:19:58 --> 404 Page Not Found: Uploads/exam_instruction

@@ -1,0 +1,1102 @@
+
+ 812316438=1000169|7064127368622|BOOKED|IN|INR|3037219^iibfregn^3037219^812316438|812316438|1770|Transaction Booked|SBIN|NA|2022-05-06 23:26:20|NB|10001692022050603167|1000169|2.00^0.36||||||||||
+
+ 812316438=1000169|7064127368622|BOOKED|IN|INR|3037219^iibfregn^3037219^812316438|812316438|1770|Transaction Booked|SBIN|NA|2022-05-06 23:26:20|NB|10001692022050603167|1000169|2.00^0.36||||||||||
+
+ 812316453=1000169|NA|ABORT|IN|INR|3037247^iibfregn^3037247^812316453|812316453|1770|Transaction Aborted|NA|NA|2022-05-06 23:44:12|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316454=1000169|NA|No Records Found|NA|NA|NA|812316454|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316466=1000169|4790656603936|BOOKED|IN|INR|3037299^iibfregn^3037299^812316466|812316466|1770|Transaction Booked|sbiepay|NA|2022-05-07 00:31:56|CC|10001692022050700034|1000169|15.40^2.77||||||||||
+
+ 812316466=1000169|4790656603936|BOOKED|IN|INR|3037299^iibfregn^3037299^812316466|812316466|1770|Transaction Booked|sbiepay|NA|2022-05-07 00:31:56|CC|10001692022050700034|1000169|15.40^2.77||||||||||
+
+ 812316466=1000169|4790656603936|BOOKED|IN|INR|3037299^iibfregn^3037299^812316466|812316466|1770|Transaction Booked|sbiepay|NA|2022-05-07 00:31:56|CC|10001692022050700034|1000169|15.40^2.77||||||||||
+
+ 812316466=1000169|4790656603936|BOOKED|IN|INR|3037299^iibfregn^3037299^812316466|812316466|1770|Transaction Booked|sbiepay|NA|2022-05-07 00:31:56|CC|10001692022050700034|1000169|15.40^2.77||||||||||
+
+ 812316481=1000169|NA|No Records Found|NA|NA|NA|812316481|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316481=1000169|NA|No Records Found|NA|NA|NA|812316481|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316481=1000169|NA|No Records Found|NA|NA|NA|812316481|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316481=1000169|NA|No Records Found|NA|NA|NA|812316481|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316491=<!DOCTYPE HTML> 
+<html> 
+<body > 
+  <div class="logo" style="background-color: #fff; height: 80px;">
+  
+  </div>
+    <p class="main">
+		Site is under scheduled maintenance!
+	</p>
+	<p class="main1">We will be back online at</p>
+  
+<div id="clockdiv"> 
+  <!-- <div> 
+    <span class="days" id="day"></span> 
+    <div class="smalltext">Days</div> 
+  </div>  -->
+  
+  <div> 
+    <span class="hours" id="hour"></span> 
+    <div class="smalltext">Hours</div> 
+  </div> 
+  <div> 
+    <span class="minutes" id="minute"></span> 
+    <div class="smalltext">Minutes</div> 
+  </div> 
+  <div> 
+    <span class="seconds" id="second"></span> 
+    <div class="smalltext">Seconds</div> 
+  </div> 
+</div> 
+	<p class="headline">
+		To serve you better, we're upgrading our systems.
+		Your patience is appreciated.
+	</p>
+    <p class="headline">				
+		You can reach us at - <span style="font-weight:bold">sbiepay@sbi.co.in</span>
+	</p>
+<script> 
+
+var deadline = new Date("May 07 2022 08:30:00").getTime(); 
+  
+var x = setInterval(function() { 
+  
+var now = new Date().getTime(); 
+var t = deadline - now; 
+var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
+var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+var seconds = Math.floor((t % (1000 * 60)) / 1000); 
+// document.getElementById("day").innerHTML =days ; 
+document.getElementById("hour").innerHTML =hours; 
+document.getElementById("minute").innerHTML = minutes;  
+document.getElementById("second").innerHTML =seconds;  
+if (t < 0) { 
+        clearInterval(x); 
+        document.getElementById("demo").innerHTML = "TIME UP"; 
+        // document.getElementById("day").innerHTML ='0'; 
+        document.getElementById("hour").innerHTML ='0'; 
+        document.getElementById("minute").innerHTML ='0' ;  
+        document.getElementById("second").innerHTML = '0'; } 
+}, 1000); 
+</script> 
+</body> 
+<head> 
+<style> 
+body{ 
+  text-align: center; 
+/*background-image: linear-gradient(to right, #4facfe , #00f2fe ); */
+  background-repeat: no-repeat;
+  background-color:#000061;
+  font: 20px Helvetica, sans-serif;
+  font-weight: 100; 
+  margin: 0 auto;
+} 
+h1{ 
+  color: #fff; 
+  font-weight: 100; 
+  font-size: 50px; 
+  font: 20px Helvetica, sans-serif;
+  margin: 40px 0px 20px; 
+} 
+ #clockdiv{ 
+    font-family: sans-serif; 
+    color: #fff; 
+    display: inline-block; 
+    font-weight: 100; 
+    text-align: center; 
+    font-size: 25px;
+	height:150px;	
+} 
+#clockdiv > div{ 
+    padding: 10px; 
+    border-radius: 3px; 
+    background: #4facfe;
+    display: inline-block; 
+    border-radius: 8px;
+    margin-bottom: 100px;
+} 
+#clockdiv div > span{ 
+    padding: 15px; 
+    border-radius: 3px; 
+    display: inline-block; 
+} 
+smalltext{ 
+    padding-top: 5px; 
+    font-size: 16px; 
+} 
+h1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+.main{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+}
+.main1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+}
+p{
+  font: 20px Helvetica, sans-serif;
+  font-size: 23px;
+  color: #fff;
+}
+.headline{
+  font: 20px Helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  
+}
+
+.logo {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOsAAABBCAMAAAAHU6NvAAAABGdBTUEAALGPC/xhBQAAAsdQTFRFFG65KABwKABwKABwKABwAKnfKQB0KABwAKvhKABwKABwKABwKABwKABxKABxAKviKABwKABxAKngKABwAKrhAKngAKrhKAByKABwKABwKABwKABwAKnfKABwKABwKABwKABwAKviAKnfAKnfKABwKQB1KABwKABwAK3kKABwAKrhAKnfAKviAKngKABxAK3kKABwKABxKABwKABwKAByKAByAKviKABwKABwKABwKABwAKngAKrgAKngAKngAKrgAKrgKABwKABwKABwKABwAKrhKABwAKnfAKngAKzjKABwKABwAKnfKgB3KABxAKnfAKrgAKngAKnfAKngAKngKABwAKnfKABwAKnfAKviAKngAKngAKnfAKrhAKzkKABxOACeAKngAK3kAKngAKrhAKrgAKngAKngAKnfAKrgAKnfKABwKABwAKngKABwAKrgKABwKABwAKviKABwAKnfAKngKABwAKnfAKnfAKrgAKnfAKrhAKngAKnfAKnfAKrgKABxAKngAK7mAKzjAKviAKngAKnfALjyAKrgAKnfAKrgKABwALDpALLrAKnfAKngAKnfAKngAKngKABwAKngKABwKgB3AKnfMQCMALPsKABwAL35AKrgKABwKgB2KgB5ALjzLwCGALDpKABwAKngKgB3AOz/AKnfKABwALHqKABxKABwAKnfAKnfAKzjALjyKABwKABwAMb+KABwAMf9LQCAAMb6AMT2KABwAKnfAP3/AKnfAKnfPwCxAKnfKABwAKnfAAAALQB+AL36AMX/ALjzALv3ALbxKQByALTtALn0ALjyALHpALPtALXwAKzkALTuKwB6ALDoALPsAK7lAKngALr2ALHqKQB1ALLrAKvhAK3lAK3kKgB4AK7mKQBzALDpKABxAK/oKQB0KgB2ALbwAKviAKzjAKrhAKrgKAByKABwAKnfOY8kaQAAAMJ0Uk5TBqfBPsK2D5ompoO1RSUoFy8klG4ruD4Zu+y5s8udo3K+JOzULAljUxihRLU5VSId50KPiB4NMmm/8tSRckV2PGVsN0nkWn+3jidMlcEHHO5ul8+dmvbSX8UfX67lSBszAqcVokGIfmzfYcjgeFhaT/jIKdvnhaq+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);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 65px;
+	width: 100%;
+}
+
+</style> 
+</head> 
+</html>
+
+ 812316491=<!DOCTYPE HTML> 
+<html> 
+<body > 
+  <div class="logo" style="background-color: #fff; height: 80px;">
+  
+  </div>
+    <p class="main">
+		Site is under scheduled maintenance!
+	</p>
+	<p class="main1">We will be back online at</p>
+  
+<div id="clockdiv"> 
+  <!-- <div> 
+    <span class="days" id="day"></span> 
+    <div class="smalltext">Days</div> 
+  </div>  -->
+  
+  <div> 
+    <span class="hours" id="hour"></span> 
+    <div class="smalltext">Hours</div> 
+  </div> 
+  <div> 
+    <span class="minutes" id="minute"></span> 
+    <div class="smalltext">Minutes</div> 
+  </div> 
+  <div> 
+    <span class="seconds" id="second"></span> 
+    <div class="smalltext">Seconds</div> 
+  </div> 
+</div> 
+	<p class="headline">
+		To serve you better, we're upgrading our systems.
+		Your patience is appreciated.
+	</p>
+    <p class="headline">				
+		You can reach us at - <span style="font-weight:bold">sbiepay@sbi.co.in</span>
+	</p>
+<script> 
+
+var deadline = new Date("May 07 2022 08:30:00").getTime(); 
+  
+var x = setInterval(function() { 
+  
+var now = new Date().getTime(); 
+var t = deadline - now; 
+var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
+var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+var seconds = Math.floor((t % (1000 * 60)) / 1000); 
+// document.getElementById("day").innerHTML =days ; 
+document.getElementById("hour").innerHTML =hours; 
+document.getElementById("minute").innerHTML = minutes;  
+document.getElementById("second").innerHTML =seconds;  
+if (t < 0) { 
+        clearInterval(x); 
+        document.getElementById("demo").innerHTML = "TIME UP"; 
+        // document.getElementById("day").innerHTML ='0'; 
+        document.getElementById("hour").innerHTML ='0'; 
+        document.getElementById("minute").innerHTML ='0' ;  
+        document.getElementById("second").innerHTML = '0'; } 
+}, 1000); 
+</script> 
+</body> 
+<head> 
+<style> 
+body{ 
+  text-align: center; 
+/*background-image: linear-gradient(to right, #4facfe , #00f2fe ); */
+  background-repeat: no-repeat;
+  background-color:#000061;
+  font: 20px Helvetica, sans-serif;
+  font-weight: 100; 
+  margin: 0 auto;
+} 
+h1{ 
+  color: #fff; 
+  font-weight: 100; 
+  font-size: 50px; 
+  font: 20px Helvetica, sans-serif;
+  margin: 40px 0px 20px; 
+} 
+ #clockdiv{ 
+    font-family: sans-serif; 
+    color: #fff; 
+    display: inline-block; 
+    font-weight: 100; 
+    text-align: center; 
+    font-size: 25px;
+	height:150px;	
+} 
+#clockdiv > div{ 
+    padding: 10px; 
+    border-radius: 3px; 
+    background: #4facfe;
+    display: inline-block; 
+    border-radius: 8px;
+    margin-bottom: 100px;
+} 
+#clockdiv div > span{ 
+    padding: 15px; 
+    border-radius: 3px; 
+    display: inline-block; 
+} 
+smalltext{ 
+    padding-top: 5px; 
+    font-size: 16px; 
+} 
+h1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+.main{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+}
+.main1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+}
+p{
+  font: 20px Helvetica, sans-serif;
+  font-size: 23px;
+  color: #fff;
+}
+.headline{
+  font: 20px Helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  
+}
+
+.logo {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOsAAABBCAMAAAAHU6NvAAAABGdBTUEAALGPC/xhBQAAAsdQTFRFFG65KABwKABwKABwKABwAKnfKQB0KABwAKvhKABwKABwKABwKABwKABxKABxAKviKABwKABxAKngKABwAKrhAKngAKrhKAByKABwKABwKABwKABwAKnfKABwKABwKABwKABwAKviAKnfAKnfKABwKQB1KABwKABwAK3kKABwAKrhAKnfAKviAKngKABxAK3kKABwKABxKABwKABwKAByKAByAKviKABwKABwKABwKABwAKngAKrgAKngAKngAKrgAKrgKABwKABwKABwKABwAKrhKABwAKnfAKngAKzjKABwKABwAKnfKgB3KABxAKnfAKrgAKngAKnfAKngAKngKABwAKnfKABwAKnfAKviAKngAKngAKnfAKrhAKzkKABxOACeAKngAK3kAKngAKrhAKrgAKngAKngAKnfAKrgAKnfKABwKABwAKngKABwAKrgKABwKABwAKviKABwAKnfAKngKABwAKnfAKnfAKrgAKnfAKrhAKngAKnfAKnfAKrgKABxAKngAK7mAKzjAKviAKngAKnfALjyAKrgAKnfAKrgKABwALDpALLrAKnfAKngAKnfAKngAKngKABwAKngKABwKgB3AKnfMQCMALPsKABwAL35AKrgKABwKgB2KgB5ALjzLwCGALDpKABwAKngKgB3AOz/AKnfKABwALHqKABxKABwAKnfAKnfAKzjALjyKABwKABwAMb+KABwAMf9LQCAAMb6AMT2KABwAKnfAP3/AKnfAKnfPwCxAKnfKABwAKnfAAAALQB+AL36AMX/ALjzALv3ALbxKQByALTtALn0ALjyALHpALPtALXwAKzkALTuKwB6ALDoALPsAK7lAKngALr2ALHqKQB1ALLrAKvhAK3lAK3kKgB4AK7mKQBzALDpKABxAK/oKQB0KgB2ALbwAKviAKzjAKrhAKrgKAByKABwAKnfOY8kaQAAAMJ0Uk5TBqfBPsK2D5ompoO1RSUoFy8klG4ruD4Zu+y5s8udo3K+JOzULAljUxihRLU5VSId50KPiB4NMmm/8tSRckV2PGVsN0nkWn+3jidMlcEHHO5ul8+dmvbSX8UfX67lSBszAqcVokGIfmzfYcjgeFhaT/jIKdvnhaq+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);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 65px;
+	width: 100%;
+}
+
+</style> 
+</head> 
+</html>
+
+ 812316492=<!DOCTYPE HTML> 
+<html> 
+<body > 
+  <div class="logo" style="background-color: #fff; height: 80px;">
+  
+  </div>
+    <p class="main">
+		Site is under scheduled maintenance!
+	</p>
+	<p class="main1">We will be back online at</p>
+  
+<div id="clockdiv"> 
+  <!-- <div> 
+    <span class="days" id="day"></span> 
+    <div class="smalltext">Days</div> 
+  </div>  -->
+  
+  <div> 
+    <span class="hours" id="hour"></span> 
+    <div class="smalltext">Hours</div> 
+  </div> 
+  <div> 
+    <span class="minutes" id="minute"></span> 
+    <div class="smalltext">Minutes</div> 
+  </div> 
+  <div> 
+    <span class="seconds" id="second"></span> 
+    <div class="smalltext">Seconds</div> 
+  </div> 
+</div> 
+	<p class="headline">
+		To serve you better, we're upgrading our systems.
+		Your patience is appreciated.
+	</p>
+    <p class="headline">				
+		You can reach us at - <span style="font-weight:bold">sbiepay@sbi.co.in</span>
+	</p>
+<script> 
+
+var deadline = new Date("May 07 2022 08:30:00").getTime(); 
+  
+var x = setInterval(function() { 
+  
+var now = new Date().getTime(); 
+var t = deadline - now; 
+var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
+var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+var seconds = Math.floor((t % (1000 * 60)) / 1000); 
+// document.getElementById("day").innerHTML =days ; 
+document.getElementById("hour").innerHTML =hours; 
+document.getElementById("minute").innerHTML = minutes;  
+document.getElementById("second").innerHTML =seconds;  
+if (t < 0) { 
+        clearInterval(x); 
+        document.getElementById("demo").innerHTML = "TIME UP"; 
+        // document.getElementById("day").innerHTML ='0'; 
+        document.getElementById("hour").innerHTML ='0'; 
+        document.getElementById("minute").innerHTML ='0' ;  
+        document.getElementById("second").innerHTML = '0'; } 
+}, 1000); 
+</script> 
+</body> 
+<head> 
+<style> 
+body{ 
+  text-align: center; 
+/*background-image: linear-gradient(to right, #4facfe , #00f2fe ); */
+  background-repeat: no-repeat;
+  background-color:#000061;
+  font: 20px Helvetica, sans-serif;
+  font-weight: 100; 
+  margin: 0 auto;
+} 
+h1{ 
+  color: #fff; 
+  font-weight: 100; 
+  font-size: 50px; 
+  font: 20px Helvetica, sans-serif;
+  margin: 40px 0px 20px; 
+} 
+ #clockdiv{ 
+    font-family: sans-serif; 
+    color: #fff; 
+    display: inline-block; 
+    font-weight: 100; 
+    text-align: center; 
+    font-size: 25px;
+	height:150px;	
+} 
+#clockdiv > div{ 
+    padding: 10px; 
+    border-radius: 3px; 
+    background: #4facfe;
+    display: inline-block; 
+    border-radius: 8px;
+    margin-bottom: 100px;
+} 
+#clockdiv div > span{ 
+    padding: 15px; 
+    border-radius: 3px; 
+    display: inline-block; 
+} 
+smalltext{ 
+    padding-top: 5px; 
+    font-size: 16px; 
+} 
+h1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+.main{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+}
+.main1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+}
+p{
+  font: 20px Helvetica, sans-serif;
+  font-size: 23px;
+  color: #fff;
+}
+.headline{
+  font: 20px Helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  
+}
+
+.logo {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOsAAABBCAMAAAAHU6NvAAAABGdBTUEAALGPC/xhBQAAAsdQTFRFFG65KABwKABwKABwKABwAKnfKQB0KABwAKvhKABwKABwKABwKABwKABxKABxAKviKABwKABxAKngKABwAKrhAKngAKrhKAByKABwKABwKABwKABwAKnfKABwKABwKABwKABwAKviAKnfAKnfKABwKQB1KABwKABwAK3kKABwAKrhAKnfAKviAKngKABxAK3kKABwKABxKABwKABwKAByKAByAKviKABwKABwKABwKABwAKngAKrgAKngAKngAKrgAKrgKABwKABwKABwKABwAKrhKABwAKnfAKngAKzjKABwKABwAKnfKgB3KABxAKnfAKrgAKngAKnfAKngAKngKABwAKnfKABwAKnfAKviAKngAKngAKnfAKrhAKzkKABxOACeAKngAK3kAKngAKrhAKrgAKngAKngAKnfAKrgAKnfKABwKABwAKngKABwAKrgKABwKABwAKviKABwAKnfAKngKABwAKnfAKnfAKrgAKnfAKrhAKngAKnfAKnfAKrgKABxAKngAK7mAKzjAKviAKngAKnfALjyAKrgAKnfAKrgKABwALDpALLrAKnfAKngAKnfAKngAKngKABwAKngKABwKgB3AKnfMQCMALPsKABwAL35AKrgKABwKgB2KgB5ALjzLwCGALDpKABwAKngKgB3AOz/AKnfKABwALHqKABxKABwAKnfAKnfAKzjALjyKABwKABwAMb+KABwAMf9LQCAAMb6AMT2KABwAKnfAP3/AKnfAKnfPwCxAKnfKABwAKnfAAAALQB+AL36AMX/ALjzALv3ALbxKQByALTtALn0ALjyALHpALPtALXwAKzkALTuKwB6ALDoALPsAK7lAKngALr2ALHqKQB1ALLrAKvhAK3lAK3kKgB4AK7mKQBzALDpKABxAK/oKQB0KgB2ALbwAKviAKzjAKrhAKrgKAByKABwAKnfOY8kaQAAAMJ0Uk5TBqfBPsK2D5ompoO1RSUoFy8klG4ruD4Zu+y5s8udo3K+JOzULAljUxihRLU5VSId50KPiB4NMmm/8tSRckV2PGVsN0nkWn+3jidMlcEHHO5ul8+dmvbSX8UfX67lSBszAqcVokGIfmzfYcjgeFhaT/jIKdvnhaq+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);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 65px;
+	width: 100%;
+}
+
+</style> 
+</head> 
+</html>
+
+ 812316491=
+
+ 812316492=
+
+ 812316493=
+
+ 812316494=
+
+ 812316491=1000169|NA|No Records Found|NA|NA|NA|812316491|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316492=1000169|NA|No Records Found|NA|NA|NA|812316492|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316493=1000169|NA|No Records Found|NA|NA|NA|812316493|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316494=1000169|NA|No Records Found|NA|NA|NA|812316494|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316492=1000169||1000169|812316492
+
+ 812316493=1000169|NA|No Records Found|NA|NA|NA|812316493|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316494=1000169||1000169|812316494
+
+ 812316495=1000169|NA|No Records Found|NA|NA|NA|812316495|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316493=1000169|NA|No Records Found|NA|NA|NA|812316493|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316494=1000169|NA|No Records Found|NA|NA|NA|812316494|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316495=1000169|NA|No Records Found|NA|NA|NA|812316495|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316496=1000169|NA|No Records Found|NA|NA|NA|812316496|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316497=1000169||1000169|812316497
+
+ 812316498=1000169|NA|No Records Found|NA|NA|NA|812316498|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316499=1000169|NA|No Records Found|NA|NA|NA|812316499|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316495=1000169|NA|No Records Found|NA|NA|NA|812316495|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316496=1000169|NA|No Records Found|NA|NA|NA|812316496|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316497=1000169|NA|No Records Found|NA|NA|NA|812316497|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316498=1000169|NA|No Records Found|NA|NA|NA|812316498|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316499=1000169|NA|No Records Found|NA|NA|NA|812316499|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316500=1000169|NA|No Records Found|NA|NA|NA|812316500|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316501=1000169|NA|No Records Found|NA|NA|NA|812316501|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316502=1000169|NA|No Records Found|NA|NA|NA|812316502|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316503=1000169|NA|No Records Found|NA|NA|NA|812316503|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316495=1000169|NA|No Records Found|NA|NA|NA|812316495|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316496=1000169|NA|No Records Found|NA|NA|NA|812316496|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316497=1000169|NA|No Records Found|NA|NA|NA|812316497|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316498=1000169|NA|No Records Found|NA|NA|NA|812316498|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316499=1000169|NA|No Records Found|NA|NA|NA|812316499|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316500=1000169|NA|No Records Found|NA|NA|NA|812316500|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316501=1000169|NA|No Records Found|NA|NA|NA|812316501|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316502=1000169|NA|No Records Found|NA|NA|NA|812316502|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316503=1000169|NA|No Records Found|NA|NA|NA|812316503|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316504=1000169|NA|No Records Found|NA|NA|NA|812316504|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316496=1000169|NA|No Records Found|NA|NA|NA|812316496|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316497=1000169|NA|No Records Found|NA|NA|NA|812316497|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316498=1000169|NA|No Records Found|NA|NA|NA|812316498|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316499=1000169|NA|No Records Found|NA|NA|NA|812316499|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316500=1000169|NA|No Records Found|NA|NA|NA|812316500|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316501=1000169|NA|No Records Found|NA|NA|NA|812316501|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316502=1000169|NA|No Records Found|NA|NA|NA|812316502|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316503=1000169|NA|No Records Found|NA|NA|NA|812316503|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316504=1000169|NA|No Records Found|NA|NA|NA|812316504|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316505=1000169|NA|No Records Found|NA|NA|NA|812316505|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316506=1000169|NA|No Records Found|NA|NA|NA|812316506|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316500=1000169|NA|No Records Found|NA|NA|NA|812316500|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316501=1000169|NA|No Records Found|NA|NA|NA|812316501|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316502=1000169|NA|No Records Found|NA|NA|NA|812316502|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316503=1000169|NA|No Records Found|NA|NA|NA|812316503|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316504=1000169|NA|No Records Found|NA|NA|NA|812316504|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316505=1000169|NA|No Records Found|NA|NA|NA|812316505|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316506=1000169|NA|No Records Found|NA|NA|NA|812316506|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316504=1000169|NA|No Records Found|NA|NA|NA|812316504|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316505=1000169|NA|No Records Found|NA|NA|NA|812316505|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316506=1000169|NA|No Records Found|NA|NA|NA|812316506|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316505=1000169|NA|No Records Found|NA|NA|NA|812316505|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316506=1000169|NA|No Records Found|NA|NA|NA|812316506|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316512=1000169|NA|No Records Found|NA|NA|NA|812316512|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316513=1000169|NA|No Records Found|NA|NA|NA|812316513|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316514=1000169|NA|No Records Found|NA|NA|NA|812316514|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316512=1000169|NA|No Records Found|NA|NA|NA|812316512|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316513=1000169|NA|No Records Found|NA|NA|NA|812316513|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316514=1000169|NA|No Records Found|NA|NA|NA|812316514|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316512=1000169|NA|No Records Found|NA|NA|NA|812316512|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316513=1000169|NA|No Records Found|NA|NA|NA|812316513|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316514=1000169|NA|No Records Found|NA|NA|NA|812316514|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316512=1000169|NA|No Records Found|NA|NA|NA|812316512|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316513=1000169|NA|No Records Found|NA|NA|NA|812316513|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316514=1000169|NA|No Records Found|NA|NA|NA|812316514|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316529=1000169|9904796834919|BOOKED|IN|INR|3037452^iibfregn^3037452^812316529|812316529|1770|Transaction Booked|sbiepay|NA|2022-05-07 08:20:11|DC|10001692022050700280|1000169|0.00^0.00||||||||||
+
+ 812316529=1000169|9904796834919|BOOKED|IN|INR|3037452^iibfregn^3037452^812316529|812316529|1770|Transaction Booked|sbiepay|NA|2022-05-07 08:20:11|DC|10001692022050700280|1000169|0.00^0.00||||||||||
+
+ 812316529=1000169|9904796834919|BOOKED|IN|INR|3037452^iibfregn^3037452^812316529|812316529|1770|Transaction Booked|sbiepay|NA|2022-05-07 08:20:11|DC|10001692022050700280|1000169|0.00^0.00||||||||||
+
+ 812316529=1000169|9904796834919|BOOKED|IN|INR|3037452^iibfregn^3037452^812316529|812316529|1770|Transaction Booked|sbiepay|NA|2022-05-07 08:20:11|DC|10001692022050700280|1000169|0.00^0.00||||||||||
+
+ 812316538=1000169|NA|No Records Found|NA|NA|NA|812316538|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316538=1000169|NA|No Records Found|NA|NA|NA|812316538|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316538=1000169|NA|No Records Found|NA|NA|NA|812316538|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316538=1000169|NA|No Records Found|NA|NA|NA|812316538|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316546=1000169|8130622197717|BOOKED|IN|INR|3037569^iibfregn^3037569^812316546|812316546|1770|Transaction Booked|SBIN|NA|2022-05-07 09:38:57|UPI|10001692022050700421|1000169|0.00^0.00||||||||||
+
+ 812316546=1000169|8130622197717|BOOKED|IN|INR|3037569^iibfregn^3037569^812316546|812316546|1770|Transaction Booked|SBIN|NA|2022-05-07 09:38:57|UPI|10001692022050700421|1000169|0.00^0.00||||||||||
+
+ 812316546=1000169|8130622197717|BOOKED|IN|INR|3037569^iibfregn^3037569^812316546|812316546|1770|Transaction Booked|SBIN|NA|2022-05-07 09:38:57|UPI|10001692022050700421|1000169|0.00^0.00||||||||||
+
+ 812316546=1000169|8130622197717|BOOKED|IN|INR|3037569^iibfregn^3037569^812316546|812316546|1770|Transaction Booked|SBIN|NA|2022-05-07 09:38:57|UPI|10001692022050700421|1000169|0.00^0.00||||||||||
+
+ 812316558=1000169|NA|ABORT|IN|INR|3037618^iibfregn^3037618^812316558|812316558|1770|Transaction Aborted|NA|NA|2022-05-07 10:04:05|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316575=1000169|3210080867419|BOOKED|IN|INR|3037712^iibfregn^3037712^812316575|812316575|1770|Transaction Booked|SBIN|NA|2022-05-07 10:51:04|NB|10001692022050700610|1000169|2.00^0.36||||||||||
+
+ 812316575=1000169|3210080867419|BOOKED|IN|INR|3037712^iibfregn^3037712^812316575|812316575|1770|Transaction Booked|SBIN|NA|2022-05-07 10:51:04|NB|10001692022050700610|1000169|2.00^0.36||||||||||
+
+ 812316579=1000169|NA|No Records Found|NA|NA|NA|812316579|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316575=1000169|3210080867419|BOOKED|IN|INR|3037712^iibfregn^3037712^812316575|812316575|1770|Transaction Booked|SBIN|NA|2022-05-07 10:51:04|NB|10001692022050700610|1000169|2.00^0.36||||||||||
+
+ 812316579=1000169|NA|No Records Found|NA|NA|NA|812316579|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316575=1000169|3210080867419|BOOKED|IN|INR|3037712^iibfregn^3037712^812316575|812316575|1770|Transaction Booked|SBIN|NA|2022-05-07 10:51:04|NB|10001692022050700610|1000169|2.00^0.36||||||||||
+
+ 812316579=1000169|NA|No Records Found|NA|NA|NA|812316579|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316579=1000169|NA|No Records Found|NA|NA|NA|812316579|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316593=1000169|2414126598215|BOOKED|IN|INR|3037788^iibfregn^3037788^812316593|812316593|1770|Transaction Booked|sbiepay|NA|2022-05-07 11:22:54|DC|10001692022050700697|1000169|0.00^0.00||||||||||
+
+ 812316593=1000169|2414126598215|BOOKED|IN|INR|3037788^iibfregn^3037788^812316593|812316593|1770|Transaction Booked|sbiepay|NA|2022-05-07 11:22:54|DC|10001692022050700697|1000169|0.00^0.00||||||||||
+
+ 812316595=1000169|NA|No Records Found|NA|NA|NA|812316595|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316596=1000169|1812919174127|BOOKED|IN|INR|3037813^iibfregn^3037813^812316596|812316596|1770|Transaction Booked|sbiepay|NA|2022-05-07 11:32:54|DC|10001692022050700714|1000169|0.00^0.00||||||||||
+
+ 812316593=1000169|2414126598215|BOOKED|IN|INR|3037788^iibfregn^3037788^812316593|812316593|1770|Transaction Booked|sbiepay|NA|2022-05-07 11:22:54|DC|10001692022050700697|1000169|0.00^0.00||||||||||
+
+ 812316595=1000169|NA|No Records Found|NA|NA|NA|812316595|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316596=1000169|1812919174127|BOOKED|IN|INR|3037813^iibfregn^3037813^812316596|812316596|1770|Transaction Booked|sbiepay|NA|2022-05-07 11:32:54|DC|10001692022050700714|1000169|0.00^0.00||||||||||
+
+ 812316593=1000169|2414126598215|BOOKED|IN|INR|3037788^iibfregn^3037788^812316593|812316593|1770|Transaction Booked|sbiepay|NA|2022-05-07 11:22:54|DC|10001692022050700697|1000169|0.00^0.00||||||||||
+
+ 812316595=1000169|NA|No Records Found|NA|NA|NA|812316595|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316596=1000169|1812919174127|BOOKED|IN|INR|3037813^iibfregn^3037813^812316596|812316596|1770|Transaction Booked|sbiepay|NA|2022-05-07 11:32:54|DC|10001692022050700714|1000169|0.00^0.00||||||||||
+
+ 812316603=1000169|NA|No Records Found|NA|NA|NA|812316603|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316595=1000169|NA|No Records Found|NA|NA|NA|812316595|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316596=1000169|1812919174127|BOOKED|IN|INR|3037813^iibfregn^3037813^812316596|812316596|1770|Transaction Booked|sbiepay|NA|2022-05-07 11:32:54|DC|10001692022050700714|1000169|0.00^0.00||||||||||
+
+ 812316603=1000169|NA|No Records Found|NA|NA|NA|812316603|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316603=1000169|NA|No Records Found|NA|NA|NA|812316603|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316603=1000169|NA|No Records Found|NA|NA|NA|812316603|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316610=1000169|NA|No Records Found|NA|NA|NA|812316610|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316610=1000169|NA|No Records Found|NA|NA|NA|812316610|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316610=1000169|NA|No Records Found|NA|NA|NA|812316610|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316610=1000169|NA|No Records Found|NA|NA|NA|812316610|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316618=1000169|5392169285115|BOOKED|IN|INR|3038090^iibfregn^3038090^812316618|812316618|1770|Transaction Booked|sbiepay|NA|2022-05-07 13:22:41|DC|10001692022050700862|1000169|0.00^0.00||||||||||
+
+ 812316619=1000169|NA|No Records Found|NA|NA|NA|812316619|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316620=1000169|NA|No Records Found|NA|NA|NA|812316620|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316621=1000169|NA|No Records Found|NA|NA|NA|812316621|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316618=1000169|5392169285115|BOOKED|IN|INR|3038090^iibfregn^3038090^812316618|812316618|1770|Transaction Booked|sbiepay|NA|2022-05-07 13:22:41|DC|10001692022050700862|1000169|0.00^0.00||||||||||
+
+ 812316619=1000169|NA|No Records Found|NA|NA|NA|812316619|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316620=1000169|NA|No Records Found|NA|NA|NA|812316620|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316621=1000169|NA|No Records Found|NA|NA|NA|812316621|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316618=1000169|5392169285115|BOOKED|IN|INR|3038090^iibfregn^3038090^812316618|812316618|1770|Transaction Booked|sbiepay|NA|2022-05-07 13:22:41|DC|10001692022050700862|1000169|0.00^0.00||||||||||
+
+ 812316619=1000169|NA|No Records Found|NA|NA|NA|812316619|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316620=1000169|NA|No Records Found|NA|NA|NA|812316620|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316621=1000169|NA|No Records Found|NA|NA|NA|812316621|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316618=1000169|5392169285115|BOOKED|IN|INR|3038090^iibfregn^3038090^812316618|812316618|1770|Transaction Booked|sbiepay|NA|2022-05-07 13:22:41|DC|10001692022050700862|1000169|0.00^0.00||||||||||
+
+ 812316619=1000169|NA|No Records Found|NA|NA|NA|812316619|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316620=1000169|NA|No Records Found|NA|NA|NA|812316620|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316621=1000169|NA|No Records Found|NA|NA|NA|812316621|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316629=1000169|NA|No Records Found|NA|NA|NA|812316629|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316630=1000169|NA|ABORT|IN|INR|3038152^iibfregn^3038152^812316630|812316630|1770|Transaction Aborted|NA|NA|2022-05-07 13:44:15|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316631=1000169|NA|ABORT|IN|INR|3038153^iibfregn^3038153^812316631|812316631|1770|Your session has expired. Please re-attempt the transaction.|NA|NA|2022-05-07 13:44:34|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316629=1000169|NA|No Records Found|NA|NA|NA|812316629|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316633=1000169|6931892334729|BOOKED|IN|INR|3038158^iibfregn^3038158^812316633|812316633|1770|Transaction Booked|SBIN|NA|2022-05-07 13:49:51|UPI|10001692022050700943|1000169|0.00^0.00||||||||||
+
+ 812316629=1000169|NA|No Records Found|NA|NA|NA|812316629|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316633=1000169|6931892334729|BOOKED|IN|INR|3038158^iibfregn^3038158^812316633|812316633|1770|Transaction Booked|SBIN|NA|2022-05-07 13:49:51|UPI|10001692022050700943|1000169|0.00^0.00||||||||||
+
+ 812316629=1000169|NA|No Records Found|NA|NA|NA|812316629|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316633=1000169|6931892334729|BOOKED|IN|INR|3038158^iibfregn^3038158^812316633|812316633|1770|Transaction Booked|SBIN|NA|2022-05-07 13:49:51|UPI|10001692022050700943|1000169|0.00^0.00||||||||||
+
+ 812316633=1000169|6931892334729|BOOKED|IN|INR|3038158^iibfregn^3038158^812316633|812316633|1770|Transaction Booked|SBIN|NA|2022-05-07 13:49:51|UPI|10001692022050700943|1000169|0.00^0.00||||||||||
+
+ 812316645=1000169|NA|No Records Found|NA|NA|NA|812316645|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316645=1000169|NA|No Records Found|NA|NA|NA|812316645|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316649=1000169|4095294701835|BOOKED|IN|INR|3038256^iibfregn^3038256^812316649|812316649|1770|Transaction Booked|SBIN|NA|2022-05-07 14:33:46|UPI|10001692022050701050|1000169|0.00^0.00||||||||||
+
+ 812316645=1000169|NA|No Records Found|NA|NA|NA|812316645|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316649=1000169|4095294701835|BOOKED|IN|INR|3038256^iibfregn^3038256^812316649|812316649|1770|Transaction Booked|SBIN|NA|2022-05-07 14:33:46|UPI|10001692022050701050|1000169|0.00^0.00||||||||||
+
+ 812316645=1000169|NA|No Records Found|NA|NA|NA|812316645|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316649=1000169|4095294701835|BOOKED|IN|INR|3038256^iibfregn^3038256^812316649|812316649|1770|Transaction Booked|SBIN|NA|2022-05-07 14:33:46|UPI|10001692022050701050|1000169|0.00^0.00||||||||||
+
+ 812316657=1000169|9437518632117|BOOKED|IN|INR|3038280^iibfregn^3038280^812316657|812316657|1770|Transaction Booked|sbiepay|NA|2022-05-07 14:44:32|DC|10001692022050701083|1000169|0.00^0.00||||||||||
+
+ 812316649=1000169|4095294701835|BOOKED|IN|INR|3038256^iibfregn^3038256^812316649|812316649|1770|Transaction Booked|SBIN|NA|2022-05-07 14:33:46|UPI|10001692022050701050|1000169|0.00^0.00||||||||||
+
+ 812316657=1000169|9437518632117|BOOKED|IN|INR|3038280^iibfregn^3038280^812316657|812316657|1770|Transaction Booked|sbiepay|NA|2022-05-07 14:44:32|DC|10001692022050701083|1000169|0.00^0.00||||||||||
+
+ 812316659=1000169|2654226629933|BOOKED|IN|INR|3038295^iibfregn^3038295^812316659|812316659|1770|Transaction Booked|JAKA|NA|2022-05-07 14:48:36|NB|10001692022050701095|1000169|2.00^0.36||||||||||
+
+ 812316657=1000169|9437518632117|BOOKED|IN|INR|3038280^iibfregn^3038280^812316657|812316657|1770|Transaction Booked|sbiepay|NA|2022-05-07 14:44:32|DC|10001692022050701083|1000169|0.00^0.00||||||||||
+
+ 812316659=1000169|2654226629933|BOOKED|IN|INR|3038295^iibfregn^3038295^812316659|812316659|1770|Transaction Booked|JAKA|NA|2022-05-07 14:48:36|NB|10001692022050701095|1000169|2.00^0.36||||||||||
+
+ 812316657=1000169|9437518632117|BOOKED|IN|INR|3038280^iibfregn^3038280^812316657|812316657|1770|Transaction Booked|sbiepay|NA|2022-05-07 14:44:32|DC|10001692022050701083|1000169|0.00^0.00||||||||||
+
+ 812316659=1000169|2654226629933|BOOKED|IN|INR|3038295^iibfregn^3038295^812316659|812316659|1770|Transaction Booked|JAKA|NA|2022-05-07 14:48:36|NB|10001692022050701095|1000169|2.00^0.36||||||||||
+
+ 812316659=1000169|2654226629933|BOOKED|IN|INR|3038295^iibfregn^3038295^812316659|812316659|1770|Transaction Booked|JAKA|NA|2022-05-07 14:48:36|NB|10001692022050701095|1000169|2.00^0.36||||||||||
+
+ 812316667=1000169|7961539141519|BOOKED|IN|INR|3038322^iibfregn^3038322^812316667|812316667|1770|Transaction Booked|sbiepay|NA|2022-05-07 15:02:48|DC|10001692022050701148|1000169|0.00^0.00||||||||||
+
+ 812316668=1000169|9293877963325|BOOKED|IN|INR|3038324^iibfregn^3038324^812316668|812316668|1770|Transaction Booked|SBIN|NA|2022-05-07 15:02:59|UPI|10001692022050701149|1000169|0.00^0.00||||||||||
+
+ 812316667=1000169|7961539141519|BOOKED|IN|INR|3038322^iibfregn^3038322^812316667|812316667|1770|Transaction Booked|sbiepay|NA|2022-05-07 15:02:48|DC|10001692022050701148|1000169|0.00^0.00||||||||||
+
+ 812316668=1000169|9293877963325|BOOKED|IN|INR|3038324^iibfregn^3038324^812316668|812316668|1770|Transaction Booked|SBIN|NA|2022-05-07 15:02:59|UPI|10001692022050701149|1000169|0.00^0.00||||||||||
+
+ 812316669=1000169|NA|No Records Found|NA|NA|NA|812316669|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316671=1000169|NA|No Records Found|NA|NA|NA|812316671|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316667=1000169|7961539141519|BOOKED|IN|INR|3038322^iibfregn^3038322^812316667|812316667|1770|Transaction Booked|sbiepay|NA|2022-05-07 15:02:48|DC|10001692022050701148|1000169|0.00^0.00||||||||||
+
+ 812316668=1000169|9293877963325|BOOKED|IN|INR|3038324^iibfregn^3038324^812316668|812316668|1770|Transaction Booked|SBIN|NA|2022-05-07 15:02:59|UPI|10001692022050701149|1000169|0.00^0.00||||||||||
+
+ 812316669=1000169|NA|No Records Found|NA|NA|NA|812316669|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316671=1000169|NA|No Records Found|NA|NA|NA|812316671|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316675=1000169|1077380070017|BOOKED|IN|INR|3038353^iibfregn^3038353^812316675|812316675|1770|Transaction Booked|SBIN|NA|2022-05-07 15:14:20|UPI|10001692022050701188|1000169|0.00^0.00||||||||||
+
+ 812316667=1000169|7961539141519|BOOKED|IN|INR|3038322^iibfregn^3038322^812316667|812316667|1770|Transaction Booked|sbiepay|NA|2022-05-07 15:02:48|DC|10001692022050701148|1000169|0.00^0.00||||||||||
+
+ 812316668=1000169|9293877963325|BOOKED|IN|INR|3038324^iibfregn^3038324^812316668|812316668|1770|Transaction Booked|SBIN|NA|2022-05-07 15:02:59|UPI|10001692022050701149|1000169|0.00^0.00||||||||||
+
+ 812316669=1000169|NA|No Records Found|NA|NA|NA|812316669|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316671=1000169|NA|No Records Found|NA|NA|NA|812316671|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316675=1000169|1077380070017|BOOKED|IN|INR|3038353^iibfregn^3038353^812316675|812316675|1770|Transaction Booked|SBIN|NA|2022-05-07 15:14:20|UPI|10001692022050701188|1000169|0.00^0.00||||||||||
+
+ 812316676=1000169|6479434351619|BOOKED|IN|INR|3038358^iibfregn^3038358^812316676|812316676|1770|Transaction Booked|sbiepay|NA|2022-05-07 15:17:58|DC|10001692022050701199|1000169|0.00^0.00||||||||||
+
+ 812316669=1000169|NA|No Records Found|NA|NA|NA|812316669|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316671=1000169|NA|No Records Found|NA|NA|NA|812316671|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316675=1000169|1077380070017|BOOKED|IN|INR|3038353^iibfregn^3038353^812316675|812316675|1770|Transaction Booked|SBIN|NA|2022-05-07 15:14:20|UPI|10001692022050701188|1000169|0.00^0.00||||||||||
+
+ 812316676=1000169|6479434351619|BOOKED|IN|INR|3038358^iibfregn^3038358^812316676|812316676|1770|Transaction Booked|sbiepay|NA|2022-05-07 15:17:58|DC|10001692022050701199|1000169|0.00^0.00||||||||||
+
+ 812316680=1000169|4569068516639|BOOKED|IN|INR|3038374^iibfregn^3038374^812316680|812316680|1770|Transaction Booked|SBIN|NA|2022-05-07 15:26:22|UPI|10001692022050701227|1000169|0.00^0.00||||||||||
+
+ 812316675=1000169|1077380070017|BOOKED|IN|INR|3038353^iibfregn^3038353^812316675|812316675|1770|Transaction Booked|SBIN|NA|2022-05-07 15:14:20|UPI|10001692022050701188|1000169|0.00^0.00||||||||||
+
+ 812316676=1000169|6479434351619|BOOKED|IN|INR|3038358^iibfregn^3038358^812316676|812316676|1770|Transaction Booked|sbiepay|NA|2022-05-07 15:17:58|DC|10001692022050701199|1000169|0.00^0.00||||||||||
+
+ 812316680=1000169|4569068516639|BOOKED|IN|INR|3038374^iibfregn^3038374^812316680|812316680|1770|Transaction Booked|SBIN|NA|2022-05-07 15:26:22|UPI|10001692022050701227|1000169|0.00^0.00||||||||||
+
+ 812316676=1000169|6479434351619|BOOKED|IN|INR|3038358^iibfregn^3038358^812316676|812316676|1770|Transaction Booked|sbiepay|NA|2022-05-07 15:17:58|DC|10001692022050701199|1000169|0.00^0.00||||||||||
+
+ 812316680=1000169|4569068516639|BOOKED|IN|INR|3038374^iibfregn^3038374^812316680|812316680|1770|Transaction Booked|SBIN|NA|2022-05-07 15:26:22|UPI|10001692022050701227|1000169|0.00^0.00||||||||||
+
+ 812316680=1000169|4569068516639|BOOKED|IN|INR|3038374^iibfregn^3038374^812316680|812316680|1770|Transaction Booked|SBIN|NA|2022-05-07 15:26:22|UPI|10001692022050701227|1000169|0.00^0.00||||||||||
+
+ 812316715=1000169|NA|No Records Found|NA|NA|NA|812316715|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316715=1000169|NA|No Records Found|NA|NA|NA|812316715|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316721=1000169|NA|ABORT|IN|INR|3038517^iibfregn^3038517^812316721|812316721|1770|Your session has expired. Please re-attempt the transaction.|NA|NA|2022-05-07 16:25:03|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316715=1000169|NA|No Records Found|NA|NA|NA|812316715|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316724=1000169|NA|ABORT|IN|INR|3038541^iibfregn^3038541^812316724|812316724|1770|Transaction Aborted|NA|NA|2022-05-07 16:29:21|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316715=1000169|NA|No Records Found|NA|NA|NA|812316715|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316728=1000169|NA|No Records Found|NA|NA|NA|812316728|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316729=1000169|1815524113817|BOOKED|IN|INR|3038566^iibfregn^3038566^812316729|812316729|1770|Transaction Booked|sbiepay|NA|2022-05-07 16:44:02|DC|10001692022050701470|1000169|0.00^0.00||||||||||
+
+ 812316728=1000169|NA|No Records Found|NA|NA|NA|812316728|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316729=1000169|1815524113817|BOOKED|IN|INR|3038566^iibfregn^3038566^812316729|812316729|1770|Transaction Booked|sbiepay|NA|2022-05-07 16:44:02|DC|10001692022050701470|1000169|0.00^0.00||||||||||
+
+ 812316732=1000169|NA|No Records Found|NA|NA|NA|812316732|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316733=1000169|NA|No Records Found|NA|NA|NA|812316733|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316728=1000169|NA|No Records Found|NA|NA|NA|812316728|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316729=1000169|1815524113817|BOOKED|IN|INR|3038566^iibfregn^3038566^812316729|812316729|1770|Transaction Booked|sbiepay|NA|2022-05-07 16:44:02|DC|10001692022050701470|1000169|0.00^0.00||||||||||
+
+ 812316732=1000169|NA|No Records Found|NA|NA|NA|812316732|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316733=1000169|NA|No Records Found|NA|NA|NA|812316733|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316728=1000169|NA|No Records Found|NA|NA|NA|812316728|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316729=1000169|1815524113817|BOOKED|IN|INR|3038566^iibfregn^3038566^812316729|812316729|1770|Transaction Booked|sbiepay|NA|2022-05-07 16:44:02|DC|10001692022050701470|1000169|0.00^0.00||||||||||
+
+ 812316732=1000169|NA|No Records Found|NA|NA|NA|812316732|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316733=1000169|NA|No Records Found|NA|NA|NA|812316733|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316739=1000169|5860315583435|BOOKED|IN|INR|3038599^iibfregn^3038599^812316739|812316739|1770|Transaction Booked|sbiepay|NA|2022-05-07 16:56:29|DC|10001692022050701524|1000169|0.00^0.00||||||||||
+
+ 812316732=1000169|NA|No Records Found|NA|NA|NA|812316732|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316733=1000169|NA|No Records Found|NA|NA|NA|812316733|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316739=1000169|5860315583435|BOOKED|IN|INR|3038599^iibfregn^3038599^812316739|812316739|1770|Transaction Booked|sbiepay|NA|2022-05-07 16:56:29|DC|10001692022050701524|1000169|0.00^0.00||||||||||
+
+ 812316739=1000169|5860315583435|BOOKED|IN|INR|3038599^iibfregn^3038599^812316739|812316739|1770|Transaction Booked|sbiepay|NA|2022-05-07 16:56:29|DC|10001692022050701524|1000169|0.00^0.00||||||||||
+
+ 812316748=1000169|6171174466623|BOOKED|IN|INR|3038641^iibfregn^3038641^812316748|812316748|1770|Transaction Booked|PUNB|NA|2022-05-07 17:04:43|NB|10001692022050701550|1000169|2.00^0.36||||||||||
+
+ 812316749=1000169|0189264923827|BOOKED|IN|INR|3038642^iibfregn^3038642^812316749|812316749|1770|Transaction Booked|IDIB|NA|2022-05-07 17:05:42|NB|10001692022050701554|1000169|2.00^0.36||||||||||
+
+ 812316739=1000169|5860315583435|BOOKED|IN|INR|3038599^iibfregn^3038599^812316739|812316739|1770|Transaction Booked|sbiepay|NA|2022-05-07 16:56:29|DC|10001692022050701524|1000169|0.00^0.00||||||||||
+
+ 812316748=1000169|6171174466623|BOOKED|IN|INR|3038641^iibfregn^3038641^812316748|812316748|1770|Transaction Booked|PUNB|NA|2022-05-07 17:04:43|NB|10001692022050701550|1000169|2.00^0.36||||||||||
+
+ 812316749=1000169|0189264923827|BOOKED|IN|INR|3038642^iibfregn^3038642^812316749|812316749|1770|Transaction Booked|IDIB|NA|2022-05-07 17:05:42|NB|10001692022050701554|1000169|2.00^0.36||||||||||
+
+ 812316748=1000169|6171174466623|BOOKED|IN|INR|3038641^iibfregn^3038641^812316748|812316748|1770|Transaction Booked|PUNB|NA|2022-05-07 17:04:43|NB|10001692022050701550|1000169|2.00^0.36||||||||||
+
+ 812316749=1000169|0189264923827|BOOKED|IN|INR|3038642^iibfregn^3038642^812316749|812316749|1770|Transaction Booked|IDIB|NA|2022-05-07 17:05:42|NB|10001692022050701554|1000169|2.00^0.36||||||||||
+
+ 812316748=1000169|6171174466623|BOOKED|IN|INR|3038641^iibfregn^3038641^812316748|812316748|1770|Transaction Booked|PUNB|NA|2022-05-07 17:04:43|NB|10001692022050701550|1000169|2.00^0.36||||||||||
+
+ 812316749=1000169|0189264923827|BOOKED|IN|INR|3038642^iibfregn^3038642^812316749|812316749|1770|Transaction Booked|IDIB|NA|2022-05-07 17:05:42|NB|10001692022050701554|1000169|2.00^0.36||||||||||
+
+ 812316761=1000169|7540142623139|BOOKED|IN|INR|3038705^iibfregn^3038705^812316761|812316761|1770|Transaction Booked|sbiepay|NA|2022-05-07 17:23:49|CC|10001692022050701614|1000169|15.40^2.77||||||||||
+
+ 812316761=1000169|7540142623139|BOOKED|IN|INR|3038705^iibfregn^3038705^812316761|812316761|1770|Transaction Booked|sbiepay|NA|2022-05-07 17:23:49|CC|10001692022050701614|1000169|15.40^2.77||||||||||
+
+ 812316764=1000169|4557821752037|BOOKED|IN|INR|3038714^iibfregn^3038714^812316764|812316764|1770|Transaction Booked|sbiepay|NA|2022-05-07 17:27:42|CC|10001692022050701624|1000169|15.40^2.77||||||||||
+
+ 812316761=1000169|7540142623139|BOOKED|IN|INR|3038705^iibfregn^3038705^812316761|812316761|1770|Transaction Booked|sbiepay|NA|2022-05-07 17:23:49|CC|10001692022050701614|1000169|15.40^2.77||||||||||
+
+ 812316764=1000169|4557821752037|BOOKED|IN|INR|3038714^iibfregn^3038714^812316764|812316764|1770|Transaction Booked|sbiepay|NA|2022-05-07 17:27:42|CC|10001692022050701624|1000169|15.40^2.77||||||||||
+
+ 812316761=1000169|7540142623139|BOOKED|IN|INR|3038705^iibfregn^3038705^812316761|812316761|1770|Transaction Booked|sbiepay|NA|2022-05-07 17:23:49|CC|10001692022050701614|1000169|15.40^2.77||||||||||
+
+ 812316764=1000169|4557821752037|BOOKED|IN|INR|3038714^iibfregn^3038714^812316764|812316764|1770|Transaction Booked|sbiepay|NA|2022-05-07 17:27:42|CC|10001692022050701624|1000169|15.40^2.77||||||||||
+
+ 812316764=1000169|4557821752037|BOOKED|IN|INR|3038714^iibfregn^3038714^812316764|812316764|1770|Transaction Booked|sbiepay|NA|2022-05-07 17:27:42|CC|10001692022050701624|1000169|15.40^2.77||||||||||
+
+ 812316779=1000169|NA|No Records Found|NA|NA|NA|812316779|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316779=1000169|NA|No Records Found|NA|NA|NA|812316779|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316779=1000169|NA|No Records Found|NA|NA|NA|812316779|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316779=1000169|NA|No Records Found|NA|NA|NA|812316779|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316786=1000169|NA|No Records Found|NA|NA|NA|812316786|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316786=1000169|NA|No Records Found|NA|NA|NA|812316786|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316786=1000169|NA|No Records Found|NA|NA|NA|812316786|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316786=1000169|NA|No Records Found|NA|NA|NA|812316786|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316814=1000169|NA|No Records Found|NA|NA|NA|812316814|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316814=1000169|NA|No Records Found|NA|NA|NA|812316814|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316815=1000169|NA|No Records Found|NA|NA|NA|812316815|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316814=1000169|NA|No Records Found|NA|NA|NA|812316814|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316815=1000169|NA|No Records Found|NA|NA|NA|812316815|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316814=1000169|NA|No Records Found|NA|NA|NA|812316814|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316815=1000169|NA|No Records Found|NA|NA|NA|812316815|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316815=1000169|NA|No Records Found|NA|NA|NA|812316815|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316826=1000169|6788234852323|BOOKED|IN|INR|3038897^iibfregn^3038897^812316826|812316826|1770|Transaction Booked|SBIN|NA|2022-05-07 19:17:29|UPI|10001692022050701955|1000169|0.00^0.00||||||||||
+
+ 812316826=1000169|6788234852323|BOOKED|IN|INR|3038897^iibfregn^3038897^812316826|812316826|1770|Transaction Booked|SBIN|NA|2022-05-07 19:17:29|UPI|10001692022050701955|1000169|0.00^0.00||||||||||
+
+ 812316826=1000169|6788234852323|BOOKED|IN|INR|3038897^iibfregn^3038897^812316826|812316826|1770|Transaction Booked|SBIN|NA|2022-05-07 19:17:29|UPI|10001692022050701955|1000169|0.00^0.00||||||||||
+
+ 812316826=1000169|6788234852323|BOOKED|IN|INR|3038897^iibfregn^3038897^812316826|812316826|1770|Transaction Booked|SBIN|NA|2022-05-07 19:17:29|UPI|10001692022050701955|1000169|0.00^0.00||||||||||
+
+ 812316851=1000169|6557149047115|BOOKED|IN|INR|3038963^iibfregn^3038963^812316851|812316851|1770|Transaction Booked|SBIN|NA|2022-05-07 19:52:43|UPI|10001692022050702062|1000169|0.00^0.00||||||||||
+
+ 812316851=1000169|6557149047115|BOOKED|IN|INR|3038963^iibfregn^3038963^812316851|812316851|1770|Transaction Booked|SBIN|NA|2022-05-07 19:52:43|UPI|10001692022050702062|1000169|0.00^0.00||||||||||
+
+ 812316851=1000169|6557149047115|BOOKED|IN|INR|3038963^iibfregn^3038963^812316851|812316851|1770|Transaction Booked|SBIN|NA|2022-05-07 19:52:43|UPI|10001692022050702062|1000169|0.00^0.00||||||||||
+
+ 812316859=1000169|NA|ABORT|IN|INR|3038984^iibfregn^3038984^812316859|812316859|1770|Transaction Aborted|NA|NA|2022-05-07 20:04:41|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316851=1000169|6557149047115|BOOKED|IN|INR|3038963^iibfregn^3038963^812316851|812316851|1770|Transaction Booked|SBIN|NA|2022-05-07 19:52:43|UPI|10001692022050702062|1000169|0.00^0.00||||||||||
+
+ 812316875=1000169|9684495361429|BOOKED|IN|INR|3039046^iibfregn^3039046^812316875|812316875|1770|Transaction Booked|sbiepay|NA|2022-05-07 20:44:18|DC|10001692022050702210|1000169|0.00^0.00||||||||||
+
+ 812316875=1000169|9684495361429|BOOKED|IN|INR|3039046^iibfregn^3039046^812316875|812316875|1770|Transaction Booked|sbiepay|NA|2022-05-07 20:44:18|DC|10001692022050702210|1000169|0.00^0.00||||||||||
+
+ 812316879=1000169|1950382804113|BOOKED|IN|INR|3039056^iibfregn^3039056^812316879|812316879|1770|Transaction Booked|SBIN|NA|2022-05-07 20:50:30|UPI|10001692022050702230|1000169|0.00^0.00||||||||||
+
+ 812316875=1000169|9684495361429|BOOKED|IN|INR|3039046^iibfregn^3039046^812316875|812316875|1770|Transaction Booked|sbiepay|NA|2022-05-07 20:44:18|DC|10001692022050702210|1000169|0.00^0.00||||||||||
+
+ 812316879=1000169|1950382804113|BOOKED|IN|INR|3039056^iibfregn^3039056^812316879|812316879|1770|Transaction Booked|SBIN|NA|2022-05-07 20:50:30|UPI|10001692022050702230|1000169|0.00^0.00||||||||||
+
+ 812316880=1000169|NA|ABORT|IN|INR|3039063^iibfregn^3039063^812316880|812316880|1770|Transaction Aborted|NA|NA|2022-05-07 20:54:32|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316875=1000169|9684495361429|BOOKED|IN|INR|3039046^iibfregn^3039046^812316875|812316875|1770|Transaction Booked|sbiepay|NA|2022-05-07 20:44:18|DC|10001692022050702210|1000169|0.00^0.00||||||||||
+
+ 812316879=1000169|1950382804113|BOOKED|IN|INR|3039056^iibfregn^3039056^812316879|812316879|1770|Transaction Booked|SBIN|NA|2022-05-07 20:50:30|UPI|10001692022050702230|1000169|0.00^0.00||||||||||
+
+ 812316882=1000169|7575552589219|BOOKED|IN|INR|3039063^iibfregn^3039063^812316882|812316882|1770|Transaction Booked|SBIN|NA|2022-05-07 20:59:06|UPI|10001692022050702259|1000169|0.00^0.00||||||||||
+
+ 812316884=1000169|6097167215329|BOOKED|IN|INR|3039071^iibfregn^3039071^812316884|812316884|1770|Transaction Booked|SBIN|NA|2022-05-07 20:59:11|NB|10001692022050702260|1000169|2.00^0.36||||||||||
+
+ 812316885=1000169|NA|ABORT|IN|INR|3039072^iibfregn^3039072^812316885|812316885|1770|Transaction Aborted|NA|NA|2022-05-07 20:59:41|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316879=1000169|1950382804113|BOOKED|IN|INR|3039056^iibfregn^3039056^812316879|812316879|1770|Transaction Booked|SBIN|NA|2022-05-07 20:50:30|UPI|10001692022050702230|1000169|0.00^0.00||||||||||
+
+ 812316882=1000169|7575552589219|BOOKED|IN|INR|3039063^iibfregn^3039063^812316882|812316882|1770|Transaction Booked|SBIN|NA|2022-05-07 20:59:06|UPI|10001692022050702259|1000169|0.00^0.00||||||||||
+
+ 812316884=1000169|6097167215329|BOOKED|IN|INR|3039071^iibfregn^3039071^812316884|812316884|1770|Transaction Booked|SBIN|NA|2022-05-07 20:59:11|NB|10001692022050702260|1000169|2.00^0.36||||||||||
+
+ 812316882=1000169|7575552589219|BOOKED|IN|INR|3039063^iibfregn^3039063^812316882|812316882|1770|Transaction Booked|SBIN|NA|2022-05-07 20:59:06|UPI|10001692022050702259|1000169|0.00^0.00||||||||||
+
+ 812316884=1000169|6097167215329|BOOKED|IN|INR|3039071^iibfregn^3039071^812316884|812316884|1770|Transaction Booked|SBIN|NA|2022-05-07 20:59:11|NB|10001692022050702260|1000169|2.00^0.36||||||||||
+
+ 812316882=1000169|7575552589219|BOOKED|IN|INR|3039063^iibfregn^3039063^812316882|812316882|1770|Transaction Booked|SBIN|NA|2022-05-07 20:59:06|UPI|10001692022050702259|1000169|0.00^0.00||||||||||
+
+ 812316884=1000169|6097167215329|BOOKED|IN|INR|3039071^iibfregn^3039071^812316884|812316884|1770|Transaction Booked|SBIN|NA|2022-05-07 20:59:11|NB|10001692022050702260|1000169|2.00^0.36||||||||||
+
+ 812316892=1000169|1487596898017|BOOKED|IN|INR|3039097^iibfregn^3039097^812316892|812316892|1770|Transaction Booked|SBIN|NA|2022-05-07 21:12:48|UPI|10001692022050702304|1000169|0.00^0.00||||||||||
+
+ 812316894=1000169|6789369726315|BOOKED|IN|INR|3039100^iibfregn^3039100^812316894|812316894|1770|Transaction Booked|sbiepay|NA|2022-05-07 21:14:41|DC|10001692022050702309|1000169|0.00^0.00||||||||||
+
+ 812316895=1000169|NA|ABORT|IN|INR|3039101^iibfregn^3039101^812316895|812316895|1770|Your session has expired. Please re-attempt the transaction.|NA|NA|2022-05-07 21:14:59|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316892=1000169|1487596898017|BOOKED|IN|INR|3039097^iibfregn^3039097^812316892|812316892|1770|Transaction Booked|SBIN|NA|2022-05-07 21:12:48|UPI|10001692022050702304|1000169|0.00^0.00||||||||||
+
+ 812316894=1000169|6789369726315|BOOKED|IN|INR|3039100^iibfregn^3039100^812316894|812316894|1770|Transaction Booked|sbiepay|NA|2022-05-07 21:14:41|DC|10001692022050702309|1000169|0.00^0.00||||||||||
+
+ 812316892=1000169|1487596898017|BOOKED|IN|INR|3039097^iibfregn^3039097^812316892|812316892|1770|Transaction Booked|SBIN|NA|2022-05-07 21:12:48|UPI|10001692022050702304|1000169|0.00^0.00||||||||||
+
+ 812316894=1000169|6789369726315|BOOKED|IN|INR|3039100^iibfregn^3039100^812316894|812316894|1770|Transaction Booked|sbiepay|NA|2022-05-07 21:14:41|DC|10001692022050702309|1000169|0.00^0.00||||||||||
+
+ 812316892=1000169|1487596898017|BOOKED|IN|INR|3039097^iibfregn^3039097^812316892|812316892|1770|Transaction Booked|SBIN|NA|2022-05-07 21:12:48|UPI|10001692022050702304|1000169|0.00^0.00||||||||||
+
+ 812316894=1000169|6789369726315|BOOKED|IN|INR|3039100^iibfregn^3039100^812316894|812316894|1770|Transaction Booked|sbiepay|NA|2022-05-07 21:14:41|DC|10001692022050702309|1000169|0.00^0.00||||||||||
+
+ 812316919=1000169|NA|No Records Found|NA|NA|NA|812316919|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316920=1000169|NA|No Records Found|NA|NA|NA|812316920|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316922=1000169|NA|No Records Found|NA|NA|NA|812316922|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316919=1000169|NA|No Records Found|NA|NA|NA|812316919|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316920=1000169|NA|No Records Found|NA|NA|NA|812316920|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316922=1000169|NA|No Records Found|NA|NA|NA|812316922|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316923=1000169|NA|No Records Found|NA|NA|NA|812316923|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316919=1000169|NA|No Records Found|NA|NA|NA|812316919|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316920=1000169|NA|No Records Found|NA|NA|NA|812316920|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316922=1000169|NA|No Records Found|NA|NA|NA|812316922|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316923=1000169|NA|No Records Found|NA|NA|NA|812316923|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316919=1000169|NA|No Records Found|NA|NA|NA|812316919|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316920=1000169|NA|No Records Found|NA|NA|NA|812316920|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316922=1000169|NA|No Records Found|NA|NA|NA|812316922|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316923=1000169|NA|No Records Found|NA|NA|NA|812316923|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316937=1000169|6327723714613|BOOKED|IN|INR|3039167^iibfregn^3039167^812316937|812316937|1770|Transaction Booked|SBIN|NA|2022-05-07 22:04:40|UPI|10001692022050702498|1000169|0.00^0.00||||||||||
+
+ 812316923=1000169|NA|No Records Found|NA|NA|NA|812316923|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316937=1000169|6327723714613|BOOKED|IN|INR|3039167^iibfregn^3039167^812316937|812316937|1770|Transaction Booked|SBIN|NA|2022-05-07 22:04:40|UPI|10001692022050702498|1000169|0.00^0.00||||||||||
+
+ 812316937=1000169|6327723714613|BOOKED|IN|INR|3039167^iibfregn^3039167^812316937|812316937|1770|Transaction Booked|SBIN|NA|2022-05-07 22:04:40|UPI|10001692022050702498|1000169|0.00^0.00||||||||||
+
+ 812316937=1000169|6327723714613|BOOKED|IN|INR|3039167^iibfregn^3039167^812316937|812316937|1770|Transaction Booked|SBIN|NA|2022-05-07 22:04:40|UPI|10001692022050702498|1000169|0.00^0.00||||||||||
+
+ 812316947=1000169|8424374119927|BOOKED|IN|INR|3039188^iibfregn^3039188^812316947|812316947|1770|Transaction Booked|SBIN|NA|2022-05-07 22:20:58|UPI|10001692022050702552|1000169|0.00^0.00||||||||||
+
+ 812316947=1000169|8424374119927|BOOKED|IN|INR|3039188^iibfregn^3039188^812316947|812316947|1770|Transaction Booked|SBIN|NA|2022-05-07 22:20:58|UPI|10001692022050702552|1000169|0.00^0.00||||||||||
+
+ 812316947=1000169|8424374119927|BOOKED|IN|INR|3039188^iibfregn^3039188^812316947|812316947|1770|Transaction Booked|SBIN|NA|2022-05-07 22:20:58|UPI|10001692022050702552|1000169|0.00^0.00||||||||||
+
+ 812316947=1000169|8424374119927|BOOKED|IN|INR|3039188^iibfregn^3039188^812316947|812316947|1770|Transaction Booked|SBIN|NA|2022-05-07 22:20:58|UPI|10001692022050702552|1000169|0.00^0.00||||||||||
+
+ 812316958=1000169|0797314802829|BOOKED|IN|INR|3039202^iibfregn^3039202^812316958|812316958|1770|Transaction Booked|CNRB|NA|2022-05-07 22:34:58|NB|10001692022050702603|1000169|2.00^0.36||||||||||
+
+ 812316958=1000169|0797314802829|BOOKED|IN|INR|3039202^iibfregn^3039202^812316958|812316958|1770|Transaction Booked|CNRB|NA|2022-05-07 22:34:58|NB|10001692022050702603|1000169|2.00^0.36||||||||||
+
+ 812316958=1000169|0797314802829|BOOKED|IN|INR|3039202^iibfregn^3039202^812316958|812316958|1770|Transaction Booked|CNRB|NA|2022-05-07 22:34:58|NB|10001692022050702603|1000169|2.00^0.36||||||||||
+
+ 812316958=1000169|0797314802829|BOOKED|IN|INR|3039202^iibfregn^3039202^812316958|812316958|1770|Transaction Booked|CNRB|NA|2022-05-07 22:34:58|NB|10001692022050702603|1000169|2.00^0.36||||||||||
+
+ 812316969=1000169|NA|ABORT|IN|INR|3039218^iibfregn^3039218^812316969|812316969|1770|Transaction Aborted|NA|NA|2022-05-07 22:49:06|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316970=1000169|NA|ABORT|IN|INR|3039219^iibfregn^3039219^812316970|812316970|1770|Transaction Aborted|NA|NA|2022-05-07 22:49:17|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316979=1000169|NA|No Records Found|NA|NA|NA|812316979|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316980=1000169|8796147469339|BOOKED|IN|INR|3039233^iibfregn^3039233^812316980|812316980|1770|Transaction Booked|CNRB|NA|2022-05-07 22:59:16|NB|10001692022050702698|1000169|2.00^0.36||||||||||
+
+ 812316979=1000169|NA|No Records Found|NA|NA|NA|812316979|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316980=1000169|8796147469339|BOOKED|IN|INR|3039233^iibfregn^3039233^812316980|812316980|1770|Transaction Booked|CNRB|NA|2022-05-07 22:59:16|NB|10001692022050702698|1000169|2.00^0.36||||||||||
+
+ 812316979=1000169|NA|No Records Found|NA|NA|NA|812316979|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316980=1000169|8796147469339|BOOKED|IN|INR|3039233^iibfregn^3039233^812316980|812316980|1770|Transaction Booked|CNRB|NA|2022-05-07 22:59:16|NB|10001692022050702698|1000169|2.00^0.36||||||||||
+
+ 812316985=1000169|3855332061735|SUCCESS|IN|INR|3039253^iibfregn^3039253^812316985|812316985|1770|Payment In Clearing|ICICIRB|0393330073|2022-05-07 23:10:17|NB|10001692022050702728|1000169|2.00^0.36||||||||||
+
+ 812316979=1000169|NA|No Records Found|NA|NA|NA|812316979|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812316980=1000169|8796147469339|BOOKED|IN|INR|3039233^iibfregn^3039233^812316980|812316980|1770|Transaction Booked|CNRB|NA|2022-05-07 22:59:16|NB|10001692022050702698|1000169|2.00^0.36||||||||||

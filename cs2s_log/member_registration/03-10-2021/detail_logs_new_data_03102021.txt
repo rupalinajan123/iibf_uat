@@ -1,0 +1,64 @@
+
+***********************************************************
+
+ Cron execution started at :2021-10-03 01:35:01 
+
+ Total Count =>1
+
+Total records SUCCESS: 1
+(812259939) 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 0
+()
+ Cron execution ended at: 2021-10-03 01:35:03
+
+***********************************************************
+
+ Cron execution started at :2021-10-03 15:25:02 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(812259962)
+ Cron execution ended at: 2021-10-03 15:25:02
+
+***********************************************************
+
+ Cron execution started at :2021-10-03 15:30:02 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(812259962)
+ Cron execution ended at: 2021-10-03 15:30:02
+
+***********************************************************
+
+ Cron execution started at :2021-10-03 17:30:02 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(812259970) 
+ Total records PENDING: 0
+()
+ Total records No Response: 0
+()
+ Cron execution ended at: 2021-10-03 17:30:02

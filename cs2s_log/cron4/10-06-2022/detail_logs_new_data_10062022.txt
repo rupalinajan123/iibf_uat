@@ -1,0 +1,32 @@
+
+***********************************************************
+
+ Cron execution started at :2022-06-10 00:00:05 
+
+ Total Count =>30
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 11
+(903489336,903489340,903489353,903489355,903489357,903489360,903489368,903489372,903489374,903489389,903489403) 
+ Total records PENDING: 0
+()
+ Total records No Response: 19
+(903489338,903489377,903489378,903489379,903489380,903489381,903489382,903489383,903489385,903489386,903489387,903489392,903489405,903489406,903489407,903489408,903489409,903489410,903489411)
+ Cron execution ended at: 2022-06-10 00:01:37
+
+***********************************************************
+
+ Cron execution started at :2022-06-10 10:43:27 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(903489464)
+ Cron execution ended at: 2022-06-10 10:43:27

@@ -1,0 +1,19 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2025-08-30 10:01:23 --> Query error: Unknown column 'email_id' in 'field list' - Invalid query: INSERT INTO `ncvet_member_login_otp` (`email_id`, `regnumber`, `otp_type`, `otp`, `is_validate`, `otp_expired_on`, `created_on`) VALUES ('rupalinajan123@gmail.com', '9000002', '3', 150818, '0', '2025-08-30 10:11:23', '2025-08-30 10:01:23')
+ERROR - 2025-08-30 10:01:52 --> Query error: Unknown column 'email_id' in 'field list' - Invalid query: INSERT INTO `ncvet_member_login_otp` (`email_id`, `regnumber`, `otp_type`, `otp`, `is_validate`, `otp_expired_on`, `created_on`) VALUES ('rupalinajan123@gmail.com', '9000002', '3', 904784, '0', '2025-08-30 10:11:52', '2025-08-30 10:01:52')
+ERROR - 2025-08-30 10:04:10 --> Query error: Unknown column 'email_id' in 'field list' - Invalid query: INSERT INTO `ncvet_member_login_otp` (`email_id`, `regnumber`, `otp_type`, `otp`, `is_validate`, `otp_expired_on`, `created_on`) VALUES ('rupalinajan123@gmail.com', '9000002', '3', 471149, '0', '2025-08-30 10:14:10', '2025-08-30 10:04:10')
+ERROR - 2025-08-30 10:05:13 --> Query error: Unknown column 'email_id' in 'field list' - Invalid query: INSERT INTO `ncvet_member_login_otp` (`email_id`, `regnumber`, `otp_type`, `otp`, `is_validate`, `otp_expired_on`, `created_on`) VALUES ('rupalinajan123@gmail.com', '9000002', '3', 517711, '0', '2025-08-30 10:15:13', '2025-08-30 10:05:13')
+ERROR - 2025-08-30 10:05:39 --> Query error: Unknown column 'email_id' in 'field list' - Invalid query: INSERT INTO `ncvet_member_login_otp` (`email_id`, `regnumber`, `otp_type`, `otp`, `is_validate`, `otp_expired_on`, `created_on`) VALUES ('rupalinajan123@gmail.com', '9000002', '3', 222243, '0', '2025-08-30 10:15:39', '2025-08-30 10:05:39')
+ERROR - 2025-08-30 12:40:36 --> Severity: Warning --> mcrypt_generic_init(): Key size is 0 /home/supp0rttest/public_html/staging/application/third_party/SBI_ePay/CryptAES.php 83
+ERROR - 2025-08-30 12:40:36 --> Severity: Warning --> mcrypt_generic_init(): Key length incorrect /home/supp0rttest/public_html/staging/application/third_party/SBI_ePay/CryptAES.php 83
+ERROR - 2025-08-30 12:40:36 --> Severity: Warning --> mcrypt_generic(): 7 is not a valid MCrypt resource /home/supp0rttest/public_html/staging/application/third_party/SBI_ePay/CryptAES.php 84
+ERROR - 2025-08-30 12:40:36 --> Severity: Warning --> mcrypt_generic_deinit(): 7 is not a valid MCrypt resource /home/supp0rttest/public_html/staging/application/third_party/SBI_ePay/CryptAES.php 87
+ERROR - 2025-08-30 12:40:36 --> Severity: Warning --> mcrypt_module_close(): 7 is not a valid MCrypt resource /home/supp0rttest/public_html/staging/application/third_party/SBI_ePay/CryptAES.php 88
+ERROR - 2025-08-30 12:47:32 --> Severity: Warning --> mcrypt_generic_init(): Key size is 0 /home/supp0rttest/public_html/staging/application/third_party/SBI_ePay/CryptAES.php 83
+ERROR - 2025-08-30 12:47:32 --> Severity: Warning --> mcrypt_generic_init(): Key length incorrect /home/supp0rttest/public_html/staging/application/third_party/SBI_ePay/CryptAES.php 83
+ERROR - 2025-08-30 12:47:32 --> Severity: Warning --> mcrypt_generic(): 7 is not a valid MCrypt resource /home/supp0rttest/public_html/staging/application/third_party/SBI_ePay/CryptAES.php 84
+ERROR - 2025-08-30 12:47:32 --> Severity: Warning --> mcrypt_generic_deinit(): 7 is not a valid MCrypt resource /home/supp0rttest/public_html/staging/application/third_party/SBI_ePay/CryptAES.php 87
+ERROR - 2025-08-30 12:47:32 --> Severity: Warning --> mcrypt_module_close(): 7 is not a valid MCrypt resource /home/supp0rttest/public_html/staging/application/third_party/SBI_ePay/CryptAES.php 88
+ERROR - 2025-08-30 13:21:54 --> 404 Page Not Found: iibfbcbf/Candidate_login/index
+ERROR - 2025-08-30 14:32:20 --> 404 Page Not Found: iibfdra/Version_2//index

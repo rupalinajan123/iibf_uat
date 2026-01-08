@@ -1,0 +1,138 @@
+
+ 812333893=404|not_found_error|TRNFE0001|Transaction not found
+
+ 812333894=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582206=404|not_found_error|TRNFE0001|Transaction not found
+
+ 812333897=transaction|XUR30743259204|812333897|INDINSBAF|2022-09-06T22:44:09+05:30|1770.00|0.00|0.00|1770.00|356|Array|https://iibf.esdsconnect.com/register/handle_billdesk_response|3ds|UR3|RDDIRECT|224922242325|0399|TRPAU0003|Authentication failed at issuer|payment_authentication_error|card
+
+ 903582219=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582227=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582228=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582232=404|not_found_error|TRNFE0001|Transaction not found
+
+ 812333902=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582238=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582239=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582243=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582244=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582245=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582247=transaction|XAX60743265802|903582247|INDINSBAF|2022-09-06T22:48:49+05:30|1534.00|4.75|0.00|1538.75|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|3ds|AX6|MDDIRECT|0002|TRP0000|Transaction Pending|pending|card|redirect|Array
+
+ 903582249=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582253=transaction|XAX60743261738|903582253|INDINSBAF|2022-09-06T22:45:55+05:30|3186.00|29.94|0.00|3215.94|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|3ds|AX6|DIRECT|0002|TRP0000|Transaction Pending|pending|card|redirect|Array
+
+ 903582254=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582257=transaction|XHDF0743261229|903582257|INDINSBAF|2022-09-06T22:45:34+05:30|1534.00|14.16|0.00|1548.16|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|nb|HDF|DIRECT|0002|TRP0000|Transaction Pending|pending|netbanking|redirect|Array
+
+ 903582259=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582263=transaction|XAX60743261946|903582263|INDINSBAF|2022-09-06T22:46:05+05:30|1534.00|4.75|0.00|1538.75|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|3ds|AX6|MDDIRECT|0399|TRPAE0024|Inactive card or card not active for online transactions|payment_authorization_error|02|card
+
+ 812333907=transaction|XUR30743270113|812333907|INDINSBAF|2022-09-06T22:51:51+05:30|1770.00|0.00|0.00|1770.00|356|Array|https://iibf.esdsconnect.com/register/handle_billdesk_response|3ds|UR3|RDDIRECT|224922244249|0399|TRPPE0015|Card bin or range not allowed|payment_processing_error|card
+
+ 903582270=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582273=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582275=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582278=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582279=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582286=404|not_found_error|TRNFE0001|Transaction not found
+
+ 812333912=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582288=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582289=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582291=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582292=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582294=404|not_found_error|TRNFE0001|Transaction not found
+
+ 812333915=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582301=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582302=transaction|XAX60743263349|903582302|INDINSBAF|2022-09-06T22:47:07+05:30|3186.00|29.94|0.00|3215.94|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|3ds|AX6|DIRECT|0399|TRIFE0001|Insufficient funds|insufficient_funds_error|05|card
+
+ 903582303=transaction|XHD50743262807|903582303|INDINSBAF|2022-09-06T22:46:41+05:30|1534.00|0.00|0.00|1534.00|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|collect|HD5|DIRECT|0399|TRPPE0038|Collect expired|payment_processing_error|upi
+
+ 812333916=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582304=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582313=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582314=transaction|XUR30743263399|903582314|INDINSBAF|2022-09-06T22:47:09+05:30|3186.00|0.00|0.00|3186.00|356|Array|https://iibf.esdsconnect.com/applyexam/handle_billdesk_response|3ds|UR3|RDDIRECT|224922243048|0399|TRPAU0003|Authentication failed at issuer|payment_authentication_error|card
+
+ 903582321=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582323=404|not_found_error|TRNFE0001|Transaction not found
+
+ 812333926=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582332=transaction|XHD50743267282|903582332|INDINSBAF|2022-09-06T22:49:48+05:30|1799.50|0.00|0.00|1799.50|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|intent|HD5|DIRECT|0002|TRP0000|Transaction Pending|pending|upi|dXBpOi8vcGF5P3BhPWlpYmYuYmlsbGRlc2tAaGRmY2JhbmsmcG49SU5ET0ZGSU5BTkNFJm1jPTgyNDQmdHI9WEhENTA3NDMyNjcyODImdG49UGF5JmFtPTE3OTkuNTAmbWFtPTE3OTkuNTAmY3U9SU5S
+
+ 903582335=transaction|XHD50743264270|903582335|INDINSBAF|2022-09-06T22:47:46+05:30|3451.50|0.00|0.00|3451.50|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|collect|HD5|DIRECT|0399|TRPPE0038|Collect expired|payment_processing_error|upi
+
+ 903582336=transaction|XAX60743265377|903582336|INDINSBAF|2022-09-06T22:48:32+05:30|3451.50|22.43|0.00|3473.93|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|3ds|AX6|VDDIRECT|695375|0300|TRS0000|Transaction Successful|success|695375|05|card
+
+ 903582341=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582344=transaction|XHDF0743264451|903582344|INDINSBAF|2022-09-06T22:47:52+05:30|1799.50|14.16|0.00|1813.66|356|Array|https://iibf.esdsconnect.com/applyexam/handle_billdesk_response|nb|HDF|DIRECT|0002|TRP0000|Transaction Pending|pending|netbanking|redirect|Array
+
+ 903582345=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582346=transaction|XUR30743266346|903582346|INDINSBAF|2022-09-06T22:49:10+05:30|3186.00|0.00|0.00|3186.00|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|3ds|UR3|RDDIRECT|224922243561|0399|TRPPE0033|Payment processing error|payment_processing_error|card
+
+ 903582347=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582348=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582349=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582352=transaction|XAX60743265717|903582352|INDINSBAF|2022-09-06T22:48:44+05:30|1534.00|4.75|0.00|1538.75|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|3ds|AX6|VDDIRECT|0399|TRPPE0013|Unable to process the transaction|payment_processing_error|05|card
+
+ 903582354=404|not_found_error|TRNFE0001|Transaction not found
+
+ 812333937=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582361=transaction|XUR30743265921|903582361|INDINSBAF|2022-09-06T22:48:53+05:30|1534.00|0.00|0.00|1534.00|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|3ds|UR3|RDDIRECT|224922243478|0300|TRS0000|Transaction Successful|success|694359|card
+
+ 903582364=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582368=transaction|XHD50743265697|903582368|INDINSBAF|2022-09-06T22:48:45+05:30|1534.00|0.00|0.00|1534.00|356|Array|https://iibf.esdsconnect.com/applyexam/handle_billdesk_response|intent|HD5|DIRECT|0002|TRP0000|Transaction Pending|pending|upi|dXBpOi8vcGF5P3BhPWlpYmYuYmlsbGRlc2tAaGRmY2JhbmsmcG49SU5ET0ZGSU5BTkNFJm1jPTgyNDQmdHI9WEhENTA3NDMyNjU2OTcmdG49UGF5JmFtPTE1MzQuMDAmbWFtPTE1MzQuMDAmY3U9SU5S
+
+ 903582370=transaction|XAX60743266417|903582370|INDINSBAF|2022-09-06T22:49:12+05:30|1534.00|4.75|0.00|1538.75|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|3ds|AX6|VDDIRECT|694927|0300|TRS0000|Transaction Successful|success|694927|05|card
+
+ 903582371=transaction|XHD50743265609|903582371|INDINSBAF|2022-09-06T22:48:42+05:30|3186.00|0.00|0.00|3186.00|356|Array|https://iibf.esdsconnect.com/applyexam/handle_billdesk_response|intent|HD5|DIRECT|0002|TRP0000|Transaction Pending|pending|upi|dXBpOi8vcGF5P3BhPWlpYmYuYmlsbGRlc2tAaGRmY2JhbmsmcG49SU5ET0ZGSU5BTkNFJm1jPTgyNDQmdHI9WEhENTA3NDMyNjU2MDkmdG49UGF5JmFtPTMxODYuMDAmbWFtPTMxODYuMDAmY3U9SU5S
+
+ 903582373=404|not_found_error|TRNFE0001|Transaction not found
+
+ 812333941=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582374=transaction|XSBI0743266301|903582374|INDINSBAF|2022-09-06T22:49:08+05:30|3186.00|14.16|0.00|3200.16|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|nb|SBI|DIRECT|0002|TRP0000|Transaction Pending|pending|netbanking|redirect|Array
+
+ 903582375=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903582378=transaction|XAX60743267547|903582378|INDINSBAF|2022-09-06T22:50:01+05:30|3186.00|20.70|0.00|3206.70|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|3ds|AX6|VDDIRECT|0399|TRPAE0009|Card declined|payment_authorization_error|05|card
+
+ 903582381=transaction|XHD50743266140|903582381|INDINSBAF|2022-09-06T22:49:01+05:30|1534.00|0.00|0.00|1534.00|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|collect|HD5|DIRECT|224968594328|0300|TRS0000|Transaction Successful|success|upi

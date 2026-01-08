@@ -1,0 +1,19 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2025-03-13 01:19:50 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-03-13 01:58:31 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-03-13 08:27:11 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-03-13 08:28:16 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-03-13 08:29:01 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-03-13 08:33:24 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-03-13 08:45:35 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-03-13 08:47:57 --> 404 Page Not Found: Uploads/SCRIBE_Guidelines_2022.pdf
+ERROR - 2025-03-13 12:02:23 --> 404 Page Not Found: Assets/js
+ERROR - 2025-03-13 15:00:11 --> Severity: Warning --> trim() expects parameter 1 to be string, array given /home/supp0rttest/public_html/staging/application/libraries/MY_Form_validation.php 265
+ERROR - 2025-03-13 15:00:11 --> Severity: Warning --> trim() expects parameter 1 to be string, array given /home/supp0rttest/public_html/staging/application/libraries/MY_Form_validation.php 265
+ERROR - 2025-03-13 15:03:18 --> Severity: Warning --> trim() expects parameter 1 to be string, array given /home/supp0rttest/public_html/staging/application/libraries/MY_Form_validation.php 265
+ERROR - 2025-03-13 15:03:18 --> Severity: Warning --> trim() expects parameter 1 to be string, array given /home/supp0rttest/public_html/staging/application/libraries/MY_Form_validation.php 265
+ERROR - 2025-03-13 15:08:32 --> Severity: Warning --> trim() expects parameter 1 to be string, array given /home/supp0rttest/public_html/staging/application/libraries/MY_Form_validation.php 265
+ERROR - 2025-03-13 15:10:44 --> Query error: Invalid use of group function - Invalid query: SELECT "", acb.batch_id, am1.agency_name, CONCAT(cm.centre_name," (",cm1.city_name,")") AS DispCentreName, acb.batch_code, IF(acb.batch_type=1, "Basic", IF(acb.batch_type=2, "Advanced", "")) AS DispBatchType, COUNT(DISTINCT CASE WHEN bc.is_deleted = "0" AND acb.batch_status = "3" THEN bc.candidate_id END) AS tot_candiadtes_registered_for_training, COUNT(DISTINCT CASE WHEN bc.re_attempt = "0" AND bc.hold_release_status = "3" AND DATE_FORMAT(DATE_ADD(acb.batch_end_date, INTERVAL 0 DAY), "%Y-%m-%d") < CURDATE() AND CURDATE() <= DATE_FORMAT(DATE_ADD(acb.batch_end_date, INTERVAL 270 DAY), "%Y-%m-%d") THEN bc.candidate_id END) AS no_of_candidates_eligible_for_exam, COUNT(DISTINCT CASE WHEN bc.re_attempt > "0" THEN bc.candidate_id END) AS no_of_candidates_applied_for_exam, acb.batch_status, acb.centre_id, acb.batch_type FROM iibfbcbf_agency_centre_batch acb  LEFT JOIN iibfbcbf_centre_master cm ON cm.centre_id = acb.centre_id LEFT JOIN city_master cm1 ON cm1.id = cm.centre_city LEFT JOIN iibfbcbf_agency_master am1 ON am1.agency_id = acb.agency_id LEFT JOIN iibfbcbf_batch_candidates bc ON bc.batch_id = acb.batch_id WHERE acb.is_deleted = 0   AND (am1.agency_name LIKE '%BB33%' ESCAPE '!' OR CONCAT(cm.centre_name," (",cm1.city_name,")") LIKE '%BB33%' ESCAPE '!' OR acb.batch_code LIKE '%BB33%' ESCAPE '!' OR IF(acb.batch_type=1, "Basic", IF(acb.batch_type=2, "Advanced", "")) LIKE '%BB33%' ESCAPE '!' OR COUNT(DISTINCT CASE WHEN bc.is_deleted = "0" AND acb.batch_status = "3" THEN bc.candidate_id END) LIKE '%BB33%' ESCAPE '!' ) Group By acb.batch_id ORDER BY acb.batch_id DESC LIMIT 0, 10 
+ERROR - 2025-03-13 15:10:44 --> Severity: Error --> Call to a member function result_array() on boolean /home/supp0rttest/public_html/staging/application/models/iibfbcbf/Iibf_bcbf_model.php 3399
+ERROR - 2025-03-13 15:30:12 --> Severity: Parsing Error --> syntax error, unexpected end of file /home/supp0rttest/public_html/staging/application/views/iibfbcbf/agency/training_batch_details_agency.php 440

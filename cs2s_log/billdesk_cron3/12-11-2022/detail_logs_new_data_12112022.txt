@@ -1,0 +1,4528 @@
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 00:00:05 
+
+ Total Count =>18
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 7
+(36437,36439,903823434,903823442,903823450,903823453,903823491)
+ Total records No Response: 11
+(903823439,903823448,903823435,903823452,903823454,903823456,903823467,903823479,903823476,903823488,903823489)
+ Cron execution ended at: 2022-11-12 00:01:07
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 00:05:01 
+
+ Total Count =>17
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 5
+(903823434,903823442,903823450,903823453,903823491)
+ Total records No Response: 12
+(903823439,903823448,903823435,903823452,903823454,903823456,903823467,903823479,903823476,903823488,903823489,903823490)
+ Cron execution ended at: 2022-11-12 00:05:49
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 00:10:02 
+
+ Total Count =>20
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 4
+(903823442,903823450,903823453,903823491)
+ Total records No Response: 16
+(903823439,903823448,903823435,903823452,903823454,903823456,903823467,903823479,903823476,903823488,903823489,903823490,903823496,903823497,903823499,903823500)
+ Cron execution ended at: 2022-11-12 00:10:40
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 00:15:02 
+
+ Total Count =>19
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 3
+(903823450,903823453,903823491)
+ Total records No Response: 16
+(903823448,903823435,903823452,903823454,903823456,903823467,903823479,903823476,903823488,903823489,903823490,903823496,903823497,903823499,903823500,903823501)
+ Cron execution ended at: 2022-11-12 00:15:35
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 00:20:02 
+
+ Total Count =>15
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823453,903823491)
+ Total records No Response: 13
+(903823454,903823456,903823467,903823479,903823476,903823488,903823489,903823490,903823496,903823497,903823499,903823500,903823501)
+ Cron execution ended at: 2022-11-12 00:20:29
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 00:25:03 
+
+ Total Count =>12
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823491)
+ Total records No Response: 11
+(903823467,903823479,903823476,903823488,903823489,903823490,903823496,903823497,903823499,903823500,903823501)
+ Cron execution ended at: 2022-11-12 00:25:16
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 00:30:03 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823491)
+ Total records No Response: 12
+(903823467,903823479,903823476,903823488,903823489,903823490,903823496,903823497,903823499,903823500,903823501,903823505)
+ Cron execution ended at: 2022-11-12 00:30:19
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 00:35:02 
+
+ Total Count =>12
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823491)
+ Total records No Response: 11
+(903823479,903823476,903823488,903823489,903823490,903823496,903823497,903823499,903823500,903823501,903823505)
+ Cron execution ended at: 2022-11-12 00:35:14
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 00:40:02 
+
+ Total Count =>16
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823491,903823507)
+ Total records No Response: 14
+(903823479,903823476,903823488,903823489,903823490,903823496,903823497,903823499,903823500,903823501,903823505,903823502,903823504,903823511)
+ Cron execution ended at: 2022-11-12 00:40:23
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 00:45:02 
+
+ Total Count =>17
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823491,903823507)
+ Total records No Response: 15
+(903823479,903823476,903823488,903823489,903823490,903823496,903823497,903823499,903823500,903823501,903823505,903823502,903823504,903823511,903823512)
+ Cron execution ended at: 2022-11-12 00:45:24
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 00:50:02 
+
+ Total Count =>17
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823491,903823507)
+ Total records No Response: 15
+(903823476,903823488,903823489,903823490,903823496,903823497,903823499,903823500,903823501,903823505,903823502,903823504,903823511,903823512,903823508)
+ Cron execution ended at: 2022-11-12 00:50:25
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 00:55:01 
+
+ Total Count =>14
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823491,903823507)
+ Total records No Response: 12
+(903823490,903823496,903823497,903823499,903823500,903823501,903823505,903823502,903823504,903823511,903823512,903823508)
+ Cron execution ended at: 2022-11-12 00:55:24
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 01:00:04 
+
+ Total Count =>14
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823507)
+ Total records No Response: 13
+(903823490,903823496,903823497,903823499,903823500,903823501,903823505,903823502,903823504,903823511,903823512,903823508,903823517)
+ Cron execution ended at: 2022-11-12 01:00:19
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 01:05:02 
+
+ Total Count =>14
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823507)
+ Total records No Response: 13
+(903823496,903823497,903823499,903823500,903823501,903823505,903823502,903823504,903823511,903823512,903823508,903823517,36440)
+ Cron execution ended at: 2022-11-12 01:05:14
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 01:10:02 
+
+ Total Count =>11
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823507,903823521)
+ Total records No Response: 9
+(903823501,903823505,903823502,903823504,903823511,903823512,903823508,903823517,36440)
+ Cron execution ended at: 2022-11-12 01:10:22
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 01:15:02 
+
+ Total Count =>10
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823507,903823521)
+ Total records No Response: 8
+(903823505,903823502,903823504,903823511,903823512,903823508,903823517,36440)
+ Cron execution ended at: 2022-11-12 01:15:24
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 01:20:02 
+
+ Total Count =>10
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823507,903823521)
+ Total records No Response: 8
+(903823505,903823502,903823504,903823511,903823512,903823508,903823517,36440)
+ Cron execution ended at: 2022-11-12 01:20:23
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 01:25:01 
+
+ Total Count =>10
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823507,903823521)
+ Total records No Response: 8
+(903823505,903823502,903823504,903823511,903823512,903823508,903823517,36440)
+ Cron execution ended at: 2022-11-12 01:25:21
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 01:30:02 
+
+ Total Count =>10
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 3
+(903823507,903823521,903823527)
+ Total records No Response: 7
+(903823502,903823504,903823511,903823512,903823508,903823517,36440)
+ Cron execution ended at: 2022-11-12 01:30:30
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 01:35:02 
+
+ Total Count =>11
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 3
+(903823507,903823521,903823527)
+ Total records No Response: 8
+(903823502,903823504,903823511,903823512,903823508,903823517,36440,903823528)
+ Cron execution ended at: 2022-11-12 01:35:30
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 01:40:02 
+
+ Total Count =>7
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823521,903823527)
+ Total records No Response: 5
+(903823512,903823508,903823517,36440,903823528)
+ Cron execution ended at: 2022-11-12 01:40:24
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 01:45:03 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823521,903823527)
+ Total records No Response: 4
+(903823508,903823517,36440,903823528)
+ Cron execution ended at: 2022-11-12 01:45:21
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 01:50:02 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823521,903823527)
+ Total records No Response: 3
+(903823517,36440,903823528)
+ Cron execution ended at: 2022-11-12 01:50:20
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 01:55:01 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823521,903823527)
+ Total records No Response: 3
+(903823517,36440,903823528)
+ Cron execution ended at: 2022-11-12 01:55:20
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 02:00:05 
+
+ Total Count =>4
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823521,903823527)
+ Total records No Response: 2
+(36440,903823528)
+ Cron execution ended at: 2022-11-12 02:00:22
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 02:05:02 
+
+ Total Count =>3
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823521,903823527)
+ Total records No Response: 1
+(903823528)
+ Cron execution ended at: 2022-11-12 02:05:19
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 02:10:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823527)
+ Total records No Response: 1
+(903823528)
+ Cron execution ended at: 2022-11-12 02:10:11
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 02:15:01 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823527)
+ Total records No Response: 1
+(903823528)
+ Cron execution ended at: 2022-11-12 02:15:10
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 02:20:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823527)
+ Total records No Response: 1
+(903823528)
+ Cron execution ended at: 2022-11-12 02:20:11
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 02:25:01 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823527)
+ Total records No Response: 1
+(903823528)
+ Cron execution ended at: 2022-11-12 02:25:10
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 02:30:03 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(903823528)
+ Cron execution ended at: 2022-11-12 02:30:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 02:35:02 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823534)
+ Total records No Response: 0
+()
+ Cron execution ended at: 2022-11-12 02:35:10
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 02:40:02 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823534)
+ Total records No Response: 0
+()
+ Cron execution ended at: 2022-11-12 02:40:11
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 02:45:02 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823534)
+ Total records No Response: 0
+()
+ Cron execution ended at: 2022-11-12 02:45:11
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 02:50:03 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823534)
+ Total records No Response: 1
+(903823537)
+ Cron execution ended at: 2022-11-12 02:50:11
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 02:55:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823534)
+ Total records No Response: 1
+(903823537)
+ Cron execution ended at: 2022-11-12 02:55:10
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 03:00:04 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823534)
+ Total records No Response: 1
+(903823537)
+ Cron execution ended at: 2022-11-12 03:00:16
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 03:05:01 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823534)
+ Total records No Response: 1
+(903823537)
+ Cron execution ended at: 2022-11-12 03:05:10
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 03:10:01 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823534)
+ Total records No Response: 1
+(903823537)
+ Cron execution ended at: 2022-11-12 03:10:10
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 03:15:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823534)
+ Total records No Response: 1
+(903823537)
+ Cron execution ended at: 2022-11-12 03:15:11
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 03:20:03 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823534)
+ Total records No Response: 1
+(903823537)
+ Cron execution ended at: 2022-11-12 03:20:11
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 03:25:01 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823534)
+ Total records No Response: 1
+(903823537)
+ Cron execution ended at: 2022-11-12 03:25:10
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 03:30:01 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823534)
+ Total records No Response: 1
+(903823537)
+ Cron execution ended at: 2022-11-12 03:30:10
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 03:35:02 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(903823537)
+ Cron execution ended at: 2022-11-12 03:35:02
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 03:40:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903823537,903823540)
+ Cron execution ended at: 2022-11-12 03:40:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 03:45:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903823537,903823540)
+ Cron execution ended at: 2022-11-12 03:45:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 03:50:01 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903823540,903823541)
+ Cron execution ended at: 2022-11-12 03:50:02
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 03:55:01 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903823540,903823541)
+ Cron execution ended at: 2022-11-12 03:55:02
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 04:00:04 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903823540,903823541)
+ Cron execution ended at: 2022-11-12 04:00:05
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 04:05:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903823540,903823541)
+ Cron execution ended at: 2022-11-12 04:05:02
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 04:10:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903823540,903823541)
+ Cron execution ended at: 2022-11-12 04:10:02
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 04:15:03 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903823540,903823541)
+ Cron execution ended at: 2022-11-12 04:15:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 04:20:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903823540,903823541)
+ Cron execution ended at: 2022-11-12 04:20:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 04:25:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903823540,903823541)
+ Cron execution ended at: 2022-11-12 04:25:02
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 04:30:03 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903823540,903823541)
+ Cron execution ended at: 2022-11-12 04:30:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 04:35:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903823540,903823541)
+ Cron execution ended at: 2022-11-12 04:35:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 04:40:02 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(903823541)
+ Cron execution ended at: 2022-11-12 04:40:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 04:45:03 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(903823541)
+ Cron execution ended at: 2022-11-12 04:45:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 05:00:05 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823542)
+ Total records No Response: 0
+()
+ Cron execution ended at: 2022-11-12 05:00:13
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 05:05:02 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823542)
+ Total records No Response: 4
+(812363366,812363367,812363368,812363369)
+ Cron execution ended at: 2022-11-12 05:05:14
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 05:10:03 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823542)
+ Total records No Response: 4
+(812363366,812363367,812363368,812363369)
+ Cron execution ended at: 2022-11-12 05:10:12
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 05:15:02 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823542)
+ Total records No Response: 4
+(812363366,812363367,812363368,812363369)
+ Cron execution ended at: 2022-11-12 05:15:13
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 05:20:03 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823542)
+ Total records No Response: 4
+(812363366,812363367,812363368,812363369)
+ Cron execution ended at: 2022-11-12 05:20:13
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 05:25:01 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823542)
+ Total records No Response: 4
+(812363366,812363367,812363368,812363369)
+ Cron execution ended at: 2022-11-12 05:25:11
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 05:30:03 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823542)
+ Total records No Response: 4
+(812363366,812363367,812363368,812363369)
+ Cron execution ended at: 2022-11-12 05:30:12
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 05:35:02 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823542)
+ Total records No Response: 5
+(812363366,812363367,812363368,812363369,812363370)
+ Cron execution ended at: 2022-11-12 05:35:12
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 05:40:03 
+
+ Total Count =>7
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823542)
+ Total records No Response: 6
+(812363366,812363367,812363368,812363369,812363370,903823544)
+ Cron execution ended at: 2022-11-12 05:40:13
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 05:45:01 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823542)
+ Total records No Response: 7
+(812363366,812363367,812363368,812363369,812363370,903823544,903823543)
+ Cron execution ended at: 2022-11-12 05:45:15
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 05:50:02 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823542)
+ Total records No Response: 7
+(812363366,812363367,812363368,812363369,812363370,903823544,903823543)
+ Cron execution ended at: 2022-11-12 05:50:13
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 05:55:02 
+
+ Total Count =>9
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823542,903823545)
+ Total records No Response: 7
+(812363366,812363367,812363368,812363369,812363370,903823544,903823543)
+ Cron execution ended at: 2022-11-12 05:55:22
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 06:00:05 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823545)
+ Total records No Response: 7
+(812363366,812363367,812363368,812363369,812363370,903823544,903823543)
+ Cron execution ended at: 2022-11-12 06:00:17
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 06:05:02 
+
+ Total Count =>4
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823545)
+ Total records No Response: 3
+(812363370,903823544,903823543)
+ Cron execution ended at: 2022-11-12 06:05:11
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 06:10:02 
+
+ Total Count =>4
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823545)
+ Total records No Response: 3
+(812363370,903823544,903823543)
+ Cron execution ended at: 2022-11-12 06:10:12
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 06:15:02 
+
+ Total Count =>4
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823545)
+ Total records No Response: 3
+(812363370,903823544,903823543)
+ Cron execution ended at: 2022-11-12 06:15:12
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 06:20:02 
+
+ Total Count =>4
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823545)
+ Total records No Response: 3
+(812363370,903823544,903823543)
+ Cron execution ended at: 2022-11-12 06:20:17
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 06:25:02 
+
+ Total Count =>4
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823545)
+ Total records No Response: 3
+(812363370,903823544,903823543)
+ Cron execution ended at: 2022-11-12 06:25:14
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 06:30:02 
+
+ Total Count =>4
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823545)
+ Total records No Response: 3
+(812363370,903823544,903823543)
+ Cron execution ended at: 2022-11-12 06:30:11
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 06:35:02 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823545)
+ Total records No Response: 4
+(903823544,903823543,903823554,36441)
+ Cron execution ended at: 2022-11-12 06:35:12
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 06:40:02 
+
+ Total Count =>4
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823545)
+ Total records No Response: 3
+(903823543,903823554,36441)
+ Cron execution ended at: 2022-11-12 06:40:12
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 06:45:01 
+
+ Total Count =>3
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823545)
+ Total records No Response: 2
+(903823554,36441)
+ Cron execution ended at: 2022-11-12 06:45:10
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 06:50:02 
+
+ Total Count =>3
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823545)
+ Total records No Response: 2
+(903823554,36441)
+ Cron execution ended at: 2022-11-12 06:50:11
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 06:55:01 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903823554,36441)
+ Cron execution ended at: 2022-11-12 06:55:02
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 07:00:04 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903823554,36441)
+ Cron execution ended at: 2022-11-12 07:00:05
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 07:05:02 
+
+ Total Count =>3
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 3
+(903823554,36441,903823560)
+ Cron execution ended at: 2022-11-12 07:05:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 07:10:02 
+
+ Total Count =>3
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 3
+(903823554,36441,903823560)
+ Cron execution ended at: 2022-11-12 07:10:05
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 07:15:02 
+
+ Total Count =>3
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 3
+(903823554,36441,903823560)
+ Cron execution ended at: 2022-11-12 07:15:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 07:20:02 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 5
+(903823554,36441,903823560,903823565,903823563)
+ Cron execution ended at: 2022-11-12 07:20:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 07:25:02 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 5
+(903823554,36441,903823560,903823565,903823563)
+ Cron execution ended at: 2022-11-12 07:25:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 07:30:02 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 5
+(903823554,36441,903823560,903823565,903823563)
+ Cron execution ended at: 2022-11-12 07:30:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 07:35:02 
+
+ Total Count =>3
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 3
+(903823560,903823565,903823563)
+ Cron execution ended at: 2022-11-12 07:35:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 07:40:02 
+
+ Total Count =>4
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 4
+(903823560,903823565,903823563,903823573)
+ Cron execution ended at: 2022-11-12 07:40:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 07:45:02 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 5
+(903823560,903823565,903823563,903823573,903823577)
+ Cron execution ended at: 2022-11-12 07:45:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 07:50:01 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823579)
+ Total records No Response: 5
+(903823560,903823565,903823563,903823573,903823577)
+ Cron execution ended at: 2022-11-12 07:50:11
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 07:55:02 
+
+ Total Count =>7
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823579,903823584)
+ Total records No Response: 5
+(903823560,903823565,903823563,903823573,903823577)
+ Cron execution ended at: 2022-11-12 07:55:19
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 08:00:05 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823579,903823584)
+ Total records No Response: 6
+(903823560,903823565,903823563,903823573,903823577,903823578)
+ Cron execution ended at: 2022-11-12 08:00:23
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 08:05:02 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823579,903823584)
+ Total records No Response: 6
+(903823565,903823563,903823573,903823577,903823578,903823585)
+ Cron execution ended at: 2022-11-12 08:05:20
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 08:10:02 
+
+ Total Count =>9
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823579,903823584)
+ Total records No Response: 7
+(903823565,903823563,903823573,903823577,903823578,903823585,903823586)
+ Cron execution ended at: 2022-11-12 08:10:20
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 08:15:02 
+
+ Total Count =>9
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823579,903823584)
+ Total records No Response: 7
+(903823565,903823563,903823573,903823577,903823578,903823585,903823586)
+ Cron execution ended at: 2022-11-12 08:15:22
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 08:20:02 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823579,903823584)
+ Total records No Response: 6
+(903823573,903823577,903823578,903823585,903823586,36442)
+ Cron execution ended at: 2022-11-12 08:20:20
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 08:25:02 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823579,903823584)
+ Total records No Response: 6
+(903823573,903823577,903823578,903823585,903823586,36442)
+ Cron execution ended at: 2022-11-12 08:25:21
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 08:30:03 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823579,903823584)
+ Total records No Response: 6
+(903823573,903823577,903823578,903823585,903823586,36442)
+ Cron execution ended at: 2022-11-12 08:30:21
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 08:35:02 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823579,903823584)
+ Total records No Response: 6
+(903823573,903823577,903823578,903823585,903823586,36442)
+ Cron execution ended at: 2022-11-12 08:35:21
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 08:40:02 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 3
+(903823579,903823584,903823602)
+ Total records No Response: 5
+(903823577,903823578,903823585,903823586,36442)
+ Cron execution ended at: 2022-11-12 08:40:28
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 08:45:02 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 3
+(903823579,903823584,903823602)
+ Total records No Response: 5
+(903823578,903823585,903823586,36442,36444)
+ Cron execution ended at: 2022-11-12 08:45:31
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 08:50:02 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823584,903823602)
+ Total records No Response: 6
+(903823578,903823585,903823586,36442,36444,36446)
+ Cron execution ended at: 2022-11-12 08:50:20
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 08:55:02 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823602)
+ Total records No Response: 7
+(903823578,903823585,903823586,36442,36444,36446,903823613)
+ Cron execution ended at: 2022-11-12 08:55:11
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 09:00:04 
+
+ Total Count =>9
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823602)
+ Total records No Response: 8
+(903823585,903823586,36442,36444,36446,903823613,903823609,903823610)
+ Cron execution ended at: 2022-11-12 09:00:21
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 09:05:01 
+
+ Total Count =>9
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823602)
+ Total records No Response: 8
+(903823586,36442,36444,36446,903823613,903823609,903823610,903823614)
+ Cron execution ended at: 2022-11-12 09:05:11
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 09:10:02 
+
+ Total Count =>11
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823602,903823625)
+ Total records No Response: 9
+(36442,36444,36446,903823613,903823609,903823610,903823614,36447,903823621)
+ Cron execution ended at: 2022-11-12 09:10:20
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 09:15:02 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823602,903823625)
+ Total records No Response: 11
+(36442,36444,36446,903823613,903823609,903823610,903823614,36447,903823621,903823629,903823630)
+ Cron execution ended at: 2022-11-12 09:15:20
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 09:20:02 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823602,903823625)
+ Total records No Response: 11
+(36444,36446,903823613,903823609,903823610,903823614,36447,903823621,903823629,903823630,903823634)
+ Cron execution ended at: 2022-11-12 09:20:21
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 09:25:02 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823602,903823625)
+ Total records No Response: 11
+(36444,36446,903823613,903823609,903823610,903823614,36447,903823621,903823629,903823630,903823634)
+ Cron execution ended at: 2022-11-12 09:25:21
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 09:30:03 
+
+ Total Count =>15
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823602,903823625)
+ Total records No Response: 13
+(36444,36446,903823613,903823609,903823610,903823614,36447,903823621,903823629,903823630,903823634,903823646,903823648)
+ Cron execution ended at: 2022-11-12 09:30:22
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 09:35:01 
+
+ Total Count =>16
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823602,903823625)
+ Total records No Response: 14
+(36444,36446,903823613,903823609,903823610,903823614,36447,903823621,903823629,903823630,903823634,903823646,903823648,903823643)
+ Cron execution ended at: 2022-11-12 09:35:22
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 09:40:02 
+
+ Total Count =>15
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823625)
+ Total records No Response: 14
+(36444,36446,903823613,903823609,903823610,903823614,36447,903823621,903823629,903823630,903823634,903823646,903823648,903823643)
+ Cron execution ended at: 2022-11-12 09:40:14
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 09:45:01 
+
+ Total Count =>14
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823625)
+ Total records No Response: 13
+(36446,903823613,903823609,903823610,903823614,36447,903823621,903823629,903823630,903823634,903823646,903823648,903823643)
+ Cron execution ended at: 2022-11-12 09:45:13
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 09:50:01 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823625)
+ Total records No Response: 12
+(903823613,903823609,903823610,903823614,36447,903823621,903823629,903823630,903823634,903823646,903823648,903823643)
+ Cron execution ended at: 2022-11-12 09:50:13
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 09:55:02 
+
+ Total Count =>12
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823625)
+ Total records No Response: 11
+(903823609,903823610,903823614,36447,903823621,903823629,903823630,903823634,903823646,903823648,903823643)
+ Cron execution ended at: 2022-11-12 09:55:14
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 10:00:03 
+
+ Total Count =>10
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823625)
+ Total records No Response: 9
+(903823614,36447,903823621,903823629,903823630,903823634,903823646,903823648,903823643)
+ Cron execution ended at: 2022-11-12 10:00:19
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 10:05:02 
+
+ Total Count =>14
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823625)
+ Total records No Response: 13
+(36447,903823621,903823629,903823630,903823634,903823646,903823648,903823643,903823670,903823671,903823672,903823674,903823664)
+ Cron execution ended at: 2022-11-12 10:05:17
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 10:10:02 
+
+ Total Count =>12
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823678)
+ Total records No Response: 11
+(903823629,903823630,903823634,903823646,903823648,903823643,903823670,903823671,903823672,903823674,903823664)
+ Cron execution ended at: 2022-11-12 10:10:12
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 10:15:03 
+
+ Total Count =>12
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823678,903823679)
+ Total records No Response: 10
+(903823634,903823646,903823648,903823643,903823670,903823671,903823672,903823674,903823664,812363372)
+ Cron execution ended at: 2022-11-12 10:15:22
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 10:20:02 
+
+ Total Count =>12
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 3
+(903823678,903823679,903823685)
+ Total records No Response: 9
+(903823646,903823648,903823643,903823670,903823671,903823672,903823674,903823664,812363372)
+ Cron execution ended at: 2022-11-12 10:20:33
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 10:25:02 
+
+ Total Count =>15
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 3
+(903823678,903823679,903823685)
+ Total records No Response: 12
+(903823646,903823648,903823643,903823670,903823671,903823672,903823674,903823664,812363372,903823688,36448,903823681)
+ Cron execution ended at: 2022-11-12 10:25:30
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 10:30:02 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 3
+(903823678,903823679,903823685)
+ Total records No Response: 10
+(903823643,903823670,903823671,903823672,903823674,903823664,812363372,903823688,36448,903823681)
+ Cron execution ended at: 2022-11-12 10:30:35
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 10:35:02 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 3
+(903823678,903823679,903823685)
+ Total records No Response: 10
+(903823670,903823671,903823672,903823674,903823664,812363372,903823688,36448,903823681,903823692)
+ Cron execution ended at: 2022-11-12 10:35:29
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 10:40:03 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 3
+(903823678,903823679,903823685)
+ Total records No Response: 10
+(903823670,903823671,903823672,903823674,903823664,812363372,903823688,36448,903823681,903823692)
+ Cron execution ended at: 2022-11-12 10:40:36
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 10:45:01 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 3
+(903823678,903823679,903823685)
+ Total records No Response: 10
+(903823670,903823671,903823672,903823674,903823664,812363372,903823688,36448,903823681,903823692)
+ Cron execution ended at: 2022-11-12 10:45:30
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 10:50:02 
+
+ Total Count =>14
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 3
+(903823678,903823679,903823685)
+ Total records No Response: 11
+(903823670,903823671,903823672,903823674,903823664,812363372,903823688,36448,903823681,903823692,903823699)
+ Cron execution ended at: 2022-11-12 10:50:30
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 10:55:01 
+
+ Total Count =>16
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 4
+(903823678,903823679,903823685,903823701)
+ Total records No Response: 12
+(903823670,903823671,903823672,903823674,903823664,812363372,903823688,36448,903823681,903823692,903823699,903823702)
+ Cron execution ended at: 2022-11-12 10:55:37
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 11:00:03 
+
+ Total Count =>17
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 4
+(903823678,903823679,903823685,903823701)
+ Total records No Response: 13
+(903823670,903823671,903823672,903823674,903823664,812363372,903823688,36448,903823681,903823692,903823699,903823702,903823707)
+ Cron execution ended at: 2022-11-12 11:00:41
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 11:05:02 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 4
+(903823678,903823679,903823685,903823701)
+ Total records No Response: 9
+(812363372,903823688,36448,903823681,903823692,903823699,903823702,903823707,36450)
+ Cron execution ended at: 2022-11-12 11:05:39
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 11:10:02 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 3
+(903823679,903823685,903823701)
+ Total records No Response: 10
+(812363372,903823688,36448,903823681,903823692,903823699,903823702,903823707,36450,903823715)
+ Cron execution ended at: 2022-11-12 11:10:31
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 11:15:02 
+
+ Total Count =>11
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823685,903823701)
+ Total records No Response: 9
+(903823688,36448,903823681,903823692,903823699,903823702,903823707,36450,903823715)
+ Cron execution ended at: 2022-11-12 11:15:21
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 11:20:02 
+
+ Total Count =>12
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823701,903823720)
+ Total records No Response: 10
+(903823688,36448,903823681,903823692,903823699,903823702,903823707,36450,903823715,903823711)
+ Cron execution ended at: 2022-11-12 11:20:24
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 11:25:02 
+
+ Total Count =>9
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823701,903823720)
+ Total records No Response: 7
+(903823692,903823699,903823702,903823707,36450,903823715,903823711)
+ Cron execution ended at: 2022-11-12 11:25:20
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 11:30:02 
+
+ Total Count =>9
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823701,903823720)
+ Total records No Response: 7
+(903823692,903823699,903823702,903823707,36450,903823715,903823711)
+ Cron execution ended at: 2022-11-12 11:30:20
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 11:35:02 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823701,903823720)
+ Total records No Response: 6
+(903823699,903823702,903823707,36450,903823715,903823711)
+ Cron execution ended at: 2022-11-12 11:35:20
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 11:40:02 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823701,903823720)
+ Total records No Response: 6
+(903823699,903823702,903823707,36450,903823715,903823711)
+ Cron execution ended at: 2022-11-12 11:40:21
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 11:45:02 
+
+ Total Count =>9
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823701,903823720)
+ Total records No Response: 7
+(903823699,903823702,903823707,36450,903823715,903823711,903823727)
+ Cron execution ended at: 2022-11-12 11:45:20
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 11:50:02 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823701,903823720)
+ Total records No Response: 6
+(903823702,903823707,36450,903823715,903823711,903823727)
+ Cron execution ended at: 2022-11-12 11:50:20
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 11:55:02 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823720)
+ Total records No Response: 5
+(903823707,36450,903823715,903823711,903823727)
+ Cron execution ended at: 2022-11-12 11:55:11
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 12:00:04 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823720)
+ Total records No Response: 5
+(36450,903823715,903823711,903823727,903823735)
+ Cron execution ended at: 2022-11-12 12:00:14
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 12:05:03 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823720)
+ Total records No Response: 5
+(903823715,903823711,903823727,903823735,903823736)
+ Cron execution ended at: 2022-11-12 12:05:12
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 12:10:01 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823720)
+ Total records No Response: 5
+(903823711,903823727,903823735,903823736,903823731)
+ Cron execution ended at: 2022-11-12 12:10:12
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 12:15:02 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823720)
+ Total records No Response: 7
+(903823711,903823727,903823735,903823736,903823731,903823740,903823741)
+ Cron execution ended at: 2022-11-12 12:15:13
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 12:20:02 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 6
+(903823727,903823735,903823736,903823731,903823740,903823741)
+ Cron execution ended at: 2022-11-12 12:20:05
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 12:25:02 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 6
+(903823727,903823735,903823736,903823731,903823740,903823741)
+ Cron execution ended at: 2022-11-12 12:25:07
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 12:30:02 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 6
+(903823727,903823735,903823736,903823731,903823740,903823741)
+ Cron execution ended at: 2022-11-12 12:30:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 12:35:01 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 6
+(903823727,903823735,903823736,903823731,903823740,903823741)
+ Cron execution ended at: 2022-11-12 12:35:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 12:40:02 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 6
+(903823727,903823735,903823736,903823731,903823740,903823741)
+ Cron execution ended at: 2022-11-12 12:40:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 12:45:02 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 5
+(903823735,903823736,903823731,903823740,903823741)
+ Cron execution ended at: 2022-11-12 12:45:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 12:50:02 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 5
+(903823735,903823736,903823731,903823740,903823741)
+ Cron execution ended at: 2022-11-12 12:50:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 12:55:02 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 5
+(903823735,903823736,903823731,903823740,903823741)
+ Cron execution ended at: 2022-11-12 12:55:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 13:00:04 
+
+ Total Count =>4
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 4
+(903823736,903823731,903823740,903823741)
+ Cron execution ended at: 2022-11-12 13:00:05
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 13:05:01 
+
+ Total Count =>3
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 3
+(903823731,903823740,903823741)
+ Cron execution ended at: 2022-11-12 13:05:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 13:10:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903823740,903823741)
+ Cron execution ended at: 2022-11-12 13:10:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 13:30:02 
+
+ Total Count =>3
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823754)
+ Total records No Response: 2
+(903823745,903823746)
+ Cron execution ended at: 2022-11-12 13:30:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 13:35:01 
+
+ Total Count =>3
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823754)
+ Total records No Response: 2
+(903823745,903823746)
+ Cron execution ended at: 2022-11-12 13:35:02
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 13:40:02 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823754)
+ Total records No Response: 4
+(903823745,903823746,903823756,903823762)
+ Cron execution ended at: 2022-11-12 13:40:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 13:45:01 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823754)
+ Total records No Response: 4
+(903823745,903823746,903823756,903823762)
+ Cron execution ended at: 2022-11-12 13:45:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 13:50:02 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823754)
+ Total records No Response: 7
+(903823745,903823746,903823756,903823762,903823763,903823765,903823766)
+ Cron execution ended at: 2022-11-12 13:50:07
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 13:55:02 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823754)
+ Total records No Response: 7
+(903823745,903823746,903823756,903823762,903823763,903823765,903823766)
+ Cron execution ended at: 2022-11-12 13:55:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 14:00:04 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823754)
+ Total records No Response: 7
+(903823745,903823746,903823756,903823762,903823763,903823765,903823766)
+ Cron execution ended at: 2022-11-12 14:00:09
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 14:05:01 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823754)
+ Total records No Response: 7
+(903823745,903823746,903823756,903823762,903823763,903823765,903823766)
+ Cron execution ended at: 2022-11-12 14:05:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 14:10:01 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823754)
+ Total records No Response: 7
+(903823745,903823746,903823756,903823762,903823763,903823765,903823766)
+ Cron execution ended at: 2022-11-12 14:10:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 14:15:02 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823754)
+ Total records No Response: 7
+(903823745,903823746,903823756,903823762,903823763,903823765,903823766)
+ Cron execution ended at: 2022-11-12 14:15:05
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 14:20:02 
+
+ Total Count =>9
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823754)
+ Total records No Response: 8
+(903823745,903823746,903823756,903823762,903823763,903823765,903823766,903823773)
+ Cron execution ended at: 2022-11-12 14:20:05
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 14:25:02 
+
+ Total Count =>11
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823754)
+ Total records No Response: 10
+(903823745,903823746,903823756,903823762,903823763,903823765,903823766,903823773,903823774,903823771)
+ Cron execution ended at: 2022-11-12 14:25:05
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 14:30:02 
+
+ Total Count =>9
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 9
+(903823756,903823762,903823763,903823765,903823766,903823773,903823774,903823771,903823775)
+ Cron execution ended at: 2022-11-12 14:30:05
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 14:35:01 
+
+ Total Count =>9
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 9
+(903823756,903823762,903823763,903823765,903823766,903823773,903823774,903823771,903823775)
+ Cron execution ended at: 2022-11-12 14:35:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 14:40:02 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 8
+(903823763,903823765,903823766,903823773,903823774,903823771,903823775,903823781)
+ Cron execution ended at: 2022-11-12 14:40:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 14:45:01 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 8
+(903823763,903823765,903823766,903823773,903823774,903823771,903823775,903823781)
+ Cron execution ended at: 2022-11-12 14:45:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 14:50:02 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 5
+(903823773,903823774,903823771,903823775,903823781)
+ Cron execution ended at: 2022-11-12 14:50:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 14:55:02 
+
+ Total Count =>7
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 7
+(903823773,903823774,903823771,903823775,903823781,903823783,903823792)
+ Cron execution ended at: 2022-11-12 14:55:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 15:00:04 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 8
+(903823773,903823774,903823771,903823775,903823781,903823783,903823792,903823787)
+ Cron execution ended at: 2022-11-12 15:00:06
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 15:05:01 
+
+ Total Count =>10
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 10
+(903823773,903823774,903823771,903823775,903823781,903823783,903823792,903823787,903823793,903823795)
+ Cron execution ended at: 2022-11-12 15:05:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 15:10:02 
+
+ Total Count =>11
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 11
+(903823773,903823774,903823771,903823775,903823781,903823783,903823792,903823787,903823793,903823795,812363378)
+ Cron execution ended at: 2022-11-12 15:10:05
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 15:15:01 
+
+ Total Count =>12
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823797)
+ Total records No Response: 11
+(903823773,903823774,903823771,903823775,903823781,903823783,903823792,903823787,903823793,903823795,812363378)
+ Cron execution ended at: 2022-11-12 15:15:12
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 15:20:02 
+
+ Total Count =>12
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823797)
+ Total records No Response: 11
+(903823774,903823771,903823775,903823781,903823783,903823792,903823787,903823793,903823795,812363378,903823799)
+ Cron execution ended at: 2022-11-12 15:20:16
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 15:25:02 
+
+ Total Count =>10
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823797)
+ Total records No Response: 9
+(903823775,903823781,903823783,903823792,903823787,903823793,903823795,812363378,903823799)
+ Cron execution ended at: 2022-11-12 15:25:12
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 15:30:02 
+
+ Total Count =>9
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823797)
+ Total records No Response: 8
+(903823781,903823783,903823792,903823787,903823793,903823795,812363378,903823799)
+ Cron execution ended at: 2022-11-12 15:30:13
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 15:35:01 
+
+ Total Count =>9
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823797)
+ Total records No Response: 8
+(903823781,903823783,903823792,903823787,903823793,903823795,812363378,903823799)
+ Cron execution ended at: 2022-11-12 15:35:12
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 15:40:02 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823797)
+ Total records No Response: 7
+(903823783,903823792,903823787,903823793,903823795,812363378,903823799)
+ Cron execution ended at: 2022-11-12 15:40:12
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 15:45:02 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823797)
+ Total records No Response: 7
+(903823783,903823792,903823787,903823793,903823795,812363378,903823799)
+ Cron execution ended at: 2022-11-12 15:45:12
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 15:50:02 
+
+ Total Count =>10
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823797,903823810)
+ Total records No Response: 8
+(903823783,903823792,903823787,903823793,903823795,812363378,903823799,903823807)
+ Cron execution ended at: 2022-11-12 15:50:20
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 15:55:01 
+
+ Total Count =>9
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823797,903823810)
+ Total records No Response: 7
+(903823787,903823793,903823795,812363378,903823799,903823807,903823811)
+ Cron execution ended at: 2022-11-12 15:55:24
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 16:00:05 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823797,903823810)
+ Total records No Response: 6
+(903823793,903823795,812363378,903823799,903823807,903823811)
+ Cron execution ended at: 2022-11-12 16:00:22
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 16:05:02 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823797,903823810)
+ Total records No Response: 4
+(812363378,903823799,903823807,903823811)
+ Cron execution ended at: 2022-11-12 16:05:23
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 16:10:02 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823797,903823810)
+ Total records No Response: 4
+(903823799,903823807,903823811,903823814)
+ Cron execution ended at: 2022-11-12 16:10:19
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 16:15:03 
+
+ Total Count =>7
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823810)
+ Total records No Response: 6
+(903823799,903823807,903823811,903823814,903823819,903823818)
+ Cron execution ended at: 2022-11-12 16:15:12
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 16:20:02 
+
+ Total Count =>7
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823810)
+ Total records No Response: 6
+(903823807,903823811,903823814,903823819,903823818,903823821)
+ Cron execution ended at: 2022-11-12 16:20:15
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 16:25:01 
+
+ Total Count =>11
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823810)
+ Total records No Response: 10
+(903823807,903823811,903823814,903823819,903823818,903823821,812363380,812363381,812363382,812363383)
+ Cron execution ended at: 2022-11-12 16:25:12
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 16:30:03 
+
+ Total Count =>11
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823810)
+ Total records No Response: 10
+(903823807,903823811,903823814,903823819,903823818,903823821,812363380,812363381,812363382,812363383)
+ Cron execution ended at: 2022-11-12 16:30:13
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 16:35:02 
+
+ Total Count =>11
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823810)
+ Total records No Response: 10
+(903823807,903823811,903823814,903823819,903823818,903823821,812363380,812363381,812363382,812363383)
+ Cron execution ended at: 2022-11-12 16:35:12
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 16:40:03 
+
+ Total Count =>11
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823810)
+ Total records No Response: 10
+(903823807,903823811,903823814,903823819,903823818,903823821,812363380,812363381,812363382,812363383)
+ Cron execution ended at: 2022-11-12 16:40:13
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 16:45:01 
+
+ Total Count =>11
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823810)
+ Total records No Response: 10
+(903823807,903823811,903823814,903823819,903823818,903823821,812363380,812363381,812363382,812363383)
+ Cron execution ended at: 2022-11-12 16:45:13
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 16:50:02 
+
+ Total Count =>12
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 12
+(903823811,903823814,903823819,903823818,903823821,812363380,812363381,812363382,812363383,36453,812363384,812363385)
+ Cron execution ended at: 2022-11-12 16:50:05
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 16:55:02 
+
+ Total Count =>11
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 11
+(903823814,903823819,903823818,903823821,812363380,812363381,812363382,812363383,36453,812363384,812363385)
+ Cron execution ended at: 2022-11-12 16:55:07
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 17:00:04 
+
+ Total Count =>11
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 11
+(903823814,903823819,903823818,903823821,812363380,812363381,812363382,812363383,36453,812363384,812363385)
+ Cron execution ended at: 2022-11-12 17:00:07
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 17:05:02 
+
+ Total Count =>12
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 12
+(903823814,903823819,903823818,903823821,812363380,812363381,812363382,812363383,36453,812363384,812363385,903823831)
+ Cron execution ended at: 2022-11-12 17:05:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 17:10:02 
+
+ Total Count =>12
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 12
+(903823819,903823818,903823821,812363380,812363381,812363382,812363383,36453,812363384,812363385,903823831,903823833)
+ Cron execution ended at: 2022-11-12 17:10:05
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 17:15:02 
+
+ Total Count =>11
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 11
+(903823821,812363380,812363381,812363382,812363383,36453,812363384,812363385,903823831,903823833,903823839)
+ Cron execution ended at: 2022-11-12 17:15:05
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 17:20:02 
+
+ Total Count =>10
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 10
+(812363380,812363381,812363382,812363383,36453,812363384,812363385,903823831,903823833,903823839)
+ Cron execution ended at: 2022-11-12 17:20:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 17:25:01 
+
+ Total Count =>7
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823841)
+ Total records No Response: 6
+(36453,812363384,812363385,903823831,903823833,903823839)
+ Cron execution ended at: 2022-11-12 17:25:11
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 17:30:02 
+
+ Total Count =>11
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823841)
+ Total records No Response: 10
+(36453,812363384,812363385,903823831,903823833,903823839,903823843,812363386,812363387,812363388)
+ Cron execution ended at: 2022-11-12 17:30:14
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 17:35:02 
+
+ Total Count =>12
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823841,903823847)
+ Total records No Response: 10
+(36453,812363384,812363385,903823831,903823833,903823839,903823843,812363386,812363387,812363388)
+ Cron execution ended at: 2022-11-12 17:35:20
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 17:40:02 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823841,903823847)
+ Total records No Response: 11
+(36453,812363384,812363385,903823831,903823833,903823839,903823843,812363386,812363387,812363388,903823853)
+ Cron execution ended at: 2022-11-12 17:40:21
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 17:45:01 
+
+ Total Count =>15
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823841,903823847)
+ Total records No Response: 13
+(36453,812363384,812363385,903823831,903823833,903823839,903823843,812363386,812363387,812363388,903823853,903823848,903823854)
+ Cron execution ended at: 2022-11-12 17:45:21
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 17:50:02 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823841,903823847)
+ Total records No Response: 11
+(903823831,903823833,903823839,903823843,812363386,812363387,812363388,903823853,903823848,903823854,903823855)
+ Cron execution ended at: 2022-11-12 17:50:24
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 17:55:02 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823841,903823847)
+ Total records No Response: 11
+(903823831,903823833,903823839,903823843,812363386,812363387,812363388,903823853,903823848,903823854,903823855)
+ Cron execution ended at: 2022-11-12 17:55:20
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 18:00:05 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823841,903823847)
+ Total records No Response: 11
+(903823831,903823833,903823839,903823843,812363386,812363387,812363388,903823853,903823848,903823854,903823855)
+ Cron execution ended at: 2022-11-12 18:00:24
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 18:05:02 
+
+ Total Count =>12
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823841,903823847)
+ Total records No Response: 10
+(903823833,903823839,903823843,812363386,812363387,812363388,903823853,903823848,903823854,903823855)
+ Cron execution ended at: 2022-11-12 18:05:20
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 18:10:02 
+
+ Total Count =>14
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823841,903823847)
+ Total records No Response: 12
+(903823839,903823843,812363386,812363387,812363388,903823853,903823848,903823854,903823855,903823861,903823864,903823863)
+ Cron execution ended at: 2022-11-12 18:10:22
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 18:15:02 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823841,903823847)
+ Total records No Response: 11
+(903823843,812363386,812363387,812363388,903823853,903823848,903823854,903823855,903823861,903823864,903823863)
+ Cron execution ended at: 2022-11-12 18:15:22
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 18:20:02 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823841,903823847)
+ Total records No Response: 11
+(903823843,812363386,812363387,812363388,903823853,903823848,903823854,903823855,903823861,903823864,903823863)
+ Cron execution ended at: 2022-11-12 18:20:23
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 18:25:01 
+
+ Total Count =>12
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823847)
+ Total records No Response: 11
+(903823843,812363386,812363387,812363388,903823853,903823848,903823854,903823855,903823861,903823864,903823863)
+ Cron execution ended at: 2022-11-12 18:25:12
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 18:30:02 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823847)
+ Total records No Response: 7
+(903823853,903823848,903823854,903823855,903823861,903823864,903823863)
+ Cron execution ended at: 2022-11-12 18:30:12
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 18:35:01 
+
+ Total Count =>7
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 7
+(903823853,903823848,903823854,903823855,903823861,903823864,903823863)
+ Cron execution ended at: 2022-11-12 18:35:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 18:40:03 
+
+ Total Count =>7
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823873)
+ Total records No Response: 6
+(903823848,903823854,903823855,903823861,903823864,903823863)
+ Cron execution ended at: 2022-11-12 18:40:13
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 18:45:02 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823873)
+ Total records No Response: 5
+(903823855,903823861,903823864,903823863,903823874)
+ Cron execution ended at: 2022-11-12 18:45:12
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 18:50:01 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823873)
+ Total records No Response: 4
+(903823861,903823864,903823863,903823874)
+ Cron execution ended at: 2022-11-12 18:50:10
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 18:55:01 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823873)
+ Total records No Response: 4
+(903823861,903823864,903823863,903823874)
+ Cron execution ended at: 2022-11-12 18:55:10
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 19:00:03 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823873)
+ Total records No Response: 5
+(903823861,903823864,903823863,903823874,903823881)
+ Cron execution ended at: 2022-11-12 19:00:16
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 19:05:02 
+
+ Total Count =>7
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823873)
+ Total records No Response: 6
+(903823861,903823864,903823863,903823874,903823881,903823884)
+ Cron execution ended at: 2022-11-12 19:05:14
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 19:10:01 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823873)
+ Total records No Response: 4
+(903823874,903823881,903823884,903823887)
+ Cron execution ended at: 2022-11-12 19:10:15
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 19:15:02 
+
+ Total Count =>9
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823873)
+ Total records No Response: 8
+(903823874,903823881,903823884,903823887,812363390,812363391,812363392,812363393)
+ Cron execution ended at: 2022-11-12 19:15:11
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 19:20:03 
+
+ Total Count =>9
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823873)
+ Total records No Response: 8
+(903823874,903823881,903823884,903823887,812363390,812363391,812363392,812363393)
+ Cron execution ended at: 2022-11-12 19:20:13
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 19:25:02 
+
+ Total Count =>9
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823873)
+ Total records No Response: 8
+(903823874,903823881,903823884,903823887,812363390,812363391,812363392,812363393)
+ Cron execution ended at: 2022-11-12 19:25:11
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 19:30:03 
+
+ Total Count =>11
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823873)
+ Total records No Response: 10
+(903823874,903823881,903823884,903823887,812363390,812363391,812363392,812363393,903823892,903823891)
+ Cron execution ended at: 2022-11-12 19:30:13
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 19:35:01 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823873)
+ Total records No Response: 12
+(903823874,903823881,903823884,903823887,812363390,812363391,812363392,812363393,903823892,903823891,903823896,903823898)
+ Cron execution ended at: 2022-11-12 19:35:13
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 19:40:02 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823900)
+ Total records No Response: 12
+(903823874,903823881,903823884,903823887,812363390,812363391,812363392,812363393,903823892,903823891,903823896,903823898)
+ Cron execution ended at: 2022-11-12 19:40:13
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 19:45:02 
+
+ Total Count =>17
+
+Total records SUCCESS: 1
+(903823903) 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823900)
+ Total records No Response: 15
+(903823881,903823884,903823887,812363390,812363391,812363392,812363393,903823892,903823891,903823896,903823898,903823904,812363394,812363395,812363396)
+ Cron execution ended at: 2022-11-12 19:45:24
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 19:50:01 
+
+ Total Count =>16
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823900)
+ Total records No Response: 15
+(903823881,903823884,903823887,812363390,812363391,812363392,812363393,903823892,903823891,903823896,903823898,903823904,812363394,812363395,812363396)
+ Cron execution ended at: 2022-11-12 19:50:13
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 19:55:02 
+
+ Total Count =>17
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823900)
+ Total records No Response: 16
+(903823881,903823884,903823887,812363390,812363391,812363392,812363393,903823892,903823891,903823896,903823898,903823904,812363394,812363395,812363396,903823905)
+ Cron execution ended at: 2022-11-12 19:55:14
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 20:00:03 
+
+ Total Count =>17
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823900,903823911)
+ Total records No Response: 15
+(903823884,903823887,812363390,812363391,812363392,812363393,903823892,903823891,903823896,903823898,903823904,812363394,812363395,812363396,903823905)
+ Cron execution ended at: 2022-11-12 20:00:25
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 20:05:02 
+
+ Total Count =>17
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823900,903823911)
+ Total records No Response: 15
+(903823887,812363390,812363391,812363392,812363393,903823892,903823891,903823896,903823898,903823904,812363394,812363395,812363396,903823905,903823912)
+ Cron execution ended at: 2022-11-12 20:05:21
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 20:10:02 
+
+ Total Count =>17
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823900,903823911)
+ Total records No Response: 15
+(812363390,812363391,812363392,812363393,903823892,903823891,903823896,903823898,903823904,812363394,812363395,812363396,903823905,903823912,903823915)
+ Cron execution ended at: 2022-11-12 20:10:21
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 20:15:03 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823900,903823911)
+ Total records No Response: 11
+(903823892,903823891,903823896,903823898,903823904,812363394,812363395,812363396,903823905,903823912,903823915)
+ Cron execution ended at: 2022-11-12 20:15:21
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 20:20:01 
+
+ Total Count =>14
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823900,903823911)
+ Total records No Response: 12
+(903823892,903823891,903823896,903823898,903823904,812363394,812363395,812363396,903823905,903823912,903823915,903823920)
+ Cron execution ended at: 2022-11-12 20:20:21
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 20:25:01 
+
+ Total Count =>14
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823900,903823911)
+ Total records No Response: 12
+(903823892,903823891,903823896,903823898,903823904,812363394,812363395,812363396,903823905,903823912,903823915,903823920)
+ Cron execution ended at: 2022-11-12 20:25:21
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 20:30:03 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 3
+(903823900,903823911,903823922)
+ Total records No Response: 10
+(903823896,903823898,903823904,812363394,812363395,812363396,903823905,903823912,903823915,903823920)
+ Cron execution ended at: 2022-11-12 20:30:30
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 20:35:01 
+
+ Total Count =>11
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 3
+(903823900,903823911,903823922)
+ Total records No Response: 8
+(903823904,812363394,812363395,812363396,903823905,903823912,903823915,903823920)
+ Cron execution ended at: 2022-11-12 20:35:27
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 20:40:02 
+
+ Total Count =>11
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823911,903823922)
+ Total records No Response: 9
+(903823904,812363394,812363395,812363396,903823905,903823912,903823915,903823920,903823925)
+ Cron execution ended at: 2022-11-12 20:40:22
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 20:45:02 
+
+ Total Count =>9
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823911,903823922)
+ Total records No Response: 7
+(903823905,903823912,903823915,903823920,903823925,903823926,903823924)
+ Cron execution ended at: 2022-11-12 20:45:20
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 20:50:02 
+
+ Total Count =>10
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823911,903823922)
+ Total records No Response: 8
+(903823905,903823912,903823915,903823920,903823925,903823926,903823924,903823929)
+ Cron execution ended at: 2022-11-12 20:50:23
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 20:55:02 
+
+ Total Count =>12
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 2
+(903823911,903823922)
+ Total records No Response: 10
+(903823912,903823915,903823920,903823925,903823926,903823924,903823929,812363397,903823930,903823927)
+ Cron execution ended at: 2022-11-12 20:55:21
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 21:00:03 
+
+ Total Count =>12
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823922)
+ Total records No Response: 11
+(903823912,903823915,903823920,903823925,903823926,903823924,903823929,812363397,903823930,903823927,903823932)
+ Cron execution ended at: 2022-11-12 21:00:14
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 21:05:02 
+
+ Total Count =>11
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823922)
+ Total records No Response: 10
+(903823915,903823920,903823925,903823926,903823924,903823929,812363397,903823930,903823927,903823932)
+ Cron execution ended at: 2022-11-12 21:05:13
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 21:10:02 
+
+ Total Count =>12
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823922)
+ Total records No Response: 11
+(903823920,903823925,903823926,903823924,903823929,812363397,903823930,903823927,903823932,903823934,903823938)
+ Cron execution ended at: 2022-11-12 21:10:13
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 21:15:02 
+
+ Total Count =>12
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823922)
+ Total records No Response: 11
+(903823920,903823925,903823926,903823924,903823929,812363397,903823930,903823927,903823932,903823934,903823938)
+ Cron execution ended at: 2022-11-12 21:15:13
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 21:20:02 
+
+ Total Count =>12
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823922)
+ Total records No Response: 11
+(903823925,903823926,903823924,903823929,812363397,903823930,903823927,903823932,903823934,903823938,903823936)
+ Cron execution ended at: 2022-11-12 21:20:13
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 21:25:01 
+
+ Total Count =>12
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823922)
+ Total records No Response: 11
+(903823925,903823926,903823924,903823929,812363397,903823930,903823927,903823932,903823934,903823938,903823936)
+ Cron execution ended at: 2022-11-12 21:25:12
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 21:30:02 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 13
+(903823925,903823926,903823924,903823929,812363397,903823930,903823927,903823932,903823934,903823938,903823936,903823944,903823945)
+ Cron execution ended at: 2022-11-12 21:30:08
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 21:35:02 
+
+ Total Count =>13
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 13
+(903823925,903823926,903823924,903823929,812363397,903823930,903823927,903823932,903823934,903823938,903823936,903823944,903823945)
+ Cron execution ended at: 2022-11-12 21:35:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 21:40:02 
+
+ Total Count =>12
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 12
+(903823926,903823924,903823929,812363397,903823930,903823927,903823932,903823934,903823938,903823936,903823944,903823945)
+ Cron execution ended at: 2022-11-12 21:40:05
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 21:45:02 
+
+ Total Count =>11
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 11
+(903823929,812363397,903823930,903823927,903823932,903823934,903823938,903823936,903823944,903823945,903823948)
+ Cron execution ended at: 2022-11-12 21:45:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 21:50:02 
+
+ Total Count =>10
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 10
+(812363397,903823930,903823927,903823932,903823934,903823938,903823936,903823944,903823945,903823948)
+ Cron execution ended at: 2022-11-12 21:50:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 21:55:01 
+
+ Total Count =>7
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 7
+(903823932,903823934,903823938,903823936,903823944,903823945,903823948)
+ Cron execution ended at: 2022-11-12 21:55:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 22:00:04 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 6
+(903823934,903823938,903823936,903823944,903823945,903823948)
+ Cron execution ended at: 2022-11-12 22:00:06
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 22:05:02 
+
+ Total Count =>7
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 7
+(903823934,903823938,903823936,903823944,903823945,903823948,903823955)
+ Cron execution ended at: 2022-11-12 22:05:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 22:10:02 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 6
+(903823936,903823944,903823945,903823948,903823955,903823952)
+ Cron execution ended at: 2022-11-12 22:10:06
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 22:15:02 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 6
+(903823936,903823944,903823945,903823948,903823955,903823952)
+ Cron execution ended at: 2022-11-12 22:15:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 22:20:03 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 6
+(903823944,903823945,903823948,903823955,903823952,903823960)
+ Cron execution ended at: 2022-11-12 22:20:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 22:25:02 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 6
+(903823944,903823945,903823948,903823955,903823952,903823960)
+ Cron execution ended at: 2022-11-12 22:25:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 22:30:03 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 5
+(903823948,903823955,903823952,903823960,903823965)
+ Cron execution ended at: 2022-11-12 22:30:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 22:35:02 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 6
+(903823948,903823955,903823952,903823960,903823965,903823966)
+ Cron execution ended at: 2022-11-12 22:35:05
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 22:40:02 
+
+ Total Count =>7
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 7
+(903823948,903823955,903823952,903823960,903823965,903823966,903823970)
+ Cron execution ended at: 2022-11-12 22:40:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 22:45:01 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 6
+(903823955,903823952,903823960,903823965,903823966,903823970)
+ Cron execution ended at: 2022-11-12 22:45:02
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 22:50:01 
+
+ Total Count =>7
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 7
+(903823955,903823952,903823960,903823965,903823966,903823970,903823973)
+ Cron execution ended at: 2022-11-12 22:50:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 22:55:01 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 8
+(903823955,903823952,903823960,903823965,903823966,903823970,903823973,903823971)
+ Cron execution ended at: 2022-11-12 22:55:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 23:00:03 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 8
+(903823955,903823952,903823960,903823965,903823966,903823970,903823973,903823971)
+ Cron execution ended at: 2022-11-12 23:00:06
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 23:05:01 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 8
+(903823952,903823960,903823965,903823966,903823970,903823973,903823971,903823975)
+ Cron execution ended at: 2022-11-12 23:05:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 23:10:02 
+
+ Total Count =>7
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 7
+(903823960,903823965,903823966,903823970,903823973,903823971,903823975)
+ Cron execution ended at: 2022-11-12 23:10:03
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 23:15:02 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 8
+(903823960,903823965,903823966,903823970,903823973,903823971,903823975,903823979)
+ Cron execution ended at: 2022-11-12 23:15:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 23:20:02 
+
+ Total Count =>7
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 7
+(903823965,903823966,903823970,903823973,903823971,903823975,903823979)
+ Cron execution ended at: 2022-11-12 23:20:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 23:25:03 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 8
+(903823965,903823966,903823970,903823973,903823971,903823975,903823979,903823978)
+ Cron execution ended at: 2022-11-12 23:25:04
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 23:30:03 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 8
+(903823966,903823970,903823973,903823971,903823975,903823979,903823978,903823984)
+ Cron execution ended at: 2022-11-12 23:30:05
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 23:35:01 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 1
+(903823986)
+ Total records No Response: 7
+(903823970,903823973,903823971,903823975,903823979,903823978,903823984)
+ Cron execution ended at: 2022-11-12 23:35:11
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 23:40:02 
+
+ Total Count =>9
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 3
+(903823986,903823987,903823985)
+ Total records No Response: 6
+(903823973,903823971,903823975,903823979,903823978,903823984)
+ Cron execution ended at: 2022-11-12 23:40:28
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 23:45:02 
+
+ Total Count =>10
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 4
+(903823986,903823987,903823985,903823989)
+ Total records No Response: 6
+(903823973,903823971,903823975,903823979,903823978,903823984)
+ Cron execution ended at: 2022-11-12 23:45:41
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 23:50:02 
+
+ Total Count =>9
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 4
+(903823986,903823987,903823985,903823989)
+ Total records No Response: 5
+(903823971,903823975,903823979,903823978,903823984)
+ Cron execution ended at: 2022-11-12 23:50:39
+
+***********************************************************
+
+ Cron execution started at :2022-11-12 23:55:01 
+
+ Total Count =>8
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 4
+(903823986,903823987,903823985,903823989)
+ Total records No Response: 4
+(903823975,903823979,903823978,903823984)
+ Cron execution ended at: 2022-11-12 23:55:38

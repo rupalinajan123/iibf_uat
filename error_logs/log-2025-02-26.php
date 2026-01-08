@@ -1,0 +1,11 @@
+ERROR - 2025-02-26 16:19:26 --> 404 Page Not Found: iibfdra/Version_2/TrainingBatches/favicon.ico
+ERROR - 2025-02-26 17:20:21 --> 404 Page Not Found: Examinstruction/exam
+ERROR - 2025-02-26 21:07:44 --> 404 Page Not Found: Uploads/iibfdra
+ERROR - 2025-02-26 21:07:44 --> 404 Page Not Found: Uploads/iibfdra
+ERROR - 2025-02-26 21:07:44 --> 404 Page Not Found: Uploads/iibfdra
+ERROR - 2025-02-26 21:07:44 --> 404 Page Not Found: Uploads/iibfdra
+ERROR - 2025-02-26 21:09:12 --> 404 Page Not Found: iibfdra/Version_2/TrainingBatches/favicon.ico
+ERROR - 2025-02-26 21:11:08 --> 404 Page Not Found: Uploads/iibfdra
+ERROR - 2025-02-26 21:11:08 --> 404 Page Not Found: Uploads/iibfdra
+ERROR - 2025-02-26 21:11:08 --> 404 Page Not Found: Uploads/iibfdra
+ERROR - 2025-02-26 21:11:08 --> 404 Page Not Found: Uploads/iibfdra

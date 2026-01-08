@@ -1,0 +1,343 @@
+
+	//###---------------------------Start of Blended Member validation------------------------####
+	//For Blended Member User CheckForm
+ 	function blendedcheckform()
+	{
+		$('#error_id').html(''); 
+		$('#success_id').html(''); 
+		$('#error_id').removeClass("alert alert-danger alert-dismissible");
+		$('#success_id').removeClass("alert alert-danger alert-dismissible");
+		$('#tiitle_error').html(''); 
+		var rflag = 1;
+		
+		var sel_namesub = $('#sel_namesub').val();
+		var firstname = $('#firstname').val();
+		var addressline1 = $('#addressline1').val();
+		var district = $('#district').val();
+		var city = $('#city').val();
+		var state = $('#state').val();
+		var pincode = $('#pincode').val();
+		var designation = $('#designation').val();
+		var institutionworking = $('#institutionworking').val();
+		var dob1 = $('#dob1').val();
+		var email = $('#email').val();
+		var mobile = $('#mobile').val();
+		var optedu = $('#optedu').val();
+		var eduqual1 = $('#eduqual1').val();
+		var eduqual2 = $('#eduqual2').val();
+		var eduqual3 = $('#eduqual3').val();
+		var res_stdcode = $('#res_stdcode').val();
+		var residential_phone = $('#residential_phone').val();
+		var registrationtype = $('#registrationtype').val();
+		var gstin_no = $('#gstin_no').val();
+		
+		var eduqual = '';
+		if(eduqual1 != "" || eduqual2  != "" || eduqual3 != "")
+		{
+			eduqual = 1; 
+		}
+		if(registrationtype == 'NM')
+		{
+			institutionworking = '0';
+			designation = '0';
+		}
+		$('#captchaid').html('');
+		var code=$('#code').val();
+		if(code!='')
+		{
+			$.ajax({
+				url: site_url+'Blended/ajax_check_captcha_code',
+				type: 'post',
+				data:'code='+code,
+				async: false,
+				success: function(result) 
+				{
+					if(result == 'success')
+					{
+						if(sel_namesub == "" || firstname == "" || addressline1 == "" || district == "" || city == "" || state == "" || pincode == "" ||  dob1 == "" || email == "" || mobile == ""  || res_stdcode == "" || residential_phone == "" || designation == "" || institutionworking == "" || optedu == "" || eduqual == "")
+						{
+							rflag = 0;
+							if(optedu == "")
+							{
+							 $('#qualificationReq').show();
+							}
+							$('#confirm').modal('show');
+							$("#residential_phone").css("position", "");
+							$("#phone").css("position", "");
+						}		
+					}
+					else
+					{
+						rflag = 0;
+						$('#captchaid').html('Enter valid captcha code.');
+					}
+				}
+			});
+		}
+		var form_flag=$('#blendedAddForm').parsley().validate();
+		if(form_flag && rflag)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+//###---------------------------End of Blended Member validation------------------------####
+/* Rest All Drop Down And Get Traning Types */
+function resetFields(program_code)
+{
+	var regnumberHidden = $('#regnumberHidden').val();
+	$("#TrainingTypeLoading").hide();
+	$("#training_type").val('');
+	$("#training_date_div").hide();
+	$("#training_date").val('');
+	$("#showVirtualCenter").hide();
+	$("#showCenter").hide();
+	$("#center").val('');
+	$("#vmsgDiv").hide();
+	$("#venue").text('');
+	$("#showVenue").hide();
+	$("#showFees").hide();
+	$("#feesInput").val('');
+	if(program_code != "")
+	{
+		$("#TrainingTypeLoading").show();
+		$.ajax({
+			type:"POST",
+			url: site_url+"Blended/getTrainingType",
+			data:{program_code:program_code, regnumberHidden: regnumberHidden},
+			success:function(data){
+				if(data != "" && data != '1'){  
+					$("#TrainingTypeLoading").hide();
+					$("#showTraining_type").show();
+					$("#textTraining_type").text('');
+					$("#textTraining_type").append(data);
+				}
+				else if(data == '1')
+				{
+					window.location.assign(site_url+"Blended/")
+				}
+			}
+		},"json");
+	}
+	else{
+		$("#showTraining_type").hide();
+		//alert('Please select Course..!');
+	}
+}
+
+/* Get Dates */
+function getDates(training_type)
+{
+	var regnumberHidden = $('#regnumberHidden').val();
+	var program_code = $("#program").val();
+	$("#showVirtualCenter").hide();
+	$("#DatesLoading").show();
+	$.ajax({
+		type:"POST",
+		url: site_url+"Blended/getdates",
+		data:{regnumberHidden:regnumberHidden, training_type:training_type, program_code:program_code},
+		success:function(data){
+			if(data != "" && data != '1')
+			{  
+				$("#showVirtualCenter").hide();
+				$("#DatesLoading").show();
+				if(training_type == 'VC'){
+					$("#showVirtualCenter").show();
+					$("#training_date_div").show();
+					$("#dateDiv").text('');
+				    $("#dateDiv").append(data);
+					$("#center").val('');
+					$("#venue").text('');
+					$("#showVenue").hide();
+					$("#showCenter").hide();
+					$("#vmsgDiv").hide();
+					$("#DatesLoading").hide();
+				}
+				else if(training_type == 'PC'){
+					$("#showVirtualCenter").hide();
+					$("#training_date_div").show();
+					$("#dateDiv").text('');
+				    $("#dateDiv").append(data);
+					$("#DatesLoading").hide();
+				}
+			}
+			else if(data == '1')
+			{
+				window.location.assign(site_url+"Blended/")
+			}
+			else
+			{
+				$("#DatesLoading").hide();
+				$("#showVirtualCenter").hide();
+				$("#training_type").val('');
+				$("#showFees").hide();
+				$("#feesInput").val('');
+				$("#showTraining_type").hide();
+				$("#showCenter").hide();
+				$("#vmsgDiv").hide();
+				$("#program").val('');
+				$("#center").val('');
+				$("#venue").text('');
+				$("#showVenue").hide();
+				$("#training_date_div").hide();
+				$("#showVirtualCenter").hide();
+				$("#training_date").val('');
+			}
+		}	
+	},"json");
+}
+
+/* Get Fees */
+function getFees()
+{
+	var regnumberHidden = $('#regnumberHidden').val();
+	var program_code = $("#program").val();
+	var batch_code = $("#batch_code").val();
+	var training_type = $("#training_type").val();
+	$("#FeeCenterLoading").show();
+	$.ajax({
+		type:"POST",
+		url: site_url+"Blended/getFees",
+		data:{regnumberHidden:regnumberHidden, training_type:training_type, program_code:program_code,batch_code:batch_code},
+		success:function(data){
+			if(data != "")
+			{   $("#FeeCenterLoading").hide();
+			    $("#fees").text('');
+				$("#fees").append(data);
+				$("#showFees").show();
+				$("#center").val('');
+				$("#venue").text('');
+				$("#showVenue").hide();
+				
+				if(training_type == 'VC'){
+					$("#FeeCenterLoading").hide();
+					$("#showVirtualCenter").show();
+					$("#vmsgDiv").hide();
+				}
+				else if(training_type == 'PC'){
+					$("#FeeCenterLoading").hide();
+					$("#showCenter").show();
+				}
+			}
+			else{
+				$("#FeeCenterLoading").hide();
+				$("#showFees").hide();
+				$("#feesInput").val('');
+				$("#showTraining_type").hide();
+				$("#showCenter").hide();
+				$("#training_type").val('');
+				$("#vmsgDiv").hide();
+				$("#program").val('');
+				$("#center").val('');
+				$("#venue").text('');
+				$("#showVenue").hide();
+				$("#training_date_div").hide();
+				$("#showVirtualCenter").hide();
+				$("#training_date").val('');
+			}
+		}	
+	},"json");
+}	
+
+/* Get Centers */
+function getCenters()
+{
+	var regnumberHidden = $('#regnumberHidden').val();
+	var batch_code = $('#batch_code').val();
+	var program_code = $('#program').val();
+	var training_type = $('#training_type').val();
+	$("#FeeCenterLoading").show();
+	if(program_code != "" && batch_code != "")
+	{
+		$.ajax({
+		type:"POST",
+		url: site_url+"Blended/getCenters",
+		data:{ program_code:program_code,regnumberHidden:regnumberHidden,batch_code:batch_code},
+		success:function(data){
+			if(data != "")
+			{
+				$("#vmsgDiv").hide();
+				if(training_type == 'PC'){
+					$("#FeeCenterLoading").hide();
+					$("#showCenter").show();
+					$("#centerDiv").text('');
+					$("#centerDiv").append(data);
+					$("#showVirtualCenter").hide();
+				}
+				else if(training_type == 'VC'){
+					$("#FeeCenterLoading").hide();
+					$("#showVirtualCenter").show();
+				}
+				$("#venue").text('');
+				$("#showVenue").hide();
+			}
+			else
+			{
+				$("#FeeCenterLoading").hide();
+				$("#vmsgDiv").hide();
+				$("#centerDiv").text('');
+				$("#showCenter").hide();
+				$("#fees").text('');
+				$("#showFees").hide();
+				$("#venue").text('');
+				$("#showVenue").hide();
+			}
+		}
+	},"json");
+	}
+}
+/* Get Venue Details */
+function getVenue(center_code)
+{
+	var regnumberHidden = $('#regnumberHidden').val();
+	var training_type = $('#training_type').val();
+	var program_code = $("#program").val();
+	var batch_code = $("#batch_code").val();
+	$("#Venueloding").show();
+	if(center_code != '' && batch_code != '')
+	{
+			$.ajax({
+			type:"POST",
+			url: site_url+"Blended/getVenue",
+			data:{regnumberHidden:regnumberHidden, program_code:program_code,center_code:center_code,training_type:training_type,batch_code:batch_code},
+			success:function(data){
+				if(data != "" && data != '1')
+				{
+					$("#Venueloding").hide();
+					$("#vmsgDiv").hide();
+					$("#showVenue").show();
+					$("#venue").text('');
+					$("#venue").append(data);
+				}
+				else if(data == '1')
+				{
+					$("#Venueloding").hide();
+					window.location.assign(site_url+"Blended/")
+				}
+				else
+				{
+					$("#Venueloding").hide();
+					$("#vmsgDiv").show();
+					$("#vmsg").text('Venue is not available for above selected center.');
+					$("#venue").text('');
+					$("#showVenue").hide();
+				}
+			}	
+		},"json");
+	}
+	else
+	{
+		$("#Venueloding").hide();
+		$("#venue").text('');
+		$("#showVenue").hide();
+		$("#vmsgDiv").hide();
+	}
+}	
+/* get Batch */
+function get_batch()
+{
+	$('#batch_code').val($('#training_date').find(':selected').attr('data-id'));
+}

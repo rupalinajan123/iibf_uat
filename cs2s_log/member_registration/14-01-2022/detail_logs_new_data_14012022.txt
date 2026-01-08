@@ -1,0 +1,80 @@
+
+***********************************************************
+
+ Cron execution started at :2022-01-14 08:45:01 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(812289823)
+ Cron execution ended at: 2022-01-14 08:45:02
+
+***********************************************************
+
+ Cron execution started at :2022-01-14 08:50:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(812289824) 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(812289823)
+ Cron execution ended at: 2022-01-14 08:50:03
+
+***********************************************************
+
+ Cron execution started at :2022-01-14 13:40:01 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(812289829) 
+ Total records PENDING: 0
+()
+ Total records No Response: 0
+()
+ Cron execution ended at: 2022-01-14 13:40:02
+
+***********************************************************
+
+ Cron execution started at :2022-01-14 21:05:01 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(812289838)
+ Cron execution ended at: 2022-01-14 21:05:02
+
+***********************************************************
+
+ Cron execution started at :2022-01-14 22:05:01 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(812289843)
+ Cron execution ended at: 2022-01-14 22:05:02

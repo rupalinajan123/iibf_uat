@@ -1,0 +1,16 @@
+
+***********************************************************
+
+ Cron execution started at :2022-05-30 23:59:26 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 3
+(903478548,903478551,903478578) 
+ Total records PENDING: 0
+()
+ Total records No Response: 3
+(903478553,903478568,903478574)
+ Cron execution ended at: 2022-05-31 00:00:09

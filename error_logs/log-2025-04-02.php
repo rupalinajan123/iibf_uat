@@ -1,0 +1,37 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2025-04-02 00:45:45 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-04-02 00:50:23 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-04-02 11:30:27 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-04-02 15:11:52 --> 404 Page Not Found: iibfdra/Version_2//index
+ERROR - 2025-04-02 15:13:25 --> 404 Page Not Found: iibfdra/Version_2//index
+ERROR - 2025-04-02 15:15:18 --> 404 Page Not Found: Uploads/iibfdra
+ERROR - 2025-04-02 15:15:18 --> 404 Page Not Found: Uploads/iibfdra
+ERROR - 2025-04-02 15:15:18 --> 404 Page Not Found: Uploads/iibfdra
+ERROR - 2025-04-02 15:15:18 --> 404 Page Not Found: Uploads/iibfdra
+ERROR - 2025-04-02 15:16:14 --> 404 Page Not Found: Uploads/iibfdra
+ERROR - 2025-04-02 15:16:14 --> 404 Page Not Found: Uploads/iibfdra
+ERROR - 2025-04-02 15:16:14 --> 404 Page Not Found: Uploads/iibfdra
+ERROR - 2025-04-02 15:16:14 --> 404 Page Not Found: Uploads/iibfdra
+ERROR - 2025-04-02 15:16:14 --> 404 Page Not Found: Uploads/iibfdra
+ERROR - 2025-04-02 16:04:04 --> 404 Page Not Found: Uploads/iibfdra
+ERROR - 2025-04-02 16:04:04 --> 404 Page Not Found: Uploads/iibfdra
+ERROR - 2025-04-02 16:04:04 --> 404 Page Not Found: Uploads/iibfdra
+ERROR - 2025-04-02 16:04:04 --> 404 Page Not Found: Uploads/iibfdra
+ERROR - 2025-04-02 16:04:19 --> 404 Page Not Found: iibfdra/Version_2/TrainingBatches/favicon.ico
+ERROR - 2025-04-02 18:09:45 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-02 18:09:45 --> 404 Page Not Found: Assets/iibfbcbf
+ERROR - 2025-04-02 18:16:52 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-02 18:16:53 --> 404 Page Not Found: Assets/iibfbcbf
+ERROR - 2025-04-02 18:17:29 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-02 18:17:29 --> 404 Page Not Found: Assets/iibfbcbf
+ERROR - 2025-04-02 18:17:50 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-02 18:17:51 --> 404 Page Not Found: Assets/iibfbcbf
+ERROR - 2025-04-02 18:19:13 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-02 18:19:14 --> 404 Page Not Found: Assets/iibfbcbf
+ERROR - 2025-04-02 18:20:33 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-02 18:23:52 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-02 18:23:52 --> 404 Page Not Found: Assets/iibfbcbf
+ERROR - 2025-04-02 18:25:03 --> 404 Page Not Found: Assets/js
+ERROR - 2025-04-02 18:25:04 --> 404 Page Not Found: Assets/iibfbcbf
+ERROR - 2025-04-02 18:25:12 --> 404 Page Not Found: Get_password/510552502

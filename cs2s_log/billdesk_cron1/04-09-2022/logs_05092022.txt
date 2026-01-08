@@ -1,0 +1,12 @@
+
+ 903561066=transaction|XAX60740376204|903561066|INDINSBAF|2022-09-04T23:40:00+05:30|3186.00|20.70|0.00|3206.70|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|3ds|AX6|VDDIRECT|230344|0300|TRS0000|Transaction Successful|success|230344|05|card
+
+ 903561069=transaction|XCNB0740374517|903561069|INDINSBAF|2022-09-04T23:39:08+05:30|1799.50|14.16|0.00|1813.66|356|Array|https://iibf.esdsconnect.com/applyexam/handle_billdesk_response|nb|CNB|DIRECT|869386259793179|0300|TRP0000|Transaction Pending|pending|netbanking
+
+ 903561068=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903561071=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903561075=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903561078=transaction|XHD50740375535|903561078|INDINSBAF|2022-09-04T23:39:39+05:30|1799.50|0.00|0.00|1799.50|356|Array|https://iibf.esdsconnect.com/applyexam/handle_billdesk_response|collect|HD5|DIRECT|224764887248|0300|TRS0000|Transaction Successful|success|upi

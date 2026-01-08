@@ -1,0 +1,2164 @@
+
+ 902876411=1000169|6199077406124|BOOKED|IN|INR|902876411^iibfexam^IIBFELS^510114060|902876411|295|Transaction Booked|SBIN|NA|2021-09-18 01:08:41|UPI|10001692021091800004|1000169|0.00^0.00||||||||||
+
+ 902876411=1000169|6199077406124|BOOKED|IN|INR|902876411^iibfexam^IIBFELS^510114060|902876411|295|Transaction Booked|SBIN|NA|2021-09-18 01:08:41|UPI|10001692021091800004|1000169|0.00^0.00||||||||||
+
+ 902876411=1000169|6199077406124|BOOKED|IN|INR|902876411^iibfexam^IIBFELS^510114060|902876411|295|Transaction Booked|SBIN|NA|2021-09-18 01:08:41|UPI|10001692021091800004|1000169|0.00^0.00||||||||||
+
+ 812258360=<!DOCTYPE HTML> 
+<html> 
+<body > 
+  <div class="logo" style="background-color: #fff; height: 80px;">
+  
+  </div>
+    <p class="main">
+		Site is under scheduled maintenance!
+	</p>
+	<p class="main1">We will be back online at</p>
+  
+<div id="clockdiv"> 
+  <!-- <div> 
+    <span class="days" id="day"></span> 
+    <div class="smalltext">Days</div> 
+  </div>  -->
+  
+  <div> 
+    <span class="hours" id="hour"></span> 
+    <div class="smalltext">Hours</div> 
+  </div> 
+  <div> 
+    <span class="minutes" id="minute"></span> 
+    <div class="smalltext">Minutes</div> 
+  </div> 
+  <div> 
+    <span class="seconds" id="second"></span> 
+    <div class="smalltext">Seconds</div> 
+  </div> 
+</div> 
+	<p class="headline">
+		To serve you better, we're upgrading our systems.
+		Your patience is appreciated.
+	</p>
+    <p class="headline">				
+		You can reach us at - <span style="font-weight:bold">sbiepay@sbi.co.in</span>
+	</p>
+<script> 
+
+var deadline = new Date("September 18 2021 08:00:00").getTime(); 
+  
+var x = setInterval(function() { 
+  
+var now = new Date().getTime(); 
+var t = deadline - now; 
+var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
+var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+var seconds = Math.floor((t % (1000 * 60)) / 1000); 
+// document.getElementById("day").innerHTML =days ; 
+document.getElementById("hour").innerHTML =hours; 
+document.getElementById("minute").innerHTML = minutes;  
+document.getElementById("second").innerHTML =seconds;  
+if (t < 0) { 
+        clearInterval(x); 
+        document.getElementById("demo").innerHTML = "TIME UP"; 
+        // document.getElementById("day").innerHTML ='0'; 
+        document.getElementById("hour").innerHTML ='0'; 
+        document.getElementById("minute").innerHTML ='0' ;  
+        document.getElementById("second").innerHTML = '0'; } 
+}, 1000); 
+</script> 
+</body> 
+<head> 
+<style> 
+body{ 
+  text-align: center; 
+/*background-image: linear-gradient(to right, #4facfe , #00f2fe ); */
+  background-repeat: no-repeat;
+  background-color:#000061;
+  font: 20px Helvetica, sans-serif;
+  font-weight: 100; 
+  margin: 0 auto;
+} 
+h1{ 
+  color: #fff; 
+  font-weight: 100; 
+  font-size: 50px; 
+  font: 20px Helvetica, sans-serif;
+  margin: 40px 0px 20px; 
+} 
+ #clockdiv{ 
+    font-family: sans-serif; 
+    color: #fff; 
+    display: inline-block; 
+    font-weight: 100; 
+    text-align: center; 
+    font-size: 25px;
+	height:150px;	
+} 
+#clockdiv > div{ 
+    padding: 10px; 
+    border-radius: 3px; 
+    background: #4facfe;
+    display: inline-block; 
+    border-radius: 8px;
+    margin-bottom: 100px;
+} 
+#clockdiv div > span{ 
+    padding: 15px; 
+    border-radius: 3px; 
+    display: inline-block; 
+} 
+smalltext{ 
+    padding-top: 5px; 
+    font-size: 16px; 
+} 
+h1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+.main{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+}
+.main1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+}
+p{
+  font: 20px Helvetica, sans-serif;
+  font-size: 23px;
+  color: #fff;
+}
+.headline{
+  font: 20px Helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  
+}
+
+.logo {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOsAAABBCAMAAAAHU6NvAAAABGdBTUEAALGPC/xhBQAAAsdQTFRFFG65KABwKABwKABwKABwAKnfKQB0KABwAKvhKABwKABwKABwKABwKABxKABxAKviKABwKABxAKngKABwAKrhAKngAKrhKAByKABwKABwKABwKABwAKnfKABwKABwKABwKABwAKviAKnfAKnfKABwKQB1KABwKABwAK3kKABwAKrhAKnfAKviAKngKABxAK3kKABwKABxKABwKABwKAByKAByAKviKABwKABwKABwKABwAKngAKrgAKngAKngAKrgAKrgKABwKABwKABwKABwAKrhKABwAKnfAKngAKzjKABwKABwAKnfKgB3KABxAKnfAKrgAKngAKnfAKngAKngKABwAKnfKABwAKnfAKviAKngAKngAKnfAKrhAKzkKABxOACeAKngAK3kAKngAKrhAKrgAKngAKngAKnfAKrgAKnfKABwKABwAKngKABwAKrgKABwKABwAKviKABwAKnfAKngKABwAKnfAKnfAKrgAKnfAKrhAKngAKnfAKnfAKrgKABxAKngAK7mAKzjAKviAKngAKnfALjyAKrgAKnfAKrgKABwALDpALLrAKnfAKngAKnfAKngAKngKABwAKngKABwKgB3AKnfMQCMALPsKABwAL35AKrgKABwKgB2KgB5ALjzLwCGALDpKABwAKngKgB3AOz/AKnfKABwALHqKABxKABwAKnfAKnfAKzjALjyKABwKABwAMb+KABwAMf9LQCAAMb6AMT2KABwAKnfAP3/AKnfAKnfPwCxAKnfKABwAKnfAAAALQB+AL36AMX/ALjzALv3ALbxKQByALTtALn0ALjyALHpALPtALXwAKzkALTuKwB6ALDoALPsAK7lAKngALr2ALHqKQB1ALLrAKvhAK3lAK3kKgB4AK7mKQBzALDpKABxAK/oKQB0KgB2ALbwAKviAKzjAKrhAKrgKAByKABwAKnfOY8kaQAAAMJ0Uk5TBqfBPsK2D5ompoO1RSUoFy8klG4ruD4Zu+y5s8udo3K+JOzULAljUxihRLU5VSId50KPiB4NMmm/8tSRckV2PGVsN0nkWn+3jidMlcEHHO5ul8+dmvbSX8UfX67lSBszAqcVokGIfmzfYcjgeFhaT/jIKdvnhaq+nm/pMIuw3DYTqg8SIbrhCUzYafkNCvd59n+jr2POBPICBEgGUu4LAgcEArCDBQKmtwYxrfn4LAX7+gT8AgMBA/37Afr8Af3+/gB52WSYAAARZ0lEQVRo3u2ah38TV7bH/d5uSNkkbLIhJIGQAIEQIAltYSmh995D770XA6EY44LBNraBxS2YuADmmchIsiyrjUdz3ktCM9i4xJYtJKswkiz9Ee/cOyNpbEveJeSzn8+yPp9A0J12v/ece+7v3JkI+M+xiE7WTtZO1k7WTtZO1k7WfwlrWVnZfwRrYUlRiR70JVdLCsNftCH/5k3872ZGbqApSy21DeWtzhdbs56jX2V5VyWWd7VEU/Y7s2o0wv+kP9qZWh38d4Y6zH3V+eUv0q1QYCW/J6se/0RvXxTV7Wy3qEXbo8WWtoa+XD9pztG//9jrjX3vAIhI66d8H7ApQ9ePgMARgC5i8+3nQP160OVbQYtZmnQ+JXR3fqtfU8atiGRMjx/VPHpsYiJ3jUsJecm+/x6iaHiKZl22+4N9YuPR0R9eC9iHUw8fnDM5cMGfhdbRX8A/62s9nPyp5lnQ7j4y9Dl9atPv59eypARfc1MdoyPG1DU1+xKS2o5kOYz4SOWwelVKhVJhtFkdivSh9MAHDltL0KyOBtuBHl+JF60XGh3Xn4P1Ts1Fg8R0Hr6C7zMxdHA/Jyve4r1jTS4Py3J+Y1mPq/bYIZAmZTWsn+qwabVGNC/+0WptVtUb+XjkTzaVtpUZbfeuvSnA3SYn4qk/Pg/rM4MvYJwP+8P4zPwSzYvEcYT/5udPVDN4R7yv9P7Vkecld1fD27sdKoLppUZ4tdqGSXjgf1rEtsABo7Fl2WRKd1toaHluVuwLQ73KkH5xbF3lDdC8eAzvvcjrCJ1PMpr4S8df3BuIm3K42cOppBiq5APJShWBVll338YjhBUHQXWAmlLwujX95guxYhcsVY8e3a8361j8t4/lU/e/QDoWWQdmNup8UlC/c5nGzIH+c/PhW6+WRq/i3tMnT5w2pdZrVFmH4wHRr0brE2pOLRkGo1cxCl3+Qn7tuzlm48azidU8Q2BljzZm//YpK7Cu22FmQqBSWPPpdX63ql9/mky6rXWkD98z/YvdzhaVynF4BFmGBL/a0vd9izapF0U1qhp6kHF4AVbPEUjJK9o0KynSQmBZX+aW3x7FhLUAYqpDo1LY6higGioLPjvcQuJW6x1+Bn/3+2pfusPrnQ43wc/aclRcg0kAeL2qhvQuOBAvwOr2T9CcPm4SxsUPx0HhC7AWwn6DhwuNSqaMR5ZDH6iGoclGjGGlE4nKc0m//7rHtrsfvY/Ieh3m5efnZ4D6R4cCB8V6+G28rCNWfchfUlZ5WZleUwJjH8qwN4ZHS+TwW0VFBFGEK+wsJ8m/LK48wXzMMc1zRdYpVgWZrM498AP1HnZ9dn/IbcVaLoT7JyTakfWzjlkLAFZeWr3GcLE4c+6p6JB+pblIDjmpdehYXfWMOChE1JT3084myFJTU2WnN06Lo/Qpa3Oo7Y0uCD7g5JdC4x08IwIx9mfyrMhGkp3B4/IYaN4T2Fk+cz9kE9bvbSSElc4vgMat1Fqz5gqsKseYEbAhPCt2cN27vloX7250N/JmV8wdKAjNWgiH+uKM9VFWgN5payxmclljo5t32U/vBSiF7O9+dVssFtfj5fGBOM9eXN9ksdTWGwbiCRE4ZEvrGS6AquOrLkZerKIrkNimMy0iT1TD5A/JNNR6l+3B2dta3EtY82/OA8AYxhXI+UfAkiccK6LmnDAF5AvLVPTZK4RnO1YNRO9ooqzd4qDr9sjHnET1MO6KrcT17+NCzLKMzL4zkL+iLdjCsvxZQh+hh7hd9bpAABvsJ059uSXn1Am7IRDGuvpdXfHx5dD9bw04C71am/fom9Dat639mv8XFdVWtmHkpPAxvLDSLMOnICadNTpetwrHPwRrEaxyE6Gja14dCyPrOQP5wTI64TrGYEkjhdDlKgPezVATc8G/MC1pJCfWeaaRMYzQwPuRLtYfr7rqxC30pC2Jdv+Cy7GuSJrp1TDdqSTrq1blvHZ03zzS0o4V+o2aM+cjpQ3TsLbl2lsELwxrIeQwbqIYWMZj4RmSMhg+M5rASlmv6vX6EihZbSIcsrun8MqZVQYfq2N4S7PFpyOwLCc7iYPy5UX8F3ocfwiOLUlwEcc3rqFVTIQcVgXlEssvOA9Fco28CM4vwEnsT0++VWR4s2B+Ouom0vFkm3PZwT1nQvgVzqT/71MnBjqOiXU6ZIXVTaWwcofLQNSZhV/zSl9zLekF07SC+CTIekk8e6abKFhO17QXg3XA4lodb2rs+8p3M05Uu6lnLZfxpKvHqkg0Gu6niXNkraERb8o2nQKRdXyNTmTldI9WY44ntUARRJkYf7PsWRqQVJ8BQ685VFQMapW2BuPu4X/1l6kS1k8dyxQE1djysdDPcDF8qkZGxtETM7JrbNyhGLLusW6GDGtQSwzaO/HKlZ1pPblGkj519uW9obAUvmHtu6bFb7qQFztgfx8XXTSK12EXd8o8JLb5vptIEGdDjJkmAt/XAmsR3Hgg80P5PAIUmelpdYEJW/zghtCcBVOGOLxUB2Mge622qfugzZoDZ4RJTQbkEwiv/csgPpUj/Xe9K7akmXHMdaZu6HE/q7AAsqyv1kNOZVnLeIxOxBgfrDbfp3WBD6dkgR56VhBRpDMNpE+I22HH2GTstwqDrMX+YPUYtpPVhSa+JJnbPwTFP28NSO63PjU2aAVtjwKqxTpnHo3TVn49oBLksLXXzQ7m66oaEsFNK0B+9WrR1TzoOtdkwCBOGAyaoPb3eYhRah9nqDkb215HLK1lhZmN0zrNXUeDdjXds7mCCBxnMH0jpCpkvfQw4FfWshXy6A3y4FQTF2B9sA0zoSiKYVK6zakSaY1GR6980ihhPfjEalUpKKxjGMZ9GFbN5lqcgh52f6AlCdMox/ETQR7U/oGFBSeY4dHiQ0LSKcCRj3tvwv7zxG6ZiRhwxZCkFpfoEk6OJyE8o4Yhgr5nV2GAcL4etzOB1cW0K4XeTQN5u+oZv7t1puNiaCNsOZz55FM/LdFG0wlPkLXLq2MOHm5xCIvTstm46IRmTUkgWaWOeXf7cWrjJl4mfSaZVt6qVheWF4PBUvXKLAEVQ/LO+Bk7mF8ePHjw6wM3HRLXLWQthSONtPLmt+KZI3fUYlo23F8orkARJFN7WP9dWQwFHAQchhueQHpm61K/lJSNWLl02XfU6BSSlMI6dT1O2eD6mtX9na8++zadTlql8/WwGvEC1eCc79mvov1SRRxpqNpYiDCBWl2GtbqMcbsemZaPjxW9CheOnL5v4tnUYmIspaOsAPGZJGw5V2KpHBaSfzKNCe+JKxCurydP1zJBPSibuQlRN82UBXUj03R6pLSSKkd90O8PvVpsdGE54HwDsspbawmAz8ZYFaS4PXw7XAzHuigqZxB6XFycSiIY52TUOXyYf77a7z5+/Piub8fimTkrxc1czDln7RaZgWED4R1khXebSHS4mf0QOwMTgq/44RK/sIgo08PZ+wHZ4GPq6mfKIW9svY8JtBnudytsXSGXo2+zZu+2qrA+Vzr/1AWyJKzlWbnqeTCqAWWH1qj4vANWCutpbUxVVJ6fFQ8uXXnyzp07r63rikJZI6YlzaBmhkiIRlel2WyulMQw2ko3HYLas7AlkmcxUFExaPx1jhwu8VxQD8vqL+dBysZ6WVAPs+Ztgenq3/ctR8k0dIiNbkyMeQvUbfyaAW+OJnpC0TAqLGul4FcqWIMmM62WsLq3BbVHoHrZbifKkKvMjLqxc+3etBU8K2GFpc2oeNnaEyu3kZyrq+mW4k/dEXjGrITaYJ2ja16SB+c2N+uCdY4l4ZB4n3z4HP2U4af9+CmqKFXL7j+HYJ1CWZXOv0B5mPma6aO5aevOK1LbmfRNNj4tqBGLUCPqpZuZ+h08TT99Dwm/t9ItC5FVD9Ecdp1zFy+dYcJwZZvS/EsIqV9L4DtzUCbqmr9D1svNuuAOW9MSMTOpofth5x7USjfVueXqm35WUqQGWDeUo+X2g1FOkqhV1v7h/Fp01kUkcN24f7AvUdL2lcBgxkPTz0mx5Yidkfo179Z9cmkjQ7IUY0+MF9spaxmsPOHugLUxMl6YrTgVX3conB/NFgucyVNbVBimjoPzYUOAVXydNT+dbkx4R88OqyXGN5O60bz8AuSV6gsK9KUluLTLS/T6Dln1sJMlQtCTcE5sudwkjeFC2M+TmOS4OvKXeVFw+kXQyxcG95vasGII2xeKI6OGSTajVtmgPDpp8ogzZLeJ5Kbkp71wGIJ7MBkZGeoz339AF1iVI/2dsBox2k4Sr8+1GUNLrsmWYwb5+sYNWmZ3yDqRUtT1SYFSvV6Oq0ydNA/r4dxqWgFQ3soFgwNu9e+Z3jL5d4elrKSFqb8l5mA1rL/WggRKo/Pe1PSDY5QEx2hUWP174bgAffjB39A+PTi6QTjmfBXneBi/XjhWTbKIh486LxbWN5bXXCSbJR2zJhFWH2efSH8POFvZKg+jG680iXsPmI5XSBZLkTVubgVD06KUlYwM03wszp9+ux90JAs1jvaeo8HhVVAt0ZDeHQL7wy1Oag02ekxlHTIZ01Ro1gLYUuxDEcNy9szlg8Yumrs80tVsaFpR0qqmCzFfvxHmqy9z69pDW7YmVtIVNshaAAPI5gNH9b1vYtCtIqse1s2t4MibBC7ASkm55mMDxJRdDl1+dBpVojJUqVRUSeCE7U/2HkS/ahXUyK4EJiabbU+H+8PbTAxDVDhfb+f5igozrj8+1zZpTdeeFWkjeSofePfFBZluC+Nr7Vd07ELqJ5Kr14TY9y+AuM2uJgZpg37lGKbJtTkWCgLr6g+v2qxahfR1jsKG8j4r4Ff/6xwyGgqVwzuso/c5OISnmnm6i8cQ/5IdJEZWg5KusENWOF7NUF3o4108ZzC30oh0E6B3op1qea72Uqj3OfjgpNPNdkZWbKes1cUyxt58Okm6F4s97X/Y0aBNpn5D3yarnKphwrEe3mSlxJKV3gbH7kni+1eFgrR5j7bxK6aBI6n1nmIdVXtkV4yx1+9Ionr8vfpMlI0y3aVQ728GmXwyHY4Noyv2mRKOMURlspsDTpHDKReNa46ND/3+VQMrxybaH/MVVEtU8I/tiTNXtnmhoIb5w9NtTxw2rUKp8t572nLwW/HIH584pfbk6ej0Ye+IbOvFto8gt9328NpjqT/bXWxxajHbaHlm77tolrDfdPKnZ6SI+WWsVLH5h+jCkuJnFrfH4266q4samfbTQzz1/2YEZmYZDFhTS4r02tWaMO+asUg/dHzj4sZb5yAlhl+88fghEAt3yfcRACP6f3xwiNHhbBk95r9GdYcNwoHpPf4etOtH5+z5fD49m9hX16+T1h572u+Fl0BKztIVCdzDXx74TvS8vHCW/7OIrlu3XSK2RZJbgjtVsH9pzz4LFvRZHLMqG+4cIafeyAlK9mxIrCYb5/a1Yb8hwDIINK8NHKkBzchvXsMhkbd/Ti7RESMmfz/789l/eDuLFnjU+v0gtXlUUPq/e8mVtrYxMphfn1y7d9W0tdG9sbPi5zdlYV6CiOGAV8UPnjBhcG8NBCOvLDgWE/pgEDOuXbGtSpaINl/8SH7IQ78kkm6C5+eGeXWSK/0eqOPXVCWloR5ZdrWIWpiXcnL/EGSXQalwZjAEi2As2VMp/nlcx983lZVqyLPx7w5ec+ZuUKsz1OosSUiWt7Y2X1mEapS4qVCTXZKt6fCR7S/SaNpfUSYkgd6JFlLNRZ5sPQFeqm/0SuHkHZyHsVFkV0n2eNHL/D2iBmbYL29fOJeg4jLW9nuDl4mV7oVbamoqibowVG8savO5wUvEWgibdjXrGIOBbodXJhxq+7XBS8Sqh0s8I+62MY2uVe1UyMvDWgDrlj/QCYUoZ2a3QwG8xLlJHr8t0+x2uVyN5uUT/tG3l//+FjstLSpq840Jcnj5Wf+pb/ReHgv/BX+nXztZO1n/fez/ASiK5HvHhDF8AAAAAElFTkSuQmCC);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 65px;
+	width: 100%;
+}
+
+</style> 
+</head> 
+</html>
+
+ 812258360=<!DOCTYPE HTML> 
+<html> 
+<body > 
+  <div class="logo" style="background-color: #fff; height: 80px;">
+  
+  </div>
+    <p class="main">
+		Site is under scheduled maintenance!
+	</p>
+	<p class="main1">We will be back online at</p>
+  
+<div id="clockdiv"> 
+  <!-- <div> 
+    <span class="days" id="day"></span> 
+    <div class="smalltext">Days</div> 
+  </div>  -->
+  
+  <div> 
+    <span class="hours" id="hour"></span> 
+    <div class="smalltext">Hours</div> 
+  </div> 
+  <div> 
+    <span class="minutes" id="minute"></span> 
+    <div class="smalltext">Minutes</div> 
+  </div> 
+  <div> 
+    <span class="seconds" id="second"></span> 
+    <div class="smalltext">Seconds</div> 
+  </div> 
+</div> 
+	<p class="headline">
+		To serve you better, we're upgrading our systems.
+		Your patience is appreciated.
+	</p>
+    <p class="headline">				
+		You can reach us at - <span style="font-weight:bold">sbiepay@sbi.co.in</span>
+	</p>
+<script> 
+
+var deadline = new Date("September 18 2021 08:00:00").getTime(); 
+  
+var x = setInterval(function() { 
+  
+var now = new Date().getTime(); 
+var t = deadline - now; 
+var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
+var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+var seconds = Math.floor((t % (1000 * 60)) / 1000); 
+// document.getElementById("day").innerHTML =days ; 
+document.getElementById("hour").innerHTML =hours; 
+document.getElementById("minute").innerHTML = minutes;  
+document.getElementById("second").innerHTML =seconds;  
+if (t < 0) { 
+        clearInterval(x); 
+        document.getElementById("demo").innerHTML = "TIME UP"; 
+        // document.getElementById("day").innerHTML ='0'; 
+        document.getElementById("hour").innerHTML ='0'; 
+        document.getElementById("minute").innerHTML ='0' ;  
+        document.getElementById("second").innerHTML = '0'; } 
+}, 1000); 
+</script> 
+</body> 
+<head> 
+<style> 
+body{ 
+  text-align: center; 
+/*background-image: linear-gradient(to right, #4facfe , #00f2fe ); */
+  background-repeat: no-repeat;
+  background-color:#000061;
+  font: 20px Helvetica, sans-serif;
+  font-weight: 100; 
+  margin: 0 auto;
+} 
+h1{ 
+  color: #fff; 
+  font-weight: 100; 
+  font-size: 50px; 
+  font: 20px Helvetica, sans-serif;
+  margin: 40px 0px 20px; 
+} 
+ #clockdiv{ 
+    font-family: sans-serif; 
+    color: #fff; 
+    display: inline-block; 
+    font-weight: 100; 
+    text-align: center; 
+    font-size: 25px;
+	height:150px;	
+} 
+#clockdiv > div{ 
+    padding: 10px; 
+    border-radius: 3px; 
+    background: #4facfe;
+    display: inline-block; 
+    border-radius: 8px;
+    margin-bottom: 100px;
+} 
+#clockdiv div > span{ 
+    padding: 15px; 
+    border-radius: 3px; 
+    display: inline-block; 
+} 
+smalltext{ 
+    padding-top: 5px; 
+    font-size: 16px; 
+} 
+h1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+.main{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+}
+.main1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+}
+p{
+  font: 20px Helvetica, sans-serif;
+  font-size: 23px;
+  color: #fff;
+}
+.headline{
+  font: 20px Helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  
+}
+
+.logo {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOsAAABBCAMAAAAHU6NvAAAABGdBTUEAALGPC/xhBQAAAsdQTFRFFG65KABwKABwKABwKABwAKnfKQB0KABwAKvhKABwKABwKABwKABwKABxKABxAKviKABwKABxAKngKABwAKrhAKngAKrhKAByKABwKABwKABwKABwAKnfKABwKABwKABwKABwAKviAKnfAKnfKABwKQB1KABwKABwAK3kKABwAKrhAKnfAKviAKngKABxAK3kKABwKABxKABwKABwKAByKAByAKviKABwKABwKABwKABwAKngAKrgAKngAKngAKrgAKrgKABwKABwKABwKABwAKrhKABwAKnfAKngAKzjKABwKABwAKnfKgB3KABxAKnfAKrgAKngAKnfAKngAKngKABwAKnfKABwAKnfAKviAKngAKngAKnfAKrhAKzkKABxOACeAKngAK3kAKngAKrhAKrgAKngAKngAKnfAKrgAKnfKABwKABwAKngKABwAKrgKABwKABwAKviKABwAKnfAKngKABwAKnfAKnfAKrgAKnfAKrhAKngAKnfAKnfAKrgKABxAKngAK7mAKzjAKviAKngAKnfALjyAKrgAKnfAKrgKABwALDpALLrAKnfAKngAKnfAKngAKngKABwAKngKABwKgB3AKnfMQCMALPsKABwAL35AKrgKABwKgB2KgB5ALjzLwCGALDpKABwAKngKgB3AOz/AKnfKABwALHqKABxKABwAKnfAKnfAKzjALjyKABwKABwAMb+KABwAMf9LQCAAMb6AMT2KABwAKnfAP3/AKnfAKnfPwCxAKnfKABwAKnfAAAALQB+AL36AMX/ALjzALv3ALbxKQByALTtALn0ALjyALHpALPtALXwAKzkALTuKwB6ALDoALPsAK7lAKngALr2ALHqKQB1ALLrAKvhAK3lAK3kKgB4AK7mKQBzALDpKABxAK/oKQB0KgB2ALbwAKviAKzjAKrhAKrgKAByKABwAKnfOY8kaQAAAMJ0Uk5TBqfBPsK2D5ompoO1RSUoFy8klG4ruD4Zu+y5s8udo3K+JOzULAljUxihRLU5VSId50KPiB4NMmm/8tSRckV2PGVsN0nkWn+3jidMlcEHHO5ul8+dmvbSX8UfX67lSBszAqcVokGIfmzfYcjgeFhaT/jIKdvnhaq+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);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 65px;
+	width: 100%;
+}
+
+</style> 
+</head> 
+</html>
+
+ 812258360=<!DOCTYPE HTML> 
+<html> 
+<body > 
+  <div class="logo" style="background-color: #fff; height: 80px;">
+  
+  </div>
+    <p class="main">
+		Site is under scheduled maintenance!
+	</p>
+	<p class="main1">We will be back online at</p>
+  
+<div id="clockdiv"> 
+  <!-- <div> 
+    <span class="days" id="day"></span> 
+    <div class="smalltext">Days</div> 
+  </div>  -->
+  
+  <div> 
+    <span class="hours" id="hour"></span> 
+    <div class="smalltext">Hours</div> 
+  </div> 
+  <div> 
+    <span class="minutes" id="minute"></span> 
+    <div class="smalltext">Minutes</div> 
+  </div> 
+  <div> 
+    <span class="seconds" id="second"></span> 
+    <div class="smalltext">Seconds</div> 
+  </div> 
+</div> 
+	<p class="headline">
+		To serve you better, we're upgrading our systems.
+		Your patience is appreciated.
+	</p>
+    <p class="headline">				
+		You can reach us at - <span style="font-weight:bold">sbiepay@sbi.co.in</span>
+	</p>
+<script> 
+
+var deadline = new Date("September 18 2021 08:00:00").getTime(); 
+  
+var x = setInterval(function() { 
+  
+var now = new Date().getTime(); 
+var t = deadline - now; 
+var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
+var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+var seconds = Math.floor((t % (1000 * 60)) / 1000); 
+// document.getElementById("day").innerHTML =days ; 
+document.getElementById("hour").innerHTML =hours; 
+document.getElementById("minute").innerHTML = minutes;  
+document.getElementById("second").innerHTML =seconds;  
+if (t < 0) { 
+        clearInterval(x); 
+        document.getElementById("demo").innerHTML = "TIME UP"; 
+        // document.getElementById("day").innerHTML ='0'; 
+        document.getElementById("hour").innerHTML ='0'; 
+        document.getElementById("minute").innerHTML ='0' ;  
+        document.getElementById("second").innerHTML = '0'; } 
+}, 1000); 
+</script> 
+</body> 
+<head> 
+<style> 
+body{ 
+  text-align: center; 
+/*background-image: linear-gradient(to right, #4facfe , #00f2fe ); */
+  background-repeat: no-repeat;
+  background-color:#000061;
+  font: 20px Helvetica, sans-serif;
+  font-weight: 100; 
+  margin: 0 auto;
+} 
+h1{ 
+  color: #fff; 
+  font-weight: 100; 
+  font-size: 50px; 
+  font: 20px Helvetica, sans-serif;
+  margin: 40px 0px 20px; 
+} 
+ #clockdiv{ 
+    font-family: sans-serif; 
+    color: #fff; 
+    display: inline-block; 
+    font-weight: 100; 
+    text-align: center; 
+    font-size: 25px;
+	height:150px;	
+} 
+#clockdiv > div{ 
+    padding: 10px; 
+    border-radius: 3px; 
+    background: #4facfe;
+    display: inline-block; 
+    border-radius: 8px;
+    margin-bottom: 100px;
+} 
+#clockdiv div > span{ 
+    padding: 15px; 
+    border-radius: 3px; 
+    display: inline-block; 
+} 
+smalltext{ 
+    padding-top: 5px; 
+    font-size: 16px; 
+} 
+h1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+.main{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+}
+.main1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+}
+p{
+  font: 20px Helvetica, sans-serif;
+  font-size: 23px;
+  color: #fff;
+}
+.headline{
+  font: 20px Helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  
+}
+
+.logo {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOsAAABBCAMAAAAHU6NvAAAABGdBTUEAALGPC/xhBQAAAsdQTFRFFG65KABwKABwKABwKABwAKnfKQB0KABwAKvhKABwKABwKABwKABwKABxKABxAKviKABwKABxAKngKABwAKrhAKngAKrhKAByKABwKABwKABwKABwAKnfKABwKABwKABwKABwAKviAKnfAKnfKABwKQB1KABwKABwAK3kKABwAKrhAKnfAKviAKngKABxAK3kKABwKABxKABwKABwKAByKAByAKviKABwKABwKABwKABwAKngAKrgAKngAKngAKrgAKrgKABwKABwKABwKABwAKrhKABwAKnfAKngAKzjKABwKABwAKnfKgB3KABxAKnfAKrgAKngAKnfAKngAKngKABwAKnfKABwAKnfAKviAKngAKngAKnfAKrhAKzkKABxOACeAKngAK3kAKngAKrhAKrgAKngAKngAKnfAKrgAKnfKABwKABwAKngKABwAKrgKABwKABwAKviKABwAKnfAKngKABwAKnfAKnfAKrgAKnfAKrhAKngAKnfAKnfAKrgKABxAKngAK7mAKzjAKviAKngAKnfALjyAKrgAKnfAKrgKABwALDpALLrAKnfAKngAKnfAKngAKngKABwAKngKABwKgB3AKnfMQCMALPsKABwAL35AKrgKABwKgB2KgB5ALjzLwCGALDpKABwAKngKgB3AOz/AKnfKABwALHqKABxKABwAKnfAKnfAKzjALjyKABwKABwAMb+KABwAMf9LQCAAMb6AMT2KABwAKnfAP3/AKnfAKnfPwCxAKnfKABwAKnfAAAALQB+AL36AMX/ALjzALv3ALbxKQByALTtALn0ALjyALHpALPtALXwAKzkALTuKwB6ALDoALPsAK7lAKngALr2ALHqKQB1ALLrAKvhAK3lAK3kKgB4AK7mKQBzALDpKABxAK/oKQB0KgB2ALbwAKviAKzjAKrhAKrgKAByKABwAKnfOY8kaQAAAMJ0Uk5TBqfBPsK2D5ompoO1RSUoFy8klG4ruD4Zu+y5s8udo3K+JOzULAljUxihRLU5VSId50KPiB4NMmm/8tSRckV2PGVsN0nkWn+3jidMlcEHHO5ul8+dmvbSX8UfX67lSBszAqcVokGIfmzfYcjgeFhaT/jIKdvnhaq+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);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 65px;
+	width: 100%;
+}
+
+</style> 
+</head> 
+</html>
+
+ 812258360=<!DOCTYPE HTML> 
+<html> 
+<body > 
+  <div class="logo" style="background-color: #fff; height: 80px;">
+  
+  </div>
+    <p class="main">
+		Site is under scheduled maintenance!
+	</p>
+	<p class="main1">We will be back online at</p>
+  
+<div id="clockdiv"> 
+  <!-- <div> 
+    <span class="days" id="day"></span> 
+    <div class="smalltext">Days</div> 
+  </div>  -->
+  
+  <div> 
+    <span class="hours" id="hour"></span> 
+    <div class="smalltext">Hours</div> 
+  </div> 
+  <div> 
+    <span class="minutes" id="minute"></span> 
+    <div class="smalltext">Minutes</div> 
+  </div> 
+  <div> 
+    <span class="seconds" id="second"></span> 
+    <div class="smalltext">Seconds</div> 
+  </div> 
+</div> 
+	<p class="headline">
+		To serve you better, we're upgrading our systems.
+		Your patience is appreciated.
+	</p>
+    <p class="headline">				
+		You can reach us at - <span style="font-weight:bold">sbiepay@sbi.co.in</span>
+	</p>
+<script> 
+
+var deadline = new Date("September 18 2021 08:00:00").getTime(); 
+  
+var x = setInterval(function() { 
+  
+var now = new Date().getTime(); 
+var t = deadline - now; 
+var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
+var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+var seconds = Math.floor((t % (1000 * 60)) / 1000); 
+// document.getElementById("day").innerHTML =days ; 
+document.getElementById("hour").innerHTML =hours; 
+document.getElementById("minute").innerHTML = minutes;  
+document.getElementById("second").innerHTML =seconds;  
+if (t < 0) { 
+        clearInterval(x); 
+        document.getElementById("demo").innerHTML = "TIME UP"; 
+        // document.getElementById("day").innerHTML ='0'; 
+        document.getElementById("hour").innerHTML ='0'; 
+        document.getElementById("minute").innerHTML ='0' ;  
+        document.getElementById("second").innerHTML = '0'; } 
+}, 1000); 
+</script> 
+</body> 
+<head> 
+<style> 
+body{ 
+  text-align: center; 
+/*background-image: linear-gradient(to right, #4facfe , #00f2fe ); */
+  background-repeat: no-repeat;
+  background-color:#000061;
+  font: 20px Helvetica, sans-serif;
+  font-weight: 100; 
+  margin: 0 auto;
+} 
+h1{ 
+  color: #fff; 
+  font-weight: 100; 
+  font-size: 50px; 
+  font: 20px Helvetica, sans-serif;
+  margin: 40px 0px 20px; 
+} 
+ #clockdiv{ 
+    font-family: sans-serif; 
+    color: #fff; 
+    display: inline-block; 
+    font-weight: 100; 
+    text-align: center; 
+    font-size: 25px;
+	height:150px;	
+} 
+#clockdiv > div{ 
+    padding: 10px; 
+    border-radius: 3px; 
+    background: #4facfe;
+    display: inline-block; 
+    border-radius: 8px;
+    margin-bottom: 100px;
+} 
+#clockdiv div > span{ 
+    padding: 15px; 
+    border-radius: 3px; 
+    display: inline-block; 
+} 
+smalltext{ 
+    padding-top: 5px; 
+    font-size: 16px; 
+} 
+h1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+.main{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+}
+.main1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+}
+p{
+  font: 20px Helvetica, sans-serif;
+  font-size: 23px;
+  color: #fff;
+}
+.headline{
+  font: 20px Helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  
+}
+
+.logo {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOsAAABBCAMAAAAHU6NvAAAABGdBTUEAALGPC/xhBQAAAsdQTFRFFG65KABwKABwKABwKABwAKnfKQB0KABwAKvhKABwKABwKABwKABwKABxKABxAKviKABwKABxAKngKABwAKrhAKngAKrhKAByKABwKABwKABwKABwAKnfKABwKABwKABwKABwAKviAKnfAKnfKABwKQB1KABwKABwAK3kKABwAKrhAKnfAKviAKngKABxAK3kKABwKABxKABwKABwKAByKAByAKviKABwKABwKABwKABwAKngAKrgAKngAKngAKrgAKrgKABwKABwKABwKABwAKrhKABwAKnfAKngAKzjKABwKABwAKnfKgB3KABxAKnfAKrgAKngAKnfAKngAKngKABwAKnfKABwAKnfAKviAKngAKngAKnfAKrhAKzkKABxOACeAKngAK3kAKngAKrhAKrgAKngAKngAKnfAKrgAKnfKABwKABwAKngKABwAKrgKABwKABwAKviKABwAKnfAKngKABwAKnfAKnfAKrgAKnfAKrhAKngAKnfAKnfAKrgKABxAKngAK7mAKzjAKviAKngAKnfALjyAKrgAKnfAKrgKABwALDpALLrAKnfAKngAKnfAKngAKngKABwAKngKABwKgB3AKnfMQCMALPsKABwAL35AKrgKABwKgB2KgB5ALjzLwCGALDpKABwAKngKgB3AOz/AKnfKABwALHqKABxKABwAKnfAKnfAKzjALjyKABwKABwAMb+KABwAMf9LQCAAMb6AMT2KABwAKnfAP3/AKnfAKnfPwCxAKnfKABwAKnfAAAALQB+AL36AMX/ALjzALv3ALbxKQByALTtALn0ALjyALHpALPtALXwAKzkALTuKwB6ALDoALPsAK7lAKngALr2ALHqKQB1ALLrAKvhAK3lAK3kKgB4AK7mKQBzALDpKABxAK/oKQB0KgB2ALbwAKviAKzjAKrhAKrgKAByKABwAKnfOY8kaQAAAMJ0Uk5TBqfBPsK2D5ompoO1RSUoFy8klG4ruD4Zu+y5s8udo3K+JOzULAljUxihRLU5VSId50KPiB4NMmm/8tSRckV2PGVsN0nkWn+3jidMlcEHHO5ul8+dmvbSX8UfX67lSBszAqcVokGIfmzfYcjgeFhaT/jIKdvnhaq+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);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 65px;
+	width: 100%;
+}
+
+</style> 
+</head> 
+</html>
+
+ 812258360=<!DOCTYPE HTML> 
+<html> 
+<body > 
+  <div class="logo" style="background-color: #fff; height: 80px;">
+  
+  </div>
+    <p class="main">
+		Site is under scheduled maintenance!
+	</p>
+	<p class="main1">We will be back online at</p>
+  
+<div id="clockdiv"> 
+  <!-- <div> 
+    <span class="days" id="day"></span> 
+    <div class="smalltext">Days</div> 
+  </div>  -->
+  
+  <div> 
+    <span class="hours" id="hour"></span> 
+    <div class="smalltext">Hours</div> 
+  </div> 
+  <div> 
+    <span class="minutes" id="minute"></span> 
+    <div class="smalltext">Minutes</div> 
+  </div> 
+  <div> 
+    <span class="seconds" id="second"></span> 
+    <div class="smalltext">Seconds</div> 
+  </div> 
+</div> 
+	<p class="headline">
+		To serve you better, we're upgrading our systems.
+		Your patience is appreciated.
+	</p>
+    <p class="headline">				
+		You can reach us at - <span style="font-weight:bold">sbiepay@sbi.co.in</span>
+	</p>
+<script> 
+
+var deadline = new Date("September 18 2021 08:00:00").getTime(); 
+  
+var x = setInterval(function() { 
+  
+var now = new Date().getTime(); 
+var t = deadline - now; 
+var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
+var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+var seconds = Math.floor((t % (1000 * 60)) / 1000); 
+// document.getElementById("day").innerHTML =days ; 
+document.getElementById("hour").innerHTML =hours; 
+document.getElementById("minute").innerHTML = minutes;  
+document.getElementById("second").innerHTML =seconds;  
+if (t < 0) { 
+        clearInterval(x); 
+        document.getElementById("demo").innerHTML = "TIME UP"; 
+        // document.getElementById("day").innerHTML ='0'; 
+        document.getElementById("hour").innerHTML ='0'; 
+        document.getElementById("minute").innerHTML ='0' ;  
+        document.getElementById("second").innerHTML = '0'; } 
+}, 1000); 
+</script> 
+</body> 
+<head> 
+<style> 
+body{ 
+  text-align: center; 
+/*background-image: linear-gradient(to right, #4facfe , #00f2fe ); */
+  background-repeat: no-repeat;
+  background-color:#000061;
+  font: 20px Helvetica, sans-serif;
+  font-weight: 100; 
+  margin: 0 auto;
+} 
+h1{ 
+  color: #fff; 
+  font-weight: 100; 
+  font-size: 50px; 
+  font: 20px Helvetica, sans-serif;
+  margin: 40px 0px 20px; 
+} 
+ #clockdiv{ 
+    font-family: sans-serif; 
+    color: #fff; 
+    display: inline-block; 
+    font-weight: 100; 
+    text-align: center; 
+    font-size: 25px;
+	height:150px;	
+} 
+#clockdiv > div{ 
+    padding: 10px; 
+    border-radius: 3px; 
+    background: #4facfe;
+    display: inline-block; 
+    border-radius: 8px;
+    margin-bottom: 100px;
+} 
+#clockdiv div > span{ 
+    padding: 15px; 
+    border-radius: 3px; 
+    display: inline-block; 
+} 
+smalltext{ 
+    padding-top: 5px; 
+    font-size: 16px; 
+} 
+h1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+.main{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+}
+.main1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+}
+p{
+  font: 20px Helvetica, sans-serif;
+  font-size: 23px;
+  color: #fff;
+}
+.headline{
+  font: 20px Helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  
+}
+
+.logo {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOsAAABBCAMAAAAHU6NvAAAABGdBTUEAALGPC/xhBQAAAsdQTFRFFG65KABwKABwKABwKABwAKnfKQB0KABwAKvhKABwKABwKABwKABwKABxKABxAKviKABwKABxAKngKABwAKrhAKngAKrhKAByKABwKABwKABwKABwAKnfKABwKABwKABwKABwAKviAKnfAKnfKABwKQB1KABwKABwAK3kKABwAKrhAKnfAKviAKngKABxAK3kKABwKABxKABwKABwKAByKAByAKviKABwKABwKABwKABwAKngAKrgAKngAKngAKrgAKrgKABwKABwKABwKABwAKrhKABwAKnfAKngAKzjKABwKABwAKnfKgB3KABxAKnfAKrgAKngAKnfAKngAKngKABwAKnfKABwAKnfAKviAKngAKngAKnfAKrhAKzkKABxOACeAKngAK3kAKngAKrhAKrgAKngAKngAKnfAKrgAKnfKABwKABwAKngKABwAKrgKABwKABwAKviKABwAKnfAKngKABwAKnfAKnfAKrgAKnfAKrhAKngAKnfAKnfAKrgKABxAKngAK7mAKzjAKviAKngAKnfALjyAKrgAKnfAKrgKABwALDpALLrAKnfAKngAKnfAKngAKngKABwAKngKABwKgB3AKnfMQCMALPsKABwAL35AKrgKABwKgB2KgB5ALjzLwCGALDpKABwAKngKgB3AOz/AKnfKABwALHqKABxKABwAKnfAKnfAKzjALjyKABwKABwAMb+KABwAMf9LQCAAMb6AMT2KABwAKnfAP3/AKnfAKnfPwCxAKnfKABwAKnfAAAALQB+AL36AMX/ALjzALv3ALbxKQByALTtALn0ALjyALHpALPtALXwAKzkALTuKwB6ALDoALPsAK7lAKngALr2ALHqKQB1ALLrAKvhAK3lAK3kKgB4AK7mKQBzALDpKABxAK/oKQB0KgB2ALbwAKviAKzjAKrhAKrgKAByKABwAKnfOY8kaQAAAMJ0Uk5TBqfBPsK2D5ompoO1RSUoFy8klG4ruD4Zu+y5s8udo3K+JOzULAljUxihRLU5VSId50KPiB4NMmm/8tSRckV2PGVsN0nkWn+3jidMlcEHHO5ul8+dmvbSX8UfX67lSBszAqcVokGIfmzfYcjgeFhaT/jIKdvnhaq+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);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 65px;
+	width: 100%;
+}
+
+</style> 
+</head> 
+</html>
+
+ 812258360=<!DOCTYPE HTML> 
+<html> 
+<body > 
+  <div class="logo" style="background-color: #fff; height: 80px;">
+  
+  </div>
+    <p class="main">
+		Site is under scheduled maintenance!
+	</p>
+	<p class="main1">We will be back online at</p>
+  
+<div id="clockdiv"> 
+  <!-- <div> 
+    <span class="days" id="day"></span> 
+    <div class="smalltext">Days</div> 
+  </div>  -->
+  
+  <div> 
+    <span class="hours" id="hour"></span> 
+    <div class="smalltext">Hours</div> 
+  </div> 
+  <div> 
+    <span class="minutes" id="minute"></span> 
+    <div class="smalltext">Minutes</div> 
+  </div> 
+  <div> 
+    <span class="seconds" id="second"></span> 
+    <div class="smalltext">Seconds</div> 
+  </div> 
+</div> 
+	<p class="headline">
+		To serve you better, we're upgrading our systems.
+		Your patience is appreciated.
+	</p>
+    <p class="headline">				
+		You can reach us at - <span style="font-weight:bold">sbiepay@sbi.co.in</span>
+	</p>
+<script> 
+
+var deadline = new Date("September 18 2021 08:00:00").getTime(); 
+  
+var x = setInterval(function() { 
+  
+var now = new Date().getTime(); 
+var t = deadline - now; 
+var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
+var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+var seconds = Math.floor((t % (1000 * 60)) / 1000); 
+// document.getElementById("day").innerHTML =days ; 
+document.getElementById("hour").innerHTML =hours; 
+document.getElementById("minute").innerHTML = minutes;  
+document.getElementById("second").innerHTML =seconds;  
+if (t < 0) { 
+        clearInterval(x); 
+        document.getElementById("demo").innerHTML = "TIME UP"; 
+        // document.getElementById("day").innerHTML ='0'; 
+        document.getElementById("hour").innerHTML ='0'; 
+        document.getElementById("minute").innerHTML ='0' ;  
+        document.getElementById("second").innerHTML = '0'; } 
+}, 1000); 
+</script> 
+</body> 
+<head> 
+<style> 
+body{ 
+  text-align: center; 
+/*background-image: linear-gradient(to right, #4facfe , #00f2fe ); */
+  background-repeat: no-repeat;
+  background-color:#000061;
+  font: 20px Helvetica, sans-serif;
+  font-weight: 100; 
+  margin: 0 auto;
+} 
+h1{ 
+  color: #fff; 
+  font-weight: 100; 
+  font-size: 50px; 
+  font: 20px Helvetica, sans-serif;
+  margin: 40px 0px 20px; 
+} 
+ #clockdiv{ 
+    font-family: sans-serif; 
+    color: #fff; 
+    display: inline-block; 
+    font-weight: 100; 
+    text-align: center; 
+    font-size: 25px;
+	height:150px;	
+} 
+#clockdiv > div{ 
+    padding: 10px; 
+    border-radius: 3px; 
+    background: #4facfe;
+    display: inline-block; 
+    border-radius: 8px;
+    margin-bottom: 100px;
+} 
+#clockdiv div > span{ 
+    padding: 15px; 
+    border-radius: 3px; 
+    display: inline-block; 
+} 
+smalltext{ 
+    padding-top: 5px; 
+    font-size: 16px; 
+} 
+h1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+.main{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+}
+.main1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+}
+p{
+  font: 20px Helvetica, sans-serif;
+  font-size: 23px;
+  color: #fff;
+}
+.headline{
+  font: 20px Helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  
+}
+
+.logo {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOsAAABBCAMAAAAHU6NvAAAABGdBTUEAALGPC/xhBQAAAsdQTFRFFG65KABwKABwKABwKABwAKnfKQB0KABwAKvhKABwKABwKABwKABwKABxKABxAKviKABwKABxAKngKABwAKrhAKngAKrhKAByKABwKABwKABwKABwAKnfKABwKABwKABwKABwAKviAKnfAKnfKABwKQB1KABwKABwAK3kKABwAKrhAKnfAKviAKngKABxAK3kKABwKABxKABwKABwKAByKAByAKviKABwKABwKABwKABwAKngAKrgAKngAKngAKrgAKrgKABwKABwKABwKABwAKrhKABwAKnfAKngAKzjKABwKABwAKnfKgB3KABxAKnfAKrgAKngAKnfAKngAKngKABwAKnfKABwAKnfAKviAKngAKngAKnfAKrhAKzkKABxOACeAKngAK3kAKngAKrhAKrgAKngAKngAKnfAKrgAKnfKABwKABwAKngKABwAKrgKABwKABwAKviKABwAKnfAKngKABwAKnfAKnfAKrgAKnfAKrhAKngAKnfAKnfAKrgKABxAKngAK7mAKzjAKviAKngAKnfALjyAKrgAKnfAKrgKABwALDpALLrAKnfAKngAKnfAKngAKngKABwAKngKABwKgB3AKnfMQCMALPsKABwAL35AKrgKABwKgB2KgB5ALjzLwCGALDpKABwAKngKgB3AOz/AKnfKABwALHqKABxKABwAKnfAKnfAKzjALjyKABwKABwAMb+KABwAMf9LQCAAMb6AMT2KABwAKnfAP3/AKnfAKnfPwCxAKnfKABwAKnfAAAALQB+AL36AMX/ALjzALv3ALbxKQByALTtALn0ALjyALHpALPtALXwAKzkALTuKwB6ALDoALPsAK7lAKngALr2ALHqKQB1ALLrAKvhAK3lAK3kKgB4AK7mKQBzALDpKABxAK/oKQB0KgB2ALbwAKviAKzjAKrhAKrgKAByKABwAKnfOY8kaQAAAMJ0Uk5TBqfBPsK2D5ompoO1RSUoFy8klG4ruD4Zu+y5s8udo3K+JOzULAljUxihRLU5VSId50KPiB4NMmm/8tSRckV2PGVsN0nkWn+3jidMlcEHHO5ul8+dmvbSX8UfX67lSBszAqcVokGIfmzfYcjgeFhaT/jIKdvnhaq+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);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 65px;
+	width: 100%;
+}
+
+</style> 
+</head> 
+</html>
+
+ 812258360=<!DOCTYPE HTML> 
+<html> 
+<body > 
+  <div class="logo" style="background-color: #fff; height: 80px;">
+  
+  </div>
+    <p class="main">
+		Site is under scheduled maintenance!
+	</p>
+	<p class="main1">We will be back online at</p>
+  
+<div id="clockdiv"> 
+  <!-- <div> 
+    <span class="days" id="day"></span> 
+    <div class="smalltext">Days</div> 
+  </div>  -->
+  
+  <div> 
+    <span class="hours" id="hour"></span> 
+    <div class="smalltext">Hours</div> 
+  </div> 
+  <div> 
+    <span class="minutes" id="minute"></span> 
+    <div class="smalltext">Minutes</div> 
+  </div> 
+  <div> 
+    <span class="seconds" id="second"></span> 
+    <div class="smalltext">Seconds</div> 
+  </div> 
+</div> 
+	<p class="headline">
+		To serve you better, we're upgrading our systems.
+		Your patience is appreciated.
+	</p>
+    <p class="headline">				
+		You can reach us at - <span style="font-weight:bold">sbiepay@sbi.co.in</span>
+	</p>
+<script> 
+
+var deadline = new Date("September 18 2021 08:00:00").getTime(); 
+  
+var x = setInterval(function() { 
+  
+var now = new Date().getTime(); 
+var t = deadline - now; 
+var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
+var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+var seconds = Math.floor((t % (1000 * 60)) / 1000); 
+// document.getElementById("day").innerHTML =days ; 
+document.getElementById("hour").innerHTML =hours; 
+document.getElementById("minute").innerHTML = minutes;  
+document.getElementById("second").innerHTML =seconds;  
+if (t < 0) { 
+        clearInterval(x); 
+        document.getElementById("demo").innerHTML = "TIME UP"; 
+        // document.getElementById("day").innerHTML ='0'; 
+        document.getElementById("hour").innerHTML ='0'; 
+        document.getElementById("minute").innerHTML ='0' ;  
+        document.getElementById("second").innerHTML = '0'; } 
+}, 1000); 
+</script> 
+</body> 
+<head> 
+<style> 
+body{ 
+  text-align: center; 
+/*background-image: linear-gradient(to right, #4facfe , #00f2fe ); */
+  background-repeat: no-repeat;
+  background-color:#000061;
+  font: 20px Helvetica, sans-serif;
+  font-weight: 100; 
+  margin: 0 auto;
+} 
+h1{ 
+  color: #fff; 
+  font-weight: 100; 
+  font-size: 50px; 
+  font: 20px Helvetica, sans-serif;
+  margin: 40px 0px 20px; 
+} 
+ #clockdiv{ 
+    font-family: sans-serif; 
+    color: #fff; 
+    display: inline-block; 
+    font-weight: 100; 
+    text-align: center; 
+    font-size: 25px;
+	height:150px;	
+} 
+#clockdiv > div{ 
+    padding: 10px; 
+    border-radius: 3px; 
+    background: #4facfe;
+    display: inline-block; 
+    border-radius: 8px;
+    margin-bottom: 100px;
+} 
+#clockdiv div > span{ 
+    padding: 15px; 
+    border-radius: 3px; 
+    display: inline-block; 
+} 
+smalltext{ 
+    padding-top: 5px; 
+    font-size: 16px; 
+} 
+h1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+.main{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+}
+.main1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+}
+p{
+  font: 20px Helvetica, sans-serif;
+  font-size: 23px;
+  color: #fff;
+}
+.headline{
+  font: 20px Helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  
+}
+
+.logo {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOsAAABBCAMAAAAHU6NvAAAABGdBTUEAALGPC/xhBQAAAsdQTFRFFG65KABwKABwKABwKABwAKnfKQB0KABwAKvhKABwKABwKABwKABwKABxKABxAKviKABwKABxAKngKABwAKrhAKngAKrhKAByKABwKABwKABwKABwAKnfKABwKABwKABwKABwAKviAKnfAKnfKABwKQB1KABwKABwAK3kKABwAKrhAKnfAKviAKngKABxAK3kKABwKABxKABwKABwKAByKAByAKviKABwKABwKABwKABwAKngAKrgAKngAKngAKrgAKrgKABwKABwKABwKABwAKrhKABwAKnfAKngAKzjKABwKABwAKnfKgB3KABxAKnfAKrgAKngAKnfAKngAKngKABwAKnfKABwAKnfAKviAKngAKngAKnfAKrhAKzkKABxOACeAKngAK3kAKngAKrhAKrgAKngAKngAKnfAKrgAKnfKABwKABwAKngKABwAKrgKABwKABwAKviKABwAKnfAKngKABwAKnfAKnfAKrgAKnfAKrhAKngAKnfAKnfAKrgKABxAKngAK7mAKzjAKviAKngAKnfALjyAKrgAKnfAKrgKABwALDpALLrAKnfAKngAKnfAKngAKngKABwAKngKABwKgB3AKnfMQCMALPsKABwAL35AKrgKABwKgB2KgB5ALjzLwCGALDpKABwAKngKgB3AOz/AKnfKABwALHqKABxKABwAKnfAKnfAKzjALjyKABwKABwAMb+KABwAMf9LQCAAMb6AMT2KABwAKnfAP3/AKnfAKnfPwCxAKnfKABwAKnfAAAALQB+AL36AMX/ALjzALv3ALbxKQByALTtALn0ALjyALHpALPtALXwAKzkALTuKwB6ALDoALPsAK7lAKngALr2ALHqKQB1ALLrAKvhAK3lAK3kKgB4AK7mKQBzALDpKABxAK/oKQB0KgB2ALbwAKviAKzjAKrhAKrgKAByKABwAKnfOY8kaQAAAMJ0Uk5TBqfBPsK2D5ompoO1RSUoFy8klG4ruD4Zu+y5s8udo3K+JOzULAljUxihRLU5VSId50KPiB4NMmm/8tSRckV2PGVsN0nkWn+3jidMlcEHHO5ul8+dmvbSX8UfX67lSBszAqcVokGIfmzfYcjgeFhaT/jIKdvnhaq+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);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 65px;
+	width: 100%;
+}
+
+</style> 
+</head> 
+</html>
+
+ 812258360=<!DOCTYPE HTML> 
+<html> 
+<body > 
+  <div class="logo" style="background-color: #fff; height: 80px;">
+  
+  </div>
+    <p class="main">
+		Site is under scheduled maintenance!
+	</p>
+	<p class="main1">We will be back online at</p>
+  
+<div id="clockdiv"> 
+  <!-- <div> 
+    <span class="days" id="day"></span> 
+    <div class="smalltext">Days</div> 
+  </div>  -->
+  
+  <div> 
+    <span class="hours" id="hour"></span> 
+    <div class="smalltext">Hours</div> 
+  </div> 
+  <div> 
+    <span class="minutes" id="minute"></span> 
+    <div class="smalltext">Minutes</div> 
+  </div> 
+  <div> 
+    <span class="seconds" id="second"></span> 
+    <div class="smalltext">Seconds</div> 
+  </div> 
+</div> 
+	<p class="headline">
+		To serve you better, we're upgrading our systems.
+		Your patience is appreciated.
+	</p>
+    <p class="headline">				
+		You can reach us at - <span style="font-weight:bold">sbiepay@sbi.co.in</span>
+	</p>
+<script> 
+
+var deadline = new Date("September 18 2021 08:00:00").getTime(); 
+  
+var x = setInterval(function() { 
+  
+var now = new Date().getTime(); 
+var t = deadline - now; 
+var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
+var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+var seconds = Math.floor((t % (1000 * 60)) / 1000); 
+// document.getElementById("day").innerHTML =days ; 
+document.getElementById("hour").innerHTML =hours; 
+document.getElementById("minute").innerHTML = minutes;  
+document.getElementById("second").innerHTML =seconds;  
+if (t < 0) { 
+        clearInterval(x); 
+        document.getElementById("demo").innerHTML = "TIME UP"; 
+        // document.getElementById("day").innerHTML ='0'; 
+        document.getElementById("hour").innerHTML ='0'; 
+        document.getElementById("minute").innerHTML ='0' ;  
+        document.getElementById("second").innerHTML = '0'; } 
+}, 1000); 
+</script> 
+</body> 
+<head> 
+<style> 
+body{ 
+  text-align: center; 
+/*background-image: linear-gradient(to right, #4facfe , #00f2fe ); */
+  background-repeat: no-repeat;
+  background-color:#000061;
+  font: 20px Helvetica, sans-serif;
+  font-weight: 100; 
+  margin: 0 auto;
+} 
+h1{ 
+  color: #fff; 
+  font-weight: 100; 
+  font-size: 50px; 
+  font: 20px Helvetica, sans-serif;
+  margin: 40px 0px 20px; 
+} 
+ #clockdiv{ 
+    font-family: sans-serif; 
+    color: #fff; 
+    display: inline-block; 
+    font-weight: 100; 
+    text-align: center; 
+    font-size: 25px;
+	height:150px;	
+} 
+#clockdiv > div{ 
+    padding: 10px; 
+    border-radius: 3px; 
+    background: #4facfe;
+    display: inline-block; 
+    border-radius: 8px;
+    margin-bottom: 100px;
+} 
+#clockdiv div > span{ 
+    padding: 15px; 
+    border-radius: 3px; 
+    display: inline-block; 
+} 
+smalltext{ 
+    padding-top: 5px; 
+    font-size: 16px; 
+} 
+h1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+.main{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+}
+.main1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+}
+p{
+  font: 20px Helvetica, sans-serif;
+  font-size: 23px;
+  color: #fff;
+}
+.headline{
+  font: 20px Helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  
+}
+
+.logo {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOsAAABBCAMAAAAHU6NvAAAABGdBTUEAALGPC/xhBQAAAsdQTFRFFG65KABwKABwKABwKABwAKnfKQB0KABwAKvhKABwKABwKABwKABwKABxKABxAKviKABwKABxAKngKABwAKrhAKngAKrhKAByKABwKABwKABwKABwAKnfKABwKABwKABwKABwAKviAKnfAKnfKABwKQB1KABwKABwAK3kKABwAKrhAKnfAKviAKngKABxAK3kKABwKABxKABwKABwKAByKAByAKviKABwKABwKABwKABwAKngAKrgAKngAKngAKrgAKrgKABwKABwKABwKABwAKrhKABwAKnfAKngAKzjKABwKABwAKnfKgB3KABxAKnfAKrgAKngAKnfAKngAKngKABwAKnfKABwAKnfAKviAKngAKngAKnfAKrhAKzkKABxOACeAKngAK3kAKngAKrhAKrgAKngAKngAKnfAKrgAKnfKABwKABwAKngKABwAKrgKABwKABwAKviKABwAKnfAKngKABwAKnfAKnfAKrgAKnfAKrhAKngAKnfAKnfAKrgKABxAKngAK7mAKzjAKviAKngAKnfALjyAKrgAKnfAKrgKABwALDpALLrAKnfAKngAKnfAKngAKngKABwAKngKABwKgB3AKnfMQCMALPsKABwAL35AKrgKABwKgB2KgB5ALjzLwCGALDpKABwAKngKgB3AOz/AKnfKABwALHqKABxKABwAKnfAKnfAKzjALjyKABwKABwAMb+KABwAMf9LQCAAMb6AMT2KABwAKnfAP3/AKnfAKnfPwCxAKnfKABwAKnfAAAALQB+AL36AMX/ALjzALv3ALbxKQByALTtALn0ALjyALHpALPtALXwAKzkALTuKwB6ALDoALPsAK7lAKngALr2ALHqKQB1ALLrAKvhAK3lAK3kKgB4AK7mKQBzALDpKABxAK/oKQB0KgB2ALbwAKviAKzjAKrhAKrgKAByKABwAKnfOY8kaQAAAMJ0Uk5TBqfBPsK2D5ompoO1RSUoFy8klG4ruD4Zu+y5s8udo3K+JOzULAljUxihRLU5VSId50KPiB4NMmm/8tSRckV2PGVsN0nkWn+3jidMlcEHHO5ul8+dmvbSX8UfX67lSBszAqcVokGIfmzfYcjgeFhaT/jIKdvnhaq+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);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 65px;
+	width: 100%;
+}
+
+</style> 
+</head> 
+</html>
+
+ 812258360=<!DOCTYPE HTML> 
+<html> 
+<body > 
+  <div class="logo" style="background-color: #fff; height: 80px;">
+  
+  </div>
+    <p class="main">
+		Site is under scheduled maintenance!
+	</p>
+	<p class="main1">We will be back online at</p>
+  
+<div id="clockdiv"> 
+  <!-- <div> 
+    <span class="days" id="day"></span> 
+    <div class="smalltext">Days</div> 
+  </div>  -->
+  
+  <div> 
+    <span class="hours" id="hour"></span> 
+    <div class="smalltext">Hours</div> 
+  </div> 
+  <div> 
+    <span class="minutes" id="minute"></span> 
+    <div class="smalltext">Minutes</div> 
+  </div> 
+  <div> 
+    <span class="seconds" id="second"></span> 
+    <div class="smalltext">Seconds</div> 
+  </div> 
+</div> 
+	<p class="headline">
+		To serve you better, we're upgrading our systems.
+		Your patience is appreciated.
+	</p>
+    <p class="headline">				
+		You can reach us at - <span style="font-weight:bold">sbiepay@sbi.co.in</span>
+	</p>
+<script> 
+
+var deadline = new Date("September 18 2021 08:00:00").getTime(); 
+  
+var x = setInterval(function() { 
+  
+var now = new Date().getTime(); 
+var t = deadline - now; 
+var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
+var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+var seconds = Math.floor((t % (1000 * 60)) / 1000); 
+// document.getElementById("day").innerHTML =days ; 
+document.getElementById("hour").innerHTML =hours; 
+document.getElementById("minute").innerHTML = minutes;  
+document.getElementById("second").innerHTML =seconds;  
+if (t < 0) { 
+        clearInterval(x); 
+        document.getElementById("demo").innerHTML = "TIME UP"; 
+        // document.getElementById("day").innerHTML ='0'; 
+        document.getElementById("hour").innerHTML ='0'; 
+        document.getElementById("minute").innerHTML ='0' ;  
+        document.getElementById("second").innerHTML = '0'; } 
+}, 1000); 
+</script> 
+</body> 
+<head> 
+<style> 
+body{ 
+  text-align: center; 
+/*background-image: linear-gradient(to right, #4facfe , #00f2fe ); */
+  background-repeat: no-repeat;
+  background-color:#000061;
+  font: 20px Helvetica, sans-serif;
+  font-weight: 100; 
+  margin: 0 auto;
+} 
+h1{ 
+  color: #fff; 
+  font-weight: 100; 
+  font-size: 50px; 
+  font: 20px Helvetica, sans-serif;
+  margin: 40px 0px 20px; 
+} 
+ #clockdiv{ 
+    font-family: sans-serif; 
+    color: #fff; 
+    display: inline-block; 
+    font-weight: 100; 
+    text-align: center; 
+    font-size: 25px;
+	height:150px;	
+} 
+#clockdiv > div{ 
+    padding: 10px; 
+    border-radius: 3px; 
+    background: #4facfe;
+    display: inline-block; 
+    border-radius: 8px;
+    margin-bottom: 100px;
+} 
+#clockdiv div > span{ 
+    padding: 15px; 
+    border-radius: 3px; 
+    display: inline-block; 
+} 
+smalltext{ 
+    padding-top: 5px; 
+    font-size: 16px; 
+} 
+h1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+.main{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+}
+.main1{
+  font: 20px Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+}
+p{
+  font: 20px Helvetica, sans-serif;
+  font-size: 23px;
+  color: #fff;
+}
+.headline{
+  font: 20px Helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  
+}
+
+.logo {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOsAAABBCAMAAAAHU6NvAAAABGdBTUEAALGPC/xhBQAAAsdQTFRFFG65KABwKABwKABwKABwAKnfKQB0KABwAKvhKABwKABwKABwKABwKABxKABxAKviKABwKABxAKngKABwAKrhAKngAKrhKAByKABwKABwKABwKABwAKnfKABwKABwKABwKABwAKviAKnfAKnfKABwKQB1KABwKABwAK3kKABwAKrhAKnfAKviAKngKABxAK3kKABwKABxKABwKABwKAByKAByAKviKABwKABwKABwKABwAKngAKrgAKngAKngAKrgAKrgKABwKABwKABwKABwAKrhKABwAKnfAKngAKzjKABwKABwAKnfKgB3KABxAKnfAKrgAKngAKnfAKngAKngKABwAKnfKABwAKnfAKviAKngAKngAKnfAKrhAKzkKABxOACeAKngAK3kAKngAKrhAKrgAKngAKngAKnfAKrgAKnfKABwKABwAKngKABwAKrgKABwKABwAKviKABwAKnfAKngKABwAKnfAKnfAKrgAKnfAKrhAKngAKnfAKnfAKrgKABxAKngAK7mAKzjAKviAKngAKnfALjyAKrgAKnfAKrgKABwALDpALLrAKnfAKngAKnfAKngAKngKABwAKngKABwKgB3AKnfMQCMALPsKABwAL35AKrgKABwKgB2KgB5ALjzLwCGALDpKABwAKngKgB3AOz/AKnfKABwALHqKABxKABwAKnfAKnfAKzjALjyKABwKABwAMb+KABwAMf9LQCAAMb6AMT2KABwAKnfAP3/AKnfAKnfPwCxAKnfKABwAKnfAAAALQB+AL36AMX/ALjzALv3ALbxKQByALTtALn0ALjyALHpALPtALXwAKzkALTuKwB6ALDoALPsAK7lAKngALr2ALHqKQB1ALLrAKvhAK3lAK3kKgB4AK7mKQBzALDpKABxAK/oKQB0KgB2ALbwAKviAKzjAKrhAKrgKAByKABwAKnfOY8kaQAAAMJ0Uk5TBqfBPsK2D5ompoO1RSUoFy8klG4ruD4Zu+y5s8udo3K+JOzULAljUxihRLU5VSId50KPiB4NMmm/8tSRckV2PGVsN0nkWn+3jidMlcEHHO5ul8+dmvbSX8UfX67lSBszAqcVokGIfmzfYcjgeFhaT/jIKdvnhaq+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);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 65px;
+	width: 100%;
+}
+
+</style> 
+</head> 
+</html>
+
+ 812258360=1000169|NA|No Records Found|NA|NA|NA|812258360|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876415=1000169|NA|No Records Found|NA|NA|NA|902876415|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258360=1000169|NA|No Records Found|NA|NA|NA|812258360|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876415=1000169|NA|No Records Found|NA|NA|NA|902876415|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258360=1000169|NA|No Records Found|NA|NA|NA|812258360|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876415=1000169|NA|No Records Found|NA|NA|NA|902876415|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258360=1000169|NA|No Records Found|NA|NA|NA|812258360|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876415=1000169|NA|No Records Found|NA|NA|NA|902876415|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876415=1000169|NA|No Records Found|NA|NA|NA|902876415|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258361=1000169|NA|No Records Found|NA|NA|NA|812258361|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876415=1000169|NA|No Records Found|NA|NA|NA|902876415|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258361=1000169|NA|No Records Found|NA|NA|NA|812258361|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876415=1000169|NA|No Records Found|NA|NA|NA|902876415|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258361=1000169|NA|No Records Found|NA|NA|NA|812258361|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876415=1000169|NA|No Records Found|NA|NA|NA|902876415|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258361=1000169|NA|No Records Found|NA|NA|NA|812258361|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876415=1000169|NA|No Records Found|NA|NA|NA|902876415|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258361=1000169|NA|No Records Found|NA|NA|NA|812258361|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876415=1000169|NA|No Records Found|NA|NA|NA|902876415|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258361=1000169|NA|No Records Found|NA|NA|NA|812258361|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876416=1000169|NA|No Records Found|NA|NA|NA|902876416|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876415=1000169|NA|No Records Found|NA|NA|NA|902876415|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258361=1000169|NA|No Records Found|NA|NA|NA|812258361|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876416=1000169|NA|No Records Found|NA|NA|NA|902876416|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876415=1000169|NA|No Records Found|NA|NA|NA|902876415|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258361=1000169|NA|No Records Found|NA|NA|NA|812258361|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876416=1000169|NA|No Records Found|NA|NA|NA|902876416|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258362=1000169|NA|No Records Found|NA|NA|NA|812258362|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876415=1000169|NA|No Records Found|NA|NA|NA|902876415|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258361=1000169|NA|No Records Found|NA|NA|NA|812258361|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876416=1000169|NA|No Records Found|NA|NA|NA|902876416|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258362=1000169|NA|No Records Found|NA|NA|NA|812258362|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258361=1000169|NA|No Records Found|NA|NA|NA|812258361|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876416=1000169|NA|No Records Found|NA|NA|NA|902876416|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258362=1000169|NA|No Records Found|NA|NA|NA|812258362|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258361=1000169|NA|No Records Found|NA|NA|NA|812258361|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876416=1000169|NA|No Records Found|NA|NA|NA|902876416|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258362=1000169|NA|No Records Found|NA|NA|NA|812258362|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258361=1000169|NA|No Records Found|NA|NA|NA|812258361|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876416=1000169|NA|No Records Found|NA|NA|NA|902876416|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258362=1000169|NA|No Records Found|NA|NA|NA|812258362|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258361=1000169|NA|No Records Found|NA|NA|NA|812258361|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876416=1000169|NA|No Records Found|NA|NA|NA|902876416|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258362=1000169|NA|No Records Found|NA|NA|NA|812258362|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876416=1000169|NA|No Records Found|NA|NA|NA|902876416|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258362=1000169|NA|No Records Found|NA|NA|NA|812258362|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876416=1000169|NA|No Records Found|NA|NA|NA|902876416|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258362=1000169|NA|No Records Found|NA|NA|NA|812258362|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876416=1000169|NA|No Records Found|NA|NA|NA|902876416|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258362=1000169|NA|No Records Found|NA|NA|NA|812258362|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876416=1000169|NA|No Records Found|NA|NA|NA|902876416|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258362=1000169|NA|No Records Found|NA|NA|NA|812258362|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876416=1000169|NA|No Records Found|NA|NA|NA|902876416|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258362=1000169|NA|No Records Found|NA|NA|NA|812258362|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258362=1000169|NA|No Records Found|NA|NA|NA|812258362|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258362=1000169|NA|No Records Found|NA|NA|NA|812258362|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876422=1000169|NA|ABORT|IN|INR|902876422^iibfexam^902876422^101202110|902876422|944|Transaction Aborted|NA|NA|2021-09-18 08:25:17|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876423=1000169|NA|ABORT|IN|INR|902876423^iibfexam^iibfdupcer^801114486|902876423|236|Transaction Aborted|NA|NA|2021-09-18 08:31:59|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876424=1000169|NA|ABORT|IN|INR|902876424^iibfexam^902876424^101202110|902876424|944|Your session has expired. Please re-attempt the transaction.|NA|NA|2021-09-18 08:49:04|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258367=1000169|6995291954929|BOOKED|IN|INR|2672001^iibfregn^2672001^812258367|812258367|1770|Transaction Booked|SBIN|NA|2021-09-18 09:42:06|NB|10001692021091800023|1000169|2.00^0.36||||||||||
+
+ 812258367=1000169|6995291954929|BOOKED|IN|INR|2672001^iibfregn^2672001^812258367|812258367|1770|Transaction Booked|SBIN|NA|2021-09-18 09:42:06|NB|10001692021091800023|1000169|2.00^0.36||||||||||
+
+ 812258367=1000169|6995291954929|FAIL|IN|INR|2672001^iibfregn^2672001^812258367|812258367|1770|Transaction Failed|SBIN|NA|2021-09-18 09:42:06|NB|10001692021091800023|1000169|2.00^0.36||||||||||
+
+ 902876434=1000169|NA|ABORT|IN|INR|902876434^iibfexam^801234557^101202110|902876434|472|Transaction Aborted|NA|NA|2021-09-18 09:54:19|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876438=1000169|NA|ABORT|IN|INR|902876438^iibfexam^IIBF_EL^527201903|902876438|1416|Transaction Aborted|NA|NA|2021-09-18 10:05:23|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876441=1000169|7660803337317|SUCCESS|IN|INR|902876441^iibfexam^902876441^101202110|902876441|944|Payment In Clearing|sbiepay|202126179617298|2021-09-18 10:21:59|DC|10001692021091800030|1000169|0.00^0.00||||||||||
+
+ 902876442=1000169|NA|ABORT|IN|INR|902876442^iibfexam^902876442^101202110|902876442|944|Transaction Aborted|NA|NA|2021-09-18 10:26:04|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876451=1000169|0949925447437|BOOKED|IN|INR|902876451^iibfexam^902876451^101202110|902876451|944|Transaction Booked|SBIN|NA|2021-09-18 10:45:29|NB|10001692021091800037|1000169|2.00^0.36||||||||||
+
+ 902876451=1000169|0949925447437|BOOKED|IN|INR|902876451^iibfexam^902876451^101202110|902876451|944|Transaction Booked|SBIN|NA|2021-09-18 10:45:29|NB|10001692021091800037|1000169|2.00^0.36||||||||||
+
+ 902876451=1000169|0949925447437|FAIL|IN|INR|902876451^iibfexam^902876451^101202110|902876451|944|Transaction Failed|SBIN|NA|2021-09-18 10:45:29|NB|10001692021091800037|1000169|2.00^0.36||||||||||
+
+ 902876456=1000169|NA|ABORT|IN|INR|902876456^iibfexam^902876456^101202110|902876456|944|Transaction Aborted|NA|NA|2021-09-18 10:56:57|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876457=1000169|NA|ABORT|IN|INR|902876457^iibfexam^902876457^101202110|902876457|944|Transaction Aborted|NA|NA|2021-09-18 11:02:06|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876458=1000169|*********1827|BOOKED|IN|INR|902876458^iibfexam^iibfdupcer^510238137|902876458|236|Transaction Booked|sbiepay|NA|2021-09-18 11:09:23|DC|10001692021091800043|1000169|0.00^0.00||||||||||
+
+ 902876458=1000169|*********1827|BOOKED|IN|INR|902876458^iibfexam^iibfdupcer^510238137|902876458|236|Transaction Booked|sbiepay|NA|2021-09-18 11:09:23|DC|10001692021091800043|1000169|0.00^0.00||||||||||
+
+ 902876458=1000169|*********1827|BOOKED|IN|INR|902876458^iibfexam^iibfdupcer^510238137|902876458|236|Transaction Booked|sbiepay|NA|2021-09-18 11:09:23|DC|10001692021091800043|1000169|0.00^0.00||||||||||
+
+ 902876458=1000169|*********1827|BOOKED|IN|INR|902876458^iibfexam^iibfdupcer^510238137|902876458|236|Transaction Booked|sbiepay|NA|2021-09-18 11:09:23|DC|10001692021091800043|1000169|0.00^0.00||||||||||
+
+ 902876460=1000169|NA|ABORT|IN|INR|902876460^iibfexam^801588216^101202110|902876460|472|Transaction Aborted|NA|NA|2021-09-18 11:10:14|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876462=1000169|3731219834523|BOOKED|IN|INR|902876462^iibfexam^801742485^101202110|902876462|944|Transaction Booked|SBIN|NA|2021-09-18 11:13:06|NB|10001692021091800045|1000169|2.00^0.36||||||||||
+
+ 902876462=1000169|3731219834523|BOOKED|IN|INR|902876462^iibfexam^801742485^101202110|902876462|944|Transaction Booked|SBIN|NA|2021-09-18 11:13:06|NB|10001692021091800045|1000169|2.00^0.36||||||||||
+
+ 902876463=1000169|NA|No Records Found|NA|NA|NA|902876463|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876462=1000169|3731219834523|FAIL|IN|INR|902876462^iibfexam^801742485^101202110|902876462|944|Transaction Failed|SBIN|NA|2021-09-18 11:13:06|NB|10001692021091800045|1000169|2.00^0.36||||||||||
+
+ 902876463=1000169|NA|No Records Found|NA|NA|NA|902876463|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876463=1000169|NA|No Records Found|NA|NA|NA|902876463|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876463=1000169|NA|No Records Found|NA|NA|NA|902876463|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876469=1000169|NA|ABORT|IN|INR|902876469^iibfexam^IIBFELS^510039455|902876469|265.5|Transaction Aborted|NA|NA|2021-09-18 11:24:20|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876463=1000169|NA|No Records Found|NA|NA|NA|902876463|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876470=1000169|NA|ABORT|IN|INR|902876470^iibfexam^902876470^101202110|902876470|944|Transaction Aborted|NA|NA|2021-09-18 11:27:42|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876463=1000169|NA|No Records Found|NA|NA|NA|902876463|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876463=1000169|NA|No Records Found|NA|NA|NA|902876463|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876471=1000169|NA|ABORT|IN|INR|902876471^iibfexam^iibfdupcer^801164594|902876471|236|Transaction Aborted|NA|NA|2021-09-18 11:32:02|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876463=1000169|NA|No Records Found|NA|NA|NA|902876463|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876463=1000169|NA|No Records Found|NA|NA|NA|902876463|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876473=1000169|7951419428439|SUCCESS|IN|INR|902876473^iibfexam^902876473^101202110|902876473|944|Payment In Clearing|sbiepay|202126177253372|2021-09-18 11:41:19|DC|10001692021091800057|1000169|0.00^0.00||||||||||
+
+ 902876463=1000169|NA|No Records Found|NA|NA|NA|902876463|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876463=1000169|NA|No Records Found|NA|NA|NA|902876463|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876463=1000169|NA|No Records Found|NA|NA|NA|902876463|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876463=1000169|NA|No Records Found|NA|NA|NA|902876463|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258374=1000169|4314681975013|BOOKED|IN|INR|2672134^iibfregn^2672134^812258374|812258374|1770|Transaction Booked|AMEX|NA|2021-09-18 11:55:37|CC|10001692021091800067|1000169|15.40^2.77||||||||||
+
+ 812258374=1000169|4314681975013|BOOKED|IN|INR|2672134^iibfregn^2672134^812258374|812258374|1770|Transaction Booked|AMEX|NA|2021-09-18 11:55:37|CC|10001692021091800067|1000169|15.40^2.77||||||||||
+
+ 812258374=1000169|4314681975013|FAIL|IN|INR|2672134^iibfregn^2672134^812258374|812258374|1770|Transaction Failed|AMEX|NA|2021-09-18 11:55:37|CC|10001692021091800067|1000169|15.40^2.77||||||||||
+
+ 812258376=1000169|8426843623937|BOOKED|IN|INR|2672255^iibfregn^2672255^812258376|812258376|1770|Transaction Booked|SBIN|NA|2021-09-18 13:04:34|NB|10001692021091800074|1000169|2.00^0.36||||||||||
+
+ 902876489=1000169|NA|ABORT|IN|INR|902876489^iibfexam^iibfdupcer^801297437|902876489|236|Transaction Aborted|NA|NA|2021-09-18 13:06:03|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876490=1000169|NA|ABORT|IN|INR|902876490^iibfexam^902876490^101202110|902876490|944|Transaction Aborted|NA|NA|2021-09-18 13:06:24|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258376=1000169|8426843623937|FAIL|IN|INR|2672255^iibfregn^2672255^812258376|812258376|1770|Transaction Failed|SBIN|NA|2021-09-18 13:04:34|NB|10001692021091800074|1000169|2.00^0.36||||||||||
+
+ 812258377=1000169|3596636127035|BOOKED|IN|INR|2672274^iibfregn^2672274^812258377|812258377|1770|Transaction Booked|sbiepay|NA|2021-09-18 13:14:45|DC|10001692021091800079|1000169|0.00^0.00||||||||||
+
+ 902876495=1000169|7493962072915|SUCCESS|IN|INR|902876495^iibfexam^902876495^101202110|902876495|944|Payment In Clearing|sbiepay|202126174344656|2021-09-18 13:17:51|DC|10001692021091800081|1000169|0.00^0.00||||||||||
+
+ 812258377=1000169|3596636127035|BOOKED|IN|INR|2672274^iibfregn^2672274^812258377|812258377|1770|Transaction Booked|sbiepay|NA|2021-09-18 13:14:45|DC|10001692021091800079|1000169|0.00^0.00||||||||||
+
+ 902876497=1000169|NA|ABORT|IN|INR|902876497^iibfexam^902876497^101202110|902876497|944|Your session has expired. Please re-attempt the transaction.|NA|NA|2021-09-18 13:21:26|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876508=1000169|NA|ABORT|IN|INR|902876508^iibfexam^902876508^101202110|902876508|944|Transaction Aborted|NA|NA|2021-09-18 13:36:46|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876510=1000169|NA|ABORT|IN|INR|902876510^iibfexam^902876510^101202110|902876510|944|Transaction Aborted|NA|NA|2021-09-18 13:38:09|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258380=1000169|5013964711737|BOOKED|IN|INR|2672329^iibfregn^2672329^812258380|812258380|1770|Transaction Booked|sbiepay|NA|2021-09-18 13:47:32|DC|10001692021091800100|1000169|0.00^0.00||||||||||
+
+ 812258380=1000169|5013964711737|BOOKED|IN|INR|2672329^iibfregn^2672329^812258380|812258380|1770|Transaction Booked|sbiepay|NA|2021-09-18 13:47:32|DC|10001692021091800100|1000169|0.00^0.00||||||||||
+
+ 902876522=1000169|NA|ABORT|IN|INR|902876522^iibfexam^902876522^101202110|902876522|944|Transaction Aborted|NA|NA|2021-09-18 13:51:40|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876526=1000169|NA|ABORT|IN|INR|902876526^iibfexam^902876526^101202110|902876526|944|Transaction Aborted|NA|NA|2021-09-18 14:17:28|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876535=1000169|NA|ABORT|IN|INR|902876535^iibfexam^902876535^101202110|902876535|944|Transaction Aborted|NA|NA|2021-09-18 14:22:57|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876537=1000169|NA|ABORT|IN|INR|902876537^iibfexam^902876537^101202110|902876537|944|Transaction Aborted|NA|NA|2021-09-18 14:23:57|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876552=1000169|NA|No Records Found|NA|NA|NA|902876552|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876552=1000169|NA|No Records Found|NA|NA|NA|902876552|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876554=1000169|NA|No Records Found|NA|NA|NA|902876554|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876555=1000169|4752960534227|BOOKED|IN|INR|902876555^iibfexam^801458913^101202110|902876555|472|Transaction Booked|sbiepay|NA|2021-09-18 14:40:05|DC|10001692021091800132|1000169|0.00^0.00||||||||||
+
+ 902876556=1000169|NA|ABORT|IN|INR|902876556^iibfexam^IIBFELS^500122754|902876556|177|Transaction Aborted|NA|NA|2021-09-18 14:38:29|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876552=1000169|NA|No Records Found|NA|NA|NA|902876552|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876554=1000169|NA|No Records Found|NA|NA|NA|902876554|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876555=1000169|4752960534227|BOOKED|IN|INR|902876555^iibfexam^801458913^101202110|902876555|472|Transaction Booked|sbiepay|NA|2021-09-18 14:40:05|DC|10001692021091800132|1000169|0.00^0.00||||||||||
+
+ 902876562=1000169|2791039333025|SUCCESS|IN|INR|902876562^iibfexam^902876562^101202110|902876562|944|Payment In Clearing|sbiepay|202126171756150|2021-09-18 14:44:42|DC|10001692021091800139|1000169|0.00^0.00||||||||||
+
+ 902876563=1000169|NA|ABORT|IN|INR|902876563^iibfexam^510276483^1005202107|902876563|7080|Transaction Aborted|NA|NA|2021-09-18 14:42:48|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876552=1000169|NA|No Records Found|NA|NA|NA|902876552|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876554=1000169|NA|No Records Found|NA|NA|NA|902876554|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876555=1000169|4752960534227|FAIL|IN|INR|902876555^iibfexam^801458913^101202110|902876555|472|Transaction Failed|sbiepay|NA|2021-09-18 14:40:05|DC|10001692021091800132|1000169|0.00^0.00||||||||||
+
+ 812258382=1000169|8500628914229|BOOKED|IN|INR|2672430^iibfregn^2672430^812258382|812258382|1770|Transaction Booked|SBIN|NA|2021-09-18 14:44:15|UPI|10001692021091800138|1000169|0.00^0.00||||||||||
+
+ 902876552=1000169|NA|No Records Found|NA|NA|NA|902876552|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876554=1000169|NA|No Records Found|NA|NA|NA|902876554|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258382=1000169|8500628914229|BOOKED|IN|INR|2672430^iibfregn^2672430^812258382|812258382|1770|Transaction Booked|SBIN|NA|2021-09-18 14:44:15|UPI|10001692021091800138|1000169|0.00^0.00||||||||||
+
+ 902876552=1000169|NA|No Records Found|NA|NA|NA|902876552|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876554=1000169|NA|No Records Found|NA|NA|NA|902876554|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876552=1000169|NA|No Records Found|NA|NA|NA|902876552|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876554=1000169|NA|No Records Found|NA|NA|NA|902876554|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876552=1000169|NA|No Records Found|NA|NA|NA|902876552|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876554=1000169|NA|No Records Found|NA|NA|NA|902876554|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876578=1000169|NA|ABORT|IN|INR|902876578^iibfexam^500003063^1004202110|902876578|1298|Transaction Aborted|NA|NA|2021-09-18 14:56:26|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876552=1000169|NA|No Records Found|NA|NA|NA|902876552|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876554=1000169|NA|No Records Found|NA|NA|NA|902876554|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876586=1000169|NA|ABORT|IN|INR|902876586^iibfexam^902876586^101202110|902876586|944|Transaction Aborted|NA|NA|2021-09-18 15:00:16|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876552=1000169|NA|No Records Found|NA|NA|NA|902876552|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876554=1000169|NA|No Records Found|NA|NA|NA|902876554|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876592=1000169|1710314545827|FAIL|IN|INR|902876592^iibfexam^902876592^101202110|902876592|944|Transaction Failed|sbiepay|NA|2021-09-18 15:07:47|DC|10001692021091800164|1000169|0.00^0.00||||||||||
+
+ 902876552=1000169|NA|No Records Found|NA|NA|NA|902876552|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876554=1000169|NA|No Records Found|NA|NA|NA|902876554|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876594=1000169|NA|ABORT|IN|INR|902876594^iibfexam^902876594^101202110|902876594|944|Transaction Aborted|NA|NA|2021-09-18 15:06:04|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876552=1000169|NA|No Records Found|NA|NA|NA|902876552|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876554=1000169|NA|No Records Found|NA|NA|NA|902876554|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876552=1000169|NA|No Records Found|NA|NA|NA|902876552|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876554=1000169|NA|No Records Found|NA|NA|NA|902876554|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258383=1000169|2097764366239|BOOKED|IN|INR|2672493^iibfregn^2672493^812258383|812258383|1770|Transaction Booked|sbiepay|NA|2021-09-18 15:10:58|DC|10001692021091800170|1000169|0.00^0.00||||||||||
+
+ 902876602=1000169|NA|ABORT|IN|INR|902876602^iibfexam^500067780^1007202110|902876602|7080|Transaction Aborted|NA|NA|2021-09-18 15:10:48|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876552=1000169|NA|No Records Found|NA|NA|NA|902876552|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876554=1000169|NA|No Records Found|NA|NA|NA|902876554|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258383=1000169|2097764366239|BOOKED|IN|INR|2672493^iibfregn^2672493^812258383|812258383|1770|Transaction Booked|sbiepay|NA|2021-09-18 15:10:58|DC|10001692021091800170|1000169|0.00^0.00||||||||||
+
+ 812258384=1000169|2124292249119|BOOKED|IN|INR|2672502^iibfregn^2672502^812258384|812258384|1770|Transaction Booked|SBIN|NA|2021-09-18 15:15:51|UPI|10001692021091800175|1000169|0.00^0.00||||||||||
+
+ 812258383=1000169|2097764366239|FAIL|IN|INR|2672493^iibfregn^2672493^812258383|812258383|1770|Transaction Failed|sbiepay|NA|2021-09-18 15:10:58|DC|10001692021091800170|1000169|0.00^0.00||||||||||
+
+ 812258384=1000169|2124292249119|BOOKED|IN|INR|2672502^iibfregn^2672502^812258384|812258384|1770|Transaction Booked|SBIN|NA|2021-09-18 15:15:51|UPI|10001692021091800175|1000169|0.00^0.00||||||||||
+
+ 812258385=1000169|NA|ABORT|IN|INR|2672510^iibfregn^2672510^812258385|812258385|1770|Transaction Aborted|NA|NA|2021-09-18 15:18:09|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876611=1000169|NA|ABORT|IN|INR|902876611^iibfexam^902876611^101202110|902876611|944|Your session has expired. Please re-attempt the transaction.|NA|NA|2021-09-18 15:18:29|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876612=1000169|NA|ABORT|IN|INR|902876612^iibfexam^iibfdupcer^801213883|902876612|236|Transaction Aborted|NA|NA|2021-09-18 15:19:01|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258384=1000169|2124292249119|FAIL|IN|INR|2672502^iibfregn^2672502^812258384|812258384|1770|Transaction Failed|SBIN|NA|2021-09-18 15:15:51|UPI|10001692021091800175|1000169|0.00^0.00||||||||||
+
+ 902876621=1000169|NA|ABORT|IN|INR|902876621^iibfexam^902876621^101202110|902876621|944|Transaction Aborted|NA|NA|2021-09-18 15:24:51|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876625=1000169|NA|ABORT|IN|INR|902876625^iibfexam^iibfdupcer^801213883|902876625|236|Transaction Aborted|NA|NA|2021-09-18 15:27:46|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876627=1000169|1904331280117|BOOKED|IN|INR|902876627^iibfexam^510332736^1005202107|902876627|7080|Transaction Booked|sbiepay|NA|2021-09-18 15:29:52|CC|10001692021091800196|1000169|61.60^11.09||||||||||
+
+ 902876627=1000169|1904331280117|BOOKED|IN|INR|902876627^iibfexam^510332736^1005202107|902876627|7080|Transaction Booked|sbiepay|NA|2021-09-18 15:29:52|CC|10001692021091800196|1000169|61.60^11.09||||||||||
+
+ 902876631=1000169|NA|ABORT|IN|INR|902876631^iibfexam^510176180^1006202110|902876631|7080|Transaction Aborted|NA|NA|2021-09-18 15:33:45|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876632=1000169|NA|ABORT|IN|INR|902876632^iibfexam^IIBFELS^510158230|902876632|295|Transaction Aborted|NA|NA|2021-09-18 15:33:51|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876634=1000169|NA|ABORT|IN|INR|902876634^iibfexam^902876634^101202110|902876634|944|Transaction Aborted|NA|NA|2021-09-18 15:36:22|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876638=1000169|NA|ABORT|IN|INR|902876638^iibfexam^510266417^1009202110|902876638|1298|Transaction Aborted|NA|NA|2021-09-18 15:41:48|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876645=1000169|NA|ABORT|IN|INR|902876645^iibfexam^510249893^1009202110|902876645|1298|Transaction Aborted|NA|NA|2021-09-18 15:47:30|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876646=1000169|8475757405425|BOOKED|IN|INR|902876646^iibfexam^IIBFELS^|902876646|265.5|Transaction Booked|SBIN|NA|2021-09-18 15:48:43|UPI|10001692021091800211|1000169|0.00^0.00||||||||||
+
+ 902876646=1000169|8475757405425|BOOKED|IN|INR|902876646^iibfexam^IIBFELS^|902876646|265.5|Transaction Booked|SBIN|NA|2021-09-18 15:48:43|UPI|10001692021091800211|1000169|0.00^0.00||||||||||
+
+ 902876651=1000169|3003257757523|BOOKED|IN|INR|902876651^iibfexam^iibfdupcer^801230682|902876651|236|Transaction Booked|BARB|NA|2021-09-18 15:51:29|NB|10001692021091800216|1000169|2.00^0.36||||||||||
+
+ 902876651=1000169|3003257757523|BOOKED|IN|INR|902876651^iibfexam^iibfdupcer^801230682|902876651|236|Transaction Booked|BARB|NA|2021-09-18 15:51:29|NB|10001692021091800216|1000169|2.00^0.36||||||||||
+
+ 902876655=1000169|NA|No Records Found|NA|NA|NA|902876655|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876651=1000169|3003257757523|FAIL|IN|INR|902876651^iibfexam^iibfdupcer^801230682|902876651|236|Transaction Failed|BARB|NA|2021-09-18 15:51:29|NB|10001692021091800216|1000169|2.00^0.36||||||||||
+
+ 902876655=1000169|NA|No Records Found|NA|NA|NA|902876655|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876655=1000169|NA|No Records Found|NA|NA|NA|902876655|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876663=1000169|9346141763929|BOOKED|IN|INR|902876663^iibfexam^902876663^101202110|902876663|944|Transaction Booked|sbiepay|NA|2021-09-18 16:00:25|DC|10001692021091800227|1000169|0.00^0.00||||||||||
+
+ 902876664=1000169|6567870087935|BOOKED|IN|INR|902876664^iibfexam^801593199^101202110|902876664|472|Transaction Booked|sbiepay|NA|2021-09-18 16:02:56|DC|10001692021091800234|1000169|0.00^0.00||||||||||
+
+ 902876655=1000169|NA|No Records Found|NA|NA|NA|902876655|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876663=1000169|9346141763929|BOOKED|IN|INR|902876663^iibfexam^902876663^101202110|902876663|944|Transaction Booked|sbiepay|NA|2021-09-18 16:00:25|DC|10001692021091800227|1000169|0.00^0.00||||||||||
+
+ 902876664=1000169|6567870087935|BOOKED|IN|INR|902876664^iibfexam^801593199^101202110|902876664|472|Transaction Booked|sbiepay|NA|2021-09-18 16:02:56|DC|10001692021091800234|1000169|0.00^0.00||||||||||
+
+ 902876669=1000169|NA|ABORT|IN|INR|902876669^iibfexam^500130883^1009202110|902876669|1298|Transaction Aborted|NA|NA|2021-09-18 16:01:28|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876672=1000169|NA|ABORT|IN|INR|902876672^iibfexam^902876672^101202110|902876672|944|Your session has expired. Please re-attempt the transaction.|NA|NA|2021-09-18 16:02:32|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876673=1000169|NA|ABORT|IN|INR|902876673^iibfexam^902876673^101202110|902876673|944|Transaction Aborted|NA|NA|2021-09-18 16:03:00|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876655=1000169|NA|No Records Found|NA|NA|NA|902876655|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876663=1000169|9346141763929|FAIL|IN|INR|902876663^iibfexam^902876663^101202110|902876663|944|Transaction Failed|sbiepay|NA|2021-09-18 16:00:25|DC|10001692021091800227|1000169|0.00^0.00||||||||||
+
+ 902876664=1000169|6567870087935|BOOKED|IN|INR|902876664^iibfexam^801593199^101202110|902876664|472|Transaction Booked|sbiepay|NA|2021-09-18 16:02:56|DC|10001692021091800234|1000169|0.00^0.00||||||||||
+
+ 902876655=1000169|NA|No Records Found|NA|NA|NA|902876655|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876655=1000169|NA|No Records Found|NA|NA|NA|902876655|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876682=1000169|NA|ABORT|IN|INR|902876682^iibfexam^902876682^101202110|902876682|944|Your session has expired. Please re-attempt the transaction.|NA|NA|2021-09-18 16:12:04|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876683=1000169|NA|ABORT|IN|INR|902876683^iibfexam^902876683^101202110|902876683|944|Your session has expired. Please re-attempt the transaction.|NA|NA|2021-09-18 16:12:37|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876655=1000169|NA|No Records Found|NA|NA|NA|902876655|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876655=1000169|NA|No Records Found|NA|NA|NA|902876655|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876691=1000169|NA|ABORT|IN|INR|902876691^iibfexam^iibfdupcer^801184956|902876691|236|Transaction Aborted|NA|NA|2021-09-18 16:17:47|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876655=1000169|NA|No Records Found|NA|NA|NA|902876655|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876694=1000169|0756418629517|BOOKED|IN|INR|902876694^iibfexam^510136688^1006202110|902876694|236|Transaction Booked|SBIN|NA|2021-09-18 16:20:40|UPI|10001692021091800255|1000169|0.00^0.00||||||||||
+
+ 902876698=1000169|NA|ABORT|IN|INR|902876698^iibfexam^902876698^101202110|902876698|944|Your session has expired. Please re-attempt the transaction.|NA|NA|2021-09-18 16:21:59|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876655=1000169|NA|No Records Found|NA|NA|NA|902876655|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876694=1000169|0756418629517|BOOKED|IN|INR|902876694^iibfexam^510136688^1006202110|902876694|236|Transaction Booked|SBIN|NA|2021-09-18 16:20:40|UPI|10001692021091800255|1000169|0.00^0.00||||||||||
+
+ 902876655=1000169|NA|No Records Found|NA|NA|NA|902876655|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876694=1000169|0756418629517|FAIL|IN|INR|902876694^iibfexam^510136688^1006202110|902876694|236|Transaction Failed|SBIN|NA|2021-09-18 16:20:40|UPI|10001692021091800255|1000169|0.00^0.00||||||||||
+
+ 902876703=1000169|NA|ABORT|IN|INR|902876703^iibfexam^902876703^101202110|902876703|944|Transaction Aborted|NA|NA|2021-09-18 16:25:12|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876655=1000169|NA|No Records Found|NA|NA|NA|902876655|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876713=1000169|1926315910625|BOOKED|IN|INR|902876713^iibfexam^801735232^101202110|902876713|944|Transaction Booked|SBIN|NA|2021-09-18 16:30:38|NB|10001692021091800270|1000169|2.00^0.36||||||||||
+
+ 902876655=1000169|NA|No Records Found|NA|NA|NA|902876655|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876713=1000169|1926315910625|BOOKED|IN|INR|902876713^iibfexam^801735232^101202110|902876713|944|Transaction Booked|SBIN|NA|2021-09-18 16:30:38|NB|10001692021091800270|1000169|2.00^0.36||||||||||
+
+ 812258396=1000169|3264476484215|BOOKED|IN|INR|2672638^iibfregn^2672638^812258396|812258396|1770|Transaction Booked|sbiepay|NA|2021-09-18 16:33:23|DC|10001692021091800273|1000169|0.00^0.00||||||||||
+
+ 812258396=1000169|3264476484215|BOOKED|IN|INR|2672638^iibfregn^2672638^812258396|812258396|1770|Transaction Booked|sbiepay|NA|2021-09-18 16:33:23|DC|10001692021091800273|1000169|0.00^0.00||||||||||
+
+ 812258396=1000169|3264476484215|FAIL|IN|INR|2672638^iibfregn^2672638^812258396|812258396|1770|Transaction Failed|sbiepay|NA|2021-09-18 16:33:23|DC|10001692021091800273|1000169|0.00^0.00||||||||||
+
+ 902876721=1000169|NA|ABORT|IN|INR|902876721^iibfexam^902876721^101202110|902876721|944|Your session has expired. Please re-attempt the transaction.|NA|NA|2021-09-18 16:37:24|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876736=1000169|3522152015113|BOOKED|IN|INR|902876736^iibfexam^902876736^101202110|902876736|944|Transaction Booked|SBIN|NA|2021-09-18 16:49:06|NB|10001692021091800292|1000169|2.00^0.36||||||||||
+
+ 902876736=1000169|3522152015113|BOOKED|IN|INR|902876736^iibfexam^902876736^101202110|902876736|944|Transaction Booked|SBIN|NA|2021-09-18 16:49:06|NB|10001692021091800292|1000169|2.00^0.36||||||||||
+
+ 902876738=1000169|NA|ABORT|IN|INR|902876738^iibfexam^902876738^101202110|902876738|944|Transaction Aborted|NA|NA|2021-09-18 16:51:21|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876736=1000169|3522152015113|FAIL|IN|INR|902876736^iibfexam^902876736^101202110|902876736|944|Transaction Failed|SBIN|NA|2021-09-18 16:49:06|NB|10001692021091800292|1000169|2.00^0.36||||||||||
+
+ 902876755=1000169|NA|No Records Found|NA|NA|NA|902876755|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876755=1000169|NA|No Records Found|NA|NA|NA|902876755|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876755=1000169|NA|No Records Found|NA|NA|NA|902876755|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876759=1000169|NA|No Records Found|NA|NA|NA|902876759|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876755=1000169|NA|No Records Found|NA|NA|NA|902876755|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876759=1000169|NA|No Records Found|NA|NA|NA|902876759|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876765=1000169|NA|ABORT|IN|INR|902876765^iibfexam^801247086^101202110|902876765|472|Transaction Aborted|NA|NA|2021-09-18 17:15:28|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876766=1000169|NA|No Records Found|NA|NA|NA|902876766|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876755=1000169|NA|No Records Found|NA|NA|NA|902876755|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876759=1000169|NA|No Records Found|NA|NA|NA|902876759|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876766=1000169|NA|No Records Found|NA|NA|NA|902876766|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876755=1000169|NA|No Records Found|NA|NA|NA|902876755|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876759=1000169|NA|No Records Found|NA|NA|NA|902876759|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876766=1000169|NA|No Records Found|NA|NA|NA|902876766|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876755=1000169|NA|No Records Found|NA|NA|NA|902876755|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876759=1000169|NA|No Records Found|NA|NA|NA|902876759|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876766=1000169|NA|No Records Found|NA|NA|NA|902876766|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876755=1000169|NA|No Records Found|NA|NA|NA|902876755|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876759=1000169|NA|No Records Found|NA|NA|NA|902876759|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876766=1000169|NA|No Records Found|NA|NA|NA|902876766|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876755=1000169|NA|No Records Found|NA|NA|NA|902876755|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876759=1000169|NA|No Records Found|NA|NA|NA|902876759|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876766=1000169|NA|No Records Found|NA|NA|NA|902876766|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876755=1000169|NA|No Records Found|NA|NA|NA|902876755|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876759=1000169|NA|No Records Found|NA|NA|NA|902876759|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876766=1000169|NA|No Records Found|NA|NA|NA|902876766|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876782=1000169|2564970683437|FAIL|IN|INR|902876782^iibfexam^801247086^101202110|902876782|472|Transaction Failed|sbiepay|NA|2021-09-18 17:37:05|DC|10001692021091800340|1000169|0.00^0.00||||||||||
+
+ 902876755=1000169|NA|No Records Found|NA|NA|NA|902876755|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876759=1000169|NA|No Records Found|NA|NA|NA|902876759|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876766=1000169|NA|No Records Found|NA|NA|NA|902876766|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876755=1000169|NA|No Records Found|NA|NA|NA|902876755|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876759=1000169|NA|No Records Found|NA|NA|NA|902876759|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876766=1000169|NA|No Records Found|NA|NA|NA|902876766|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876755=1000169|NA|No Records Found|NA|NA|NA|902876755|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876759=1000169|NA|No Records Found|NA|NA|NA|902876759|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876766=1000169|NA|No Records Found|NA|NA|NA|902876766|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876755=1000169|NA|No Records Found|NA|NA|NA|902876755|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876759=1000169|NA|No Records Found|NA|NA|NA|902876759|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876766=1000169|NA|No Records Found|NA|NA|NA|902876766|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876788=1000169|NA|No Records Found|NA|NA|NA|902876788|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876759=1000169|NA|No Records Found|NA|NA|NA|902876759|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876766=1000169|NA|No Records Found|NA|NA|NA|902876766|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876788=1000169|NA|No Records Found|NA|NA|NA|902876788|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876766=1000169|NA|No Records Found|NA|NA|NA|902876766|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876788=1000169|NA|No Records Found|NA|NA|NA|902876788|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876766=1000169|NA|No Records Found|NA|NA|NA|902876766|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876788=1000169|NA|No Records Found|NA|NA|NA|902876788|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876788=1000169|NA|No Records Found|NA|NA|NA|902876788|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876795=1000169|NA|No Records Found|NA|NA|NA|902876795|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876796=1000169|NA|ABORT|IN|INR|902876796^iibfexam^801564531^101202110|902876796|472|Transaction Aborted|NA|NA|2021-09-18 17:56:37|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876788=1000169|NA|No Records Found|NA|NA|NA|902876788|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876795=1000169|NA|No Records Found|NA|NA|NA|902876795|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876803=1000169|NA|ABORT|IN|INR|902876803^iibfexam^iibfdupcer^801304450|902876803|236|Transaction Aborted|NA|NA|2021-09-18 18:01:00|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876788=1000169|NA|No Records Found|NA|NA|NA|902876788|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876795=1000169|NA|No Records Found|NA|NA|NA|902876795|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876788=1000169|NA|No Records Found|NA|NA|NA|902876788|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876795=1000169|NA|No Records Found|NA|NA|NA|902876795|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876788=1000169|NA|No Records Found|NA|NA|NA|902876788|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876795=1000169|NA|No Records Found|NA|NA|NA|902876795|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876788=1000169|NA|No Records Found|NA|NA|NA|902876788|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876795=1000169|NA|No Records Found|NA|NA|NA|902876795|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876788=1000169|NA|No Records Found|NA|NA|NA|902876788|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876795=1000169|NA|No Records Found|NA|NA|NA|902876795|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876788=1000169|NA|No Records Found|NA|NA|NA|902876788|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876795=1000169|NA|No Records Found|NA|NA|NA|902876795|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876788=1000169|NA|No Records Found|NA|NA|NA|902876788|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876795=1000169|NA|No Records Found|NA|NA|NA|902876795|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876795=1000169|NA|No Records Found|NA|NA|NA|902876795|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258407=1000169|3250345213813|BOOKED|IN|INR|2672838^iibfregn^2672838^812258407|812258407|1770|Transaction Booked|SBIN|NA|2021-09-18 18:25:14|UPI|10001692021091800377|1000169|0.00^0.00||||||||||
+
+ 902876795=1000169|NA|No Records Found|NA|NA|NA|902876795|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258407=1000169|3250345213813|BOOKED|IN|INR|2672838^iibfregn^2672838^812258407|812258407|1770|Transaction Booked|SBIN|NA|2021-09-18 18:25:14|UPI|10001692021091800377|1000169|0.00^0.00||||||||||
+
+ 902876795=1000169|NA|No Records Found|NA|NA|NA|902876795|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258407=1000169|3250345213813|FAIL|IN|INR|2672838^iibfregn^2672838^812258407|812258407|1770|Transaction Failed|SBIN|NA|2021-09-18 18:25:14|UPI|10001692021091800377|1000169|0.00^0.00||||||||||
+
+ 902876795=1000169|NA|No Records Found|NA|NA|NA|902876795|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876831=1000169|5355892256217|BOOKED|IN|INR|902876831^iibfexam^902876831^101202110|902876831|944|Transaction Booked|sbiepay|NA|2021-09-18 18:35:08|DC|10001692021091800385|1000169|0.00^0.00||||||||||
+
+ 902876831=1000169|5355892256217|BOOKED|IN|INR|902876831^iibfexam^902876831^101202110|902876831|944|Transaction Booked|sbiepay|NA|2021-09-18 18:35:08|DC|10001692021091800385|1000169|0.00^0.00||||||||||
+
+ 902876831=1000169|5355892256217|BOOKED|IN|INR|902876831^iibfexam^902876831^101202110|902876831|944|Transaction Booked|sbiepay|NA|2021-09-18 18:35:08|DC|10001692021091800385|1000169|0.00^0.00||||||||||
+
+ 902876831=1000169|5355892256217|FAIL|IN|INR|902876831^iibfexam^902876831^101202110|902876831|944|Transaction Failed|sbiepay|NA|2021-09-18 18:35:08|DC|10001692021091800385|1000169|0.00^0.00||||||||||
+
+ 902876839=1000169|NA|FAIL|IN|INR|902876839^iibfexam^902876839^101202110|902876839|944|User closed or refreshed browser|NA|NA|2021-09-18 18:51:36|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876851=1000169|NA|ABORT|IN|INR|902876851^iibfexam^801502629^101202110|902876851|944|Transaction Aborted|NA|NA|2021-09-18 19:00:13|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876854=1000169|NA|ABORT|IN|INR|902876854^iibfexam^902876854^101202110|902876854|944|Transaction Aborted|NA|NA|2021-09-18 19:04:05|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876855=1000169|NA|No Records Found|NA|NA|NA|902876855|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876855=1000169|NA|No Records Found|NA|NA|NA|902876855|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876855=1000169|NA|No Records Found|NA|NA|NA|902876855|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876855=1000169|NA|No Records Found|NA|NA|NA|902876855|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876855=1000169|NA|No Records Found|NA|NA|NA|902876855|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876855=1000169|NA|No Records Found|NA|NA|NA|902876855|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876855=1000169|NA|No Records Found|NA|NA|NA|902876855|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876855=1000169|NA|No Records Found|NA|NA|NA|902876855|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876855=1000169|NA|No Records Found|NA|NA|NA|902876855|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876855=1000169|NA|No Records Found|NA|NA|NA|902876855|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876871=1000169|NA|ABORT|IN|INR|902876871^iibfexam^902876871^101202110|902876871|944|Transaction Aborted|NA|NA|2021-09-18 19:31:56|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876855=1000169|NA|No Records Found|NA|NA|NA|902876855|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876855=1000169|NA|No Records Found|NA|NA|NA|902876855|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876855=1000169|NA|No Records Found|NA|NA|NA|902876855|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876884=1000169|9725463387413|BOOKED|IN|INR|902876884^iibfexam^IIBF_EL^526201903|902876884|1416|Transaction Booked|sbiepay|NA|2021-09-18 19:51:19|DC|10001692021091800434|1000169|0.00^0.00||||||||||
+
+ 902876886=1000169|NA|ABORT|IN|INR|902876886^iibfexam^902876886^101202110|902876886|944|Transaction Aborted|NA|NA|2021-09-18 19:50:49|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876884=1000169|9725463387413|BOOKED|IN|INR|902876884^iibfexam^IIBF_EL^526201903|902876884|1416|Transaction Booked|sbiepay|NA|2021-09-18 19:51:19|DC|10001692021091800434|1000169|0.00^0.00||||||||||
+
+ 902876884=1000169|9725463387413|FAIL|IN|INR|902876884^iibfexam^IIBF_EL^526201903|902876884|1416|Transaction Failed|sbiepay|NA|2021-09-18 19:51:19|DC|10001692021091800434|1000169|0.00^0.00||||||||||
+
+ 902876893=1000169|NA|No Records Found|NA|NA|NA|902876893|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876893=1000169|NA|No Records Found|NA|NA|NA|902876893|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876896=1000169|NA|ABORT|IN|INR|902876896^iibfexam^902876896^101202110|902876896|944|Your session has expired. Please re-attempt the transaction.|NA|NA|2021-09-18 20:05:23|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876893=1000169|NA|No Records Found|NA|NA|NA|902876893|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876893=1000169|NA|No Records Found|NA|NA|NA|902876893|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876893=1000169|NA|No Records Found|NA|NA|NA|902876893|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876907=1000169|NA|ABORT|IN|INR|902876907^iibfexam^801504781^101202110|902876907|944|Transaction Aborted|NA|NA|2021-09-18 20:15:31|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876893=1000169|NA|No Records Found|NA|NA|NA|902876893|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876893=1000169|NA|No Records Found|NA|NA|NA|902876893|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876893=1000169|NA|No Records Found|NA|NA|NA|902876893|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876893=1000169|NA|No Records Found|NA|NA|NA|902876893|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876893=1000169|NA|No Records Found|NA|NA|NA|902876893|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876893=1000169|NA|No Records Found|NA|NA|NA|902876893|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876893=1000169|NA|No Records Found|NA|NA|NA|902876893|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876893=1000169|NA|No Records Found|NA|NA|NA|902876893|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876926=1000169|NA|ABORT|IN|INR|902876926^iibfexam^510511112^101202110|902876926|944|Transaction Aborted|NA|NA|2021-09-18 20:39:16|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876928=1000169|NA|ABORT|IN|INR|902876928^iibfexam^801511753^101202110|902876928|944|Transaction Aborted|NA|NA|2021-09-18 20:42:44|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258422=1000169|NA|ABORT|IN|INR|2673095^iibfregn^2673095^812258422|812258422|1770|Transaction Aborted|NA|NA|2021-09-18 20:56:52|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876934=1000169|NA|ABORT|IN|INR|902876934^iibfexam^902876934^101202110|902876934|944|Transaction Aborted|NA|NA|2021-09-18 20:57:22|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876938=1000169|6125104066329|BOOKED|IN|INR|902876938^iibfexam^902876938^101202110|902876938|944|Transaction Booked|SBIN|NA|2021-09-18 20:59:28|UPI|10001692021091800480|1000169|0.00^0.00||||||||||
+
+ 902876938=1000169|6125104066329|BOOKED|IN|INR|902876938^iibfexam^902876938^101202110|902876938|944|Transaction Booked|SBIN|NA|2021-09-18 20:59:28|UPI|10001692021091800480|1000169|0.00^0.00||||||||||
+
+ 902876940=1000169|NA|ABORT|IN|INR|902876940^iibfexam^801469239^101202110|902876940|472|Transaction Aborted|NA|NA|2021-09-18 21:03:03|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258424=1000169|4605916329713|SUCCESS|IN|INR|2673106^iibfregn^2673106^812258424|812258424|1770|Payment In Clearing|sbiepay|202126160091696|2021-09-18 21:13:30|DC|10001692021091800487|1000169|0.00^0.00||||||||||
+
+ 902876952=1000169|8277999312535|BOOKED|IN|INR|902876952^iibfexam^801261767^101202110|902876952|472|Transaction Booked|SBIN|NA|2021-09-18 21:33:50|UPI|10001692021091800494|1000169|0.00^0.00||||||||||
+
+ 902876952=1000169|8277999312535|BOOKED|IN|INR|902876952^iibfexam^801261767^101202110|902876952|472|Transaction Booked|SBIN|NA|2021-09-18 21:33:50|UPI|10001692021091800494|1000169|0.00^0.00||||||||||
+
+ 902876954=1000169|7079225411713|BOOKED|IN|INR|902876954^iibfexam^902876954^101202110|902876954|944|Transaction Booked|sbiepay|NA|2021-09-18 21:35:02|DC|10001692021091800496|1000169|0.00^0.00||||||||||
+
+ 902876955=1000169|9196889738523|BOOKED|IN|INR|902876955^iibfexam^902876955^101202110|902876955|944|Transaction Booked|SBIN|NA|2021-09-18 21:36:29|UPI|10001692021091800497|1000169|0.00^0.00||||||||||
+
+ 902876952=1000169|8277999312535|FAIL|IN|INR|902876952^iibfexam^801261767^101202110|902876952|472|Transaction Failed|SBIN|NA|2021-09-18 21:33:50|UPI|10001692021091800494|1000169|0.00^0.00||||||||||
+
+ 902876954=1000169|7079225411713|BOOKED|IN|INR|902876954^iibfexam^902876954^101202110|902876954|944|Transaction Booked|sbiepay|NA|2021-09-18 21:35:02|DC|10001692021091800496|1000169|0.00^0.00||||||||||
+
+ 902876955=1000169|9196889738523|BOOKED|IN|INR|902876955^iibfexam^902876955^101202110|902876955|944|Transaction Booked|SBIN|NA|2021-09-18 21:36:29|UPI|10001692021091800497|1000169|0.00^0.00||||||||||
+
+ 902876954=1000169|7079225411713|FAIL|IN|INR|902876954^iibfexam^902876954^101202110|902876954|944|Transaction Failed|sbiepay|NA|2021-09-18 21:35:02|DC|10001692021091800496|1000169|0.00^0.00||||||||||
+
+ 902876955=1000169|9196889738523|FAIL|IN|INR|902876955^iibfexam^902876955^101202110|902876955|944|Transaction Failed|SBIN|NA|2021-09-18 21:36:29|UPI|10001692021091800497|1000169|0.00^0.00||||||||||
+
+ 902876963=1000169|NA|No Records Found|NA|NA|NA|902876963|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876963=1000169|NA|No Records Found|NA|NA|NA|902876963|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876963=1000169|NA|No Records Found|NA|NA|NA|902876963|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876963=1000169|NA|No Records Found|NA|NA|NA|902876963|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876966=1000169|4092045179219|BOOKED|IN|INR|902876966^iibfexam^902876966^101202110|902876966|944|Transaction Booked|sbiepay|NA|2021-09-18 22:02:41|DC|10001692021091800509|1000169|0.00^0.00||||||||||
+
+ 902876963=1000169|NA|No Records Found|NA|NA|NA|902876963|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876966=1000169|4092045179219|BOOKED|IN|INR|902876966^iibfexam^902876966^101202110|902876966|944|Transaction Booked|sbiepay|NA|2021-09-18 22:02:41|DC|10001692021091800509|1000169|0.00^0.00||||||||||
+
+ 902876968=1000169|NA|ABORT|IN|INR|902876968^iibfexam^902876968^101202110|902876968|944|Transaction Aborted|NA|NA|2021-09-18 22:06:02|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876963=1000169|NA|No Records Found|NA|NA|NA|902876963|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876963=1000169|NA|No Records Found|NA|NA|NA|902876963|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876963=1000169|NA|No Records Found|NA|NA|NA|902876963|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876963=1000169|NA|No Records Found|NA|NA|NA|902876963|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876987=1000169|NA|ABORT|IN|INR|902876987^iibfexam^902876987^101202110|902876987|944|Transaction Aborted|NA|NA|2021-09-18 22:18:33|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876988=1000169|NA|ABORT|IN|INR|902876988^iibfexam^510096966^1012202110|902876988|1298|Transaction Aborted|NA|NA|2021-09-18 22:18:49|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876963=1000169|NA|No Records Found|NA|NA|NA|902876963|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876991=1000169|NA|ABORT|IN|INR|902876991^iibfexam^902876991^101202110|902876991|944|Transaction Aborted|NA|NA|2021-09-18 22:20:32|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258430=1000169|2033917259615|SUCCESS|IN|INR|2673196^iibfregn^2673196^812258430|812258430|1770|Payment In Clearing|sbiepay|202126157824554|2021-09-18 22:29:08|DC|10001692021091800537|1000169|0.00^0.00||||||||||
+
+ 902876963=1000169|NA|No Records Found|NA|NA|NA|902876963|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876963=1000169|NA|No Records Found|NA|NA|NA|902876963|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876996=1000169|NA|ABORT|IN|INR|902876996^iibfexam^902876996^101202110|902876996|944|Transaction Aborted|NA|NA|2021-09-18 22:26:20|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876963=1000169|NA|No Records Found|NA|NA|NA|902876963|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876999=1000169|NA|No Records Found|NA|NA|NA|902876999|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876963=1000169|NA|No Records Found|NA|NA|NA|902876963|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876999=1000169|NA|No Records Found|NA|NA|NA|902876999|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902877000=1000169|NA|ABORT|IN|INR|902877000^iibfexam^902877000^101202110|902877000|944|Your session has expired. Please re-attempt the transaction.|NA|NA|2021-09-18 22:32:04|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902877001=1000169|NA|ABORT|IN|INR|902877001^iibfexam^510343561^1010202110|902877001|1298|Transaction Aborted|NA|NA|2021-09-18 22:33:09|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876999=1000169|NA|No Records Found|NA|NA|NA|902876999|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876999=1000169|NA|No Records Found|NA|NA|NA|902876999|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902877004=1000169|5059711195337|SUCCESS|IN|INR|902877004^iibfexam^902877004^101202110|902877004|944|Payment In Clearing|sbiepay|202126142566097|2021-09-18 22:41:57|DC|10001692021091800541|1000169|0.00^0.00||||||||||
+
+ 902876999=1000169|NA|No Records Found|NA|NA|NA|902876999|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876999=1000169|NA|No Records Found|NA|NA|NA|902876999|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876999=1000169|NA|No Records Found|NA|NA|NA|902876999|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876999=1000169|NA|No Records Found|NA|NA|NA|902876999|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876999=1000169|NA|No Records Found|NA|NA|NA|902876999|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902877014=1000169|NA|ABORT|IN|INR|902877014^iibfexam^IIBFELS^EL000002231|902877014|295|Transaction Aborted|NA|NA|2021-09-18 22:54:34|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876999=1000169|NA|No Records Found|NA|NA|NA|902876999|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876999=1000169|NA|No Records Found|NA|NA|NA|902876999|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876999=1000169|NA|No Records Found|NA|NA|NA|902876999|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902877017=1000169|NA|ABORT|IN|INR|902877017^iibfexam^510263514^1013202110|902877017|1298|Transaction Aborted|NA|NA|2021-09-18 23:02:26|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902877018=1000169|NA|ABORT|IN|INR|902877018^iibfexam^IIBF_EL^526201903|902877018|1416|Transaction Aborted|NA|NA|2021-09-18 23:03:06|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902876999=1000169|NA|No Records Found|NA|NA|NA|902876999|NA|No Records Found|NA|NA|NA|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902877021=1000169|NA|ABORT|IN|INR|902877021^iibfexam^902877021^101202110|902877021|944|Transaction Aborted|NA|NA|2021-09-18 23:08:15|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902877024=1000169|NA|ABORT|IN|INR|902877024^iibfexam^902877024^101202110|902877024|944|Transaction Aborted|NA|NA|2021-09-18 23:09:19|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258432=1000169|0656341189717|BOOKED|IN|INR|2673219^iibfregn^2673219^812258432|812258432|1770|Transaction Booked|sbiepay|NA|2021-09-18 23:11:01|CC|10001692021091800556|1000169|15.40^2.77||||||||||
+
+ 812258433=1000169|9666408068919|BOOKED|IN|INR|2673218^iibfregn^2673218^812258433|812258433|1770|Transaction Booked|sbiepay|NA|2021-09-18 23:12:10|DC|10001692021091800559|1000169|0.00^0.00||||||||||
+
+ 812258432=1000169|0656341189717|BOOKED|IN|INR|2673219^iibfregn^2673219^812258432|812258432|1770|Transaction Booked|sbiepay|NA|2021-09-18 23:11:01|CC|10001692021091800556|1000169|15.40^2.77||||||||||
+
+ 812258433=1000169|9666408068919|BOOKED|IN|INR|2673218^iibfregn^2673218^812258433|812258433|1770|Transaction Booked|sbiepay|NA|2021-09-18 23:12:10|DC|10001692021091800559|1000169|0.00^0.00||||||||||
+
+ 812258434=1000169|NA|ABORT|IN|INR|2673219^iibfregn^2673219^812258434|812258434|1770|Transaction Aborted|NA|NA|2021-09-18 23:12:30|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258435=1000169|NA|ABORT|IN|INR|2673219^iibfregn^2673219^812258435|812258435|1770|Transaction Aborted|NA|NA|2021-09-18 23:12:55|NA|NA|1000169|0.00^0.00||||||||||
+
+ 812258432=1000169|0656341189717|BOOKED|IN|INR|2673219^iibfregn^2673219^812258432|812258432|1770|Transaction Booked|sbiepay|NA|2021-09-18 23:11:01|CC|10001692021091800556|1000169|15.40^2.77||||||||||
+
+ 812258433=1000169|9666408068919|BOOKED|IN|INR|2673218^iibfregn^2673218^812258433|812258433|1770|Transaction Booked|sbiepay|NA|2021-09-18 23:12:10|DC|10001692021091800559|1000169|0.00^0.00||||||||||
+
+ 812258432=1000169|0656341189717|FAIL|IN|INR|2673219^iibfregn^2673219^812258432|812258432|1770|Transaction Failed|sbiepay|NA|2021-09-18 23:11:01|CC|10001692021091800556|1000169|15.40^2.77||||||||||
+
+ 812258433=1000169|9666408068919|FAIL|IN|INR|2673218^iibfregn^2673218^812258433|812258433|1770|Transaction Failed|sbiepay|NA|2021-09-18 23:12:10|DC|10001692021091800559|1000169|0.00^0.00||||||||||
+
+ 902877030=1000169|NA|ABORT|IN|INR|902877030^iibfexam^510202510^1013202110|902877030|1298|Transaction Aborted|NA|NA|2021-09-18 23:18:06|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902877031=1000169|NA|ABORT|IN|INR|902877031^iibfexam^801342633^1002202110|902877031|1888|Transaction Aborted|NA|NA|2021-09-18 23:18:27|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902877037=1000169|7960754468313|BOOKED|IN|INR|902877037^iibfexam^500030244^1020202110|902877037|1298|Transaction Booked|SBIN|NA|2021-09-18 23:29:30|UPI|10001692021091800568|1000169|0.00^0.00||||||||||
+
+ 902877038=1000169|7197987300437|BOOKED|IN|INR|902877038^iibfexam^510286573^1013202110|902877038|1298|Transaction Booked|SBIN|NA|2021-09-18 23:30:21|UPI|10001692021091800569|1000169|0.00^0.00||||||||||
+
+ 902877040=1000169|1765318256039|BOOKED|IN|INR|902877040^iibfexam^510499839^1002202110|902877040|1298|Transaction Booked|SBIN|NA|2021-09-18 23:32:18|UPI|10001692021091800572|1000169|0.00^0.00||||||||||
+
+ 902877037=1000169|7960754468313|BOOKED|IN|INR|902877037^iibfexam^500030244^1020202110|902877037|1298|Transaction Booked|SBIN|NA|2021-09-18 23:29:30|UPI|10001692021091800568|1000169|0.00^0.00||||||||||
+
+ 902877038=1000169|7197987300437|BOOKED|IN|INR|902877038^iibfexam^510286573^1013202110|902877038|1298|Transaction Booked|SBIN|NA|2021-09-18 23:30:21|UPI|10001692021091800569|1000169|0.00^0.00||||||||||
+
+ 902877040=1000169|1765318256039|BOOKED|IN|INR|902877040^iibfexam^510499839^1002202110|902877040|1298|Transaction Booked|SBIN|NA|2021-09-18 23:32:18|UPI|10001692021091800572|1000169|0.00^0.00||||||||||
+
+ 902877044=1000169|NA|ABORT|IN|INR|902877044^iibfexam^500151643^1002202110|902877044|1298|Transaction Aborted|NA|NA|2021-09-18 23:32:12|NA|NA|1000169|0.00^0.00||||||||||
+
+ 902877040=1000169|1765318256039|BOOKED|IN|INR|902877040^iibfexam^510499839^1002202110|902877040|1298|Transaction Booked|SBIN|NA|2021-09-18 23:32:18|UPI|10001692021091800572|1000169|0.00^0.00||||||||||

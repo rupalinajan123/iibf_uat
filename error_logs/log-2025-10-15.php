@@ -1,0 +1,67 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2025-10-15 10:31:12 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 10:31:50 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 10:31:56 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 10:31:57 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 10:40:35 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 10:57:16 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 10:57:24 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 10:57:25 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 11:02:09 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 11:20:43 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 11:51:42 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 11:56:40 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 11:57:36 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 11:57:37 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 12:19:57 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 12:42:29 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 12:42:56 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 12:43:00 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 12:43:02 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 12:43:09 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 12:43:54 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 12:44:31 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 12:44:35 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 12:44:41 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 12:44:43 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 12:48:48 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 14:33:28 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 14:36:43 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 14:40:05 --> 404 Page Not Found: Assets/ncvet
+ERROR - 2025-10-15 14:40:06 --> 404 Page Not Found: Assets/ncvet
+ERROR - 2025-10-15 14:40:06 --> 404 Page Not Found: Assets/ncvet
+ERROR - 2025-10-15 14:40:06 --> 404 Page Not Found: Assets/ncvet
+ERROR - 2025-10-15 14:54:04 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 14:55:48 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 14:57:38 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 14:58:21 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 14:58:26 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 14:59:19 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 14:59:43 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 15:02:16 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 15:06:08 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 15:06:58 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 15:07:11 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 15:15:55 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 16:03:58 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 16:04:10 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 16:04:13 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 16:04:17 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 16:04:34 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 16:06:16 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 16:06:18 --> 404 Page Not Found: ncvet/Candidate_registration/favicon.ico
+ERROR - 2025-10-15 17:09:05 --> 404 Page Not Found: Assets/ncvet
+ERROR - 2025-10-15 17:09:05 --> 404 Page Not Found: Assets/ncvet
+ERROR - 2025-10-15 17:09:05 --> 404 Page Not Found: Assets/ncvet
+ERROR - 2025-10-15 17:09:05 --> 404 Page Not Found: Assets/ncvet
+ERROR - 2025-10-15 17:09:49 --> 404 Page Not Found: Assets/ncvet
+ERROR - 2025-10-15 17:09:49 --> 404 Page Not Found: Assets/ncvet
+ERROR - 2025-10-15 17:09:49 --> 404 Page Not Found: Assets/ncvet
+ERROR - 2025-10-15 17:09:49 --> 404 Page Not Found: Assets/ncvet
+ERROR - 2025-10-15 17:25:49 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 17:25:55 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 17:25:58 --> 404 Page Not Found: ncvet/Scribe_form/css
+ERROR - 2025-10-15 17:28:11 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('3', 'Assistant_Director_Academics', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-10-15 17:29:24 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('3', 'Assistant_Director_Academics', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-10-15 17:33:17 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('14', 'Faculty_Member_IT', '10.11.38.105', 'UnKnown||UnKnown', NULL)

@@ -1,0 +1,35 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2025-12-16 00:31:11 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 00:37:50 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 01:34:12 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 01:48:40 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 02:01:36 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 02:02:58 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 02:38:17 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 02:42:02 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 05:22:59 --> 404 Page Not Found: Assets/fonts
+ERROR - 2025-12-16 05:23:01 --> 404 Page Not Found: Assets/fonts
+ERROR - 2025-12-16 05:23:02 --> 404 Page Not Found: Assets/fonts
+ERROR - 2025-12-16 05:23:02 --> 404 Page Not Found: Assets/fonts
+ERROR - 2025-12-16 05:42:20 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 07:19:32 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 07:25:01 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 08:52:06 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 09:58:17 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 13:40:20 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 13:52:54 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 15:08:35 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 15:29:36 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 15:39:22 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 16:07:47 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 16:09:29 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 16:50:43 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 17:23:04 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 19:09:26 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 19:09:33 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 20:44:09 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 21:46:12 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 22:48:05 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 22:52:06 --> 404 Page Not Found: Uploads/exam_instruction
+ERROR - 2025-12-16 23:56:12 --> 404 Page Not Found: Uploads/exam_instruction

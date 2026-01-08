@@ -1,0 +1,8 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2025-11-08 15:03:34 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('3', 'Assistant_Director_Academics', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-11-08 15:03:35 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('3', 'Assistant_Director_Academics', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-11-08 15:09:50 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('7', 'Faculty_Member', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-11-08 15:13:16 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('3', 'Assistant_Director_Academics', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-11-08 15:14:12 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('1', 'Junior_Executive', '10.11.38.105', 'UnKnown||UnKnown', NULL)
+ERROR - 2025-11-08 15:14:34 --> Query error: Column 'user_agent' cannot be null - Invalid query: INSERT INTO `careers_pages_logs` (`position_id`, `title`, `ip`, `browser`, `user_agent`) VALUES ('7', 'head_pdc_nz', '10.11.38.105', 'UnKnown||UnKnown', NULL)

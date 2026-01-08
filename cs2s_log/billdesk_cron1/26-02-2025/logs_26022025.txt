@@ -1,0 +1,58 @@
+
+ 2163=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2181=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2185=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2188=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2210=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2211=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2212=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2163=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2181=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2185=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2188=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2210=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2211=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2212=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2163=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2181=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2185=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2188=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2210=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2211=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2212=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2210=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2211=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2212=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2210=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2211=404|not_found_error|TRNFE0001|Transaction not found
+
+ 2212=transaction|U123KGB0007E20|2212|UATIIBFBLK|2025-02-26T16:19:27+05:30|1296.00|0.00|0.00|1296.00|356|Array|https://iibf.esdsconnect.com/staging/iibfdra/Version_2/TrainingBatches/handle_billdesk_response|nb|123|DIRECT|0300|TRS0000|Transaction Successful|success|netbanking|01
+
+ 2213=transaction|U1231150007E21|2213|UATIIBFBLK|2025-02-26T16:20:20+05:30|2832.00|0.00|0.00|2832.00|356|Array|https://iibf.esdsconnect.com/staging/iibfdra/Version_2/TrainingBatches/handle_billdesk_response|nb|123|DIRECT|0300|TRS0000|Transaction Successful|success|netbanking|01
+
+ 2214=transaction|U1238XL0007E22|2214|UATIIBFBLK|2025-02-26T16:23:00+05:30|1392.00|0.00|0.00|1392.00|356|Array|https://iibf.esdsconnect.com/staging/iibfdra/Version_2/TrainingBatches/handle_billdesk_response|nb|123|DIRECT|0399|TRPAE0001|Transaction not authorized|payment_authorization_error|netbanking|01

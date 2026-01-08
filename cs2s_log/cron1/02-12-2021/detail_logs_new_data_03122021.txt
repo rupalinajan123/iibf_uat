@@ -1,0 +1,16 @@
+
+***********************************************************
+
+ Cron execution started at :2021-12-02 23:59:01 
+
+ Total Count =>11
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 2
+(903083955,903084004) 
+ Total records PENDING: 0
+()
+ Total records No Response: 9
+(903083931,903083967,903083969,903083981,903083983,903083987,903083989,903084000,34117)
+ Cron execution ended at: 2021-12-03 00:00:03

@@ -1,0 +1,10 @@
+
+ 812328679=transaction|XHD50738653783|812328679|INDINSBAF|2022-09-03T23:35:38+05:30|1770.00|0.00|0.00|1770.00|356|Array|https://iibf.esdsconnect.com/register/handle_billdesk_response|collect|HD5|DIRECT|224663213301|0300|TRS0000|Transaction Successful|success|upi
+
+ 903551194=404|not_found_error|TRNFE0001|Transaction not found
+
+ 903551195=transaction|XHD50738654730|903551195|INDINSBAF|2022-09-03T23:36:06+05:30|3186.00|0.00|0.00|3186.00|356|Array|https://iibf.esdsconnect.com/applyexam/handle_billdesk_response|collect|HD5|DIRECT|0399|TRPPE0033|Payment processing error|payment_processing_error|upi
+
+ 903551197=transaction|XUR30738658466|903551197|INDINSBAF|2022-09-03T23:37:59+05:30|1622.50|0.00|0.00|1622.50|356|Array|https://iibf.esdsconnect.com/home/handle_billdesk_response|3ds|UR3|RDDIRECT|224623331941|0399|TRPPE0033|Payment processing error|payment_processing_error|card
+
+ 903551182=404|not_found_error|TRNFE0001|Transaction not found

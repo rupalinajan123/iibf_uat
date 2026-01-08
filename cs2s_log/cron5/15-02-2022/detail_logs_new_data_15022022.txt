@@ -1,0 +1,1200 @@
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 00:00:02 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(903192566) 
+ Total records PENDING: 0
+()
+ Total records No Response: 0
+()
+ Cron execution ended at: 2022-02-15 00:00:10
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 01:40:01 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(903192567) 
+ Total records PENDING: 0
+()
+ Total records No Response: 0
+()
+ Cron execution ended at: 2022-02-15 01:40:09
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 05:20:01 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(903192572) 
+ Total records PENDING: 0
+()
+ Total records No Response: 0
+()
+ Cron execution ended at: 2022-02-15 05:20:02
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 07:30:02 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(903192575) 
+ Total records PENDING: 0
+()
+ Total records No Response: 0
+()
+ Cron execution ended at: 2022-02-15 07:30:11
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 08:50:01 
+
+ Total Count =>1
+
+Total records SUCCESS: 1
+(903192580) 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 0
+()
+ Cron execution ended at: 2022-02-15 08:50:09
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 09:50:01 
+
+ Total Count =>2
+
+Total records SUCCESS: 1
+(903192583) 
+Total records FAIL: 1
+(903192584) 
+ Total records PENDING: 0
+()
+ Total records No Response: 0
+()
+ Cron execution ended at: 2022-02-15 09:50:10
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 10:00:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 2
+(903192583,903192587) 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 0
+()
+ Cron execution ended at: 2022-02-15 10:00:11
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 10:10:01 
+
+ Total Count =>1
+
+Total records SUCCESS: 1
+(903192583) 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 0
+()
+ Cron execution ended at: 2022-02-15 10:10:02
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 10:20:02 
+
+ Total Count =>5
+
+Total records SUCCESS: 2
+(903192583,903192596) 
+Total records FAIL: 1
+(903192592) 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903192594,903192595)
+ Cron execution ended at: 2022-02-15 10:20:36
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 10:30:02 
+
+ Total Count =>3
+
+Total records SUCCESS: 1
+(903192583) 
+Total records FAIL: 1
+(34540) 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(903192597)
+ Cron execution ended at: 2022-02-15 10:30:11
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 10:40:11 
+
+ Total Count =>3
+
+Total records SUCCESS: 1
+(903192583) 
+Total records FAIL: 1
+(903192605) 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(903192597)
+ Cron execution ended at: 2022-02-15 10:40:12
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 10:50:02 
+
+ Total Count =>4
+
+Total records SUCCESS: 1
+(903192583) 
+Total records FAIL: 1
+(903192615) 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903192597,903192613)
+ Cron execution ended at: 2022-02-15 10:50:12
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 11:00:02 
+
+ Total Count =>3
+
+Total records SUCCESS: 1
+(903192583) 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903192597,903192617)
+ Cron execution ended at: 2022-02-15 11:00:05
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 11:10:01 
+
+ Total Count =>3
+
+Total records SUCCESS: 1
+(903192583) 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903192597,903192617)
+ Cron execution ended at: 2022-02-15 11:10:02
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 11:20:02 
+
+ Total Count =>4
+
+Total records SUCCESS: 1
+(903192583) 
+Total records FAIL: 1
+(903192626) 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903192597,903192617)
+ Cron execution ended at: 2022-02-15 11:20:11
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 11:30:01 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903192597,903192617)
+ Cron execution ended at: 2022-02-15 11:30:02
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 11:40:02 
+
+ Total Count =>3
+
+Total records SUCCESS: 1
+(903192634) 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903192597,903192617)
+ Cron execution ended at: 2022-02-15 11:40:11
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 11:50:01 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903192597,903192617)
+ Cron execution ended at: 2022-02-15 11:50:02
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 12:00:03 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 3
+(903192644,903192645,903192646) 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903192597,903192617)
+ Cron execution ended at: 2022-02-15 12:00:29
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 12:10:01 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(903192617)
+ Cron execution ended at: 2022-02-15 12:10:02
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 12:20:02 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(903192617)
+ Cron execution ended at: 2022-02-15 12:20:02
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 12:30:01 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(903192617)
+ Cron execution ended at: 2022-02-15 12:30:02
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 13:40:01 
+
+ Total Count =>2
+
+Total records SUCCESS: 1
+(903192666) 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(903192667)
+ Cron execution ended at: 2022-02-15 13:40:11
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 13:50:01 
+
+ Total Count =>3
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 2
+(903192669,903192672) 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(903192667)
+ Cron execution ended at: 2022-02-15 13:50:11
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 14:00:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(903192674) 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(903192667)
+ Cron execution ended at: 2022-02-15 14:00:11
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 14:10:01 
+
+ Total Count =>3
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(903192681) 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903192667,812291102)
+ Cron execution ended at: 2022-02-15 14:10:10
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 14:20:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903192667,812291102)
+ Cron execution ended at: 2022-02-15 14:20:03
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 14:30:02 
+
+ Total Count =>5
+
+Total records SUCCESS: 1
+(903192695) 
+Total records FAIL: 2
+(903192689,903192694) 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903192667,812291102)
+ Cron execution ended at: 2022-02-15 14:30:28
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 14:40:01 
+
+ Total Count =>5
+
+Total records SUCCESS: 1
+(903192699) 
+Total records FAIL: 1
+(903192700) 
+ Total records PENDING: 0
+()
+ Total records No Response: 3
+(903192667,812291102,903192698)
+ Cron execution ended at: 2022-02-15 14:40:28
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 14:50:02 
+
+ Total Count =>6
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 4
+(903192701,903192703,903192706,903192708) 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903192667,812291102)
+ Cron execution ended at: 2022-02-15 14:50:20
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 15:00:02 
+
+ Total Count =>4
+
+Total records SUCCESS: 1
+(903192715) 
+Total records FAIL: 1
+(903192716) 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903192667,812291102)
+ Cron execution ended at: 2022-02-15 15:00:20
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 15:10:01 
+
+ Total Count =>3
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 3
+(903192667,812291102,903192720)
+ Cron execution ended at: 2022-02-15 15:10:10
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 15:20:01 
+
+ Total Count =>4
+
+Total records SUCCESS: 1
+(903192725) 
+Total records FAIL: 1
+(903192720) 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(812291102,903192724)
+ Cron execution ended at: 2022-02-15 15:20:27
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 15:30:21 
+
+ Total Count =>3
+
+Total records SUCCESS: 1
+(903192727) 
+Total records FAIL: 1
+(903192724) 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(812291102)
+ Cron execution ended at: 2022-02-15 15:30:38
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 15:40:01 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(812291102)
+ Cron execution ended at: 2022-02-15 15:40:02
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 16:00:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 1
+(903192744) 
+Total records FAIL: 1
+(903192742) 
+ Total records PENDING: 0
+()
+ Total records No Response: 0
+()
+ Cron execution ended at: 2022-02-15 16:00:20
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 16:10:02 
+
+ Total Count =>4
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 3
+(903192750,903192753,903192754) 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(903192751)
+ Cron execution ended at: 2022-02-15 16:10:27
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 16:20:01 
+
+ Total Count =>2
+
+Total records SUCCESS: 1
+(903192759) 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(903192760)
+ Cron execution ended at: 2022-02-15 16:20:19
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 16:30:01 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(903192760) 
+ Total records PENDING: 0
+()
+ Total records No Response: 0
+()
+ Cron execution ended at: 2022-02-15 16:30:09
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 16:50:02 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(903192776) 
+ Total records PENDING: 0
+()
+ Total records No Response: 0
+()
+ Cron execution ended at: 2022-02-15 16:50:10
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 17:00:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(903192782) 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(812291112)
+ Cron execution ended at: 2022-02-15 17:00:11
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 17:10:01 
+
+ Total Count =>5
+
+Total records SUCCESS: 1
+(903192789) 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 4
+(812291112,812291113,903192787,903192788)
+ Cron execution ended at: 2022-02-15 17:10:27
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 17:20:01 
+
+ Total Count =>3
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(903192793) 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(812291112,812291113)
+ Cron execution ended at: 2022-02-15 17:20:10
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 17:30:01 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(812291112,812291113)
+ Cron execution ended at: 2022-02-15 17:30:02
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 17:40:01 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(812291112,812291113)
+ Cron execution ended at: 2022-02-15 17:40:02
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 17:50:01 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(812291112,812291113)
+ Cron execution ended at: 2022-02-15 17:50:02
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 18:00:02 
+
+ Total Count =>4
+
+Total records SUCCESS: 1
+(903192811) 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 3
+(812291112,812291113,903192809)
+ Cron execution ended at: 2022-02-15 18:00:19
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 18:10:02 
+
+ Total Count =>3
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 3
+(812291112,812291113,903192813)
+ Cron execution ended at: 2022-02-15 18:10:11
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 18:20:02 
+
+ Total Count =>6
+
+Total records SUCCESS: 1
+(903192820) 
+Total records FAIL: 2
+(903192817,903192818) 
+ Total records PENDING: 0
+()
+ Total records No Response: 3
+(812291112,812291113,903192815)
+ Cron execution ended at: 2022-02-15 18:20:29
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 18:30:01 
+
+ Total Count =>3
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 3
+(812291112,812291113,903192815)
+ Cron execution ended at: 2022-02-15 18:30:03
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 18:40:02 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 2
+(903192836,903192837) 
+ Total records PENDING: 0
+()
+ Total records No Response: 3
+(812291113,903192815,903192832)
+ Cron execution ended at: 2022-02-15 18:40:11
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 18:50:02 
+
+ Total Count =>5
+
+Total records SUCCESS: 1
+(903192842) 
+Total records FAIL: 2
+(903192840,903192843) 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903192815,903192832)
+ Cron execution ended at: 2022-02-15 18:50:20
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 19:00:02 
+
+ Total Count =>4
+
+Total records SUCCESS: 1
+(34542) 
+Total records FAIL: 1
+(903192846) 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903192815,903192832)
+ Cron execution ended at: 2022-02-15 19:00:21
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 19:10:01 
+
+ Total Count =>4
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 2
+(903192847,903192851) 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903192815,903192832)
+ Cron execution ended at: 2022-02-15 19:10:19
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 19:20:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903192815,903192832)
+ Cron execution ended at: 2022-02-15 19:20:03
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 19:30:01 
+
+ Total Count =>3
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 3
+(903192815,903192832,903192859)
+ Cron execution ended at: 2022-02-15 19:30:10
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 19:40:02 
+
+ Total Count =>4
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 2
+(903192862,903192863) 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(903192815,903192832)
+ Cron execution ended at: 2022-02-15 19:40:19
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 19:50:02 
+
+ Total Count =>5
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(903192867) 
+ Total records PENDING: 0
+()
+ Total records No Response: 4
+(903192815,903192832,34543,34544)
+ Cron execution ended at: 2022-02-15 19:50:11
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 20:00:02 
+
+ Total Count =>4
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(903192873) 
+ Total records PENDING: 0
+()
+ Total records No Response: 3
+(903192832,34543,34544)
+ Cron execution ended at: 2022-02-15 20:00:12
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 20:10:02 
+
+ Total Count =>4
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(903192874) 
+ Total records PENDING: 0
+()
+ Total records No Response: 3
+(903192832,34543,34544)
+ Cron execution ended at: 2022-02-15 20:10:11
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 20:20:01 
+
+ Total Count =>4
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 2
+(903192877,903192878) 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(34543,34544)
+ Cron execution ended at: 2022-02-15 20:20:19
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 20:30:01 
+
+ Total Count =>3
+
+Total records SUCCESS: 1
+(903192882) 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(34543,34544)
+ Cron execution ended at: 2022-02-15 20:30:11
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 20:40:01 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(34543,34544)
+ Cron execution ended at: 2022-02-15 20:40:02
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 20:50:01 
+
+ Total Count =>3
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(812291132) 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(34543,34544)
+ Cron execution ended at: 2022-02-15 20:50:02
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 21:00:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(34543,34544)
+ Cron execution ended at: 2022-02-15 21:00:03
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 21:10:01 
+
+ Total Count =>3
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(903192891) 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(34543,34544)
+ Cron execution ended at: 2022-02-15 21:10:10
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 21:20:01 
+
+ Total Count =>3
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(903192894) 
+ Total records PENDING: 0
+()
+ Total records No Response: 2
+(34543,34544)
+ Cron execution ended at: 2022-02-15 21:20:02
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 21:50:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 1
+(903192905) 
+Total records FAIL: 1
+(903192907) 
+ Total records PENDING: 0
+()
+ Total records No Response: 0
+()
+ Cron execution ended at: 2022-02-15 21:50:20
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 22:10:02 
+
+ Total Count =>1
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(903192911) 
+ Total records PENDING: 0
+()
+ Total records No Response: 0
+()
+ Cron execution ended at: 2022-02-15 22:10:10
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 22:30:01 
+
+ Total Count =>3
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 3
+(903192916,903192917,903192918) 
+ Total records PENDING: 0
+()
+ Total records No Response: 0
+()
+ Cron execution ended at: 2022-02-15 22:30:18
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 23:10:02 
+
+ Total Count =>3
+
+Total records SUCCESS: 2
+(903192922,903192923) 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(812291141)
+ Cron execution ended at: 2022-02-15 23:10:20
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 23:20:01 
+
+ Total Count =>2
+
+Total records SUCCESS: 1
+(903192924) 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(812291141)
+ Cron execution ended at: 2022-02-15 23:20:11
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 23:30:02 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(903192927) 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(812291141)
+ Cron execution ended at: 2022-02-15 23:30:03
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 23:40:01 
+
+ Total Count =>2
+
+Total records SUCCESS: 1
+(903192928) 
+Total records FAIL: 0
+() 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(812291141)
+ Cron execution ended at: 2022-02-15 23:40:10
+
+***********************************************************
+
+ Cron execution started at :2022-02-15 23:50:01 
+
+ Total Count =>2
+
+Total records SUCCESS: 0
+() 
+Total records FAIL: 1
+(812291143) 
+ Total records PENDING: 0
+()
+ Total records No Response: 1
+(812291141)
+ Cron execution ended at: 2022-02-15 23:50:02
